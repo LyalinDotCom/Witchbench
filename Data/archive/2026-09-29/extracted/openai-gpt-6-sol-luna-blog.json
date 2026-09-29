@@ -428,181 +428,188 @@
     },
     {
       "index": 41,
-      "tag": "p",
-      "text": "Absolutely. I can get the bento feel and the top-right sliding page switcher without pulling in React—the interaction is small enough to stay fast and smooth in the current site. I’m reshaping all four pages around that system now.",
+      "tag": "div",
+      "text": "Website’s looking clean! Could we use a Bento Box design style and add a slider between the pages in the top right? You may need to dive into the React..",
       "heading": "Collaboration style",
       "isFootnote": false
     },
     {
       "index": 42,
       "tag": "p",
-      "text": "Done — open the live site.",
+      "text": "Absolutely. I can get the bento feel and the top-right sliding page switcher without pulling in React—the interaction is small enough to stay fast and smooth in the current site. I’m reshaping all four pages around that system now.",
       "heading": "Collaboration style",
       "isFootnote": false
     },
     {
       "index": 43,
       "tag": "p",
-      "text": "It now has a colorful bento-box layout across all four pages and an animated top-right Home / Play / Place / Taste slider. React wasn’t necessary; native page transitions keep it lightweight and smooth.",
+      "text": "Done — open the live site.",
       "heading": "Collaboration style",
       "isFootnote": false
     },
     {
       "index": 44,
       "tag": "p",
-      "text": "The built-in image tool created the food artwork. Prompt: “An energetic gouache-and-ink editorial illustration celebrating dumplings and spicy noodles, with bright colors, steam, spice, and no text or logos.”",
+      "text": "It now has a colorful bento-box layout across all four pages and an animated top-right Home / Play / Place / Taste slider. React wasn’t necessary; native page transitions keep it lightweight and smooth.",
       "heading": "Collaboration style",
       "isFootnote": false
     },
     {
       "index": 45,
       "tag": "p",
-      "text": "I’ll reshape the pages into a bento grid and turn the top-right links into a sliding page switcher. I’ll keep the existing site and check whether that interaction needs React before changing its setup.",
+      "text": "The built-in image tool created the food artwork. Prompt: “An energetic gouache-and-ink editorial illustration celebrating dumplings and spicy noodles, with bright colors, steam, spice, and no text or logos.”",
       "heading": "Collaboration style",
       "isFootnote": false
     },
     {
       "index": 46,
       "tag": "p",
-      "text": "The updated site is live. Every page now has a playful bento layout, and the top-right page switcher slides between sections. I checked it on desktop and narrow mobile screens, including browser back navigation. The existing site didn’t need React for this.",
+      "text": "I’ll reshape the pages into a bento grid and turn the top-right links into a sliding page switcher. I’ll keep the existing site and check whether that interaction needs React before changing its setup.",
       "heading": "Collaboration style",
       "isFootnote": false
     },
     {
       "index": 47,
+      "tag": "p",
+      "text": "The updated site is live. Every page now has a playful bento layout, and the top-right page switcher slides between sections. I checked it on desktop and narrow mobile screens, including browser back navigation. The existing site didn’t need React for this.",
+      "heading": "Collaboration style",
+      "isFootnote": false
+    },
+    {
+      "index": 48,
       "tag": "figcaption",
       "text": "Although style is subjective, we prefer GPT‑6 Sol’s reply here. It doesn’t jump to conclusions as quickly, spends less time reiterating details that might be obvious to the asker (e.g., that the website has four pages), uses less vague language (e.g., “bento feel”, “reshaping… around that system”), is more forthcoming with what it did and didn’t check, and doesn’t unnecessarily share implementation details like its image tool prompt.",
       "heading": "Collaboration style",
       "isFootnote": false
     },
     {
-      "index": 48,
+      "index": 49,
       "tag": "h2",
       "text": "Improving caching for agents and long conversations",
       "heading": "Improving caching for agents and long conversations",
       "isFootnote": false
     },
     {
-      "index": 49,
+      "index": 50,
       "tag": "p",
       "text": "Alongside lower token prices, we’re helping developers building on GPT‑6 save more on the context their applications reuse. We’ve improved prompt caching for GPT‑6 to deliver higher cache hit rates by default, helping agents reuse more context, respond faster, and benefit from discounts of 90% on cached input-token reads.",
       "heading": "Improving caching for agents and long conversations",
       "isFootnote": false
     },
     {
-      "index": 50,
+      "index": 51,
       "tag": "p",
       "text": "Developers also have more ways to measure and optimize their caching performance:",
       "heading": "Improving caching for agents and long conversations",
       "isFootnote": false
     },
     {
-      "index": 51,
+      "index": 52,
       "tag": "li",
       "text": "Monitor and diagnose. The Prompt Caching Dashboard ⁠ (opens in a new window) shows how much input is cached and how that changes over time. The diagnostics tool ⁠ (opens in a new window) helps explain missed opportunities for caching and what to fix.",
       "heading": "Improving caching for agents and long conversations",
       "isFootnote": false
     },
     {
-      "index": 52,
+      "index": 53,
       "tag": "li",
       "text": "Adjust reasoning effort and tool availability without breaking cache. Increase reasoning effort ⁠ (opens in a new window) for harder tasks or lower it for simpler follow-ups, and enable or disable tools ⁠ (opens in a new window) as your agent’s needs change. Both controls now preserve earlier context for cache reuse.",
       "heading": "Improving caching for agents and long conversations",
       "isFootnote": false
     },
     {
-      "index": 53,
+      "index": 54,
       "tag": "li",
       "text": "Optimize which prefixes get cached. Explicit breakpoints let developers choose where cached prompt prefixes end. This gives developers more control over cache reuse and can improve performance.",
       "heading": "Improving caching for agents and long conversations",
       "isFootnote": false
     },
     {
-      "index": 54,
+      "index": 55,
       "tag": "p",
       "text": "GitHub reports that, over the past several months, these improvements have reduced the share of prompt tokens requiring fresh processing by more than 50% across billions of requests to OpenAI models, helping Copilot respond faster.",
       "heading": "Improving caching for agents and long conversations",
       "isFootnote": false
     },
     {
-      "index": 55,
+      "index": 56,
       "tag": "h2",
       "text": "Continuing to improve alignment",
       "heading": "Continuing to improve alignment",
       "isFootnote": false
     },
     {
-      "index": 56,
+      "index": 57,
       "tag": "p",
       "text": "GPT‑6 Sol and Luna build on the alignment work introduced with Astra, our most aligned model to date. In our alignment evaluations, both Sol and Luna show improvements over their GPT‑5.6 counterparts, including lower rates of misleading claims about their coding work.",
       "heading": "Continuing to improve alignment",
       "isFootnote": false
     },
     {
-      "index": 57,
+      "index": 58,
       "tag": "p",
       "text": "The evaluations below deliberately test challenging situations and do not measure failure rates in typical use. See the system card ⁠ (opens in a new window) for the full results.",
       "heading": "Continuing to improve alignment",
       "isFootnote": false
     },
     {
-      "index": 58,
+      "index": 59,
       "tag": "h2",
       "text": "Availability",
       "heading": "Availability",
       "isFootnote": false
     },
     {
-      "index": 59,
+      "index": 60,
       "tag": "p",
       "text": "GPT‑6 Sol and GPT‑6 Luna are available in ChatGPT Work and Codex starting today for all Plus, Pro, Business, Enterprise, and Edu users. Free and Go users can access GPT‑6 Luna in the desktop app. These models are not yet available in Chat. In the OpenAI API, they are available as gpt-6-sol and gpt-6-luna .",
       "heading": "Availability",
       "isFootnote": false
     },
     {
-      "index": 60,
+      "index": 61,
       "tag": "p",
       "text": "To keep service stable for everyone, we plan to roll out these models in ChatGPT gradually throughout the day. If you don’t see the new models in ChatGPT Work or Codex, please try again later.",
       "heading": "Availability",
       "isFootnote": false
     },
     {
-      "index": 61,
+      "index": 62,
       "tag": "p",
       "text": "Evaluations of GPT were performed in our research environment or via our API, which may provide slightly different output from production ChatGPT due to differences in the system prompts, tools available, etc. Evaluations of competitor models were taken from publicly available reports. Scores for Claude Fable 5 were reported when scores for Claude Fable 5.1 were unavailable.",
       "heading": "Availability",
       "isFootnote": false
     },
     {
-      "index": 62,
+      "index": 63,
       "tag": "h2",
       "text": "Author",
       "heading": "Author",
       "isFootnote": true
     },
     {
-      "index": 63,
+      "index": 64,
       "tag": "h2",
       "text": "Keep reading",
       "heading": "Keep reading",
       "isFootnote": false
     },
     {
-      "index": 64,
+      "index": 65,
       "tag": "p",
       "text": "Product Sep 23, 2026",
       "heading": "Keep reading",
       "isFootnote": false
     },
     {
-      "index": 65,
+      "index": 66,
       "tag": "p",
       "text": "Product Sep 22, 2026",
       "heading": "Keep reading",
       "isFootnote": false
     },
     {
-      "index": 66,
+      "index": 67,
       "tag": "p",
       "text": "Product Sep 16, 2026",
       "heading": "Keep reading",

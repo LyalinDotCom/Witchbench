@@ -19,8 +19,7 @@ CookieConsent.run({
         },
         preferencesModal: {
           title: 'Storage preferences',
-          acceptAllBtn: 'Done',
-          savePreferencesBtn: 'Save',
+          savePreferencesBtn: 'Done',
           closeIconLabel: 'Close preferences',
           sections: [
             { description: 'Witchbench runs locally in your browser. We use no analytics, advertising, or tracking cookies.' },

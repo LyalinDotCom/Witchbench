@@ -409,11 +409,6 @@
       "releaseCount": 11
     },
     {
-      "id": "osworld",
-      "name": "OSWorld",
-      "releaseCount": 11
-    },
-    {
       "id": "shade-arena",
       "name": "SHADE-Arena",
       "releaseCount": 11
@@ -479,6 +474,16 @@
       "releaseCount": 9
     },
     {
+      "id": "officeqa-pro",
+      "name": "OfficeQA Pro",
+      "releaseCount": 9
+    },
+    {
+      "id": "osworld",
+      "name": "OSWorld",
+      "releaseCount": 9
+    },
+    {
       "id": "deepswe-v1-1",
       "name": "DeepSWE v1.1",
       "releaseCount": 8
@@ -539,11 +544,6 @@
       "releaseCount": 7
     },
     {
-      "id": "gdpval",
-      "name": "GDPval",
-      "releaseCount": 7
-    },
-    {
       "id": "matharena",
       "name": "MathArena",
       "releaseCount": 7
@@ -581,6 +581,11 @@
     {
       "id": "gdp-pdf",
       "name": "GDP.pdf",
+      "releaseCount": 6
+    },
+    {
+      "id": "gdpval",
+      "name": "GDPval",
       "releaseCount": 6
     },
     {
@@ -679,11 +684,6 @@
       "releaseCount": 5
     },
     {
-      "id": "mmmu",
-      "name": "MMMU",
-      "releaseCount": 5
-    },
-    {
       "id": "mrcr-v2",
       "name": "MRCR v2",
       "releaseCount": 5
@@ -741,6 +741,11 @@
     {
       "id": "monorepo-bench",
       "name": "Monorepo-Bench",
+      "releaseCount": 4
+    },
+    {
+      "id": "production-benchmarks",
+      "name": "Production Benchmarks",
       "releaseCount": 4
     },
     {
@@ -819,11 +824,6 @@
       "releaseCount": 3
     },
     {
-      "id": "webarena",
-      "name": "WebArena",
-      "releaseCount": 3
-    },
-    {
       "id": "aa-briefcase",
       "name": "AA-Briefcase",
       "releaseCount": 2
@@ -884,13 +884,23 @@
       "releaseCount": 2
     },
     {
+      "id": "legal-agent-benchmark",
+      "name": "Legal Agent Benchmark",
+      "releaseCount": 2
+    },
+    {
       "id": "lvbench",
       "name": "LVBench",
       "releaseCount": 2
     },
     {
-      "id": "production-benchmarks",
-      "name": "Production Benchmarks",
+      "id": "mmmu",
+      "name": "MMMU",
+      "releaseCount": 2
+    },
+    {
+      "id": "online-mind2web",
+      "name": "Online-Mind2Web",
       "releaseCount": 2
     },
     {
@@ -901,6 +911,11 @@
     {
       "id": "terminal-bench-science-0-1",
       "name": "Terminal-Bench-Science 0.1",
+      "releaseCount": 2
+    },
+    {
+      "id": "webarena",
+      "name": "WebArena",
       "releaseCount": 2
     },
     {
@@ -964,6 +979,11 @@
       "releaseCount": 1
     },
     {
+      "id": "frontierbench",
+      "name": "FrontierBench",
+      "releaseCount": 1
+    },
+    {
       "id": "frontierbench-v0-1",
       "name": "FrontierBench v0.1",
       "releaseCount": 1
@@ -1004,11 +1024,6 @@
       "releaseCount": 1
     },
     {
-      "id": "legal-agent-benchmark",
-      "name": "Legal Agent Benchmark",
-      "releaseCount": 1
-    },
-    {
       "id": "livecodebench",
       "name": "LiveCodeBench",
       "releaseCount": 1
@@ -1034,11 +1049,6 @@
       "releaseCount": 1
     },
     {
-      "id": "online-mind2web",
-      "name": "Online-Mind2Web",
-      "releaseCount": 1
-    },
-    {
       "id": "osworld-2-1",
       "name": "OSWorld 2.1",
       "releaseCount": 1
@@ -1046,6 +1056,11 @@
     {
       "id": "physicianbench",
       "name": "PhysicianBench",
+      "releaseCount": 1
+    },
+    {
+      "id": "rakuten-swe-bench",
+      "name": "Rakuten-SWE-Bench",
       "releaseCount": 1
     },
     {
@@ -1081,24 +1096,6 @@
   ],
   "findings": [
     {
-      "id": "2026-02-05-claude-opus-4-6-browsecomp-blog",
-      "releaseId": "2026-02-05-claude-opus-4-6",
-      "benchmarkId": "browsecomp",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "anthropic-opus-4-6-blog",
-      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-6",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-6-blog.html",
-      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-6-blog.txt",
-      "location": "HTML block 5 (p)",
-      "locations": [
-        "HTML block 5 (p)"
-      ],
-      "excerpt": "BrowseComp is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-6-blog.html"
-    },
-    {
       "id": "2026-02-05-claude-opus-4-6-terminal-bench-2-0-blog",
       "releaseId": "2026-02-05-claude-opus-4-6",
       "benchmarkId": "terminal-bench-2-0",
@@ -1113,24 +1110,6 @@
         "HTML block 5 (p)"
       ],
       "excerpt": "Terminal-Bench 2.0 is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-6-blog.html"
-    },
-    {
-      "id": "2026-02-05-claude-opus-4-6-gdpval-aa-blog",
-      "releaseId": "2026-02-05-claude-opus-4-6",
-      "benchmarkId": "gdpval-aa",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "anthropic-opus-4-6-blog",
-      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-6",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-6-blog.html",
-      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-6-blog.txt",
-      "location": "HTML block 5 (p)",
-      "locations": [
-        "HTML block 5 (p)"
-      ],
-      "excerpt": "GDPval-AA is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-6-blog.html"
     },
@@ -1153,6 +1132,42 @@
       "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-6-blog.html"
     },
     {
+      "id": "2026-02-05-claude-opus-4-6-browsecomp-blog",
+      "releaseId": "2026-02-05-claude-opus-4-6",
+      "benchmarkId": "browsecomp",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-opus-4-6-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-6",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-6-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-6-blog.txt",
+      "location": "HTML block 5 (p)",
+      "locations": [
+        "HTML block 5 (p)"
+      ],
+      "excerpt": "BrowseComp is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-6-blog.html"
+    },
+    {
+      "id": "2026-02-05-claude-opus-4-6-gdpval-aa-blog",
+      "releaseId": "2026-02-05-claude-opus-4-6",
+      "benchmarkId": "gdpval-aa",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-opus-4-6-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-6",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-6-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-6-blog.txt",
+      "location": "HTML block 5 (p)",
+      "locations": [
+        "HTML block 5 (p)"
+      ],
+      "excerpt": "GDPval-AA is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-6-blog.html"
+    },
+    {
       "id": "2026-02-05-claude-opus-4-6-mrcr-v2-blog",
       "releaseId": "2026-02-05-claude-opus-4-6",
       "benchmarkId": "mrcr-v2",
@@ -1162,9 +1177,9 @@
       "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-6",
       "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-6-blog.html",
       "textUrl": "archive/2026-09-29/text/anthropic-opus-4-6-blog.txt",
-      "location": "HTML block 19 (p)",
+      "location": "HTML block 39 (p)",
       "locations": [
-        "HTML block 19 (p)"
+        "HTML block 39 (p)"
       ],
       "excerpt": "MRCR v2 is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
@@ -1703,9 +1718,9 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-02-05-gpt-5-3-codex-osworld-blog",
+      "id": "2026-02-05-gpt-5-3-codex-terminal-bench-blog",
       "releaseId": "2026-02-05-gpt-5-3-codex",
-      "benchmarkId": "osworld",
+      "benchmarkId": "terminal-bench",
       "tier": "blog",
       "status": "verified",
       "sourceId": "openai-gpt-5-3-codex-blog",
@@ -1714,10 +1729,9 @@
       "textUrl": "archive/2026-09-29/text/openai-gpt-5-3-codex-blog.txt",
       "location": "HTML block 8 (p)",
       "locations": [
-        "HTML block 21 (p)",
         "HTML block 8 (p)"
       ],
-      "excerpt": "OSWorld is highlighted in launch-post discussion of this model.",
+      "excerpt": "Terminal-Bench is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-3-codex-blog.html"
     },
@@ -1741,9 +1755,9 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-3-codex-blog.html"
     },
     {
-      "id": "2026-02-05-gpt-5-3-codex-terminal-bench-blog",
+      "id": "2026-02-05-gpt-5-3-codex-osworld-blog",
       "releaseId": "2026-02-05-gpt-5-3-codex",
-      "benchmarkId": "terminal-bench",
+      "benchmarkId": "osworld",
       "tier": "blog",
       "status": "verified",
       "sourceId": "openai-gpt-5-3-codex-blog",
@@ -1752,9 +1766,10 @@
       "textUrl": "archive/2026-09-29/text/openai-gpt-5-3-codex-blog.txt",
       "location": "HTML block 8 (p)",
       "locations": [
+        "HTML block 21 (p)",
         "HTML block 8 (p)"
       ],
-      "excerpt": "Terminal-Bench is highlighted in launch-post discussion of this model.",
+      "excerpt": "OSWorld is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-3-codex-blog.html"
     },
@@ -1778,6 +1793,24 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-3-codex-blog.html"
     },
     {
+      "id": "2026-02-05-gpt-5-3-codex-swe-bench-verified-blog",
+      "releaseId": "2026-02-05-gpt-5-3-codex",
+      "benchmarkId": "swe-bench-verified",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "openai-gpt-5-3-codex-blog",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-3-codex/",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-3-codex-blog.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-3-codex-blog.txt",
+      "location": "HTML block 10 (p)",
+      "locations": [
+        "HTML block 10 (p)"
+      ],
+      "excerpt": "SWE-bench Verified is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-3-codex-blog.html"
+    },
+    {
       "id": "2026-02-05-gpt-5-3-codex-terminal-bench-2-0-blog",
       "releaseId": "2026-02-05-gpt-5-3-codex",
       "benchmarkId": "terminal-bench-2-0",
@@ -1796,22 +1829,22 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-3-codex-blog.html"
     },
     {
-      "id": "2026-02-05-gpt-5-3-codex-swe-bench-verified-blog",
+      "id": "2026-02-05-gpt-5-3-codex-production-benchmarks-card",
       "releaseId": "2026-02-05-gpt-5-3-codex",
-      "benchmarkId": "swe-bench-verified",
-      "tier": "blog",
+      "benchmarkId": "production-benchmarks",
+      "tier": "card",
       "status": "verified",
-      "sourceId": "openai-gpt-5-3-codex-blog",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-5-3-codex/",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-3-codex-blog.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-5-3-codex-blog.txt",
-      "location": "HTML block 10 (p)",
+      "sourceId": "openai-gpt-5-3-codex-card",
+      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-3-codex",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-3-codex-card.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-3-codex-card.txt",
+      "location": "HTML embedded table 1",
       "locations": [
-        "HTML block 10 (p)"
+        "HTML embedded table 1"
       ],
-      "excerpt": "SWE-bench Verified is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-3-codex-blog.html"
+      "excerpt": "Production Benchmarks is used for a numerical evaluation of this model in its card.",
+      "mentionType": "table",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-3-codex-card.html#table-1"
     },
     {
       "id": "2026-02-05-gpt-5-3-codex-protocolqa-card",
@@ -1977,6 +2010,24 @@
       "readerUrl": "archive/2026-09-29/pages/anthropic-sonnet-4-6-blog.html"
     },
     {
+      "id": "2026-02-17-claude-sonnet-4-6-officeqa-blog",
+      "releaseId": "2026-02-17-claude-sonnet-4-6",
+      "benchmarkId": "officeqa",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-sonnet-4-6-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-4-6-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-4-6-blog.txt",
+      "location": "HTML block 22 (div)",
+      "locations": [
+        "HTML block 22 (div)"
+      ],
+      "excerpt": "OfficeQA is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-sonnet-4-6-blog.html"
+    },
+    {
       "id": "2026-02-17-claude-sonnet-4-6-browsecomp-card",
       "releaseId": "2026-02-17-claude-sonnet-4-6",
       "benchmarkId": "browsecomp",
@@ -2102,23 +2153,6 @@
         "PDF p. 23"
       ],
       "excerpt": "GPQA Diamond is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
-      "id": "2026-02-17-claude-sonnet-4-6-mmmu-card",
-      "releaseId": "2026-02-17-claude-sonnet-4-6",
-      "benchmarkId": "mmmu",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-sonnet-4-6-card",
-      "sourceUrl": "https://www.anthropic.com/claude-sonnet-4-6-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-4-6-card.pdf#page=15",
-      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-4-6-card.txt",
-      "location": "PDF p. 15",
-      "locations": [
-        "PDF p. 15"
-      ],
-      "excerpt": "MMMU is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -2402,25 +2436,6 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-02-17-claude-sonnet-4-6-gmmlu-card",
-      "releaseId": "2026-02-17-claude-sonnet-4-6",
-      "benchmarkId": "gmmlu",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-sonnet-4-6-card",
-      "sourceUrl": "https://www.anthropic.com/claude-sonnet-4-6-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-4-6-card.pdf#page=44",
-      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-4-6-card.txt",
-      "location": "PDF p. 44",
-      "locations": [
-        "PDF p. 41",
-        "PDF p. 42",
-        "PDF p. 44"
-      ],
-      "excerpt": "GMMLU is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
       "id": "2026-02-17-claude-sonnet-4-6-milu-card",
       "releaseId": "2026-02-17-claude-sonnet-4-6",
       "benchmarkId": "milu",
@@ -2437,6 +2452,25 @@
         "PDF p. 44"
       ],
       "excerpt": "MILU is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-02-17-claude-sonnet-4-6-gmmlu-card",
+      "releaseId": "2026-02-17-claude-sonnet-4-6",
+      "benchmarkId": "gmmlu",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-sonnet-4-6-card",
+      "sourceUrl": "https://www.anthropic.com/claude-sonnet-4-6-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-4-6-card.pdf#page=44",
+      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-4-6-card.txt",
+      "location": "PDF p. 44",
+      "locations": [
+        "PDF p. 41",
+        "PDF p. 42",
+        "PDF p. 44"
+      ],
+      "excerpt": "GMMLU is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -2535,9 +2569,9 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
       "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-1-pro-blog.html",
       "textUrl": "archive/2026-09-29/text/google-gemini-3-1-pro-blog.txt",
-      "location": "HTML block 11 (p)",
+      "location": "HTML block 12 (p)",
       "locations": [
-        "HTML block 11 (p)"
+        "HTML block 12 (p)"
       ],
       "excerpt": "ARC-AGI-2 is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
@@ -2796,24 +2830,6 @@
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-1-pro-card.html"
     },
     {
-      "id": "2026-02-19-gemini-3-1-pro-mmmu-card",
-      "releaseId": "2026-02-19-gemini-3-1-pro",
-      "benchmarkId": "mmmu",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "google-gemini-3-1-pro-card",
-      "sourceUrl": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
-      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-1-pro-card.html",
-      "textUrl": "archive/2026-09-29/text/google-gemini-3-1-pro-card.txt",
-      "location": "HTML block 65 (tr)",
-      "locations": [
-        "HTML block 65 (tr)"
-      ],
-      "excerpt": "MMMU is used for a numerical evaluation of this model in its card.",
-      "mentionType": "table",
-      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-1-pro-card.html"
-    },
-    {
       "id": "2026-02-19-gemini-3-1-pro-mrcr-v2-card",
       "releaseId": "2026-02-19-gemini-3-1-pro",
       "benchmarkId": "mrcr-v2",
@@ -2832,24 +2848,6 @@
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-1-pro-card.html"
     },
     {
-      "id": "2026-03-03-gemini-3-1-flash-lite-gpqa-diamond-blog",
-      "releaseId": "2026-03-03-gemini-3-1-flash-lite",
-      "benchmarkId": "gpqa-diamond",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "google-gemini-3-1-flash-lite-blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
-      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-1-flash-lite-blog.html",
-      "textUrl": "archive/2026-09-29/text/google-gemini-3-1-flash-lite-blog.txt",
-      "location": "HTML block 11 (p)",
-      "locations": [
-        "HTML block 11 (p)"
-      ],
-      "excerpt": "GPQA Diamond is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-1-flash-lite-blog.html"
-    },
-    {
       "id": "2026-03-03-gemini-3-1-flash-lite-mmmu-blog",
       "releaseId": "2026-03-03-gemini-3-1-flash-lite",
       "benchmarkId": "mmmu",
@@ -2859,11 +2857,29 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
       "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-1-flash-lite-blog.html",
       "textUrl": "archive/2026-09-29/text/google-gemini-3-1-flash-lite-blog.txt",
-      "location": "HTML block 11 (p)",
+      "location": "HTML block 12 (p)",
       "locations": [
-        "HTML block 11 (p)"
+        "HTML block 12 (p)"
       ],
       "excerpt": "MMMU is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-1-flash-lite-blog.html"
+    },
+    {
+      "id": "2026-03-03-gemini-3-1-flash-lite-gpqa-diamond-blog",
+      "releaseId": "2026-03-03-gemini-3-1-flash-lite",
+      "benchmarkId": "gpqa-diamond",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "google-gemini-3-1-flash-lite-blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-1-flash-lite-blog.html",
+      "textUrl": "archive/2026-09-29/text/google-gemini-3-1-flash-lite-blog.txt",
+      "location": "HTML block 12 (p)",
+      "locations": [
+        "HTML block 12 (p)"
+      ],
+      "excerpt": "GPQA Diamond is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-1-flash-lite-blog.html"
     },
@@ -2900,24 +2916,6 @@
         "HTML block 51 (tr)"
       ],
       "excerpt": "GPQA Diamond is used for a numerical evaluation of this model in its card.",
-      "mentionType": "table",
-      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-1-flash-lite-card.html"
-    },
-    {
-      "id": "2026-03-03-gemini-3-1-flash-lite-mmmu-card",
-      "releaseId": "2026-03-03-gemini-3-1-flash-lite",
-      "benchmarkId": "mmmu",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "google-gemini-3-1-flash-lite-card",
-      "sourceUrl": "https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/",
-      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-1-flash-lite-card.html",
-      "textUrl": "archive/2026-09-29/text/google-gemini-3-1-flash-lite-card.txt",
-      "location": "HTML block 52 (tr)",
-      "locations": [
-        "HTML block 52 (tr)"
-      ],
-      "excerpt": "MMMU is used for a numerical evaluation of this model in its card.",
       "mentionType": "table",
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-1-flash-lite-card.html"
     },
@@ -3138,20 +3136,20 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-4-blog.html"
     },
     {
-      "id": "2026-03-05-gpt-5-4-gpt-5-4-pro-webarena-blog",
+      "id": "2026-03-05-gpt-5-4-gpt-5-4-pro-omnidocbench-blog",
       "releaseId": "2026-03-05-gpt-5-4-gpt-5-4-pro",
-      "benchmarkId": "webarena",
+      "benchmarkId": "omnidocbench",
       "tier": "blog",
       "status": "verified",
       "sourceId": "openai-gpt-5-4-blog",
       "sourceUrl": "https://openai.com/index/introducing-gpt-5-4/",
       "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-4-blog.html",
       "textUrl": "archive/2026-09-29/text/openai-gpt-5-4-blog.txt",
-      "location": "HTML block 27 (p)",
+      "location": "HTML block 29 (p)",
       "locations": [
-        "HTML block 27 (p)"
+        "HTML block 29 (p)"
       ],
-      "excerpt": "WebArena is highlighted in launch-post discussion of this model.",
+      "excerpt": "OmniDocBench is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-4-blog.html"
     },
@@ -3170,24 +3168,6 @@
         "HTML block 29 (p)"
       ],
       "excerpt": "MMMU-Pro is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-4-blog.html"
-    },
-    {
-      "id": "2026-03-05-gpt-5-4-gpt-5-4-pro-omnidocbench-blog",
-      "releaseId": "2026-03-05-gpt-5-4-gpt-5-4-pro",
-      "benchmarkId": "omnidocbench",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "openai-gpt-5-4-blog",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-5-4/",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-4-blog.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-5-4-blog.txt",
-      "location": "HTML block 29 (p)",
-      "locations": [
-        "HTML block 29 (p)"
-      ],
-      "excerpt": "OmniDocBench is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-4-blog.html"
     },
@@ -3226,6 +3206,25 @@
       "excerpt": "CoT controllability is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-4-blog.html"
+    },
+    {
+      "id": "2026-03-05-gpt-5-4-gpt-5-4-pro-production-benchmarks-card",
+      "releaseId": "2026-03-05-gpt-5-4-gpt-5-4-pro",
+      "benchmarkId": "production-benchmarks",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "openai-gpt-5-4-card",
+      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-4-thinking",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-4-card.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-4-card.txt",
+      "location": "HTML embedded table 1",
+      "locations": [
+        "HTML embedded table 1",
+        "HTML embedded table 10"
+      ],
+      "excerpt": "Production Benchmarks is used for a numerical evaluation of this model in its card.",
+      "mentionType": "table",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-4-card.html#table-1"
     },
     {
       "id": "2026-03-05-gpt-5-4-gpt-5-4-pro-healthbench-card",
@@ -3431,24 +3430,6 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-4-card.html#figure-18"
     },
     {
-      "id": "2026-03-17-gpt-5-4-mini-nano-protocolqa-card",
-      "releaseId": "2026-03-17-gpt-5-4-mini-nano",
-      "benchmarkId": "protocolqa",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "openai-gpt-5-4-card",
-      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-4-thinking",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-4-card.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-5-4-card.txt",
-      "location": "HTML block 252 (p)",
-      "locations": [
-        "HTML block 252 (p)"
-      ],
-      "excerpt": "ProtocolQA is used for a numerical evaluation of this model in its card.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-4-card.html"
-    },
-    {
       "id": "2026-03-17-gpt-5-4-mini-nano-troubleshootingbench-card",
       "releaseId": "2026-03-17-gpt-5-4-mini-nano",
       "benchmarkId": "troubleshootingbench",
@@ -3463,6 +3444,24 @@
         "HTML block 252 (p)"
       ],
       "excerpt": "TroubleshootingBench is used for a numerical evaluation of this model in its card.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-4-card.html"
+    },
+    {
+      "id": "2026-03-17-gpt-5-4-mini-nano-protocolqa-card",
+      "releaseId": "2026-03-17-gpt-5-4-mini-nano",
+      "benchmarkId": "protocolqa",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "openai-gpt-5-4-card",
+      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-4-thinking",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-4-card.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-4-card.txt",
+      "location": "HTML block 252 (p)",
+      "locations": [
+        "HTML block 252 (p)"
+      ],
+      "excerpt": "ProtocolQA is used for a numerical evaluation of this model in its card.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-4-card.html"
     },
@@ -3945,12 +3944,11 @@
       "status": "verified",
       "sourceId": "anthropic-mythos-preview-card",
       "sourceUrl": "https://www.anthropic.com/claude-mythos-preview-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-mythos-preview-card.pdf#page=193",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-mythos-preview-card.pdf#page=189",
       "textUrl": "archive/2026-09-29/text/anthropic-mythos-preview-card.txt",
-      "location": "PDF p. 193",
+      "location": "PDF p. 189",
       "locations": [
-        "PDF p. 189",
-        "PDF p. 193"
+        "PDF p. 189"
       ],
       "excerpt": "Humanity's Last Exam is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
@@ -4128,20 +4126,38 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-04-16-claude-opus-4-7-gdpval-aa-blog",
+      "id": "2026-04-16-claude-opus-4-7-rakuten-swe-bench-blog",
       "releaseId": "2026-04-16-claude-opus-4-7",
-      "benchmarkId": "gdpval-aa",
+      "benchmarkId": "rakuten-swe-bench",
       "tier": "blog",
       "status": "verified",
       "sourceId": "anthropic-opus-4-7-blog",
       "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
       "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-7-blog.html",
       "textUrl": "archive/2026-09-29/text/anthropic-opus-4-7-blog.txt",
-      "location": "HTML block 13 (li)",
+      "location": "HTML block 23 (div)",
       "locations": [
-        "HTML block 13 (li)"
+        "HTML block 23 (div)"
       ],
-      "excerpt": "GDPval-AA is highlighted in launch-post discussion of this model.",
+      "excerpt": "Rakuten-SWE-Bench is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-7-blog.html"
+    },
+    {
+      "id": "2026-04-16-claude-opus-4-7-officeqa-pro-blog",
+      "releaseId": "2026-04-16-claude-opus-4-7",
+      "benchmarkId": "officeqa-pro",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-opus-4-7-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-7-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-7-blog.txt",
+      "location": "HTML block 35 (div)",
+      "locations": [
+        "HTML block 35 (div)"
+      ],
+      "excerpt": "OfficeQA Pro is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-7-blog.html"
     },
@@ -4155,11 +4171,29 @@
       "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
       "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-7-blog.html",
       "textUrl": "archive/2026-09-29/text/anthropic-opus-4-7-blog.txt",
-      "location": "HTML block 13 (li)",
+      "location": "HTML block 41 (li)",
       "locations": [
-        "HTML block 13 (li)"
+        "HTML block 41 (li)"
       ],
       "excerpt": "Finance Agent is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-7-blog.html"
+    },
+    {
+      "id": "2026-04-16-claude-opus-4-7-gdpval-aa-blog",
+      "releaseId": "2026-04-16-claude-opus-4-7",
+      "benchmarkId": "gdpval-aa",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-opus-4-7-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-7-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-7-blog.txt",
+      "location": "HTML block 41 (li)",
+      "locations": [
+        "HTML block 41 (li)"
+      ],
+      "excerpt": "GDPval-AA is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-7-blog.html"
     },
@@ -4603,7 +4637,6 @@
       "textUrl": "archive/2026-09-29/text/anthropic-opus-4-7-card.txt",
       "location": "PDF p. 197",
       "locations": [
-        "PDF p. 196",
         "PDF p. 197"
       ],
       "excerpt": "Humanity's Last Exam is used for a numerical evaluation of this model in its card.",
@@ -4676,6 +4709,23 @@
         "PDF p. 207"
       ],
       "excerpt": "OSWorld is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-04-16-claude-opus-4-7-officeqa-pro-card",
+      "releaseId": "2026-04-16-claude-opus-4-7",
+      "benchmarkId": "officeqa-pro",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-opus-4-7-card",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-4-7-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-7-card.pdf#page=209",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-7-card.txt",
+      "location": "PDF p. 209",
+      "locations": [
+        "PDF p. 209"
+      ],
+      "excerpt": "OfficeQA Pro is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -4930,9 +4980,9 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-5-blog.html"
     },
     {
-      "id": "2026-04-23-gpt-5-5-pro-officeqa-blog",
+      "id": "2026-04-23-gpt-5-5-pro-officeqa-pro-blog",
       "releaseId": "2026-04-23-gpt-5-5-pro",
-      "benchmarkId": "officeqa",
+      "benchmarkId": "officeqa-pro",
       "tier": "blog",
       "status": "verified",
       "sourceId": "openai-gpt-5-5-blog",
@@ -4943,7 +4993,7 @@
       "locations": [
         "HTML block 46 (p)"
       ],
-      "excerpt": "OfficeQA is highlighted in launch-post discussion of this model.",
+      "excerpt": "OfficeQA Pro is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-5-blog.html"
     },
@@ -4984,25 +5034,6 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-5-blog.html"
     },
     {
-      "id": "2026-04-23-gpt-5-5-pro-healthbench-professional-card",
-      "releaseId": "2026-04-23-gpt-5-5-pro",
-      "benchmarkId": "healthbench-professional",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "openai-gpt-5-5-card",
-      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-5",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-5-card.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-5-5-card.txt",
-      "location": "HTML block 62 (tr)",
-      "locations": [
-        "HTML block 62 (tr)",
-        "HTML block 63 (p)"
-      ],
-      "excerpt": "HealthBench Professional is used for a numerical evaluation of this model in its card.",
-      "mentionType": "table",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-5-card.html"
-    },
-    {
       "id": "2026-04-23-gpt-5-5-pro-healthbench-card",
       "releaseId": "2026-04-23-gpt-5-5-pro",
       "benchmarkId": "healthbench",
@@ -5022,21 +5053,21 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-5-card.html"
     },
     {
-      "id": "2026-04-23-gpt-5-5-pro-healthbench-hard-card",
+      "id": "2026-04-23-gpt-5-5-pro-healthbench-professional-card",
       "releaseId": "2026-04-23-gpt-5-5-pro",
-      "benchmarkId": "healthbench-hard",
+      "benchmarkId": "healthbench-professional",
       "tier": "card",
       "status": "verified",
       "sourceId": "openai-gpt-5-5-card",
       "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-5",
       "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-5-card.html",
       "textUrl": "archive/2026-09-29/text/openai-gpt-5-5-card.txt",
-      "location": "HTML block 60 (tr)",
+      "location": "HTML block 62 (tr)",
       "locations": [
-        "HTML block 60 (tr)",
+        "HTML block 62 (tr)",
         "HTML block 63 (p)"
       ],
-      "excerpt": "HealthBench Hard is used for a numerical evaluation of this model in its card.",
+      "excerpt": "HealthBench Professional is used for a numerical evaluation of this model in its card.",
       "mentionType": "table",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-5-card.html"
     },
@@ -5056,6 +5087,25 @@
         "HTML block 63 (p)"
       ],
       "excerpt": "HealthBench Consensus is used for a numerical evaluation of this model in its card.",
+      "mentionType": "table",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-5-card.html"
+    },
+    {
+      "id": "2026-04-23-gpt-5-5-pro-healthbench-hard-card",
+      "releaseId": "2026-04-23-gpt-5-5-pro",
+      "benchmarkId": "healthbench-hard",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "openai-gpt-5-5-card",
+      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-5",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-5-card.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-5-card.txt",
+      "location": "HTML block 60 (tr)",
+      "locations": [
+        "HTML block 60 (tr)",
+        "HTML block 63 (p)"
+      ],
+      "excerpt": "HealthBench Hard is used for a numerical evaluation of this model in its card.",
       "mentionType": "table",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-5-card.html"
     },
@@ -5241,24 +5291,6 @@
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-5-flash-blog.html"
     },
     {
-      "id": "2026-05-19-gemini-3-5-flash-gdpval-aa-blog",
-      "releaseId": "2026-05-19-gemini-3-5-flash",
-      "benchmarkId": "gdpval-aa",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "google-gemini-3-5-flash-blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-5-flash-blog.html",
-      "textUrl": "archive/2026-09-29/text/google-gemini-3-5-flash-blog.txt",
-      "location": "HTML block 19 (p)",
-      "locations": [
-        "HTML block 19 (p)"
-      ],
-      "excerpt": "GDPval-AA is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-5-flash-blog.html"
-    },
-    {
       "id": "2026-05-19-gemini-3-5-flash-charxiv-blog",
       "releaseId": "2026-05-19-gemini-3-5-flash",
       "benchmarkId": "charxiv",
@@ -5273,6 +5305,24 @@
         "HTML block 19 (p)"
       ],
       "excerpt": "CharXiv is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-5-flash-blog.html"
+    },
+    {
+      "id": "2026-05-19-gemini-3-5-flash-gdpval-aa-blog",
+      "releaseId": "2026-05-19-gemini-3-5-flash",
+      "benchmarkId": "gdpval-aa",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "google-gemini-3-5-flash-blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-5-flash-blog.html",
+      "textUrl": "archive/2026-09-29/text/google-gemini-3-5-flash-blog.txt",
+      "location": "HTML block 19 (p)",
+      "locations": [
+        "HTML block 19 (p)"
+      ],
+      "excerpt": "GDPval-AA is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-5-flash-blog.html"
     },
@@ -5439,24 +5489,6 @@
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-5-flash-card.html"
     },
     {
-      "id": "2026-05-19-gemini-3-5-flash-mmmu-card",
-      "releaseId": "2026-05-19-gemini-3-5-flash",
-      "benchmarkId": "mmmu",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "google-gemini-3-5-flash-card",
-      "sourceUrl": "https://deepmind.google/models/model-cards/gemini-3-5-flash/",
-      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-5-flash-card.html",
-      "textUrl": "archive/2026-09-29/text/google-gemini-3-5-flash-card.txt",
-      "location": "HTML block 56 (tr)",
-      "locations": [
-        "HTML block 56 (tr)"
-      ],
-      "excerpt": "MMMU is used for a numerical evaluation of this model in its card.",
-      "mentionType": "table",
-      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-5-flash-card.html"
-    },
-    {
       "id": "2026-05-19-gemini-3-5-flash-blueprint-bench-card",
       "releaseId": "2026-05-19-gemini-3-5-flash",
       "benchmarkId": "blueprint-bench",
@@ -5527,6 +5559,42 @@
       "excerpt": "ARC-AGI-2 is used for a numerical evaluation of this model in its card.",
       "mentionType": "table",
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-5-flash-card.html"
+    },
+    {
+      "id": "2026-05-28-claude-opus-4-8-legal-agent-benchmark-blog",
+      "releaseId": "2026-05-28-claude-opus-4-8",
+      "benchmarkId": "legal-agent-benchmark",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-opus-4-8-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-8-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-8-blog.txt",
+      "location": "HTML block 11 (div)",
+      "locations": [
+        "HTML block 11 (div)"
+      ],
+      "excerpt": "Legal Agent Benchmark is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-8-blog.html"
+    },
+    {
+      "id": "2026-05-28-claude-opus-4-8-online-mind2web-blog",
+      "releaseId": "2026-05-28-claude-opus-4-8",
+      "benchmarkId": "online-mind2web",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-opus-4-8-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-8-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-8-blog.txt",
+      "location": "HTML block 13 (div)",
+      "locations": [
+        "HTML block 13 (div)"
+      ],
+      "excerpt": "Online-Mind2Web is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-opus-4-8-blog.html"
     },
     {
       "id": "2026-05-28-claude-opus-4-8-vct-card",
@@ -5616,6 +5684,23 @@
       "mentionType": "card"
     },
     {
+      "id": "2026-05-28-claude-opus-4-8-oss-fuzz-card",
+      "releaseId": "2026-05-28-claude-opus-4-8",
+      "benchmarkId": "oss-fuzz",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-opus-4-8-card",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-4-8-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-8-card.pdf#page=49",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-8-card.txt",
+      "location": "PDF p. 49",
+      "locations": [
+        "PDF p. 49"
+      ],
+      "excerpt": "OSS-Fuzz is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
       "id": "2026-05-28-claude-opus-4-8-exploitbench-card",
       "releaseId": "2026-05-28-claude-opus-4-8",
       "benchmarkId": "exploitbench",
@@ -5631,23 +5716,6 @@
         "PDF p. 50"
       ],
       "excerpt": "ExploitBench is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
-      "id": "2026-05-28-claude-opus-4-8-oss-fuzz-card",
-      "releaseId": "2026-05-28-claude-opus-4-8",
-      "benchmarkId": "oss-fuzz",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-opus-4-8-card",
-      "sourceUrl": "https://www.anthropic.com/claude-opus-4-8-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-8-card.pdf#page=49",
-      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-8-card.txt",
-      "location": "PDF p. 49",
-      "locations": [
-        "PDF p. 49"
-      ],
-      "excerpt": "OSS-Fuzz is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -5705,23 +5773,6 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-05-28-claude-opus-4-8-aime-card",
-      "releaseId": "2026-05-28-claude-opus-4-8",
-      "benchmarkId": "aime",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-opus-4-8-card",
-      "sourceUrl": "https://www.anthropic.com/claude-opus-4-8-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-8-card.pdf#page=144",
-      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-8-card.txt",
-      "location": "PDF p. 144",
-      "locations": [
-        "PDF p. 144"
-      ],
-      "excerpt": "AIME is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
       "id": "2026-05-28-claude-opus-4-8-gpqa-card",
       "releaseId": "2026-05-28-claude-opus-4-8",
       "benchmarkId": "gpqa",
@@ -5738,6 +5789,23 @@
         "PDF p. 198"
       ],
       "excerpt": "GPQA is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-05-28-claude-opus-4-8-aime-card",
+      "releaseId": "2026-05-28-claude-opus-4-8",
+      "benchmarkId": "aime",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-opus-4-8-card",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-4-8-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-8-card.pdf#page=144",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-8-card.txt",
+      "location": "PDF p. 144",
+      "locations": [
+        "PDF p. 144"
+      ],
+      "excerpt": "AIME is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -5868,24 +5936,6 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-05-28-claude-opus-4-8-osworld-card",
-      "releaseId": "2026-05-28-claude-opus-4-8",
-      "benchmarkId": "osworld",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-opus-4-8-card",
-      "sourceUrl": "https://www.anthropic.com/claude-opus-4-8-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-8-card.pdf#page=221",
-      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-8-card.txt",
-      "location": "PDF p. 221",
-      "locations": [
-        "PDF p. 194",
-        "PDF p. 221"
-      ],
-      "excerpt": "OSWorld is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
       "id": "2026-05-28-claude-opus-4-8-gpqa-diamond-card",
       "releaseId": "2026-05-28-claude-opus-4-8",
       "benchmarkId": "gpqa-diamond",
@@ -5940,6 +5990,23 @@
         "PDF p. 212"
       ],
       "excerpt": "BrowseComp is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-05-28-claude-opus-4-8-osworld-card",
+      "releaseId": "2026-05-28-claude-opus-4-8",
+      "benchmarkId": "osworld",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-opus-4-8-card",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-4-8-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-8-card.pdf#page=221",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-8-card.txt",
+      "location": "PDF p. 221",
+      "locations": [
+        "PDF p. 221"
+      ],
+      "excerpt": "OSWorld is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -6102,6 +6169,23 @@
         "PDF p. 223"
       ],
       "excerpt": "OfficeQA is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-05-28-claude-opus-4-8-officeqa-pro-card",
+      "releaseId": "2026-05-28-claude-opus-4-8",
+      "benchmarkId": "officeqa-pro",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-opus-4-8-card",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-4-8-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-4-8-card.pdf#page=223",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-4-8-card.txt",
+      "location": "PDF p. 223",
+      "locations": [
+        "PDF p. 223"
+      ],
+      "excerpt": "OfficeQA Pro is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -6279,6 +6363,42 @@
         "HTML block 13 (p)"
       ],
       "excerpt": "FrontierCode is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-fable-mythos-5-blog.html"
+    },
+    {
+      "id": "2026-06-09-claude-fable-5-mythos-5-restricted-cursorbench-blog",
+      "releaseId": "2026-06-09-claude-fable-5-mythos-5-restricted",
+      "benchmarkId": "cursorbench",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-fable-mythos-5-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-fable-mythos-5-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-fable-mythos-5-blog.txt",
+      "location": "HTML block 27 (div)",
+      "locations": [
+        "HTML block 27 (div)"
+      ],
+      "excerpt": "CursorBench is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-fable-mythos-5-blog.html"
+    },
+    {
+      "id": "2026-06-09-claude-fable-5-mythos-5-restricted-frontierbench-blog",
+      "releaseId": "2026-06-09-claude-fable-5-mythos-5-restricted",
+      "benchmarkId": "frontierbench",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-fable-mythos-5-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-fable-mythos-5-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-fable-mythos-5-blog.txt",
+      "location": "HTML block 35 (div)",
+      "locations": [
+        "HTML block 35 (div)"
+      ],
+      "excerpt": "FrontierBench is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/anthropic-fable-mythos-5-blog.html"
     },
@@ -6504,23 +6624,6 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-06-09-claude-fable-5-mythos-5-restricted-aime-card",
-      "releaseId": "2026-06-09-claude-fable-5-mythos-5-restricted",
-      "benchmarkId": "aime",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-fable-mythos-5-card",
-      "sourceUrl": "https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-fable-mythos-5-card.pdf#page=213",
-      "textUrl": "archive/2026-09-29/text/anthropic-fable-mythos-5-card.txt",
-      "location": "PDF p. 213",
-      "locations": [
-        "PDF p. 213"
-      ],
-      "excerpt": "AIME is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
       "id": "2026-06-09-claude-fable-5-mythos-5-restricted-gpqa-card",
       "releaseId": "2026-06-09-claude-fable-5-mythos-5-restricted",
       "benchmarkId": "gpqa",
@@ -6538,6 +6641,23 @@
         "PDF p. 258"
       ],
       "excerpt": "GPQA is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-06-09-claude-fable-5-mythos-5-restricted-aime-card",
+      "releaseId": "2026-06-09-claude-fable-5-mythos-5-restricted",
+      "benchmarkId": "aime",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-fable-mythos-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-fable-mythos-5-card.pdf#page=213",
+      "textUrl": "archive/2026-09-29/text/anthropic-fable-mythos-5-card.txt",
+      "location": "PDF p. 213",
+      "locations": [
+        "PDF p. 213"
+      ],
+      "excerpt": "AIME is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -6676,7 +6796,6 @@
       "textUrl": "archive/2026-09-29/text/anthropic-fable-mythos-5-card.txt",
       "location": "PDF p. 280",
       "locations": [
-        "PDF p. 251",
         "PDF p. 280"
       ],
       "excerpt": "OSWorld is used for a numerical evaluation of this model in its card.",
@@ -6721,23 +6840,6 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-06-09-claude-fable-5-mythos-5-restricted-gdpval-card",
-      "releaseId": "2026-06-09-claude-fable-5-mythos-5-restricted",
-      "benchmarkId": "gdpval",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-fable-mythos-5-card",
-      "sourceUrl": "https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-fable-mythos-5-card.pdf#page=294",
-      "textUrl": "archive/2026-09-29/text/anthropic-fable-mythos-5-card.txt",
-      "location": "PDF p. 294",
-      "locations": [
-        "PDF p. 294"
-      ],
-      "excerpt": "GDPval is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
       "id": "2026-06-09-claude-fable-5-mythos-5-restricted-gdp-pdf-card",
       "releaseId": "2026-06-09-claude-fable-5-mythos-5-restricted",
       "benchmarkId": "gdp-pdf",
@@ -6757,9 +6859,9 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-06-09-claude-fable-5-mythos-5-restricted-officeqa-card",
+      "id": "2026-06-09-claude-fable-5-mythos-5-restricted-officeqa-pro-card",
       "releaseId": "2026-06-09-claude-fable-5-mythos-5-restricted",
-      "benchmarkId": "officeqa",
+      "benchmarkId": "officeqa-pro",
       "tier": "card",
       "status": "verified",
       "sourceId": "anthropic-fable-mythos-5-card",
@@ -6771,7 +6873,7 @@
         "PDF p. 252",
         "PDF p. 289"
       ],
-      "excerpt": "OfficeQA is used for a numerical evaluation of this model in its card.",
+      "excerpt": "OfficeQA Pro is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -6985,6 +7087,23 @@
       "mentionType": "card"
     },
     {
+      "id": "2026-06-09-claude-fable-5-mythos-5-restricted-officeqa-card",
+      "releaseId": "2026-06-09-claude-fable-5-mythos-5-restricted",
+      "benchmarkId": "officeqa",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-fable-mythos-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-fable-mythos-5-card.pdf#page=289",
+      "textUrl": "archive/2026-09-29/text/anthropic-fable-mythos-5-card.txt",
+      "location": "PDF p. 289",
+      "locations": [
+        "PDF p. 289"
+      ],
+      "excerpt": "OfficeQA is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
       "id": "2026-06-09-claude-fable-5-mythos-5-restricted-legal-agent-benchmark-card",
       "releaseId": "2026-06-09-claude-fable-5-mythos-5-restricted",
       "benchmarkId": "legal-agent-benchmark",
@@ -6999,6 +7118,23 @@
         "PDF p. 292"
       ],
       "excerpt": "Legal Agent Benchmark is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-06-09-claude-fable-5-mythos-5-restricted-gdpval-card",
+      "releaseId": "2026-06-09-claude-fable-5-mythos-5-restricted",
+      "benchmarkId": "gdpval",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-fable-mythos-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-5-mythos-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-fable-mythos-5-card.pdf#page=294",
+      "textUrl": "archive/2026-09-29/text/anthropic-fable-mythos-5-card.txt",
+      "location": "PDF p. 294",
+      "locations": [
+        "PDF p. 294"
+      ],
+      "excerpt": "GDPval is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -7248,24 +7384,6 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-blog.html"
     },
     {
-      "id": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited-exploitgym-blog",
-      "releaseId": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited",
-      "benchmarkId": "exploitgym",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "openai-gpt-5-6-preview-blog",
-      "sourceUrl": "https://openai.com/index/previewing-gpt-5-6-sol/",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-preview-blog.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-preview-blog.txt",
-      "location": "HTML block 11 (p)",
-      "locations": [
-        "HTML block 11 (p)"
-      ],
-      "excerpt": "ExploitGym is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-blog.html"
-    },
-    {
       "id": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited-exploitbench-blog",
       "releaseId": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited",
       "benchmarkId": "exploitbench",
@@ -7284,22 +7402,22 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-blog.html"
     },
     {
-      "id": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited-healthbench-professional-card",
+      "id": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited-exploitgym-blog",
       "releaseId": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited",
-      "benchmarkId": "healthbench-professional",
-      "tier": "card",
+      "benchmarkId": "exploitgym",
+      "tier": "blog",
       "status": "verified",
-      "sourceId": "openai-gpt-5-6-preview-card",
-      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6-preview",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-preview-card.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-preview-card.txt",
-      "location": "HTML block 73 (p)",
+      "sourceId": "openai-gpt-5-6-preview-blog",
+      "sourceUrl": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-preview-blog.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-preview-blog.txt",
+      "location": "HTML block 11 (p)",
       "locations": [
-        "HTML block 73 (p)"
+        "HTML block 11 (p)"
       ],
-      "excerpt": "HealthBench Professional is used for a numerical evaluation of this model in its card.",
+      "excerpt": "ExploitGym is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-card.html"
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-blog.html"
     },
     {
       "id": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited-healthbench-card",
@@ -7311,29 +7429,29 @@
       "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6-preview",
       "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-preview-card.html",
       "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-preview-card.txt",
-      "location": "HTML block 73 (p)",
+      "location": "HTML block 74 (p)",
       "locations": [
-        "HTML block 73 (p)"
+        "HTML block 74 (p)"
       ],
       "excerpt": "HealthBench is used for a numerical evaluation of this model in its card.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-card.html"
     },
     {
-      "id": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited-healthbench-hard-card",
+      "id": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited-healthbench-professional-card",
       "releaseId": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited",
-      "benchmarkId": "healthbench-hard",
+      "benchmarkId": "healthbench-professional",
       "tier": "card",
       "status": "verified",
       "sourceId": "openai-gpt-5-6-preview-card",
       "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6-preview",
       "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-preview-card.html",
       "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-preview-card.txt",
-      "location": "HTML block 73 (p)",
+      "location": "HTML block 74 (p)",
       "locations": [
-        "HTML block 73 (p)"
+        "HTML block 74 (p)"
       ],
-      "excerpt": "HealthBench Hard is used for a numerical evaluation of this model in its card.",
+      "excerpt": "HealthBench Professional is used for a numerical evaluation of this model in its card.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-card.html"
     },
@@ -7347,11 +7465,29 @@
       "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6-preview",
       "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-preview-card.html",
       "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-preview-card.txt",
-      "location": "HTML block 73 (p)",
+      "location": "HTML block 74 (p)",
       "locations": [
-        "HTML block 73 (p)"
+        "HTML block 74 (p)"
       ],
       "excerpt": "HealthBench Consensus is used for a numerical evaluation of this model in its card.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-card.html"
+    },
+    {
+      "id": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited-healthbench-hard-card",
+      "releaseId": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited",
+      "benchmarkId": "healthbench-hard",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "openai-gpt-5-6-preview-card",
+      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6-preview",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-preview-card.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-preview-card.txt",
+      "location": "HTML block 74 (p)",
+      "locations": [
+        "HTML block 74 (p)"
+      ],
+      "excerpt": "HealthBench Hard is used for a numerical evaluation of this model in its card.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-card.html"
     },
@@ -7367,7 +7503,7 @@
       "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-preview-card.txt",
       "location": "HTML figure 14 (chart)",
       "locations": [
-        "HTML block 133 (p)",
+        "HTML block 134 (p)",
         "HTML figure 14 (chart)",
         "HTML figure 15 (chart)",
         "HTML figure 16 (chart)",
@@ -7376,24 +7512,6 @@
       "excerpt": "CoT controllability is used for a numerical evaluation of this model in its card.",
       "mentionType": "chart",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-card.html#figure-14"
-    },
-    {
-      "id": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited-gpqa-card",
-      "releaseId": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited",
-      "benchmarkId": "gpqa",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "openai-gpt-5-6-preview-card",
-      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6-preview",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-preview-card.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-preview-card.txt",
-      "location": "HTML figure 15 (chart)",
-      "locations": [
-        "HTML figure 15 (chart)"
-      ],
-      "excerpt": "GPQA is used for a numerical evaluation of this model in its card.",
-      "mentionType": "chart",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-card.html#figure-15"
     },
     {
       "id": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited-humanity-s-last-exam-card",
@@ -7410,6 +7528,24 @@
         "HTML figure 15 (chart)"
       ],
       "excerpt": "Humanity's Last Exam is used for a numerical evaluation of this model in its card.",
+      "mentionType": "chart",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-card.html#figure-15"
+    },
+    {
+      "id": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited-gpqa-card",
+      "releaseId": "2026-06-26-gpt-5-6-sol-terra-luna-preview-limited",
+      "benchmarkId": "gpqa",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "openai-gpt-5-6-preview-card",
+      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6-preview",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-preview-card.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-preview-card.txt",
+      "location": "HTML figure 15 (chart)",
+      "locations": [
+        "HTML figure 15 (chart)"
+      ],
+      "excerpt": "GPQA is used for a numerical evaluation of this model in its card.",
       "mentionType": "chart",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-preview-card.html#figure-15"
     },
@@ -7533,9 +7669,9 @@
       "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6-preview",
       "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-preview-card.html",
       "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-preview-card.txt",
-      "location": "HTML block 293 (p)",
+      "location": "HTML block 294 (p)",
       "locations": [
-        "HTML block 293 (p)"
+        "HTML block 294 (p)"
       ],
       "excerpt": "CyScenarioBench is used for a numerical evaluation of this model in its card.",
       "mentionType": "narrative",
@@ -7624,9 +7760,9 @@
       "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5",
       "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-blog.html",
       "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-blog.txt",
-      "location": "HTML block 23 (p)",
+      "location": "HTML block 36 (p)",
       "locations": [
-        "HTML block 23 (p)",
+        "HTML block 36 (p)",
         "HTML block 9 (p)"
       ],
       "excerpt": "BrowseComp is highlighted in launch-post discussion of this model.",
@@ -7722,24 +7858,6 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-06-30-claude-sonnet-5-exploitbench-card",
-      "releaseId": "2026-06-30-claude-sonnet-5",
-      "benchmarkId": "exploitbench",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-sonnet-5-card",
-      "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-card.pdf#page=29",
-      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-card.txt",
-      "location": "PDF p. 29",
-      "locations": [
-        "PDF p. 29",
-        "PDF p. 31"
-      ],
-      "excerpt": "ExploitBench is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
       "id": "2026-06-30-claude-sonnet-5-oss-fuzz-card",
       "releaseId": "2026-06-30-claude-sonnet-5",
       "benchmarkId": "oss-fuzz",
@@ -7774,6 +7892,24 @@
         "PDF p. 33"
       ],
       "excerpt": "CyberGym is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-06-30-claude-sonnet-5-exploitbench-card",
+      "releaseId": "2026-06-30-claude-sonnet-5",
+      "benchmarkId": "exploitbench",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-sonnet-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-card.pdf#page=29",
+      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-card.txt",
+      "location": "PDF p. 29",
+      "locations": [
+        "PDF p. 29",
+        "PDF p. 31"
+      ],
+      "excerpt": "ExploitBench is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -8143,20 +8279,20 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-06-30-claude-sonnet-5-gdpval-card",
+      "id": "2026-06-30-claude-sonnet-5-officeqa-pro-card",
       "releaseId": "2026-06-30-claude-sonnet-5",
-      "benchmarkId": "gdpval",
+      "benchmarkId": "officeqa-pro",
       "tier": "card",
       "status": "verified",
       "sourceId": "anthropic-sonnet-5-card",
       "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-card.pdf#page=137",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-card.pdf#page=131",
       "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-card.txt",
-      "location": "PDF p. 137",
+      "location": "PDF p. 131",
       "locations": [
-        "PDF p. 137"
+        "PDF p. 131"
       ],
-      "excerpt": "GDPval is used for a numerical evaluation of this model in its card.",
+      "excerpt": "OfficeQA Pro is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -8211,23 +8347,6 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-06-30-claude-sonnet-5-gmmlu-card",
-      "releaseId": "2026-06-30-claude-sonnet-5",
-      "benchmarkId": "gmmlu",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-sonnet-5-card",
-      "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-card.pdf#page=139",
-      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-card.txt",
-      "location": "PDF p. 139",
-      "locations": [
-        "PDF p. 139"
-      ],
-      "excerpt": "GMMLU is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
       "id": "2026-06-30-claude-sonnet-5-milu-card",
       "releaseId": "2026-06-30-claude-sonnet-5",
       "benchmarkId": "milu",
@@ -8245,22 +8364,21 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-07-09-gpt-5-6-sol-terra-luna-agents-last-exam-blog",
-      "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
-      "benchmarkId": "agents-last-exam",
-      "tier": "blog",
+      "id": "2026-06-30-claude-sonnet-5-gmmlu-card",
+      "releaseId": "2026-06-30-claude-sonnet-5",
+      "benchmarkId": "gmmlu",
+      "tier": "card",
       "status": "verified",
-      "sourceId": "openai-gpt-5-6-blog",
-      "sourceUrl": "https://openai.com/index/gpt-5-6/",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-blog.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-blog.txt",
-      "location": "HTML block 10 (p)",
+      "sourceId": "anthropic-sonnet-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-card.pdf#page=139",
+      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-card.txt",
+      "location": "PDF p. 139",
       "locations": [
-        "HTML block 10 (p)"
+        "PDF p. 139"
       ],
-      "excerpt": "Agents' Last Exam is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-blog.html"
+      "excerpt": "GMMLU is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
     },
     {
       "id": "2026-07-09-gpt-5-6-sol-terra-luna-artificial-analysis-intelligence-index-blog",
@@ -8281,20 +8399,20 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-blog.html"
     },
     {
-      "id": "2026-07-09-gpt-5-6-sol-terra-luna-artificial-analysis-coding-agent-index-blog",
+      "id": "2026-07-09-gpt-5-6-sol-terra-luna-agents-last-exam-blog",
       "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
-      "benchmarkId": "artificial-analysis-coding-agent-index",
+      "benchmarkId": "agents-last-exam",
       "tier": "blog",
       "status": "verified",
       "sourceId": "openai-gpt-5-6-blog",
       "sourceUrl": "https://openai.com/index/gpt-5-6/",
       "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-blog.html",
       "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-blog.txt",
-      "location": "HTML block 13 (p)",
+      "location": "HTML block 10 (p)",
       "locations": [
-        "HTML block 13 (p)"
+        "HTML block 10 (p)"
       ],
-      "excerpt": "Artificial Analysis Coding Agent Index is highlighted in launch-post discussion of this model.",
+      "excerpt": "Agents' Last Exam is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-blog.html"
     },
@@ -8313,6 +8431,24 @@
         "HTML block 13 (p)"
       ],
       "excerpt": "DeepSWE is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-blog.html"
+    },
+    {
+      "id": "2026-07-09-gpt-5-6-sol-terra-luna-artificial-analysis-coding-agent-index-blog",
+      "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
+      "benchmarkId": "artificial-analysis-coding-agent-index",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "openai-gpt-5-6-blog",
+      "sourceUrl": "https://openai.com/index/gpt-5-6/",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-blog.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-blog.txt",
+      "location": "HTML block 13 (p)",
+      "locations": [
+        "HTML block 13 (p)"
+      ],
+      "excerpt": "Artificial Analysis Coding Agent Index is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-blog.html"
     },
@@ -8371,24 +8507,6 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-blog.html"
     },
     {
-      "id": "2026-07-09-gpt-5-6-sol-terra-luna-osworld-blog",
-      "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
-      "benchmarkId": "osworld",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "openai-gpt-5-6-blog",
-      "sourceUrl": "https://openai.com/index/gpt-5-6/",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-blog.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-blog.txt",
-      "location": "HTML block 33 (p)",
-      "locations": [
-        "HTML block 33 (p)"
-      ],
-      "excerpt": "OSWorld is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-blog.html"
-    },
-    {
       "id": "2026-07-09-gpt-5-6-sol-terra-luna-osworld-2-0-blog",
       "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
       "benchmarkId": "osworld-2-0",
@@ -8403,6 +8521,24 @@
         "HTML block 33 (p)"
       ],
       "excerpt": "OSWorld 2.0 is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-blog.html"
+    },
+    {
+      "id": "2026-07-09-gpt-5-6-sol-terra-luna-osworld-blog",
+      "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
+      "benchmarkId": "osworld",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "openai-gpt-5-6-blog",
+      "sourceUrl": "https://openai.com/index/gpt-5-6/",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-blog.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-blog.txt",
+      "location": "HTML block 33 (p)",
+      "locations": [
+        "HTML block 33 (p)"
+      ],
+      "excerpt": "OSWorld is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-blog.html"
     },
@@ -8443,24 +8579,6 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-blog.html"
     },
     {
-      "id": "2026-07-09-gpt-5-6-sol-terra-luna-healthbench-professional-card",
-      "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
-      "benchmarkId": "healthbench-professional",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "openai-gpt-5-6-card",
-      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-card.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-card.txt",
-      "location": "HTML block 77 (p)",
-      "locations": [
-        "HTML block 77 (p)"
-      ],
-      "excerpt": "HealthBench Professional is used for a numerical evaluation of this model in its card.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-card.html"
-    },
-    {
       "id": "2026-07-09-gpt-5-6-sol-terra-luna-healthbench-card",
       "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
       "benchmarkId": "healthbench",
@@ -8479,9 +8597,9 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-card.html"
     },
     {
-      "id": "2026-07-09-gpt-5-6-sol-terra-luna-healthbench-hard-card",
+      "id": "2026-07-09-gpt-5-6-sol-terra-luna-healthbench-professional-card",
       "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
-      "benchmarkId": "healthbench-hard",
+      "benchmarkId": "healthbench-professional",
       "tier": "card",
       "status": "verified",
       "sourceId": "openai-gpt-5-6-card",
@@ -8492,7 +8610,7 @@
       "locations": [
         "HTML block 77 (p)"
       ],
-      "excerpt": "HealthBench Hard is used for a numerical evaluation of this model in its card.",
+      "excerpt": "HealthBench Professional is used for a numerical evaluation of this model in its card.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-card.html"
     },
@@ -8511,6 +8629,24 @@
         "HTML block 77 (p)"
       ],
       "excerpt": "HealthBench Consensus is used for a numerical evaluation of this model in its card.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-card.html"
+    },
+    {
+      "id": "2026-07-09-gpt-5-6-sol-terra-luna-healthbench-hard-card",
+      "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
+      "benchmarkId": "healthbench-hard",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "openai-gpt-5-6-card",
+      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-card.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-card.txt",
+      "location": "HTML block 77 (p)",
+      "locations": [
+        "HTML block 77 (p)"
+      ],
+      "excerpt": "HealthBench Hard is used for a numerical evaluation of this model in its card.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-card.html"
     },
@@ -8537,24 +8673,6 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-card.html#figure-14"
     },
     {
-      "id": "2026-07-09-gpt-5-6-sol-terra-luna-gpqa-card",
-      "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
-      "benchmarkId": "gpqa",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "openai-gpt-5-6-card",
-      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-card.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-card.txt",
-      "location": "HTML figure 15 (chart)",
-      "locations": [
-        "HTML figure 15 (chart)"
-      ],
-      "excerpt": "GPQA is used for a numerical evaluation of this model in its card.",
-      "mentionType": "chart",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-card.html#figure-15"
-    },
-    {
       "id": "2026-07-09-gpt-5-6-sol-terra-luna-humanity-s-last-exam-card",
       "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
       "benchmarkId": "humanity-s-last-exam",
@@ -8569,6 +8687,24 @@
         "HTML figure 15 (chart)"
       ],
       "excerpt": "Humanity's Last Exam is used for a numerical evaluation of this model in its card.",
+      "mentionType": "chart",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-card.html#figure-15"
+    },
+    {
+      "id": "2026-07-09-gpt-5-6-sol-terra-luna-gpqa-card",
+      "releaseId": "2026-07-09-gpt-5-6-sol-terra-luna",
+      "benchmarkId": "gpqa",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "openai-gpt-5-6-card",
+      "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-6",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-5-6-card.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-5-6-card.txt",
+      "location": "HTML figure 15 (chart)",
+      "locations": [
+        "HTML figure 15 (chart)"
+      ],
+      "excerpt": "GPQA is used for a numerical evaluation of this model in its card.",
       "mentionType": "chart",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-card.html#figure-15"
     },
@@ -9191,6 +9327,25 @@
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-5-flash-cyber-blog.html"
     },
     {
+      "id": "2026-07-24-claude-opus-5-frontier-bench-blog",
+      "releaseId": "2026-07-24-claude-opus-5",
+      "benchmarkId": "frontier-bench",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-opus-5-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-5",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-5-blog.txt",
+      "location": "HTML block 3 (p)",
+      "locations": [
+        "HTML block 19 (li)",
+        "HTML block 3 (p)"
+      ],
+      "excerpt": "Frontier-Bench is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-opus-5-blog.html"
+    },
+    {
       "id": "2026-07-24-claude-opus-5-gdpval-aa-blog",
       "releaseId": "2026-07-24-claude-opus-5",
       "benchmarkId": "gdpval-aa",
@@ -9205,25 +9360,6 @@
         "HTML block 3 (p)"
       ],
       "excerpt": "GDPval-AA is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/anthropic-opus-5-blog.html"
-    },
-    {
-      "id": "2026-07-24-claude-opus-5-frontier-bench-blog",
-      "releaseId": "2026-07-24-claude-opus-5",
-      "benchmarkId": "frontier-bench",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "anthropic-opus-5-blog",
-      "sourceUrl": "https://www.anthropic.com/news/claude-opus-5",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-blog.html",
-      "textUrl": "archive/2026-09-29/text/anthropic-opus-5-blog.txt",
-      "location": "HTML block 3 (p)",
-      "locations": [
-        "HTML block 18 (li)",
-        "HTML block 3 (p)"
-      ],
-      "excerpt": "Frontier-Bench is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/anthropic-opus-5-blog.html"
     },
@@ -9275,7 +9411,8 @@
       "textUrl": "archive/2026-09-29/text/anthropic-opus-5-blog.txt",
       "location": "HTML block 10 (li)",
       "locations": [
-        "HTML block 10 (li)"
+        "HTML block 10 (li)",
+        "HTML block 25 (div)"
       ],
       "excerpt": "AutomationBench is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
@@ -9300,6 +9437,24 @@
       "readerUrl": "archive/2026-09-29/pages/anthropic-opus-5-blog.html"
     },
     {
+      "id": "2026-07-24-claude-opus-5-frontiercode-1-1-blog",
+      "releaseId": "2026-07-24-claude-opus-5",
+      "benchmarkId": "frontiercode-1-1",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-opus-5-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-5",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-5-blog.txt",
+      "location": "HTML block 23 (div)",
+      "locations": [
+        "HTML block 23 (div)"
+      ],
+      "excerpt": "FrontierCode 1.1 is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-opus-5-blog.html"
+    },
+    {
       "id": "2026-07-24-claude-opus-5-oss-fuzz-blog",
       "releaseId": "2026-07-24-claude-opus-5",
       "benchmarkId": "oss-fuzz",
@@ -9309,31 +9464,13 @@
       "sourceUrl": "https://www.anthropic.com/news/claude-opus-5",
       "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-blog.html",
       "textUrl": "archive/2026-09-29/text/anthropic-opus-5-blog.txt",
-      "location": "HTML block 27 (p)",
+      "location": "HTML block 52 (p)",
       "locations": [
-        "HTML block 27 (p)"
+        "HTML block 52 (p)"
       ],
       "excerpt": "OSS-Fuzz is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/anthropic-opus-5-blog.html"
-    },
-    {
-      "id": "2026-07-24-claude-opus-5-exploitbench-card",
-      "releaseId": "2026-07-24-claude-opus-5",
-      "benchmarkId": "exploitbench",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-opus-5-card",
-      "sourceUrl": "https://www.anthropic.com/claude-opus-5-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-card.pdf#page=36",
-      "textUrl": "archive/2026-09-29/text/anthropic-opus-5-card.txt",
-      "location": "PDF p. 36",
-      "locations": [
-        "PDF p. 36",
-        "PDF p. 38"
-      ],
-      "excerpt": "ExploitBench is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
     },
     {
       "id": "2026-07-24-claude-opus-5-oss-fuzz-card",
@@ -9352,24 +9489,6 @@
         "PDF p. 40"
       ],
       "excerpt": "OSS-Fuzz is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
-      "id": "2026-07-24-claude-opus-5-exploitgym-card",
-      "releaseId": "2026-07-24-claude-opus-5",
-      "benchmarkId": "exploitgym",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-opus-5-card",
-      "sourceUrl": "https://www.anthropic.com/claude-opus-5-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-card.pdf#page=36",
-      "textUrl": "archive/2026-09-29/text/anthropic-opus-5-card.txt",
-      "location": "PDF p. 36",
-      "locations": [
-        "PDF p. 36",
-        "PDF p. 44"
-      ],
-      "excerpt": "ExploitGym is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -9477,6 +9596,42 @@
         "PDF p. 34"
       ],
       "excerpt": "LinuxArena is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-07-24-claude-opus-5-exploitbench-card",
+      "releaseId": "2026-07-24-claude-opus-5",
+      "benchmarkId": "exploitbench",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-opus-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-card.pdf#page=36",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-5-card.txt",
+      "location": "PDF p. 36",
+      "locations": [
+        "PDF p. 36",
+        "PDF p. 38"
+      ],
+      "excerpt": "ExploitBench is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-07-24-claude-opus-5-exploitgym-card",
+      "releaseId": "2026-07-24-claude-opus-5",
+      "benchmarkId": "exploitgym",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-opus-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-card.pdf#page=36",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-5-card.txt",
+      "location": "PDF p. 36",
+      "locations": [
+        "PDF p. 36",
+        "PDF p. 44"
+      ],
+      "excerpt": "ExploitGym is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -10032,6 +10187,23 @@
       "mentionType": "card"
     },
     {
+      "id": "2026-07-24-claude-opus-5-officeqa-pro-card",
+      "releaseId": "2026-07-24-claude-opus-5",
+      "benchmarkId": "officeqa-pro",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-opus-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-card.pdf#page=180",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-5-card.txt",
+      "location": "PDF p. 180",
+      "locations": [
+        "PDF p. 180"
+      ],
+      "excerpt": "OfficeQA Pro is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
       "id": "2026-07-24-claude-opus-5-gdpval-card",
       "releaseId": "2026-07-24-claude-opus-5",
       "benchmarkId": "gdpval",
@@ -10239,24 +10411,6 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-5-6-cyber-blog.html"
     },
     {
-      "id": "2026-08-13-gemini-3-7-flash-frontiercode-1-1-main-blog",
-      "releaseId": "2026-08-13-gemini-3-7-flash",
-      "benchmarkId": "frontiercode-1-1-main",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "google-gemini-3-7-flash-blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-7-flash-blog.html",
-      "textUrl": "archive/2026-09-29/text/google-gemini-3-7-flash-blog.txt",
-      "location": "HTML block 10 (p)",
-      "locations": [
-        "HTML block 10 (p)"
-      ],
-      "excerpt": "FrontierCode 1.1 Main is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-7-flash-blog.html"
-    },
-    {
       "id": "2026-08-13-gemini-3-7-flash-deepswe-v1-1-blog",
       "releaseId": "2026-08-13-gemini-3-7-flash",
       "benchmarkId": "deepswe-v1-1",
@@ -10266,11 +10420,29 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-7-flash-blog.html",
       "textUrl": "archive/2026-09-29/text/google-gemini-3-7-flash-blog.txt",
-      "location": "HTML block 10 (p)",
+      "location": "HTML block 11 (p)",
       "locations": [
-        "HTML block 10 (p)"
+        "HTML block 11 (p)"
       ],
       "excerpt": "DeepSWE v1.1 is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-7-flash-blog.html"
+    },
+    {
+      "id": "2026-08-13-gemini-3-7-flash-frontiercode-1-1-main-blog",
+      "releaseId": "2026-08-13-gemini-3-7-flash",
+      "benchmarkId": "frontiercode-1-1-main",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "google-gemini-3-7-flash-blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-7-flash-blog.html",
+      "textUrl": "archive/2026-09-29/text/google-gemini-3-7-flash-blog.txt",
+      "location": "HTML block 11 (p)",
+      "locations": [
+        "HTML block 11 (p)"
+      ],
+      "excerpt": "FrontierCode 1.1 Main is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-7-flash-blog.html"
     },
@@ -10284,29 +10456,11 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-7-flash-blog.html",
       "textUrl": "archive/2026-09-29/text/google-gemini-3-7-flash-blog.txt",
-      "location": "HTML block 11 (p)",
-      "locations": [
-        "HTML block 11 (p)"
-      ],
-      "excerpt": "WebDev Arena is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-7-flash-blog.html"
-    },
-    {
-      "id": "2026-08-13-gemini-3-7-flash-automationbench-blog",
-      "releaseId": "2026-08-13-gemini-3-7-flash",
-      "benchmarkId": "automationbench",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "google-gemini-3-7-flash-blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-7-flash-blog.html",
-      "textUrl": "archive/2026-09-29/text/google-gemini-3-7-flash-blog.txt",
       "location": "HTML block 12 (p)",
       "locations": [
         "HTML block 12 (p)"
       ],
-      "excerpt": "AutomationBench is highlighted in launch-post discussion of this model.",
+      "excerpt": "WebDev Arena is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-7-flash-blog.html"
     },
@@ -10320,11 +10474,29 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
       "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-7-flash-blog.html",
       "textUrl": "archive/2026-09-29/text/google-gemini-3-7-flash-blog.txt",
-      "location": "HTML block 12 (p)",
+      "location": "HTML block 13 (p)",
       "locations": [
-        "HTML block 12 (p)"
+        "HTML block 13 (p)"
       ],
       "excerpt": "GDP.pdf is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-7-flash-blog.html"
+    },
+    {
+      "id": "2026-08-13-gemini-3-7-flash-automationbench-blog",
+      "releaseId": "2026-08-13-gemini-3-7-flash",
+      "benchmarkId": "automationbench",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "google-gemini-3-7-flash-blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-7-flash-blog.html",
+      "textUrl": "archive/2026-09-29/text/google-gemini-3-7-flash-blog.txt",
+      "location": "HTML block 13 (p)",
+      "locations": [
+        "HTML block 13 (p)"
+      ],
+      "excerpt": "AutomationBench is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-7-flash-blog.html"
     },
@@ -10563,24 +10735,6 @@
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-7-flash-card.html"
     },
     {
-      "id": "2026-08-13-gemini-3-7-flash-osworld-card",
-      "releaseId": "2026-08-13-gemini-3-7-flash",
-      "benchmarkId": "osworld",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "google-gemini-3-7-flash-card",
-      "sourceUrl": "https://deepmind.google/models/model-cards/gemini-3-7-flash/",
-      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-7-flash-card.html",
-      "textUrl": "archive/2026-09-29/text/google-gemini-3-7-flash-card.txt",
-      "location": "HTML block 63 (tr)",
-      "locations": [
-        "HTML block 63 (tr)"
-      ],
-      "excerpt": "OSWorld is used for a numerical evaluation of this model in its card.",
-      "mentionType": "table",
-      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-7-flash-card.html"
-    },
-    {
       "id": "2026-08-13-gemini-3-7-flash-hle-verified-card",
       "releaseId": "2026-08-13-gemini-3-7-flash",
       "benchmarkId": "hle-verified",
@@ -10635,23 +10789,6 @@
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-7-flash-card.html"
     },
     {
-      "id": "2026-09-01-claude-fable-5-1-mythos-5-1-restricted-exploitgym-card",
-      "releaseId": "2026-09-01-claude-fable-5-1-mythos-5-1-restricted",
-      "benchmarkId": "exploitgym",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-fable-mythos-5-1-card",
-      "sourceUrl": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-fable-mythos-5-1-card.pdf#page=51",
-      "textUrl": "archive/2026-09-29/text/anthropic-fable-mythos-5-1-card.txt",
-      "location": "PDF p. 51",
-      "locations": [
-        "PDF p. 51"
-      ],
-      "excerpt": "ExploitGym is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
       "id": "2026-09-01-claude-fable-5-1-mythos-5-1-restricted-exploitbench-card",
       "releaseId": "2026-09-01-claude-fable-5-1-mythos-5-1-restricted",
       "benchmarkId": "exploitbench",
@@ -10666,6 +10803,23 @@
         "PDF p. 47"
       ],
       "excerpt": "ExploitBench is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-09-01-claude-fable-5-1-mythos-5-1-restricted-exploitgym-card",
+      "releaseId": "2026-09-01-claude-fable-5-1-mythos-5-1-restricted",
+      "benchmarkId": "exploitgym",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-fable-mythos-5-1-card",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-fable-mythos-5-1-card.pdf#page=51",
+      "textUrl": "archive/2026-09-29/text/anthropic-fable-mythos-5-1-card.txt",
+      "location": "PDF p. 51",
+      "locations": [
+        "PDF p. 51"
+      ],
+      "excerpt": "ExploitGym is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -11442,6 +11596,23 @@
       "mentionType": "card"
     },
     {
+      "id": "2026-09-01-claude-fable-5-1-mythos-5-1-restricted-officeqa-pro-card",
+      "releaseId": "2026-09-01-claude-fable-5-1-mythos-5-1-restricted",
+      "benchmarkId": "officeqa-pro",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-fable-mythos-5-1-card",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-fable-mythos-5-1-card.pdf#page=192",
+      "textUrl": "archive/2026-09-29/text/anthropic-fable-mythos-5-1-card.txt",
+      "location": "PDF p. 192",
+      "locations": [
+        "PDF p. 192"
+      ],
+      "excerpt": "OfficeQA Pro is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
       "id": "2026-09-01-claude-fable-5-1-mythos-5-1-restricted-toolathlon-card",
       "releaseId": "2026-09-01-claude-fable-5-1-mythos-5-1-restricted",
       "benchmarkId": "toolathlon",
@@ -11632,9 +11803,9 @@
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-8-flash-blog.html"
     },
     {
-      "id": "2026-09-02-gemini-3-8-flash-harvey-s-legal-agent-benchmark-blog",
+      "id": "2026-09-02-gemini-3-8-flash-vals-finance-agent-blog",
       "releaseId": "2026-09-02-gemini-3-8-flash",
-      "benchmarkId": "harvey-s-legal-agent-benchmark",
+      "benchmarkId": "vals-finance-agent",
       "tier": "blog",
       "status": "verified",
       "sourceId": "google-gemini-3-8-flash-blog",
@@ -11645,7 +11816,7 @@
       "locations": [
         "HTML block 15 (p)"
       ],
-      "excerpt": "Harvey's Legal Agent Benchmark is highlighted in launch-post discussion of this model.",
+      "excerpt": "Vals Finance Agent is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-8-flash-blog.html"
     },
@@ -11668,9 +11839,9 @@
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-8-flash-blog.html"
     },
     {
-      "id": "2026-09-02-gemini-3-8-flash-vals-finance-agent-blog",
+      "id": "2026-09-02-gemini-3-8-flash-harvey-s-legal-agent-benchmark-blog",
       "releaseId": "2026-09-02-gemini-3-8-flash",
-      "benchmarkId": "vals-finance-agent",
+      "benchmarkId": "harvey-s-legal-agent-benchmark",
       "tier": "blog",
       "status": "verified",
       "sourceId": "google-gemini-3-8-flash-blog",
@@ -11681,7 +11852,7 @@
       "locations": [
         "HTML block 15 (p)"
       ],
-      "excerpt": "Vals Finance Agent is highlighted in launch-post discussion of this model.",
+      "excerpt": "Harvey's Legal Agent Benchmark is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-8-flash-blog.html"
     },
@@ -11866,24 +12037,6 @@
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-8-flash-card.html"
     },
     {
-      "id": "2026-09-02-gemini-3-8-flash-osworld-card",
-      "releaseId": "2026-09-02-gemini-3-8-flash",
-      "benchmarkId": "osworld",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "google-gemini-3-8-flash-card",
-      "sourceUrl": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
-      "archiveUrl": "archive/2026-09-29/raw/google-gemini-3-8-flash-card.html",
-      "textUrl": "archive/2026-09-29/text/google-gemini-3-8-flash-card.txt",
-      "location": "HTML block 60 (tr)",
-      "locations": [
-        "HTML block 60 (tr)"
-      ],
-      "excerpt": "OSWorld is used for a numerical evaluation of this model in its card.",
-      "mentionType": "table",
-      "readerUrl": "archive/2026-09-29/pages/google-gemini-3-8-flash-card.html"
-    },
-    {
       "id": "2026-09-02-gemini-3-8-flash-biomysterybench-card",
       "releaseId": "2026-09-02-gemini-3-8-flash",
       "benchmarkId": "biomysterybench",
@@ -11957,6 +12110,26 @@
       "readerUrl": "archive/2026-09-29/pages/google-gemini-3-8-flash-blog.html"
     },
     {
+      "id": "2026-09-03-gpt-6-astra-exploitbench-blog",
+      "releaseId": "2026-09-03-gpt-6-astra",
+      "benchmarkId": "exploitbench",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "openai-gpt-6-astra-blog",
+      "sourceUrl": "https://openai.com/index/gpt-6-astra/",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-6-astra-blog.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-6-astra-blog.txt",
+      "location": "HTML block 39 (p)",
+      "locations": [
+        "HTML block 39 (p)",
+        "HTML block 40 (p)",
+        "HTML block 5 (p)"
+      ],
+      "excerpt": "ExploitBench is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-6-astra-blog.html"
+    },
+    {
       "id": "2026-09-03-gpt-6-astra-frontiermath-tier-4-blog",
       "releaseId": "2026-09-03-gpt-6-astra",
       "benchmarkId": "frontiermath-tier-4",
@@ -11989,26 +12162,6 @@
         "HTML block 5 (p)"
       ],
       "excerpt": "ARC-AGI-3 is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-6-astra-blog.html"
-    },
-    {
-      "id": "2026-09-03-gpt-6-astra-exploitbench-blog",
-      "releaseId": "2026-09-03-gpt-6-astra",
-      "benchmarkId": "exploitbench",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "openai-gpt-6-astra-blog",
-      "sourceUrl": "https://openai.com/index/gpt-6-astra/",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-6-astra-blog.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-6-astra-blog.txt",
-      "location": "HTML block 39 (p)",
-      "locations": [
-        "HTML block 39 (p)",
-        "HTML block 40 (p)",
-        "HTML block 5 (p)"
-      ],
-      "excerpt": "ExploitBench is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-6-astra-blog.html"
     },
@@ -12096,6 +12249,7 @@
       "textUrl": "archive/2026-09-29/text/openai-gpt-6-astra-card.txt",
       "location": "HTML figure 2 (chart)",
       "locations": [
+        "HTML embedded table 1",
         "HTML figure 1 (chart)",
         "HTML figure 2 (chart)"
       ],
@@ -12140,24 +12294,6 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-6-astra-card.html"
     },
     {
-      "id": "2026-09-03-gpt-6-astra-healthbench-hard-card",
-      "releaseId": "2026-09-03-gpt-6-astra",
-      "benchmarkId": "healthbench-hard",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "openai-gpt-6-astra-card",
-      "sourceUrl": "https://deploymentsafety.openai.com/gpt-6-astra",
-      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-6-astra-card.html",
-      "textUrl": "archive/2026-09-29/text/openai-gpt-6-astra-card.txt",
-      "location": "HTML block 76 (tr)",
-      "locations": [
-        "HTML block 76 (tr)"
-      ],
-      "excerpt": "HealthBench Hard is used for a numerical evaluation of this model in its card.",
-      "mentionType": "table",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-6-astra-card.html"
-    },
-    {
       "id": "2026-09-03-gpt-6-astra-healthbench-consensus-card",
       "releaseId": "2026-09-03-gpt-6-astra",
       "benchmarkId": "healthbench-consensus",
@@ -12172,6 +12308,24 @@
         "HTML block 77 (tr)"
       ],
       "excerpt": "HealthBench Consensus is used for a numerical evaluation of this model in its card.",
+      "mentionType": "table",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-6-astra-card.html"
+    },
+    {
+      "id": "2026-09-03-gpt-6-astra-healthbench-hard-card",
+      "releaseId": "2026-09-03-gpt-6-astra",
+      "benchmarkId": "healthbench-hard",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "openai-gpt-6-astra-card",
+      "sourceUrl": "https://deploymentsafety.openai.com/gpt-6-astra",
+      "archiveUrl": "archive/2026-09-29/raw/openai-gpt-6-astra-card.html",
+      "textUrl": "archive/2026-09-29/text/openai-gpt-6-astra-card.txt",
+      "location": "HTML block 76 (tr)",
+      "locations": [
+        "HTML block 76 (tr)"
+      ],
+      "excerpt": "HealthBench Hard is used for a numerical evaluation of this model in its card.",
       "mentionType": "table",
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-6-astra-card.html"
     },
@@ -12374,10 +12528,10 @@
       "sourceUrl": "https://www.anthropic.com/claude-opus-5-5",
       "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-5-blog.html",
       "textUrl": "archive/2026-09-29/text/anthropic-opus-5-5-blog.txt",
-      "location": "HTML block 60 (p)",
+      "location": "HTML block 63 (p)",
       "locations": [
-        "HTML block 53 (p)",
-        "HTML block 60 (p)"
+        "HTML block 55 (p)",
+        "HTML block 63 (p)"
       ],
       "excerpt": "GDPval-AA v2.1 is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
@@ -12602,23 +12756,6 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-09-22-claude-opus-5-5-oss-fuzz-card",
-      "releaseId": "2026-09-22-claude-opus-5-5",
-      "benchmarkId": "oss-fuzz",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-opus-5-5-card",
-      "sourceUrl": "https://www.anthropic.com/claude-opus-5-5-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-5-card.pdf#page=53",
-      "textUrl": "archive/2026-09-29/text/anthropic-opus-5-5-card.txt",
-      "location": "PDF p. 53",
-      "locations": [
-        "PDF p. 53"
-      ],
-      "excerpt": "OSS-Fuzz is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
       "id": "2026-09-22-claude-opus-5-5-binary-exploitation-benchmark-card",
       "releaseId": "2026-09-22-claude-opus-5-5",
       "benchmarkId": "binary-exploitation-benchmark",
@@ -12633,6 +12770,23 @@
         "PDF p. 53"
       ],
       "excerpt": "Binary Exploitation Benchmark is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-09-22-claude-opus-5-5-oss-fuzz-card",
+      "releaseId": "2026-09-22-claude-opus-5-5",
+      "benchmarkId": "oss-fuzz",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-opus-5-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-5-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-5-card.pdf#page=53",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-5-5-card.txt",
+      "location": "PDF p. 53",
+      "locations": [
+        "PDF p. 53"
+      ],
+      "excerpt": "OSS-Fuzz is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -13181,6 +13335,23 @@
       "mentionType": "card"
     },
     {
+      "id": "2026-09-22-claude-opus-5-5-officeqa-pro-card",
+      "releaseId": "2026-09-22-claude-opus-5-5",
+      "benchmarkId": "officeqa-pro",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-opus-5-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-5-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-opus-5-5-card.pdf#page=208",
+      "textUrl": "archive/2026-09-29/text/anthropic-opus-5-5-card.txt",
+      "location": "PDF p. 208",
+      "locations": [
+        "PDF p. 208"
+      ],
+      "excerpt": "OfficeQA Pro is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
       "id": "2026-09-22-claude-opus-5-5-toolathlon-card",
       "releaseId": "2026-09-22-claude-opus-5-5",
       "benchmarkId": "toolathlon",
@@ -13192,7 +13363,6 @@
       "textUrl": "archive/2026-09-29/text/anthropic-opus-5-5-card.txt",
       "location": "PDF p. 211",
       "locations": [
-        "PDF p. 210",
         "PDF p. 211"
       ],
       "excerpt": "Toolathlon is used for a numerical evaluation of this model in its card.",
@@ -13385,13 +13555,14 @@
       "sourceUrl": "https://deploymentsafety.openai.com/gpt-6-astra",
       "archiveUrl": "archive/2026-09-29/raw/openai-gpt-6-astra-card.html",
       "textUrl": "archive/2026-09-29/text/openai-gpt-6-astra-card.txt",
-      "location": "HTML figure 57 (chart)",
+      "location": "HTML embedded table 16",
       "locations": [
+        "HTML embedded table 16",
         "HTML figure 57 (chart)"
       ],
       "excerpt": "Production Benchmarks is used for a numerical evaluation of this model in its card.",
-      "mentionType": "chart",
-      "readerUrl": "archive/2026-09-29/pages/openai-gpt-6-astra-card.html#figure-57"
+      "mentionType": "table",
+      "readerUrl": "archive/2026-09-29/pages/openai-gpt-6-astra-card.html#table-16"
     },
     {
       "id": "2026-09-22-gpt-6-sol-luna-healthbench-card",
@@ -13626,6 +13797,25 @@
       "readerUrl": "archive/2026-09-29/pages/openai-gpt-6-astra-card.html#figure-72"
     },
     {
+      "id": "2026-09-28-claude-sonnet-5-5-terminal-bench-4-0-blog",
+      "releaseId": "2026-09-28-claude-sonnet-5-5",
+      "benchmarkId": "terminal-bench-4-0",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-sonnet-5-5-blog",
+      "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-5-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-5-blog.txt",
+      "location": "HTML block 33 (p)",
+      "locations": [
+        "HTML block 33 (p)",
+        "HTML block 6 (p)"
+      ],
+      "excerpt": "Terminal-Bench 4.0 is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-sonnet-5-5-blog.html"
+    },
+    {
       "id": "2026-09-28-claude-sonnet-5-5-gdpval-aa-blog",
       "releaseId": "2026-09-28-claude-sonnet-5-5",
       "benchmarkId": "gdpval-aa",
@@ -13637,47 +13827,10 @@
       "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-5-blog.txt",
       "location": "HTML block 6 (p)",
       "locations": [
-        "HTML block 38 (p)",
+        "HTML block 40 (p)",
         "HTML block 6 (p)"
       ],
       "excerpt": "GDPval-AA is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/anthropic-sonnet-5-5-blog.html"
-    },
-    {
-      "id": "2026-09-28-claude-sonnet-5-5-terminal-bench-4-0-blog",
-      "releaseId": "2026-09-28-claude-sonnet-5-5",
-      "benchmarkId": "terminal-bench-4-0",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "anthropic-sonnet-5-5-blog",
-      "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-5-blog.html",
-      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-5-blog.txt",
-      "location": "HTML block 31 (p)",
-      "locations": [
-        "HTML block 31 (p)",
-        "HTML block 6 (p)"
-      ],
-      "excerpt": "Terminal-Bench 4.0 is highlighted in launch-post discussion of this model.",
-      "mentionType": "narrative",
-      "readerUrl": "archive/2026-09-29/pages/anthropic-sonnet-5-5-blog.html"
-    },
-    {
-      "id": "2026-09-28-claude-sonnet-5-5-terminal-bench-blog",
-      "releaseId": "2026-09-28-claude-sonnet-5-5",
-      "benchmarkId": "terminal-bench",
-      "tier": "blog",
-      "status": "verified",
-      "sourceId": "anthropic-sonnet-5-5-blog",
-      "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-5-blog.html",
-      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-5-blog.txt",
-      "location": "HTML block 32 (p)",
-      "locations": [
-        "HTML block 32 (p)"
-      ],
-      "excerpt": "Terminal-Bench is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/anthropic-sonnet-5-5-blog.html"
     },
@@ -13691,9 +13844,9 @@
       "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5",
       "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-5-blog.html",
       "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-5-blog.txt",
-      "location": "HTML block 34 (p)",
+      "location": "HTML block 36 (p)",
       "locations": [
-        "HTML block 34 (p)"
+        "HTML block 36 (p)"
       ],
       "excerpt": "CursorBench is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
@@ -13709,11 +13862,29 @@
       "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5",
       "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-5-blog.html",
       "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-5-blog.txt",
+      "location": "HTML block 36 (p)",
+      "locations": [
+        "HTML block 36 (p)"
+      ],
+      "excerpt": "FrontierCode is highlighted in launch-post discussion of this model.",
+      "mentionType": "narrative",
+      "readerUrl": "archive/2026-09-29/pages/anthropic-sonnet-5-5-blog.html"
+    },
+    {
+      "id": "2026-09-28-claude-sonnet-5-5-terminal-bench-blog",
+      "releaseId": "2026-09-28-claude-sonnet-5-5",
+      "benchmarkId": "terminal-bench",
+      "tier": "blog",
+      "status": "verified",
+      "sourceId": "anthropic-sonnet-5-5-blog",
+      "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-5-blog.html",
+      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-5-blog.txt",
       "location": "HTML block 34 (p)",
       "locations": [
         "HTML block 34 (p)"
       ],
-      "excerpt": "FrontierCode is highlighted in launch-post discussion of this model.",
+      "excerpt": "Terminal-Bench is highlighted in launch-post discussion of this model.",
       "mentionType": "narrative",
       "readerUrl": "archive/2026-09-29/pages/anthropic-sonnet-5-5-blog.html"
     },
@@ -13840,23 +14011,6 @@
       "mentionType": "card"
     },
     {
-      "id": "2026-09-28-claude-sonnet-5-5-oss-fuzz-card",
-      "releaseId": "2026-09-28-claude-sonnet-5-5",
-      "benchmarkId": "oss-fuzz",
-      "tier": "card",
-      "status": "verified",
-      "sourceId": "anthropic-sonnet-5-5-card",
-      "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5-system-card",
-      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-5-card.pdf#page=26",
-      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-5-card.txt",
-      "location": "PDF p. 26",
-      "locations": [
-        "PDF p. 26"
-      ],
-      "excerpt": "OSS-Fuzz is used for a numerical evaluation of this model in its card.",
-      "mentionType": "card"
-    },
-    {
       "id": "2026-09-28-claude-sonnet-5-5-binary-exploitation-benchmark-card",
       "releaseId": "2026-09-28-claude-sonnet-5-5",
       "benchmarkId": "binary-exploitation-benchmark",
@@ -13871,6 +14025,23 @@
         "PDF p. 26"
       ],
       "excerpt": "Binary Exploitation Benchmark is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
+      "id": "2026-09-28-claude-sonnet-5-5-oss-fuzz-card",
+      "releaseId": "2026-09-28-claude-sonnet-5-5",
+      "benchmarkId": "oss-fuzz",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-sonnet-5-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-5-card.pdf#page=26",
+      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-5-card.txt",
+      "location": "PDF p. 26",
+      "locations": [
+        "PDF p. 26"
+      ],
+      "excerpt": "OSS-Fuzz is used for a numerical evaluation of this model in its card.",
       "mentionType": "card"
     },
     {
@@ -14419,6 +14590,23 @@
       "mentionType": "card"
     },
     {
+      "id": "2026-09-28-claude-sonnet-5-5-officeqa-pro-card",
+      "releaseId": "2026-09-28-claude-sonnet-5-5",
+      "benchmarkId": "officeqa-pro",
+      "tier": "card",
+      "status": "verified",
+      "sourceId": "anthropic-sonnet-5-5-card",
+      "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5-system-card",
+      "archiveUrl": "archive/2026-09-29/raw/anthropic-sonnet-5-5-card.pdf#page=132",
+      "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-5-card.txt",
+      "location": "PDF p. 132",
+      "locations": [
+        "PDF p. 132"
+      ],
+      "excerpt": "OfficeQA Pro is used for a numerical evaluation of this model in its card.",
+      "mentionType": "card"
+    },
+    {
       "id": "2026-09-28-claude-sonnet-5-5-toolathlon-card",
       "releaseId": "2026-09-28-claude-sonnet-5-5",
       "benchmarkId": "toolathlon",
@@ -14430,7 +14618,6 @@
       "textUrl": "archive/2026-09-29/text/anthropic-sonnet-5-5-card.txt",
       "location": "PDF p. 135",
       "locations": [
-        "PDF p. 134",
         "PDF p. 135"
       ],
       "excerpt": "Toolathlon is used for a numerical evaluation of this model in its card.",

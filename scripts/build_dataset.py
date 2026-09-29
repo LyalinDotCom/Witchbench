@@ -86,7 +86,8 @@ CANONICAL = {
 EXTRA_NAMES = ['FrontierSWE v2','DRACO','Chartography','OfficeQA','AA-Briefcase','GMMLU',
                'MILU','LatchBio Bioinformatics','ProteinGym Hard','CursorBench 4.0',
                'CritPT-Corrected','Terminal-Bench Science 0.1','FrontierCode 1.1 Main',
-               'FrontierCode v1.1 (Main)','GDPval-AA v2.1','OSWorld 2.1']
+               'FrontierCode v1.1 (Main)','GDPval-AA v2.1','OSWorld 2.1',
+               'Rakuten-SWE-Bench','OfficeQA Pro']
 
 
 def model_aliases(release):
@@ -186,7 +187,7 @@ def html_evidence(release, extraction, patterns, kind, releases):
                 target_context = False
             if not shared:
                 target_context = target_context or bool(re.search(r'\b(we|our|the model|this model)\b',text,re.I))
-            eligible = (block['tag'] in ['p','li'] and not block.get('isFootnote') and
+            eligible = (block['tag'] in ['p','li','div'] and not block.get('isFootnote') and
                         normal(block.get('heading','')) not in ['footnotes','notes','evaluation methodology'] and
                         bool(BLOG_WORDS.search(text)) and
                         target_context)
@@ -201,7 +202,7 @@ def html_evidence(release, extraction, patterns, kind, releases):
                 if any(i<len(cells) and re.search(r'\d',cells[i]) for i in indices):
                     eligible=True
             reason = 'A numerical evaluation row includes the released model’s own column.' if eligible else reason
-        elif block['tag'] in ['p','li'] and has_result_number(text,patterns,aliases) and RESULT_WORDS.search(text) and has_model(text, aliases):
+        elif block['tag'] in ['p','li','div'] and has_result_number(text,patterns,aliases) and RESULT_WORDS.search(text) and has_model(text, aliases):
             eligible=True
             reason='Card prose reports a numerical evaluation for the released model.'
         for name in names:
@@ -216,6 +217,23 @@ def image_evidence(release, artifact, patterns, media, ocr):
     soup=BeautifulSoup((ROOT/artifact['localPath']).read_bytes(),'html.parser')
     main=soup.find('main') or soup.find('article') or soup
     evidence=[]
+    image_indices={id(img):i for i,img in enumerate(main.find_all('img'),1)}
+    for index,panel in enumerate(main.select('[data-data]'),1):
+        if artifact['id']=='openai-gpt-6-astra-card':
+            preceding=image_indices.get(id(panel.find_previous('img')),0)
+            if ('Sol' in release['name'] and preceding<56) or ('Astra' in release['name'] and preceding>=56):
+                continue
+        try:
+            datasets=json.loads(panel['data-data']).get('datasets',[])
+        except ValueError:
+            continue
+        for dataset in datasets:
+            own=any(has_model(model,aliases) and isinstance(score.get('value'),(int,float)) for model,score in dataset.get('modelScores',{}).items())
+            if not own:
+                continue
+            for name in names_in(dataset.get('name','')+' '+dataset.get('chartTitle',''),patterns):
+                evidence.append(dict(name=name,verified=True,location=f'HTML embedded table {index}',rawEvidence=json.dumps(dataset),
+                                     reason='Embedded source table includes a numerical value in the target model’s own column.',mentionType='table',table=index))
     for index,img in enumerate(main.find_all('img'),1):
         if artifact['id']=='openai-gpt-6-astra-card':
             if ('Sol' in release['name'] and index<57) or ('Astra' in release['name'] and index>=57):
@@ -284,7 +302,7 @@ def main():
     for name in variants:
         canonical=CANONICAL.get(normal(name),canonical_by_normal[normal(name)])
         value=normal(name)
-        pattern=re.compile(r'(?<![a-z0-9])'+re.escape(value)+r'(?![a-z0-9])')
+        pattern=re.compile(r'(?<![a-z0-9-])'+re.escape(value)+r'(?![a-z0-9-])')
         patterns.append((value,canonical,pattern))
     patterns.sort(key=lambda p:len(p[0]),reverse=True)
     extraction_by_id={a['id']:json.loads((ROOT/a['extractedPath']).read_text()) for a in manifest}
@@ -327,7 +345,8 @@ def main():
                              locations=sorted(set(x['location'] for x in verified)),excerpt=summary,mentionType=e['mentionType'])
                 findings.append(finding)
                 if not artifact['pages']:
-                    finding['readerUrl']=f'archive/{SNAPSHOT}/pages/{source_id}.html'+(f'#figure-{e["figure"]}' if e.get('figure') else '')
+                    anchor=f'#figure-{e["figure"]}' if e.get('figure') else f'#table-{e["table"]}' if e.get('table') else ''
+                    finding['readerUrl']=f'archive/{SNAPSHOT}/pages/{source_id}.html'+anchor
     uses=defaultdict(set)
     for f in findings:
         uses[f['benchmarkId']].add(f['releaseId'])
@@ -377,7 +396,7 @@ def main():
         for a in manifest:
             source=ROOT/a['localPath' if folder=='raw' else 'textPath']
             target=destination/source.name
-            if not target.exists() or target.stat().st_size!=source.stat().st_size:
+            if folder=='text' or not target.exists() or target.stat().st_size!=source.stat().st_size:
                 shutil.copy2(source,target)
     shutil.copy2(ARCHIVE/'manifest.json',PUBLIC/'archive'/SNAPSHOT/'manifest.json')
     print(json.dumps(dict(releases=len(releases),benchmarks=len(benchmarks),findings=len(findings),blogChecks=sum(f['tier']=='blog' for f in findings),cardChecks=sum(f['tier']=='card' for f in findings),archivedSources=len(artifacts))))

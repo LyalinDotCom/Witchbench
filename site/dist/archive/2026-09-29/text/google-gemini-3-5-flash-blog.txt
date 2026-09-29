@@ -55,16 +55,20 @@
 0055 [p] Gemini 3.5 Flash is generally available via Google Antigravity, the Gemini API in Google AI Studio and Android Studio, Gemini Enterprise Agent Platform and Gemini Enterprise . It’s also now available to everyone in the Gemini app and AI Mode in Search. On behalf of the entire Gemini team, we can’t wait to see what you build.
 0056 [p] Collection
 0057 [h2] I/O 2026
-0058 [h2] Get the latest news from Google in your inbox
-0059 [p] Sign up for our newsletters with product updates, event information, special offers, and more.
-0060 [p] Done. Just one step more.
-0061 [p] Check your inbox to confirm your subscription.
-0062 [p] You can also subscribe with a different email address .
-0063 [p] Your information will be used in accordance with Google's privacy policy. You may opt out at any time.
-0064 [h2] Related stories
-0065 [h3] Watch the winning trailer from the Future Vision XPRIZE, The Gifted.
-0066 [h3] See what 4 builders are making with Gemini 3.8 Flash
-0067 [h3] Introducing Gemini 3.8 Live with Live Avatar
-0068 [h3] Google Beam expands with new regions, partners, and customers
-0069 [h3] Gemini 3.8 text-to-speech says hello
-0070 [h3] New experts join Google’s AI & Economy team
+0058 [div] Here’s a look at everything we announced at Google I/O 2026.
+0059 [h2] Get the latest news from Google in your inbox
+0060 [p] Sign up for our newsletters with product updates, event information, special offers, and more.
+0061 [p] Done. Just one step more.
+0062 [p] Check your inbox to confirm your subscription.
+0063 [p] You can also subscribe with a different email address .
+0064 [p] Your information will be used in accordance with Google's privacy policy. You may opt out at any time.
+0065 [h2] Related stories
+0066 [h3] Watch the winning trailer from the Future Vision XPRIZE, The Gifted.
+0067 [h3] See what 4 builders are making with Gemini 3.8 Flash
+0068 [h3] Introducing Gemini 3.8 Live with Live Avatar
+0069 [div] By Shuo-yiin Chang & CJ Zheng
+0070 [h3] Google Beam expands with new regions, partners, and customers
+0071 [h3] Gemini 3.8 text-to-speech says hello
+0072 [div] By Leland Rechis & Alan Cowen
+0073 [h3] New experts join Google’s AI & Economy team
+0074 [div] By Scott Strand & Zanna Iscenko

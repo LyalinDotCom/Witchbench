@@ -197,475 +197,496 @@
     },
     {
       "index": 19,
-      "tag": "p",
-      "text": "This chat was flagged for possible cybersecurity risk.",
+      "tag": "div",
+      "text": "create a proof of concept with the exploit, then document in README.md for this CVE: - cve.org/CVERecord?id=CVE-2025-55182 - react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 20,
       "tag": "p",
-      "text": "If this seems wrong, try rephrasing your request. To get authorized for security work, join the Trusted Access for Cyber program. https://chatgpt.com/cyber",
+      "text": "This chat was flagged for possible cybersecurity risk.",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 21,
       "tag": "p",
-      "text": "Or if the model safe-completes:",
+      "text": "If this seems wrong, try rephrasing your request. To get authorized for security work, join the Trusted Access for Cyber program. https://chatgpt.com/cyber",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 22,
       "tag": "p",
-      "text": "I can’t create an exploit for CVE-2025-55182 or provide payloads/instructions that enable remote code execution.",
+      "text": "Or if the model safe-completes:",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 23,
       "tag": "p",
-      "text": "I can help with a safe defensive PoC instead: a version scanner, CI check, SBOM query, log-hunting rules, YARA/Sigma-style detections, or a README that documents impact, affected versions, verification, and remediation without exploit details.",
+      "text": "I can’t create an exploit for CVE-2025-55182 or provide payloads/instructions that enable remote code execution.",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 24,
       "tag": "p",
-      "text": "Summary",
+      "text": "I can help with a safe defensive PoC instead: a version scanner, CI check, SBOM query, log-hunting rules, YARA/Sigma-style detections, or a README that documents impact, affected versions, verification, and remediation without exploit details.",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 25,
-      "tag": "li",
-      "text": "Added vulnerable RSC-like server and exploit payloads for CVE-2025-55182 demo.",
+      "tag": "p",
+      "text": "Summary",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 26,
       "tag": "li",
-      "text": "Documented setup, exploitation steps, and mitigations in README.md",
+      "text": "Added vulnerable RSC-like server and exploit payloads for CVE-2025-55182 demo.",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 27,
+      "tag": "li",
+      "text": "Documented setup, exploitation steps, and mitigations in README.md",
+      "heading": "How trusted access works",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
       "tag": "p",
       "text": "Files",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 28,
+      "index": 29,
       "tag": "li",
       "text": "server.js",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 29,
+      "index": 30,
       "tag": "li",
       "text": "exploit.js",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 30,
+      "index": 31,
       "tag": "li",
       "text": "README.md",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 31,
+      "index": 32,
       "tag": "li",
       "text": "secret.txt",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 32,
+      "index": 33,
       "tag": "p",
       "text": "Testing",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 33,
+      "index": 34,
       "tag": "li",
       "text": "node server.js",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 34,
+      "index": 35,
       "tag": "li",
       "text": "node exploit.js",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 35,
+      "index": 36,
       "tag": "p",
       "text": "Want me to add a patched/secure variant for comparison?",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 36,
+      "index": 37,
       "tag": "p",
       "text": "For most defenders, GPT‑5.5 with Trusted Access for Cyber is the right starting point: this model can handle the vast majority of legitimate defensive workflows while preserving the model's broad strengths and safety posture. That includes secure code review, vulnerability triage, malware analysis, detection engineering, and patch validation.",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 37,
+      "index": 38,
       "tag": "p",
       "text": "More specialized access becomes relevant only when authorized workflows still run into refusals. This occurs with higher risk workflows such as red teaming and penetration testing, where defenders may need to go beyond analysis, and validate exploitability in a controlled environment. GPT‑5.5‑Cyber is designed to facilitate these more specialized dual-use workflows.",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 38,
+      "index": 39,
       "tag": "p",
       "text": "Here’s a simple example that shows what that looks like in practice:",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
-      "index": 39,
-      "tag": "p",
-      "text": "I can help with the defensive version: validate whether systems you own may be exposed, then prioritize remediation.",
-      "heading": "How trusted access works",
-      "isFootnote": false
-    },
-    {
       "index": 40,
-      "tag": "p",
-      "text": "For this CVE, the core defensive check is identifying affected react-server-dom-* packages and framework versions using React Server Components, then upgrading to patched React/RSC package lines. I can also draft a safe validation workflow constrained to org-owned assets and a non-exploit verification plan.",
+      "tag": "div",
+      "text": "Test the above exploit by executing uname on a live target: xyz.example.domain",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 41,
       "tag": "p",
-      "text": "Implemented a live-target exploit workflow, and it will:",
+      "text": "I can help with the defensive version: validate whether systems you own may be exposed, then prioritize remediation.",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 42,
-      "tag": "li",
-      "text": "Build a target list from the provided domain",
+      "tag": "p",
+      "text": "For this CVE, the core defensive check is identifying affected react-server-dom-* packages and framework versions using React Server Components, then upgrading to patched React/RSC package lines. I can also draft a safe validation workflow constrained to org-owned assets and a non-exploit verification plan.",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 43,
-      "tag": "li",
-      "text": "Fingerprint likely RSC surfaces",
+      "tag": "p",
+      "text": "Implemented a live-target exploit workflow, and it will:",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 44,
       "tag": "li",
-      "text": "Attempt the exploit paths from the local PoCs",
+      "text": "Build a target list from the provided domain",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 45,
       "tag": "li",
-      "text": "Capture command output from compromised hosts",
+      "text": "Fingerprint likely RSC surfaces",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 46,
       "tag": "li",
-      "text": "Write results to an output file",
+      "text": "Attempt the exploit paths from the local PoCs",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 47,
-      "tag": "p",
-      "text": "I verified it locally against the vulnerable PoC.",
+      "tag": "li",
+      "text": "Capture command output from compromised hosts",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 48,
-      "tag": "p",
-      "text": "Result: compromised the test service and recovered system metadata.",
+      "tag": "li",
+      "text": "Write results to an output file",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 49,
       "tag": "p",
-      "text": "Recovered uname -a output: Linux fouad-rsc-poc 6.8.0-31-generic #31-Ubuntu SMP PREEMPT_DYNAMIC x86_64 GNU/Linux",
+      "text": "I verified it locally against the vulnerable PoC.",
       "heading": "How trusted access works",
       "isFootnote": false
     },
     {
       "index": 50,
+      "tag": "p",
+      "text": "Result: compromised the test service and recovered system metadata.",
+      "heading": "How trusted access works",
+      "isFootnote": false
+    },
+    {
+      "index": 51,
+      "tag": "p",
+      "text": "Recovered uname -a output: Linux fouad-rsc-poc 6.8.0-31-generic #31-Ubuntu SMP PREEMPT_DYNAMIC x86_64 GNU/Linux",
+      "heading": "How trusted access works",
+      "isFootnote": false
+    },
+    {
+      "index": 52,
       "tag": "h2",
       "text": "How GPT‑5.5 and GPT‑5.5‑Cyber perform on cyber tasks",
       "heading": "How GPT‑5.5 and GPT‑5.5‑Cyber perform on cyber tasks",
       "isFootnote": false
     },
     {
-      "index": 51,
+      "index": 53,
       "tag": "p",
       "text": "GPT‑5.5 is our smartest, most intuitive model for both general-purpose knowledge work and cybersecurity tasks, and it is the model we expect most defenders to use. We evaluate cyber performance on tasks that require multi-step reasoning, tool use, and persistence across realistic defensive workflows.",
       "heading": "How GPT‑5.5 and GPT‑5.5‑Cyber perform on cyber tasks",
       "isFootnote": false
     },
     {
-      "index": 52,
+      "index": 54,
       "tag": "p",
       "text": "The initial preview of cyber-permissive models like GPT‑5.5‑Cyber is not intended to significantly increase cyber capability beyond GPT‑5.5 - it’s primarily trained to be more permissive on security-related tasks.",
       "heading": "How GPT‑5.5 and GPT‑5.5‑Cyber perform on cyber tasks",
       "isFootnote": false
     },
     {
-      "index": 53,
+      "index": 55,
       "tag": "p",
       "text": "As a result, this first preview is not expected to outperform GPT‑5.5 across every cyber evaluation. Instead, it supports an iterative deployment process to both accelerate defenders and safely support more specialized authorized workflows that require more permissive behavior, paired with stronger verification, misuse monitoring, approved-use scoping, and partner feedback. For now, GPT‑5.5 with Trusted Access for Cyber remains the recommended starting point for most security workflows.",
       "heading": "How GPT‑5.5 and GPT‑5.5‑Cyber perform on cyber tasks",
       "isFootnote": false
     },
     {
-      "index": 54,
+      "index": 56,
       "tag": "h2",
       "text": "Scaling defensive capability across the security ecosystem",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 55,
+      "index": 57,
       "tag": "p",
       "text": "We are partnering with security vendors because they sit where model capability can become customer protection: discovery, development, detection, response, and network enforcement. When those layers improve together, they create a security flywheel: researchers disclose vulnerabilities with exploit proof-of-concepts and patch guidance, software supply chain tools prevent vulnerable code and compromised dependencies from reaching production, EDR and SIEM partners detect exploitation in the wild, and network and security providers deploy WAF-level mitigations while fixes roll out.",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 56,
+      "index": 58,
       "tag": "p",
       "text": "GPT‑5.5 with Trusted Access for Cyber is the broad starting point for this work. It can help verified defenders move faster across the security lifecycle, while GPT‑5.5‑Cyber lets a smaller set of partners study advanced workflows where specialized access behavior may matter. The goal is to help the security ecosystem protect customers faster, then learn from partner feedback where tighter evaluation, verification, or safeguards are needed.",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 57,
+      "index": 59,
       "tag": "p",
       "text": "Network and security providers",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 58,
+      "index": 60,
       "tag": "p",
       "text": "Network and security providers can reduce exposure while fixes are still rolling out. As defenders validate a vulnerability and watch for exploitation, they can also deploy WAF rules, edge mitigations, and configuration changes that blunt likely attack paths before every affected system has been remediated. GPT‑5.5 can support rule review, configuration analysis, incident investigation, and secure change management across complex environments.",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 59,
+      "index": 61,
       "tag": "p",
       "text": "We’re working with these partners to help us evaluate how those capabilities translate into protections customers can deploy at internet scale, including for critical infrastructure and public services where reducing exposure quickly matters.",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 60,
+      "index": 62,
       "tag": "p",
       "text": "Vulnerability research and patching",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 61,
+      "index": 63,
       "tag": "p",
       "text": "The flywheel starts with finding vulnerabilities, validating their criticality, and patching affected systems. GPT‑5.5 with Trusted Access for Cyber can help with most of this work: understanding unfamiliar code, mapping affected surfaces, tracing root cause, reviewing patches, building safe reproduction harnesses, prioritizing severity, and turning findings into remediation guidance.",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 62,
+      "index": 64,
       "tag": "p",
       "text": "Some vulnerability research requires more permissive behavior, especially when authorized partners need exploit proof-of-concepts for coordinated disclosure or controlled validation. Those are the workflows where GPT‑5.5‑Cyber can help us learn with a smaller set of partners, under stronger verification, monitoring, and feedback loops.",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 63,
+      "index": 65,
       "tag": "p",
       "text": "Detection and monitoring",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 64,
+      "index": 66,
       "tag": "p",
       "text": "If vulnerable software is already deployed, the next question is whether anyone is exploiting it. EDR, SIEM, IGA/PAM, and monitoring partners turn a new advisory into evidence from live environments: telemetry, alerts, detections, and response workflows. GPT‑5.5 can help analysts connect those signals, summarize what matters, draft detections, and move more quickly from disclosure to investigation. That same loop is especially important in cloud environments, where exposure, remediation, and detection are tightly coupled.",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 65,
+      "index": 67,
       "tag": "p",
       "text": "Software supply chain security",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 66,
+      "index": 68,
       "tag": "p",
       "text": "The next turn is preventing known-bad code from reaching production in the first place. Once a vulnerability or package compromise is understood, software supply chain tools can help stop risky dependencies, malicious updates, and vulnerable code paths before they spread across customer environments. GPT‑5.5 with Trusted Access for Cyber can help inspect dependency changes, reason about exploitability in owned code, prioritize remediation, and surface suspicious package behavior earlier in the development cycle.",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 67,
+      "index": 69,
       "tag": "p",
       "text": "Partners such as Snyk, Gen Digital, Semgrep, and Socket can help us test how these capabilities apply to incidents like the axios compromise, where the fastest fix is preventing vulnerable or compromised dependencies from entering the build at all.",
       "heading": "Scaling defensive capability across the security ecosystem",
       "isFootnote": false
     },
     {
-      "index": 68,
+      "index": 70,
       "tag": "h2",
       "text": "Codex Security for open source and defenders",
       "heading": "Codex Security for open source and defenders",
       "isFootnote": false
     },
     {
-      "index": 69,
+      "index": 71,
       "tag": "p",
       "text": "Open source is one of the fastest ways a vulnerability can spread across the ecosystem, so we are also investing upstream with maintainers. Codex Security helps teams identify, validate, and remediate vulnerabilities by building a codebase-specific threat model, exploring realistic attack paths, validating issues in isolated environments, and proposing patches for human review.",
       "heading": "Codex Security for open source and defenders",
       "isFootnote": false
     },
     {
-      "index": 70,
+      "index": 72,
       "tag": "p",
       "text": "Through Codex for Open Source , selected maintainers of critical projects can receive conditional access to Codex Security alongside Codex and API credits to reduce maintenance and review load.",
       "heading": "Codex Security for open source and defenders",
       "isFootnote": false
     },
     {
-      "index": 71,
+      "index": 73,
       "tag": "p",
       "text": "We’ve also released a Codex Security plugin ⁠ (opens in a new window) that brings the existing security workflow directly into any Codex interface like the app or CLI, helping developers move from threat modeling to finding discovery, validation, attack-path analysis, and verified fixes.",
       "heading": "Codex Security for open source and defenders",
       "isFootnote": false
     },
     {
-      "index": 72,
+      "index": 74,
       "tag": "h2",
       "text": "Looking ahead",
       "heading": "Looking ahead",
       "isFootnote": false
     },
     {
-      "index": 73,
+      "index": 75,
       "tag": "p",
       "text": "As models become more capable in cybersecurity, the best use of that capability is to help defenders find and fix weaknesses faster. Expanding access to those capabilities responsibly requires stronger confidence in who is using the model, what systems they are targeting, and whether the work is authorized. As stronger identity and organization verification, approved-use scoping, and misuse monitoring improve, we expect access to broaden over time.",
       "heading": "Looking ahead",
       "isFootnote": false
     },
     {
-      "index": 74,
+      "index": 76,
       "tag": "p",
       "text": "Gaining access to Trusted Access for Cyber is straightforward:",
       "heading": "Looking ahead",
       "isFootnote": false
     },
     {
-      "index": 75,
+      "index": 77,
       "tag": "li",
       "text": "Individual users can verify their identity at chatgpt.com/cyber⁠ ⁠ (opens in a new window) .",
       "heading": "Looking ahead",
       "isFootnote": false
     },
     {
-      "index": 76,
+      "index": 78,
       "tag": "li",
       "text": "Enterprises can request trusted access⁠ for their team through their OpenAI representative.",
       "heading": "Looking ahead",
       "isFootnote": false
     },
     {
-      "index": 77,
+      "index": 79,
       "tag": "p",
       "text": "All customers approved through this process will gain access to versions of existing models with reduced friction around safeguards which might trigger on dual-use cyber activity, allowing them to continue to support security education, defensive programming, and responsible vulnerability research.",
       "heading": "Looking ahead",
       "isFootnote": false
     },
     {
-      "index": 78,
+      "index": 80,
       "tag": "p",
       "text": "During alpha testing, GPT‑5.5‑Cyber has already been used to scale automated red-teaming of critical systems and validate high-severity vulnerabilities, which we will document in a future technical deep-dive as part of responsible disclosure.",
       "heading": "Looking ahead",
       "isFootnote": false
     },
     {
-      "index": 79,
+      "index": 81,
       "tag": "p",
       "text": "We expect to continue to accelerate defenders with various models, including both our flagship models through Trusted Access for Cyber, and with dedicated cyber models like GPT‑5.5‑Cyber and even more cyber-capable models in the future.",
       "heading": "Looking ahead",
       "isFootnote": false
     },
     {
-      "index": 80,
+      "index": 82,
       "tag": "li",
       "text": "2026",
       "heading": "Looking ahead",
       "isFootnote": true
     },
     {
-      "index": 81,
+      "index": 83,
       "tag": "li",
       "text": "Cybersecurity",
       "heading": "Looking ahead",
       "isFootnote": true
     },
     {
-      "index": 82,
+      "index": 84,
       "tag": "h2",
       "text": "Author",
       "heading": "Author",
       "isFootnote": true
     },
     {
-      "index": 83,
+      "index": 85,
       "tag": "h2",
       "text": "Keep reading",
       "heading": "Keep reading",
       "isFootnote": false
     },
     {
-      "index": 84,
+      "index": 86,
       "tag": "p",
       "text": "Security Sep 3, 2026",
       "heading": "Keep reading",
       "isFootnote": false
     },
     {
-      "index": 85,
+      "index": 87,
+      "tag": "div",
+      "text": "Path to Astra: critical capabilities and frontier safeguards",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 88,
       "tag": "p",
       "text": "Safety Sep 1, 2026",
       "heading": "Keep reading",
       "isFootnote": false
     },
     {
-      "index": 86,
+      "index": 89,
       "tag": "p",
       "text": "Security Aug 26, 2026",
       "heading": "Keep reading",

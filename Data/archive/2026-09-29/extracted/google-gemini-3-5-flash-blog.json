@@ -402,92 +402,120 @@
     },
     {
       "index": 58,
+      "tag": "div",
+      "text": "Here’s a look at everything we announced at Google I/O 2026.",
+      "heading": "I/O 2026",
+      "isFootnote": false
+    },
+    {
+      "index": 59,
       "tag": "h2",
       "text": "Get the latest news from Google in your inbox",
       "heading": "Get the latest news from Google in your inbox",
       "isFootnote": false
     },
     {
-      "index": 59,
+      "index": 60,
       "tag": "p",
       "text": "Sign up for our newsletters with product updates, event information, special offers, and more.",
       "heading": "Get the latest news from Google in your inbox",
       "isFootnote": false
     },
     {
-      "index": 60,
+      "index": 61,
       "tag": "p",
       "text": "Done. Just one step more.",
       "heading": "Get the latest news from Google in your inbox",
       "isFootnote": false
     },
     {
-      "index": 61,
+      "index": 62,
       "tag": "p",
       "text": "Check your inbox to confirm your subscription.",
       "heading": "Get the latest news from Google in your inbox",
       "isFootnote": false
     },
     {
-      "index": 62,
+      "index": 63,
       "tag": "p",
       "text": "You can also subscribe with a different email address .",
       "heading": "Get the latest news from Google in your inbox",
       "isFootnote": false
     },
     {
-      "index": 63,
+      "index": 64,
       "tag": "p",
       "text": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
       "heading": "Get the latest news from Google in your inbox",
       "isFootnote": false
     },
     {
-      "index": 64,
+      "index": 65,
       "tag": "h2",
       "text": "Related stories",
       "heading": "Related stories",
       "isFootnote": false
     },
     {
-      "index": 65,
+      "index": 66,
       "tag": "h3",
       "text": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
       "heading": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
       "isFootnote": false
     },
     {
-      "index": 66,
+      "index": 67,
       "tag": "h3",
       "text": "See what 4 builders are making with Gemini 3.8 Flash",
       "heading": "See what 4 builders are making with Gemini 3.8 Flash",
       "isFootnote": false
     },
     {
-      "index": 67,
+      "index": 68,
       "tag": "h3",
       "text": "Introducing Gemini 3.8 Live with Live Avatar",
       "heading": "Introducing Gemini 3.8 Live with Live Avatar",
       "isFootnote": false
     },
     {
-      "index": 68,
+      "index": 69,
+      "tag": "div",
+      "text": "By Shuo-yiin Chang & CJ Zheng",
+      "heading": "Introducing Gemini 3.8 Live with Live Avatar",
+      "isFootnote": false
+    },
+    {
+      "index": 70,
       "tag": "h3",
       "text": "Google Beam expands with new regions, partners, and customers",
       "heading": "Google Beam expands with new regions, partners, and customers",
       "isFootnote": false
     },
     {
-      "index": 69,
+      "index": 71,
       "tag": "h3",
       "text": "Gemini 3.8 text-to-speech says hello",
       "heading": "Gemini 3.8 text-to-speech says hello",
       "isFootnote": false
     },
     {
-      "index": 70,
+      "index": 72,
+      "tag": "div",
+      "text": "By Leland Rechis & Alan Cowen",
+      "heading": "Gemini 3.8 text-to-speech says hello",
+      "isFootnote": false
+    },
+    {
+      "index": 73,
       "tag": "h3",
       "text": "New experts join Google’s AI & Economy team",
+      "heading": "New experts join Google’s AI & Economy team",
+      "isFootnote": false
+    },
+    {
+      "index": 74,
+      "tag": "div",
+      "text": "By Scott Strand & Zanna Iscenko",
       "heading": "New experts join Google’s AI & Economy team",
       "isFootnote": false
     }

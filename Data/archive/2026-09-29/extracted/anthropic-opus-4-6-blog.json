@@ -108,342 +108,489 @@
     },
     {
       "index": 16,
+      "tag": "div",
+      "text": "Claude Opus 4.6 is the strongest model Anthropic has shipped. It takes complicated requests and actually follows through, breaking them into concrete steps, executing, and producing polished work even when the task is ambitious. For Notion users, it feels less like a tool and more like a capable collaborator.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "div",
+      "text": "Early testing shows Claude Opus 4.6 delivering on the complex, multi-step coding work developers face every day—especially agentic workflows that demand planning and tool calling. This starts unlocking long-horizon tasks at the frontier.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "div",
+      "text": "Claude Opus 4.6 is a huge leap for agentic planning. It breaks complex tasks into independent subtasks, runs tools and subagents in parallel, and identifies blockers with real precision.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "div",
+      "text": "Claude Opus 4.6 is the best model we've tested yet. Its reasoning and planning capabilities have been exceptional at powering our AI Teammates. It's also a fantastic coding model – its ability to navigate a large codebase and identify the right changes to make is state of the art.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 20,
+      "tag": "div",
+      "text": "Claude Opus 4.6 reasons through complex problems at a level we haven't seen before. It considers edge cases that other models miss and consistently lands on more elegant, well-considered solutions. We're particularly impressed with Opus 4.6 in Devin Review, where it's increased our bug catching rates.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 21,
+      "tag": "div",
+      "text": "Claude Opus 4.6 feels noticeably better than Opus 4.5 in Windsurf, especially on tasks that require careful exploration like debugging and understanding unfamiliar codebases. We’ve noticed Opus 4.6 thinks longer, which pays off when deeper reasoning is needed.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 22,
+      "tag": "div",
+      "text": "Claude Opus 4.6 represents a meaningful leap in long-context performance. In our testing, we saw it handle much larger bodies of information with a level of consistency that strengthens how we design and deploy complex research workflows. Progress in this area gives us more powerful building blocks to deliver truly expert-grade systems professionals can trust.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "div",
+      "text": "Across 40 cybersecurity investigations, Claude Opus 4.6 produced the best results 38 of 40 times in a blind ranking against Claude 4.5 models. Each model ran end to end on the same agentic harness with up to 9 subagents and 100+ tool calls.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "div",
+      "text": "Claude Opus 4.6 is the new frontier on long-running tasks from our internal benchmarks and testing. It's also been highly effective at reviewing code.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "div",
+      "text": "Claude Opus 4.6 achieved the highest BigLaw Bench score of any Claude model at 90.2%. With 40% perfect scores and 84% above 0.8, it’s remarkably capable for legal reasoning.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "div",
+      "text": "Claude Opus 4.6 autonomously closed 13 issues and assigned 12 issues to the right team members in a single day, managing a ~50-person organization across 6 repositories. It handled both product and organizational decisions while synthesizing context across multiple domains, and it knew when to escalate to a human.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "div",
+      "text": "Claude Opus 4.6 is an uplift in design quality. It works beautifully with our design systems and it’s more autonomous, which is core to Lovable’s values. People should be creating things that matter, not micromanaging AI.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "div",
+      "text": "Claude Opus 4.6 excels in high-reasoning tasks like multi-source analysis across legal, financial, and technical content. Box’s eval showed a 10% lift in performance, reaching 68% vs. a 58% baseline, and near-perfect scores in technical domains.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "div",
+      "text": "Claude Opus 4.6 generates complex, interactive apps and prototypes in Figma Make with an impressive creative range. The model translates detailed designs and multi-layered tasks into code on the first try, making it a powerful starting point for teams to explore and build ideas.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "div",
+      "text": "Claude Opus 4.6 is the best Anthropic model we’ve tested. It understands intent with minimal prompting and went above and beyond, exploring and creating details I didn’t even know I wanted until I saw them. It felt like I was working with the model, not waiting on it.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "div",
+      "text": "Both hands-on testing and evals show Claude Opus 4.6 is a meaningful improvement for design systems and large codebases, use cases that drive enormous enterprise value. It also one-shotted a fully functional physics engine, handling a large multi-scope task in a single pass.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "div",
+      "text": "Claude Opus 4.6 is the biggest leap I’ve seen in months. I’m more comfortable giving it a sequence of tasks across the stack and letting it run. It’s smart enough to use subagents for the individual pieces.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "div",
+      "text": "Claude Opus 4.6 handled a multi-million-line codebase migration like a senior engineer. It planned up front, adapted its strategy as it learned, and finished in half the time.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 34,
+      "tag": "div",
+      "text": "We only ship models in v0 when developers will genuinely feel the difference. Claude Opus 4.6 passed that bar with ease. Its frontier-level reasoning, especially with edge cases, helps v0 to deliver on our number-one aim: to let anyone elevate their ideas from prototype to production.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 35,
+      "tag": "div",
+      "text": "The performance jump with Claude Opus 4.6 feels almost unbelievable. Real-world tasks that were challenging for Opus [4.5] suddenly became easy. This feels like a watershed moment for spreadsheet agents on Shortcut.",
+      "heading": "First impressions",
+      "isFootnote": false
+    },
+    {
+      "index": 36,
       "tag": "h2",
       "text": "Evaluating Claude Opus 4.6",
       "heading": "Evaluating Claude Opus 4.6",
       "isFootnote": false
     },
     {
-      "index": 17,
+      "index": 37,
       "tag": "p",
       "text": "Across agentic coding, computer use, tool use, search, and finance , Opus 4.6 is an industry-leading model, often by a wide margin. The table below shows how Claude Opus 4.6 compares to our previous models and to other industry models on a variety of benchmarks.",
       "heading": "Evaluating Claude Opus 4.6",
       "isFootnote": false
     },
     {
-      "index": 18,
+      "index": 38,
       "tag": "p",
       "text": "Opus 4.6 is much better at retrieving relevant information from large sets of documents. This extends to long-context tasks, where it holds and tracks information over hundreds of thousands of tokens with less drift, and picks up buried details that even Opus 4.5 would miss.",
       "heading": "Evaluating Claude Opus 4.6",
       "isFootnote": false
     },
     {
-      "index": 19,
+      "index": 39,
       "tag": "p",
       "text": "A common complaint about AI models is “ context rot ,” where performance degrades as conversations exceed a certain number of tokens. Opus 4.6 performs markedly better than its predecessors: on the 8-needle 1M variant of MRCR v2 —a needle-in-a-haystack benchmark that tests a model’s ability to retrieve information “hidden” in vast amounts of text—Opus 4.6 scores 76%, whereas Sonnet 4.5 scores just 18.5%. This is a qualitative shift in how much context a model can actually use while maintaining peak performance.",
       "heading": "Evaluating Claude Opus 4.6",
       "isFootnote": false
     },
     {
-      "index": 20,
+      "index": 40,
       "tag": "p",
       "text": "All in all, Opus 4.6 is better at finding information across long contexts, better at reasoning after absorbing that information, and has substantially better expert-level reasoning abilities in general.",
       "heading": "Evaluating Claude Opus 4.6",
       "isFootnote": false
     },
     {
-      "index": 21,
+      "index": 41,
       "tag": "figcaption",
       "text": "Opus 4.6 shows significant improvement in long-context retrieval.",
       "heading": "Evaluating Claude Opus 4.6",
       "isFootnote": false
     },
     {
-      "index": 22,
+      "index": 42,
       "tag": "p",
       "text": "Finally, the charts below show how Claude Opus 4.6 performs on a variety of benchmarks that assess its software engineering skills, multilingual coding ability, long-term coherence, cybersecurity capabilities, and its life sciences knowledge.",
       "heading": "Evaluating Claude Opus 4.6",
       "isFootnote": false
     },
     {
-      "index": 23,
+      "index": 43,
+      "tag": "div",
+      "text": "Root cause analysis Multilingual coding Long-term coherence Cybersecurity Life sciences",
+      "heading": "Evaluating Claude Opus 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 44,
       "tag": "figcaption",
       "text": "Opus 4.6 excels at diagnosing complex software failures.",
       "heading": "Evaluating Claude Opus 4.6",
       "isFootnote": false
     },
     {
-      "index": 24,
+      "index": 45,
       "tag": "h2",
       "text": "A step forward on safety",
       "heading": "A step forward on safety",
       "isFootnote": false
     },
     {
-      "index": 25,
+      "index": 46,
       "tag": "p",
       "text": "These intelligence gains do not come at the cost of safety. On our automated behavioral audit, Opus 4.6 showed a low rate of misaligned behaviors such as deception, sycophancy, encouragement of user delusions, and cooperation with misuse. Overall, it is just as well-aligned as its predecessor, Claude Opus 4.5, which was our most-aligned frontier model to date. Opus 4.6 also shows the lowest rate of over-refusals—where the model fails to answer benign queries—of any recent Claude model.",
       "heading": "A step forward on safety",
       "isFootnote": false
     },
     {
-      "index": 26,
+      "index": 47,
       "tag": "figcaption",
       "text": "The overall misaligned behavior score for each recent Claude model on our automated behavioral audit (described in full in the Claude Opus 4.6 system card ).",
       "heading": "A step forward on safety",
       "isFootnote": false
     },
     {
-      "index": 27,
+      "index": 48,
       "tag": "p",
       "text": "For Claude Opus 4.6, we ran the most comprehensive set of safety evaluations of any model, applying many different tests for the first time and upgrading several that we’ve used before. We included new evaluations for user wellbeing, more complex tests of the model’s ability to refuse potentially dangerous requests, and updated evaluations of the model’s ability to surreptitiously perform harmful actions. We also experimented with new methods from interpretability , the science of the inner workings of AI models, to begin to understand why the model behaves in certain ways—and, ultimately, to catch problems that standard testing might miss.",
       "heading": "A step forward on safety",
       "isFootnote": false
     },
     {
-      "index": 28,
+      "index": 49,
       "tag": "p",
       "text": "A detailed description of all capability and safety evaluations is available in the Claude Opus 4.6 system card .",
       "heading": "A step forward on safety",
       "isFootnote": false
     },
     {
-      "index": 29,
+      "index": 50,
       "tag": "p",
       "text": "We’ve also applied new safeguards in areas where Opus 4.6 shows particular strengths that might be put to dangerous as well as beneficial uses. In particular, since the model shows enhanced cybersecurity abilities, we’ve developed six new cybersecurity probes —methods of detecting harmful responses—to help us track different forms of potential misuse.",
       "heading": "A step forward on safety",
       "isFootnote": false
     },
     {
-      "index": 30,
+      "index": 51,
       "tag": "p",
       "text": "We’re also accelerating the cyber defensive uses of the model, using it to help find and patch vulnerabilities in open-source software (as we describe in our new cybersecurity blog post ). We think it’s critical that cyberdefenders use AI models like Claude to help level the playing field. Cybersecurity moves fast, and we’ll be adjusting and updating our safeguards as we learn more about potential threats; in the near future, we may institute real-time intervention to block abuse.",
       "heading": "A step forward on safety",
       "isFootnote": false
     },
     {
-      "index": 31,
+      "index": 52,
       "tag": "h2",
       "text": "Product and API updates",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 32,
+      "index": 53,
       "tag": "p",
       "text": "We’ve made substantial updates across Claude, Claude Code, and the Claude Platform to let Opus 4.6 perform at its best.",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 33,
+      "index": 54,
       "tag": "p",
       "text": "Claude Platform",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 34,
+      "index": 55,
       "tag": "p",
       "text": "On the API, we’re giving developers better control over model effort and more flexibility for long-running agents. To do so, we’re introducing the following features:",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 35,
+      "index": 56,
       "tag": "li",
       "text": "Adaptive thinking. Previously, developers only had a binary choice between enabling or disabling extended thinking. Now, with adaptive thinking , Claude can decide when deeper reasoning would be helpful. At the default effort level (high), the model uses extended thinking when useful, but developers can adjust the effort level to make it more or less selective.",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 36,
+      "index": 57,
       "tag": "li",
       "text": "Effort. There are now four effort levels to choose from: low, medium, high (default), and max. We encourage developers to experiment with different options to find what works best.",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 37,
+      "index": 58,
       "tag": "li",
       "text": "Context compaction (beta). Long-running conversations and agentic tasks often hit the context window. Context compaction automatically summarizes and replaces older context when the conversation approaches a configurable threshold, letting Claude perform longer tasks without hitting limits.",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 38,
+      "index": 59,
       "tag": "li",
       "text": "1M token context (beta). Opus 4.6 is our first Opus-class model with 1M token context. Premium pricing applies for prompts exceeding 200k tokens ($10/$37.50 per million input/output tokens), available only on the Claude Platform.",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 39,
+      "index": 60,
       "tag": "li",
       "text": "128k output tokens. Opus 4.6 supports outputs of up to 128k tokens, which lets Claude complete larger-output tasks without breaking them into multiple requests.",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 40,
+      "index": 61,
       "tag": "li",
       "text": "US-only inference. For workloads that need to run in the United States, US-only inference is available at 1.1× token pricing.",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 41,
+      "index": 62,
       "tag": "p",
       "text": "Product updates",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 42,
+      "index": 63,
       "tag": "p",
       "text": "Across Claude and Claude Code, we’ve added features that allow knowledge workers and developers to tackle harder tasks with more of the tools they use every day.",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 43,
+      "index": 64,
       "tag": "p",
       "text": "We’ve introduced agent teams in Claude Code as a research preview. You can now spin up multiple agents that work in parallel as a team and coordinate autonomously—best for tasks that split into independent, read-heavy work like codebase reviews. You can take over any subagent directly using Shift+Up/Down or tmux .",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 44,
+      "index": 65,
       "tag": "p",
       "text": "Claude now also works better with the office tools you already use. Claude in Excel handles long-running and harder tasks with improved performance, and can plan before acting, ingest unstructured data and infer the right structure without guidance, and handle multi-step changes in one pass. Pair that with Claude in PowerPoint, and you can first process and structure your data in Excel, then bring it to life visually in PowerPoint. Claude reads your layouts, fonts, and slide masters to stay on brand, whether you’re building from a template or generating a full deck from a description. Claude in PowerPoint is now available in research preview for Max, Team, and Enterprise plans.",
       "heading": "Product and API updates",
       "isFootnote": false
     },
     {
-      "index": 45,
+      "index": 66,
       "tag": "h4",
       "text": "Footnotes",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 46,
+      "index": 67,
       "tag": "p",
       "text": "[1] The 1M token context window is currently available in beta on the Claude Developer Platform only.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 47,
+      "index": 68,
       "tag": "p",
       "text": "[2] Run independently by Artificial Analysis. See here for full methodological details.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 48,
+      "index": 69,
       "tag": "p",
       "text": "[3] This translates into Claude Opus 4.6 obtaining a higher score than GPT-5.2 on this eval approximately 70% of the time (where 50% of the time would have implied parity in the scores).",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 49,
+      "index": 70,
       "tag": "li",
       "text": "For GPT-5.2 and Gemini 3 Pro models, we compared the best reported model version in the charts and table.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 50,
+      "index": 71,
       "tag": "li",
       "text": "Terminal-Bench 2.0 : We report both scores reproduced on our infrastructure and published scores from other labs. All runs used the Terminus-2 harness, except for OpenAI’s Codex CLI. All experiments used 1× guaranteed / 3× ceiling resource allocation and 5–15 samples per task across staggered batches. See system card for details.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 51,
+      "index": 72,
       "tag": "li",
       "text": "Humanity’s Last Exam : Claude models run “with tools” were run with web search, web fetch, code execution, programmatic tool calling, context compaction triggered at 50k tokens up to 3M total tokens, max reasoning effort, and adaptive thinking enabled. A domain blocklist was used to decontaminate eval results. See system card for more details.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 52,
+      "index": 73,
       "tag": "li",
       "text": "SWE-bench Verified: Our score was averaged over 25 trials. With a prompt modification, we saw a score of 81.42%.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 53,
+      "index": 74,
       "tag": "li",
       "text": "MCP Atlas: Claude Opus 4.6 was run with max effort. When run at high effort, it reached an industry-leading score of 62.7%.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 54,
+      "index": 75,
       "tag": "li",
       "text": "BrowseComp : Claude models were run with web search, web fetch, programmatic tool calling, context compaction triggered at 50k tokens up to 10M total tokens, max reasoning effort, and no thinking enabled. Adding a multi-agent harness increased scores to 86.8%. See system card for more details.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 55,
+      "index": 76,
       "tag": "li",
       "text": "ARC AGI 2: Claude Opus 4.6 was run with max effort and a 120k thinking budget score.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 56,
+      "index": 77,
       "tag": "li",
       "text": "CyberGym : Claude models were run on no thinking, default effort, temperature, and top_p . The model was also given a “think” tool that allowed interleaved thinking for multi-turn evaluations.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 57,
+      "index": 78,
       "tag": "li",
       "text": "OpenRCA : For each failure case in OpenRCA, Claude receives 1 point if all generated root-cause elements match the ground-truth ones, and 0 points if any mismatch is identified. The overall accuracy is the average score across all failure cases. The benchmark was run on the benchmark author’s harness, graded using their official methodology, and has been submitted for official verification.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 58,
+      "index": 79,
       "tag": "p",
       "text": "[Feb 23, 2026] Updated reported score for Opus 4.6 for HLE with tools (53.1% to 53.0%). The update was caused by running an improved cheating detection pipeline which flagged 3 additional instances of cheating that our original pipeline had missed.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 59,
+      "index": 80,
       "tag": "h2",
       "text": "Related content",
       "heading": "Related content",
       "isFootnote": false
     },
     {
-      "index": 60,
+      "index": 81,
       "tag": "h3",
       "text": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "heading": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "isFootnote": false
     },
     {
-      "index": 61,
+      "index": 82,
       "tag": "p",
       "text": "We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.",
       "heading": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "isFootnote": false
     },
     {
-      "index": 62,
+      "index": 83,
       "tag": "h3",
       "text": "Partnering with Accenture on embedded evaluation",
       "heading": "Partnering with Accenture on embedded evaluation",
       "isFootnote": false
     },
     {
-      "index": 63,
+      "index": 84,
       "tag": "h3",
       "text": "Introducing the Life Sciences Verification Program",
       "heading": "Introducing the Life Sciences Verification Program",
       "isFootnote": false
     },
     {
-      "index": 64,
+      "index": 85,
       "tag": "p",
       "text": "The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.",
       "heading": "Introducing the Life Sciences Verification Program",

@@ -332,29 +332,57 @@
     },
     {
       "index": 48,
+      "tag": "div",
+      "text": "By Shuo-yiin Chang & CJ Zheng",
+      "heading": "Introducing Gemini 3.8 Live with Live Avatar",
+      "isFootnote": false
+    },
+    {
+      "index": 49,
       "tag": "h3",
       "text": "Gemini 3.8 text-to-speech says hello",
       "heading": "Gemini 3.8 text-to-speech says hello",
       "isFootnote": false
     },
     {
-      "index": 49,
+      "index": 50,
+      "tag": "div",
+      "text": "By Leland Rechis & Alan Cowen",
+      "heading": "Gemini 3.8 text-to-speech says hello",
+      "isFootnote": false
+    },
+    {
+      "index": 51,
       "tag": "h3",
       "text": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "heading": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "isFootnote": false
     },
     {
-      "index": 50,
+      "index": 52,
+      "tag": "div",
+      "text": "By Tom Ouyang & Malini Jaganathan",
+      "heading": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "isFootnote": false
+    },
+    {
+      "index": 53,
       "tag": "h3",
       "text": "Proactive cyber defense for governments and enterprises",
       "heading": "Proactive cyber defense for governments and enterprises",
       "isFootnote": false
     },
     {
-      "index": 51,
+      "index": 54,
       "tag": "h3",
       "text": "The latest AI news we announced in August 2026",
+      "heading": "The latest AI news we announced in August 2026",
+      "isFootnote": false
+    },
+    {
+      "index": 55,
+      "tag": "div",
+      "text": "By News from Google Team",
       "heading": "The latest AI news we announced in August 2026",
       "isFootnote": false
     }

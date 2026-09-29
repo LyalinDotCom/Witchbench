@@ -404,125 +404,146 @@
     },
     {
       "index": 26,
+      "tag": "div",
+      "text": "Agentic terminal coding Agentic coding: FrontierCode Agentic coding: CursorBench Knowledge work: AA-Briefcase",
+      "heading": "Performance",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
       "tag": "figcaption",
       "text": "Terminal-Bench 4.0 Accuracy vs. cost",
       "heading": "Performance",
       "isFootnote": false
     },
     {
-      "index": 27,
+      "index": 28,
       "tag": "li",
       "text": "Sonnet 5.5",
       "heading": "Performance",
       "isFootnote": false
     },
     {
-      "index": 28,
+      "index": 29,
       "tag": "li",
       "text": "Opus 5.5",
       "heading": "Performance",
       "isFootnote": false
     },
     {
-      "index": 29,
+      "index": 30,
       "tag": "li",
       "text": "Sonnet 5",
       "heading": "Performance",
       "isFootnote": false
     },
     {
-      "index": 30,
+      "index": 31,
       "tag": "li",
       "text": "GPT-5.6 Sol",
       "heading": "Performance",
       "isFootnote": false
     },
     {
-      "index": 31,
+      "index": 32,
+      "tag": "div",
+      "text": "0 10 20 30 40 50 60 70 Score (%) 1 2 5 10 Cost per attempt (USD, log scale)",
+      "heading": "Performance",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
       "tag": "p",
       "text": "Terminal-Bench 4.0 measures how well a model can complete complex, multi-step professional tasks within a command-line interface. At Medium effort, the default in the Claude apps, Sonnet 5.5 far exceeds Sonnet 5’s best score for less than a tenth of the cost per task.",
       "heading": "Performance",
       "isFootnote": false
     },
     {
-      "index": 32,
+      "index": 34,
       "tag": "p",
       "text": "Terminal-Bench and OpenAI did not report GPT-6 Sol performance publicly, so we report GPT-5.6 Sol here.",
       "heading": "Performance",
       "isFootnote": false
     },
     {
-      "index": 33,
+      "index": 35,
       "tag": "h2",
       "text": "Coding",
       "heading": "Coding",
       "isFootnote": false
     },
     {
-      "index": 34,
+      "index": 36,
       "tag": "p",
       "text": "Sonnet 5.5’s jump in performance is particularly noticeable in coding. At High effort on FrontierCode, it scores 10 points higher than Sonnet 5 at the same setting, at about one fifteenth of the cost per task. On CursorBench, which tests models on tasks from real Cursor coding sessions, its best score is within about two points of Opus 5.5.",
       "heading": "Coding",
       "isFootnote": false
     },
     {
-      "index": 35,
+      "index": 37,
       "tag": "p",
       "text": "Early testers appreciated how quickly Sonnet 5.5 can understand a codebase. They were also struck by its efficiency: in head-to-head runs, it batched tool calls together more than Sonnet 5, leading to fewer steps and lower costs.",
       "heading": "Coding",
       "isFootnote": false
     },
     {
-      "index": 36,
+      "index": 38,
       "tag": "p",
       "text": "“In Epic’s early testing, Claude Sonnet 5.5 cleared the same quality bar you’d expect from a higher-tier model, holding up on a system design audit and a data flow review. The new model managed tens of thousands of lines of code for gameplay system architecture, kept responses snappy, handled multi-hour tasks, and delivered with less prescriptive prompting.”",
       "heading": "Coding",
       "isFootnote": false
     },
     {
-      "index": 37,
+      "index": 39,
       "tag": "h2",
       "text": "Knowledge work",
       "heading": "Knowledge work",
       "isFootnote": false
     },
     {
-      "index": 38,
+      "index": 40,
       "tag": "p",
       "text": "Sonnet 5.5 shows gains in multiple areas of knowledge work. On GDPval-AA, which tests models on real-world tasks across 44 occupations and nine major industries, Sonnet 5.5 scores nearly level with Opus 5.5 and about 400 points above Sonnet 5. It’s close to Opus 5.5 in computer use and chart recognition, and clearly outperforms Sonnet 5 and GPT-6 Sol on long-horizon knowledge work.",
       "heading": "Knowledge work",
       "isFootnote": false
     },
     {
-      "index": 39,
+      "index": 41,
       "tag": "p",
       "text": "Early testers highlighted less quantifiable improvements. They found it to be a more natural conversational partner and remarked on its knack for design, noting that it adds polish to user interfaces and can follow slide templates to create decks that require minimal editing. In one internal test, we gave it a public company’s quarterly earnings materials and call transcripts, along with a slide template, and asked for a 10-slide operating review. Two experts judged its first draft to be ready to send as is.",
       "heading": "Knowledge work",
       "isFootnote": false
     },
     {
-      "index": 40,
+      "index": 42,
+      "tag": "div",
+      "text": "Slack Zendesk Balyasny Asset Management Box Lovable Atlassian",
+      "heading": "Knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 43,
       "tag": "p",
       "text": "“Without changing any of our prompts, Claude Sonnet 5.5 did better than Sonnet 5 on almost all of our offline Slackbot evals, in fewer steps and with about 14% fewer output tokens. When someone gives Slackbot a task, quality and speed are what matter most, and Sonnet 5.5 allows Slackbot to deliver better outcomes for users, faster.”",
       "heading": "Knowledge work",
       "isFootnote": false
     },
     {
-      "index": 41,
+      "index": 44,
       "tag": "h2",
       "text": "Cost and speed",
       "heading": "Cost and speed",
       "isFootnote": false
     },
     {
-      "index": 42,
+      "index": 45,
       "tag": "p",
       "text": "Pricing",
       "heading": "Cost and speed",
       "isFootnote": false
     },
     {
-      "index": 43,
+      "index": 46,
       "tag": "tr",
       "text": "Price per 1M tokens | Claude Sonnet 5.5 | Claude Opus 5.5",
       "heading": "Cost and speed",
@@ -546,7 +567,7 @@
       ]
     },
     {
-      "index": 44,
+      "index": 47,
       "tag": "tr",
       "text": "Cache reads | $0.20 | $0.20",
       "heading": "Cost and speed",
@@ -570,7 +591,7 @@
       ]
     },
     {
-      "index": 45,
+      "index": 48,
       "tag": "tr",
       "text": "Cache writes | $2.50 | $5",
       "heading": "Cost and speed",
@@ -594,7 +615,7 @@
       ]
     },
     {
-      "index": 46,
+      "index": 49,
       "tag": "tr",
       "text": "Input tokens | $2 | $4",
       "heading": "Cost and speed",
@@ -618,7 +639,7 @@
       ]
     },
     {
-      "index": 47,
+      "index": 50,
       "tag": "tr",
       "text": "Output tokens | $10 | $20",
       "heading": "Cost and speed",
@@ -642,140 +663,147 @@
       ]
     },
     {
-      "index": 48,
+      "index": 51,
       "tag": "p",
       "text": "Sonnet 5.5 requires fewer tokens per task than Sonnet 5, so it’s less expensive to run. It also generates output 30%+ faster, and its efficiency is immediately noticeable:",
       "heading": "Cost and speed",
       "isFootnote": false
     },
     {
-      "index": 49,
+      "index": 52,
+      "tag": "div",
+      "text": "Creating murmurations Shaping sand dunes Building a clock of clocks",
+      "heading": "Cost and speed",
+      "isFootnote": false
+    },
+    {
+      "index": 53,
       "tag": "p",
       "text": "A murmuration of 400 starlings in one HTML file",
       "heading": "Cost and speed",
       "isFootnote": false
     },
     {
-      "index": 50,
+      "index": 54,
       "tag": "p",
       "text": "Adjusting the effort level lets you balance cost and speed against overall quality. In Claude Code and our apps, the default effort is set to Medium, while the Claude Platform defaults to High. At lower settings, Claude answers faster and uses fewer tokens, which suits routine work. At higher settings, Claude reasons for longer and checks its work more thoroughly.",
       "heading": "Cost and speed",
       "isFootnote": false
     },
     {
-      "index": 51,
+      "index": 55,
       "tag": "h2",
       "text": "Safety",
       "heading": "Safety",
       "isFootnote": false
     },
     {
-      "index": 52,
+      "index": 56,
       "tag": "h3",
       "text": "Alignment",
       "heading": "Alignment",
       "isFootnote": false
     },
     {
-      "index": 53,
+      "index": 57,
       "tag": "p",
       "text": "Sonnet 5.5 doesn’t advance the frontier of our models’ capabilities, so our alignment assessment focused on a targeted set of risks that apply to models of any capability level, including acting against users’ interests, misleading users, and cooperating with high-stakes misuse.",
       "heading": "Alignment",
       "isFootnote": false
     },
     {
-      "index": 54,
+      "index": 58,
       "tag": "p",
       "text": "On our automated behavioral audit, which tests Claude across roughly 1,850 scenarios, Sonnet 5.5 improves on or matches Sonnet 5 on most measures of alignment, resistance to misuse, and honesty. On our newer containment evaluations, Sonnet 5.5 comes close to Opus 5.5, the best model we tested, in how rarely it tries to escape its sandbox, and it’s the least likely of any of our models to probe the limits of its containers. Across the full audit, Opus 5.5 still performs slightly better overall, but we found no evidence that Sonnet 5.5 pursues goals that conflict with the user’s intention.",
       "heading": "Alignment",
       "isFootnote": false
     },
     {
-      "index": 55,
+      "index": 59,
       "tag": "p",
       "text": "As we described in our recent alignment assessment , no set of evaluations reliably catches every failure, and Sonnet 5.5 may have tendencies we haven’t found, which is why we pair our own alignment work with the safeguards described below.",
       "heading": "Alignment",
       "isFootnote": false
     },
     {
-      "index": 56,
+      "index": 60,
       "tag": "h3",
       "text": "Safeguards",
       "heading": "Safeguards",
       "isFootnote": false
     },
     {
-      "index": 57,
+      "index": 61,
       "tag": "p",
       "text": "Cybersecurity. Sonnet 5.5’s cyber capabilities are a large improvement over Sonnet 5’s, so we’re deploying it with safeguards similar to those on Opus 5.5. Users can still find and fix bugs in their code as part of routine software development, but higher-risk cybersecurity tasks will visibly fall back to Sonnet 5. Soon, cyberdefenders will be able to apply to our expanded Cyber Verification Program for tiered access to more advanced capabilities on Sonnet 5.5, Opus 5.5, and Claude Mythos models.",
       "heading": "Safeguards",
       "isFootnote": false
     },
     {
-      "index": 58,
+      "index": 62,
       "tag": "p",
       "text": "Biology. Sonnet 5.5 uses the same set of biology safeguards as Sonnet 5. These target harmful requests; most research, education, and clinical work is unaffected, though some microbiology and virology requests may be flagged in error. Organizations can apply to our Life Sciences Verification Program for access to safeguards designed for the full breadth of biology-related work.",
       "heading": "Safeguards",
       "isFootnote": false
     },
     {
-      "index": 59,
+      "index": 63,
       "tag": "p",
       "text": "Distillation. Distillation attacks, in which attackers use thousands of fake accounts to extract a model’s capabilities at industrial scale, allow bad actors to create highly capable models without the safeguards we build into Claude. Because Sonnet 5.5 is far more capable than its predecessor, it’s the first Sonnet model to launch with safety classifiers that prevent reasoning extraction. Sonnet 5.5 also expands preserved thinking , so Claude’s thinking cannot be decoupled from the account that created it. Most developers won’t notice a change. If you move conversations between accounts, including switching accounts mid-session in Claude Code, our docs article explains the change.",
       "heading": "Safeguards",
       "isFootnote": false
     },
     {
-      "index": 60,
+      "index": 64,
       "tag": "h2",
       "text": "Getting started",
       "heading": "Getting started",
       "isFootnote": false
     },
     {
-      "index": 61,
+      "index": 65,
       "tag": "p",
       "text": "As with Opus 5.5 and Sonnet 5, Claude Sonnet 5.5 is available with zero data retention.",
       "heading": "Getting started",
       "isFootnote": false
     },
     {
-      "index": 62,
+      "index": 66,
       "tag": "p",
       "text": "Claude Sonnet 5.5 is now available on all platforms, including Amazon Web Services, Google Cloud, and Microsoft Azure. Developers can get started on the Claude Platform with claude-sonnet-5-5 . If you run Sonnet with thinking off, you’ll need to switch to the new between_tools setting, which keeps up-front thinking off, before moving to Sonnet 5.5. See our migration guide for details.",
       "heading": "Getting started",
       "isFootnote": false
     },
     {
-      "index": 63,
+      "index": 67,
       "tag": "h2",
       "text": "Footnotes",
       "heading": "Footnotes",
       "isFootnote": true
     },
     {
-      "index": 64,
+      "index": 68,
       "tag": "p",
       "text": "1 Terminal-Bench 4.0 results are reported for Claude Opus 5.5 at Xhigh effort which represents the model’s highest score.",
       "heading": "Footnotes",
       "isFootnote": true
     },
     {
-      "index": 65,
+      "index": 69,
       "tag": "p",
       "text": "2 Sonnet 5.5 scores lower at Max effort than at Xhigh. FrontierCode evaluates whether a code change could be merged without human edits. It penalizes out-of-scope changes, even if they are high-quality or helpful. At Max effort, Sonnet 5.5 more often ran Claude Code’s code-review skill, which splits the review across many subagents, and in two cases Cognition examined, this led to a timeout or to extra edits beyond the task’s scope, and therefore to a lower score.",
       "heading": "Footnotes",
       "isFootnote": true
     },
     {
-      "index": 66,
+      "index": 70,
       "tag": "p",
       "text": "3 Artificial Analysis ran GDPval-AA and AA-Briefcase on a pre-release deployment of Sonnet 5.5 on the Claude Platform, which we found to have a bug that could degrade responses to requests that use structured outputs. We expect the effect on Sonnet 5.5’s scores, if any, to be small and to understate its performance. That bug has since been fixed.",
       "heading": "Footnotes",
       "isFootnote": true
     },
     {
-      "index": 67,
+      "index": 71,
       "tag": "p",
       "text": "4 OpenAI recently fixed a bug that degraded image understanding in GPT-6 Sol. Official AA-Briefcase v1.1 and GDPval-AA v2.1 scores from Artificial Analysis, and Chartography scores from Surge AI, may not have been updated yet to reflect the latest version of the model. Artificial Analysis does not expect major impacts to AA-Briefcase v1.1 and GDPval-AA v2.1. Internal testing of Chartography suggests its score was not impacted.",
       "heading": "Footnotes",

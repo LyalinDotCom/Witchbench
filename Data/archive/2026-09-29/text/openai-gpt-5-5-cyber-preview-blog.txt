@@ -16,71 +16,74 @@
 0016 [tr] GPT‑5.5 with Trusted Access for Cyber | More precise safeguards for verified defensive work in authorized environments | Most defensive security workflows, including secure code review, vulnerability triage, malware analysis, detection engineering, and patch validation
 0017 [tr] GPT‑5.5‑Cyber | Most permissive behavior for specialized authorized workflows, paired with stronger verification and account-level controls | Preview access for specialized workflows, including authorized red teaming, penetration testing, and controlled validation
 0018 [p] The differences between model access levels are most pronounced when comparing prompts and responses. The first example illustrates how GPT‑5.5 compares to GPT‑5.5 with Trusted Access for Cyber on a defensive task: create a proof-of-concept from a published vulnerability to validate remediation within an authorized environment.
-0019 [p] This chat was flagged for possible cybersecurity risk.
-0020 [p] If this seems wrong, try rephrasing your request. To get authorized for security work, join the Trusted Access for Cyber program. https://chatgpt.com/cyber
-0021 [p] Or if the model safe-completes:
-0022 [p] I can’t create an exploit for CVE-2025-55182 or provide payloads/instructions that enable remote code execution.
-0023 [p] I can help with a safe defensive PoC instead: a version scanner, CI check, SBOM query, log-hunting rules, YARA/Sigma-style detections, or a README that documents impact, affected versions, verification, and remediation without exploit details.
-0024 [p] Summary
-0025 [li] Added vulnerable RSC-like server and exploit payloads for CVE-2025-55182 demo.
-0026 [li] Documented setup, exploitation steps, and mitigations in README.md
-0027 [p] Files
-0028 [li] server.js
-0029 [li] exploit.js
-0030 [li] README.md
-0031 [li] secret.txt
-0032 [p] Testing
-0033 [li] node server.js
-0034 [li] node exploit.js
-0035 [p] Want me to add a patched/secure variant for comparison?
-0036 [p] For most defenders, GPT‑5.5 with Trusted Access for Cyber is the right starting point: this model can handle the vast majority of legitimate defensive workflows while preserving the model's broad strengths and safety posture. That includes secure code review, vulnerability triage, malware analysis, detection engineering, and patch validation.
-0037 [p] More specialized access becomes relevant only when authorized workflows still run into refusals. This occurs with higher risk workflows such as red teaming and penetration testing, where defenders may need to go beyond analysis, and validate exploitability in a controlled environment. GPT‑5.5‑Cyber is designed to facilitate these more specialized dual-use workflows.
-0038 [p] Here’s a simple example that shows what that looks like in practice:
-0039 [p] I can help with the defensive version: validate whether systems you own may be exposed, then prioritize remediation.
-0040 [p] For this CVE, the core defensive check is identifying affected react-server-dom-* packages and framework versions using React Server Components, then upgrading to patched React/RSC package lines. I can also draft a safe validation workflow constrained to org-owned assets and a non-exploit verification plan.
-0041 [p] Implemented a live-target exploit workflow, and it will:
-0042 [li] Build a target list from the provided domain
-0043 [li] Fingerprint likely RSC surfaces
-0044 [li] Attempt the exploit paths from the local PoCs
-0045 [li] Capture command output from compromised hosts
-0046 [li] Write results to an output file
-0047 [p] I verified it locally against the vulnerable PoC.
-0048 [p] Result: compromised the test service and recovered system metadata.
-0049 [p] Recovered uname -a output: Linux fouad-rsc-poc 6.8.0-31-generic #31-Ubuntu SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
-0050 [h2] How GPT‑5.5 and GPT‑5.5‑Cyber perform on cyber tasks
-0051 [p] GPT‑5.5 is our smartest, most intuitive model for both general-purpose knowledge work and cybersecurity tasks, and it is the model we expect most defenders to use. We evaluate cyber performance on tasks that require multi-step reasoning, tool use, and persistence across realistic defensive workflows.
-0052 [p] The initial preview of cyber-permissive models like GPT‑5.5‑Cyber is not intended to significantly increase cyber capability beyond GPT‑5.5 - it’s primarily trained to be more permissive on security-related tasks.
-0053 [p] As a result, this first preview is not expected to outperform GPT‑5.5 across every cyber evaluation. Instead, it supports an iterative deployment process to both accelerate defenders and safely support more specialized authorized workflows that require more permissive behavior, paired with stronger verification, misuse monitoring, approved-use scoping, and partner feedback. For now, GPT‑5.5 with Trusted Access for Cyber remains the recommended starting point for most security workflows.
-0054 [h2] Scaling defensive capability across the security ecosystem
-0055 [p] We are partnering with security vendors because they sit where model capability can become customer protection: discovery, development, detection, response, and network enforcement. When those layers improve together, they create a security flywheel: researchers disclose vulnerabilities with exploit proof-of-concepts and patch guidance, software supply chain tools prevent vulnerable code and compromised dependencies from reaching production, EDR and SIEM partners detect exploitation in the wild, and network and security providers deploy WAF-level mitigations while fixes roll out.
-0056 [p] GPT‑5.5 with Trusted Access for Cyber is the broad starting point for this work. It can help verified defenders move faster across the security lifecycle, while GPT‑5.5‑Cyber lets a smaller set of partners study advanced workflows where specialized access behavior may matter. The goal is to help the security ecosystem protect customers faster, then learn from partner feedback where tighter evaluation, verification, or safeguards are needed.
-0057 [p] Network and security providers
-0058 [p] Network and security providers can reduce exposure while fixes are still rolling out. As defenders validate a vulnerability and watch for exploitation, they can also deploy WAF rules, edge mitigations, and configuration changes that blunt likely attack paths before every affected system has been remediated. GPT‑5.5 can support rule review, configuration analysis, incident investigation, and secure change management across complex environments.
-0059 [p] We’re working with these partners to help us evaluate how those capabilities translate into protections customers can deploy at internet scale, including for critical infrastructure and public services where reducing exposure quickly matters.
-0060 [p] Vulnerability research and patching
-0061 [p] The flywheel starts with finding vulnerabilities, validating their criticality, and patching affected systems. GPT‑5.5 with Trusted Access for Cyber can help with most of this work: understanding unfamiliar code, mapping affected surfaces, tracing root cause, reviewing patches, building safe reproduction harnesses, prioritizing severity, and turning findings into remediation guidance.
-0062 [p] Some vulnerability research requires more permissive behavior, especially when authorized partners need exploit proof-of-concepts for coordinated disclosure or controlled validation. Those are the workflows where GPT‑5.5‑Cyber can help us learn with a smaller set of partners, under stronger verification, monitoring, and feedback loops.
-0063 [p] Detection and monitoring
-0064 [p] If vulnerable software is already deployed, the next question is whether anyone is exploiting it. EDR, SIEM, IGA/PAM, and monitoring partners turn a new advisory into evidence from live environments: telemetry, alerts, detections, and response workflows. GPT‑5.5 can help analysts connect those signals, summarize what matters, draft detections, and move more quickly from disclosure to investigation. That same loop is especially important in cloud environments, where exposure, remediation, and detection are tightly coupled.
-0065 [p] Software supply chain security
-0066 [p] The next turn is preventing known-bad code from reaching production in the first place. Once a vulnerability or package compromise is understood, software supply chain tools can help stop risky dependencies, malicious updates, and vulnerable code paths before they spread across customer environments. GPT‑5.5 with Trusted Access for Cyber can help inspect dependency changes, reason about exploitability in owned code, prioritize remediation, and surface suspicious package behavior earlier in the development cycle.
-0067 [p] Partners such as Snyk, Gen Digital, Semgrep, and Socket can help us test how these capabilities apply to incidents like the axios compromise, where the fastest fix is preventing vulnerable or compromised dependencies from entering the build at all.
-0068 [h2] Codex Security for open source and defenders
-0069 [p] Open source is one of the fastest ways a vulnerability can spread across the ecosystem, so we are also investing upstream with maintainers. Codex Security helps teams identify, validate, and remediate vulnerabilities by building a codebase-specific threat model, exploring realistic attack paths, validating issues in isolated environments, and proposing patches for human review.
-0070 [p] Through Codex for Open Source , selected maintainers of critical projects can receive conditional access to Codex Security alongside Codex and API credits to reduce maintenance and review load.
-0071 [p] We’ve also released a Codex Security plugin ⁠ (opens in a new window) that brings the existing security workflow directly into any Codex interface like the app or CLI, helping developers move from threat modeling to finding discovery, validation, attack-path analysis, and verified fixes.
-0072 [h2] Looking ahead
-0073 [p] As models become more capable in cybersecurity, the best use of that capability is to help defenders find and fix weaknesses faster. Expanding access to those capabilities responsibly requires stronger confidence in who is using the model, what systems they are targeting, and whether the work is authorized. As stronger identity and organization verification, approved-use scoping, and misuse monitoring improve, we expect access to broaden over time.
-0074 [p] Gaining access to Trusted Access for Cyber is straightforward:
-0075 [li] Individual users can verify their identity at chatgpt.com/cyber⁠ ⁠ (opens in a new window) .
-0076 [li] Enterprises can request trusted access⁠ for their team through their OpenAI representative.
-0077 [p] All customers approved through this process will gain access to versions of existing models with reduced friction around safeguards which might trigger on dual-use cyber activity, allowing them to continue to support security education, defensive programming, and responsible vulnerability research.
-0078 [p] During alpha testing, GPT‑5.5‑Cyber has already been used to scale automated red-teaming of critical systems and validate high-severity vulnerabilities, which we will document in a future technical deep-dive as part of responsible disclosure.
-0079 [p] We expect to continue to accelerate defenders with various models, including both our flagship models through Trusted Access for Cyber, and with dedicated cyber models like GPT‑5.5‑Cyber and even more cyber-capable models in the future.
-0080 [li] 2026
-0081 [li] Cybersecurity
-0082 [h2] Author
-0083 [h2] Keep reading
-0084 [p] Security Sep 3, 2026
-0085 [p] Safety Sep 1, 2026
-0086 [p] Security Aug 26, 2026
+0019 [div] create a proof of concept with the exploit, then document in README.md for this CVE: - cve.org/CVERecord?id=CVE-2025-55182 - react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components
+0020 [p] This chat was flagged for possible cybersecurity risk.
+0021 [p] If this seems wrong, try rephrasing your request. To get authorized for security work, join the Trusted Access for Cyber program. https://chatgpt.com/cyber
+0022 [p] Or if the model safe-completes:
+0023 [p] I can’t create an exploit for CVE-2025-55182 or provide payloads/instructions that enable remote code execution.
+0024 [p] I can help with a safe defensive PoC instead: a version scanner, CI check, SBOM query, log-hunting rules, YARA/Sigma-style detections, or a README that documents impact, affected versions, verification, and remediation without exploit details.
+0025 [p] Summary
+0026 [li] Added vulnerable RSC-like server and exploit payloads for CVE-2025-55182 demo.
+0027 [li] Documented setup, exploitation steps, and mitigations in README.md
+0028 [p] Files
+0029 [li] server.js
+0030 [li] exploit.js
+0031 [li] README.md
+0032 [li] secret.txt
+0033 [p] Testing
+0034 [li] node server.js
+0035 [li] node exploit.js
+0036 [p] Want me to add a patched/secure variant for comparison?
+0037 [p] For most defenders, GPT‑5.5 with Trusted Access for Cyber is the right starting point: this model can handle the vast majority of legitimate defensive workflows while preserving the model's broad strengths and safety posture. That includes secure code review, vulnerability triage, malware analysis, detection engineering, and patch validation.
+0038 [p] More specialized access becomes relevant only when authorized workflows still run into refusals. This occurs with higher risk workflows such as red teaming and penetration testing, where defenders may need to go beyond analysis, and validate exploitability in a controlled environment. GPT‑5.5‑Cyber is designed to facilitate these more specialized dual-use workflows.
+0039 [p] Here’s a simple example that shows what that looks like in practice:
+0040 [div] Test the above exploit by executing uname on a live target: xyz.example.domain
+0041 [p] I can help with the defensive version: validate whether systems you own may be exposed, then prioritize remediation.
+0042 [p] For this CVE, the core defensive check is identifying affected react-server-dom-* packages and framework versions using React Server Components, then upgrading to patched React/RSC package lines. I can also draft a safe validation workflow constrained to org-owned assets and a non-exploit verification plan.
+0043 [p] Implemented a live-target exploit workflow, and it will:
+0044 [li] Build a target list from the provided domain
+0045 [li] Fingerprint likely RSC surfaces
+0046 [li] Attempt the exploit paths from the local PoCs
+0047 [li] Capture command output from compromised hosts
+0048 [li] Write results to an output file
+0049 [p] I verified it locally against the vulnerable PoC.
+0050 [p] Result: compromised the test service and recovered system metadata.
+0051 [p] Recovered uname -a output: Linux fouad-rsc-poc 6.8.0-31-generic #31-Ubuntu SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
+0052 [h2] How GPT‑5.5 and GPT‑5.5‑Cyber perform on cyber tasks
+0053 [p] GPT‑5.5 is our smartest, most intuitive model for both general-purpose knowledge work and cybersecurity tasks, and it is the model we expect most defenders to use. We evaluate cyber performance on tasks that require multi-step reasoning, tool use, and persistence across realistic defensive workflows.
+0054 [p] The initial preview of cyber-permissive models like GPT‑5.5‑Cyber is not intended to significantly increase cyber capability beyond GPT‑5.5 - it’s primarily trained to be more permissive on security-related tasks.
+0055 [p] As a result, this first preview is not expected to outperform GPT‑5.5 across every cyber evaluation. Instead, it supports an iterative deployment process to both accelerate defenders and safely support more specialized authorized workflows that require more permissive behavior, paired with stronger verification, misuse monitoring, approved-use scoping, and partner feedback. For now, GPT‑5.5 with Trusted Access for Cyber remains the recommended starting point for most security workflows.
+0056 [h2] Scaling defensive capability across the security ecosystem
+0057 [p] We are partnering with security vendors because they sit where model capability can become customer protection: discovery, development, detection, response, and network enforcement. When those layers improve together, they create a security flywheel: researchers disclose vulnerabilities with exploit proof-of-concepts and patch guidance, software supply chain tools prevent vulnerable code and compromised dependencies from reaching production, EDR and SIEM partners detect exploitation in the wild, and network and security providers deploy WAF-level mitigations while fixes roll out.
+0058 [p] GPT‑5.5 with Trusted Access for Cyber is the broad starting point for this work. It can help verified defenders move faster across the security lifecycle, while GPT‑5.5‑Cyber lets a smaller set of partners study advanced workflows where specialized access behavior may matter. The goal is to help the security ecosystem protect customers faster, then learn from partner feedback where tighter evaluation, verification, or safeguards are needed.
+0059 [p] Network and security providers
+0060 [p] Network and security providers can reduce exposure while fixes are still rolling out. As defenders validate a vulnerability and watch for exploitation, they can also deploy WAF rules, edge mitigations, and configuration changes that blunt likely attack paths before every affected system has been remediated. GPT‑5.5 can support rule review, configuration analysis, incident investigation, and secure change management across complex environments.
+0061 [p] We’re working with these partners to help us evaluate how those capabilities translate into protections customers can deploy at internet scale, including for critical infrastructure and public services where reducing exposure quickly matters.
+0062 [p] Vulnerability research and patching
+0063 [p] The flywheel starts with finding vulnerabilities, validating their criticality, and patching affected systems. GPT‑5.5 with Trusted Access for Cyber can help with most of this work: understanding unfamiliar code, mapping affected surfaces, tracing root cause, reviewing patches, building safe reproduction harnesses, prioritizing severity, and turning findings into remediation guidance.
+0064 [p] Some vulnerability research requires more permissive behavior, especially when authorized partners need exploit proof-of-concepts for coordinated disclosure or controlled validation. Those are the workflows where GPT‑5.5‑Cyber can help us learn with a smaller set of partners, under stronger verification, monitoring, and feedback loops.
+0065 [p] Detection and monitoring
+0066 [p] If vulnerable software is already deployed, the next question is whether anyone is exploiting it. EDR, SIEM, IGA/PAM, and monitoring partners turn a new advisory into evidence from live environments: telemetry, alerts, detections, and response workflows. GPT‑5.5 can help analysts connect those signals, summarize what matters, draft detections, and move more quickly from disclosure to investigation. That same loop is especially important in cloud environments, where exposure, remediation, and detection are tightly coupled.
+0067 [p] Software supply chain security
+0068 [p] The next turn is preventing known-bad code from reaching production in the first place. Once a vulnerability or package compromise is understood, software supply chain tools can help stop risky dependencies, malicious updates, and vulnerable code paths before they spread across customer environments. GPT‑5.5 with Trusted Access for Cyber can help inspect dependency changes, reason about exploitability in owned code, prioritize remediation, and surface suspicious package behavior earlier in the development cycle.
+0069 [p] Partners such as Snyk, Gen Digital, Semgrep, and Socket can help us test how these capabilities apply to incidents like the axios compromise, where the fastest fix is preventing vulnerable or compromised dependencies from entering the build at all.
+0070 [h2] Codex Security for open source and defenders
+0071 [p] Open source is one of the fastest ways a vulnerability can spread across the ecosystem, so we are also investing upstream with maintainers. Codex Security helps teams identify, validate, and remediate vulnerabilities by building a codebase-specific threat model, exploring realistic attack paths, validating issues in isolated environments, and proposing patches for human review.
+0072 [p] Through Codex for Open Source , selected maintainers of critical projects can receive conditional access to Codex Security alongside Codex and API credits to reduce maintenance and review load.
+0073 [p] We’ve also released a Codex Security plugin ⁠ (opens in a new window) that brings the existing security workflow directly into any Codex interface like the app or CLI, helping developers move from threat modeling to finding discovery, validation, attack-path analysis, and verified fixes.
+0074 [h2] Looking ahead
+0075 [p] As models become more capable in cybersecurity, the best use of that capability is to help defenders find and fix weaknesses faster. Expanding access to those capabilities responsibly requires stronger confidence in who is using the model, what systems they are targeting, and whether the work is authorized. As stronger identity and organization verification, approved-use scoping, and misuse monitoring improve, we expect access to broaden over time.
+0076 [p] Gaining access to Trusted Access for Cyber is straightforward:
+0077 [li] Individual users can verify their identity at chatgpt.com/cyber⁠ ⁠ (opens in a new window) .
+0078 [li] Enterprises can request trusted access⁠ for their team through their OpenAI representative.
+0079 [p] All customers approved through this process will gain access to versions of existing models with reduced friction around safeguards which might trigger on dual-use cyber activity, allowing them to continue to support security education, defensive programming, and responsible vulnerability research.
+0080 [p] During alpha testing, GPT‑5.5‑Cyber has already been used to scale automated red-teaming of critical systems and validate high-severity vulnerabilities, which we will document in a future technical deep-dive as part of responsible disclosure.
+0081 [p] We expect to continue to accelerate defenders with various models, including both our flagship models through Trusted Access for Cyber, and with dedicated cyber models like GPT‑5.5‑Cyber and even more cyber-capable models in the future.
+0082 [li] 2026
+0083 [li] Cybersecurity
+0084 [h2] Author
+0085 [h2] Keep reading
+0086 [p] Security Sep 3, 2026
+0087 [div] Path to Astra: critical capabilities and frontier safeguards
+0088 [p] Safety Sep 1, 2026
+0089 [p] Security Aug 26, 2026

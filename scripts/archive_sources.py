@@ -38,8 +38,10 @@ def html_blocks(data):
     main = soup.find('main') or soup.find('article') or soup.body or soup
     blocks = []
     heading = ''
-    for element in main.find_all(['h1','h2','h3','h4','h5','h6','p','li','figcaption','tr']):
+    for element in main.find_all(['h1','h2','h3','h4','h5','h6','p','li','figcaption','tr','div']):
         if element.find_parent(['p', 'li', 'figcaption', 'tr']):
+            continue
+        if element.name=='div' and (element.find(['div','p','li','table','h1','h2','h3','h4','h5','h6','figure','section']) or len(element.get_text(' ',strip=True))<60):
             continue
         if element.name == 'tr':
             text = ' | '.join(cell.get_text(' ', strip=True) for cell in element.find_all(['th','td']))
@@ -60,9 +62,11 @@ def html_blocks(data):
 
 
 def archive_one(row):
+    previous_record = {}
     record_path = ARCHIVE / 'records' / (row['id'] + '.json')
     if record_path.exists():
         record = json.loads(record_path.read_text())
+        previous_record = record
         raw = ROOT / record['localPath']
         if raw.exists() and hashlib.sha256(raw.read_bytes()).hexdigest() == record['sha256'] and not ('--reextract-html' in sys.argv and raw.suffix=='.html'):
             return record
@@ -108,8 +112,8 @@ def archive_one(row):
         blocks_path = ARCHIVE / 'extracted' / (row['id'] + '.json')
         text_path.write_text(text)
         blocks_path.write_text(json.dumps(extraction, ensure_ascii=False, indent=2))
-        record.update(status='archived', retrievedAt=dt.datetime.now(dt.timezone.utc).isoformat(),
-                      finalUrl=meta['url_effective'], contentType=meta['content_type'], bytes=len(data),
+        record.update(status='archived', retrievedAt=previous_record.get('retrievedAt') or dt.datetime.now(dt.timezone.utc).isoformat(),
+                      finalUrl=previous_record.get('finalUrl') or meta['url_effective'], contentType=meta['content_type'], bytes=len(data),
                       sha256=hashlib.sha256(data).hexdigest(), localPath=str(raw.relative_to(ROOT)),
                       textPath=str(text_path.relative_to(ROOT)), extractedPath=str(blocks_path.relative_to(ROOT)))
         record['matchesResearchHash'] = record['sha256'] == row['expectedSha256']

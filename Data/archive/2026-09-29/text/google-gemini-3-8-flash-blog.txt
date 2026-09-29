@@ -45,7 +45,11 @@
 0045 [h2] Related stories
 0046 [h3] See what 4 builders are making with Gemini 3.8 Flash
 0047 [h3] Introducing Gemini 3.8 Live with Live Avatar
-0048 [h3] Gemini 3.8 text-to-speech says hello
-0049 [h3] Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking
-0050 [h3] Proactive cyber defense for governments and enterprises
-0051 [h3] The latest AI news we announced in August 2026
+0048 [div] By Shuo-yiin Chang & CJ Zheng
+0049 [h3] Gemini 3.8 text-to-speech says hello
+0050 [div] By Leland Rechis & Alan Cowen
+0051 [h3] Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking
+0052 [div] By Tom Ouyang & Malini Jaganathan
+0053 [h3] Proactive cyber defense for governments and enterprises
+0054 [h3] The latest AI news we announced in August 2026
+0055 [div] By News from Google Team

@@ -416,29 +416,57 @@
     },
     {
       "index": 60,
+      "tag": "div",
+      "text": "By Shuo-yiin Chang & CJ Zheng",
+      "heading": "Introducing Gemini 3.8 Live with Live Avatar",
+      "isFootnote": false
+    },
+    {
+      "index": 61,
       "tag": "h3",
       "text": "Gemini 3.8 text-to-speech says hello",
       "heading": "Gemini 3.8 text-to-speech says hello",
       "isFootnote": false
     },
     {
-      "index": 61,
+      "index": 62,
+      "tag": "div",
+      "text": "By Leland Rechis & Alan Cowen",
+      "heading": "Gemini 3.8 text-to-speech says hello",
+      "isFootnote": false
+    },
+    {
+      "index": 63,
       "tag": "h3",
       "text": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "heading": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "isFootnote": false
     },
     {
-      "index": 62,
+      "index": 64,
+      "tag": "div",
+      "text": "By Tom Ouyang & Malini Jaganathan",
+      "heading": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "isFootnote": false
+    },
+    {
+      "index": 65,
       "tag": "h3",
       "text": "Proactive cyber defense for governments and enterprises",
       "heading": "Proactive cyber defense for governments and enterprises",
       "isFootnote": false
     },
     {
-      "index": 63,
+      "index": 66,
       "tag": "h3",
       "text": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "heading": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "isFootnote": false
+    },
+    {
+      "index": 67,
+      "tag": "div",
+      "text": "By Tulsee Doshi & Raluca Ada Popa",
       "heading": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
       "isFootnote": false
     }

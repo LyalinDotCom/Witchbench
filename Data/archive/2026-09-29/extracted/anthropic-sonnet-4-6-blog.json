@@ -150,167 +150,272 @@
     },
     {
       "index": 22,
+      "tag": "div",
+      "text": "Claude Sonnet 4.6 matches Opus 4.6 performance on OfficeQA, which measures how well a model can read enterprise documents (charts, PDFs, tables), pull the right facts, and reason from those facts. It’s a meaningful upgrade for document comprehension workloads.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "div",
+      "text": "The performance-to-cost ratio of Claude Sonnet 4.6 is extraordinary—it’s hard to overstate how fast Claude models have been evolving in recent months. Sonnet 4.6 outperforms on our orchestration evals, handles our most complex agentic workloads, and keeps improving the higher you push the effort settings.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "div",
+      "text": "Claude Sonnet 4.6 is a notable improvement over Sonnet 4.5 across the board, including long-horizon tasks and more difficult problems.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "div",
+      "text": "Out of the gate, Claude Sonnet 4.6 is already excelling at complex code fixes, especially when searching across large codebases is essential. For teams running agentic coding at scale, we’re seeing strong resolution rates and the kind of consistency developers need.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "div",
+      "text": "Claude Sonnet 4.6 has meaningfully closed the gap with Opus on bug detection, letting us run more reviewers in parallel, catch a wider variety of bugs, and do it all without increasing cost.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "div",
+      "text": "For the first time, Sonnet brings frontier-level reasoning in a smaller and more cost-effective form factor. It provides a viable alternative if you are a heavy Opus user.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "div",
+      "text": "Claude Sonnet 4.6 meaningfully improves the answer retrieval behind our core product—we saw a significant jump in answer match rate compared to Sonnet 4.5 in our Financial Services Benchmark, with better recall on the specific workflows our customers depend on.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "div",
+      "text": "Box evaluated how Claude Sonnet 4.6 performs when tested on deep reasoning and complex agentic tasks across real enterprise documents. It demonstrated significant improvements, outperforming Claude Sonnet 4.5 in heavy reasoning Q&A by 15 percentage points.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "div",
+      "text": "Claude Sonnet 4.6 hit 94% on our insurance benchmark, making it the highest-performing model we’ve tested for computer use. This kind of accuracy is mission-critical to workflows like submission intake and first notice of loss.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "div",
+      "text": "Claude Sonnet 4.6 delivers frontier-level results on complex app builds and bug-fixing. It’s becoming our go-to for the kind of deep codebase work that used to require more expensive models.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "div",
+      "text": "Claude Sonnet 4.6 produced the best iOS code we’ve tested for Rakuten AI. Better spec compliance, better architecture, and it reached for modern tooling we didn’t ask for, all in one shot. The results genuinely surprised us.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "div",
+      "text": "Sonnet 4.6 is a significant leap forward on reasoning through difficult tasks. We find it especially strong on branched and multi-step tasks like contract routing, conditional template selection, and CRM coordination—exactly where our customers need strong model sense and reliability.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 34,
+      "tag": "div",
+      "text": "We’ve been impressed by how accurately Claude Sonnet 4.6 handles complex computer use. It’s a clear improvement over anything else we’ve tested in our evals.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 35,
+      "tag": "div",
+      "text": "Claude Sonnet 4.6 has perfect design taste when building frontend pages and data reports, and it requires far less hand-holding to get there than anything we’ve tested before.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 36,
+      "tag": "div",
+      "text": "Claude Sonnet 4.6 was exceptionally responsive to direction — delivering precise figures and structured comparisons when asked, while also generating genuinely useful ideas on trial strategy and exhibit preparation.",
+      "heading": "Evaluating Claude Sonnet 4.6",
+      "isFootnote": false
+    },
+    {
+      "index": 37,
       "tag": "h2",
       "text": "Product updates",
       "heading": "Product updates",
       "isFootnote": false
     },
     {
-      "index": 23,
+      "index": 38,
       "tag": "p",
       "text": "On the Claude Platform, Sonnet 4.6 supports both adaptive thinking and extended thinking, as well as context compaction in beta, which automatically summarizes older context as conversations approach limits, increasing effective context length.",
       "heading": "Product updates",
       "isFootnote": false
     },
     {
-      "index": 24,
+      "index": 39,
       "tag": "p",
       "text": "On our API, Claude’s web search and fetch tools now automatically write and execute code to filter and process search results , keeping only relevant content in context—improving both response quality and token efficiency. Additionally, code execution , memory , programmatic tool calling , tool search , and tool use examples are now generally available.",
       "heading": "Product updates",
       "isFootnote": false
     },
     {
-      "index": 25,
+      "index": 40,
       "tag": "p",
       "text": "Sonnet 4.6 offers strong performance at any thinking effort, even with extended thinking off. As part of your migration from Sonnet 4.5, we recommend exploring across the spectrum to find the ideal balance of speed and reliable performance, depending on what you’re building.",
       "heading": "Product updates",
       "isFootnote": false
     },
     {
-      "index": 26,
+      "index": 41,
       "tag": "p",
       "text": "We find that Opus 4.6 remains the strongest option for tasks that demand the deepest reasoning, such as codebase refactoring, coordinating multiple agents in a workflow, and problems where getting it just right is paramount.",
       "heading": "Product updates",
       "isFootnote": false
     },
     {
-      "index": 27,
+      "index": 42,
       "tag": "p",
       "text": "For Claude in Excel users, our add-in now supports MCP connectors, letting Claude work with the other tools you use day-to-day, like S&P Global, LSEG, Daloopa, PitchBook, Moody’s, and FactSet. You can ask Claude to pull in context from outside your spreadsheet without ever leaving Excel. If you’ve already set up MCP connectors in Claude.ai, those same connections will work in Excel automatically. This is available on Pro, Max, Team, and Enterprise plans.",
       "heading": "Product updates",
       "isFootnote": false
     },
     {
-      "index": 28,
+      "index": 43,
       "tag": "h2",
       "text": "How to use Claude Sonnet 4.6",
       "heading": "How to use Claude Sonnet 4.6",
       "isFootnote": false
     },
     {
-      "index": 29,
+      "index": 44,
       "tag": "p",
       "text": "Claude Sonnet 4.6 is available now on all Claude plans , Claude Cowork , Claude Code , our API, and all major cloud platforms. We’ve also upgraded our free tier to Sonnet 4.6 by default—it now includes file creation, connectors, skills, and compaction.",
       "heading": "How to use Claude Sonnet 4.6",
       "isFootnote": false
     },
     {
-      "index": 30,
+      "index": 45,
       "tag": "p",
       "text": "If you’re a developer, you can get started quickly by using claude-sonnet-4-6 via the Claude API .",
       "heading": "How to use Claude Sonnet 4.6",
       "isFootnote": false
     },
     {
-      "index": 31,
+      "index": 46,
       "tag": "h4",
       "text": "Footnotes",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 32,
+      "index": 47,
       "tag": "li",
       "text": "For GPT-5.2 and Gemini 3 Pro, we compared against the best reported model version available via API in the charts and table.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 33,
+      "index": 48,
       "tag": "li",
       "text": "OSWorld : OSWorld tests a specific set of computer tasks in a controlled environment. It’s one of the best measures we have, but not a complete picture of real-world computer use. Real-world computer use is often messier and more ambiguous, and it carries higher stakes for errors. No benchmark fully captures that yet.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 34,
+      "index": 49,
       "tag": "li",
       "text": "Terminal-Bench 2.0: We report both scores reproduced on our infrastructure and published scores from other labs. All runs used the Terminus-2 harness, except for OpenAI’s Codex CLI. All experiments used 1× guaranteed/3× ceiling resource allocation and 5–15 samples per task across staggered batches. The Sonnet 4.6 score reported is with thinking turned off.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 35,
+      "index": 50,
       "tag": "li",
       "text": "SWE-bench Verified : Our score was averaged over 10 trials. With a prompt modification, we saw a score of 80.2%.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 36,
+      "index": 51,
       "tag": "li",
       "text": "Humanity’s Last Exam: Claude models run “with tools” were run with web search, web fetch, code execution, programmatic tool calling, context compaction triggered at 50k tokens up to 3M total tokens, max reasoning effort, and adaptive thinking enabled. A domain blocklist was used to decontaminate eval results.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 37,
+      "index": 52,
       "tag": "li",
       "text": "BrowseComp : Claude models were run with web search, web fetch, programmatic tool calling, context compaction triggered at 50k tokens up to 10M total tokens, max reasoning effort, and no thinking enabled.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 38,
+      "index": 53,
       "tag": "li",
       "text": "ARC-AGI-2: Claude Sonnet 4.6 was run with max and high effort and a 120k thinking budget score. The score shown reflects max effort; with high effort, we achieve a score of 60.4%.",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 39,
+      "index": 54,
       "tag": "li",
       "text": "MMMU-Pro : We made two small updates to our MMMU-Pro implementation that have affected the score: 1) our previous implementation contained the prefix “Let’s think step-by-step,” which we have removed, and 2) we previously graded this multiple-choice eval by looking at on-policy token probabilities of the multiple-choice options; we now grade it using a separate model (Claude Sonnet 4).",
       "heading": "Footnotes",
       "isFootnote": false
     },
     {
-      "index": 40,
+      "index": 55,
       "tag": "h2",
       "text": "Related content",
       "heading": "Related content",
       "isFootnote": false
     },
     {
-      "index": 41,
+      "index": 56,
       "tag": "h3",
       "text": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "heading": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "isFootnote": false
     },
     {
-      "index": 42,
+      "index": 57,
       "tag": "p",
       "text": "We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.",
       "heading": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "isFootnote": false
     },
     {
-      "index": 43,
+      "index": 58,
       "tag": "h3",
       "text": "Partnering with Accenture on embedded evaluation",
       "heading": "Partnering with Accenture on embedded evaluation",
       "isFootnote": false
     },
     {
-      "index": 44,
+      "index": 59,
       "tag": "h3",
       "text": "Introducing the Life Sciences Verification Program",
       "heading": "Introducing the Life Sciences Verification Program",
       "isFootnote": false
     },
     {
-      "index": 45,
+      "index": 60,
       "tag": "p",
       "text": "The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.",
       "heading": "Introducing the Life Sciences Verification Program",

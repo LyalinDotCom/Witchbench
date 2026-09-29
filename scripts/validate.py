@@ -46,6 +46,7 @@ for a in json.loads((ARCHIVE/'manifest.json').read_text()):
     assert hashlib.sha256(raw.read_bytes()).hexdigest()==a['sha256']
     public=PUBLIC/f'archive/2026-09-29/raw/{raw.name}'
     assert hashlib.sha256(public.read_bytes()).hexdigest()==a['sha256']
+    assert (ROOT/a['textPath']).read_bytes()==(PUBLIC/'archive/2026-09-29/text'/Path(a['textPath']).name).read_bytes()
 for a in json.loads((ARCHIVE/'assets-manifest.json').read_text()):
     assert a['status']=='archived',a['sourceUrl']
     assert hashlib.sha256((ARCHIVE/'assets'/a['file']).read_bytes()).hexdigest()==a['sha256']

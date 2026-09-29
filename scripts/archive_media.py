@@ -73,11 +73,29 @@ def main():
             continue
         main = documents[a['id']]
         figure_number = 0
-        for element in main.find_all(['script','style','noscript','template','iframe','form','nav','header','footer','video','audio','source']):
+        for index,panel in enumerate(main.select('[data-data]'),1):
+            try:
+                data=json.loads(panel['data-data'])
+                datasets=data['datasets']; models=data['modelNames']
+                table=BeautifulSoup('<table><thead><tr><th>Dataset</th></tr></thead><tbody></tbody></table>','html.parser').table
+                table['id']='table-'+str(index)
+                for model in models:
+                    cell=BeautifulSoup('<th></th>','html.parser').th;cell.string=model;table.thead.tr.append(cell)
+                for dataset in datasets:
+                    row=BeautifulSoup('<tr></tr>','html.parser').tr
+                    cell=BeautifulSoup('<td></td>','html.parser').td;cell.string=dataset['name'];row.append(cell)
+                    for model in models:
+                        score=dataset.get('modelScores',{}).get(model,{})
+                        cell=BeautifulSoup('<td></td>','html.parser').td;cell.string=str(score.get('display',score.get('value','—')));row.append(cell)
+                    table.tbody.append(row)
+                panel.replace_with(table)
+            except (ValueError,KeyError,TypeError):
+                pass
+        for element in main.find_all(['script','style','noscript','template','iframe','form','nav','header','footer','video','audio','source','button','select']):
             element.decompose()
         for element in main.find_all(True):
             for key in list(element.attrs):
-                if key.startswith('on') or key in ['style','srcset','class','id','loading']:
+                if key.startswith('on') or key in ['style','srcset','class','loading'] or (key=='id' and not str(element[key]).startswith('table-')):
                     del element[key]
             if element.name=='img':
                 figure_number += 1
