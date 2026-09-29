@@ -2,7 +2,7 @@
   "hosting": {
     "public": "site/dist",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "cleanUrls": true,
+    "cleanUrls": false,
     "headers": [
       {"source": "**", "headers": [
         {"key": "X-Content-Type-Options", "value": "nosniff"},
