@@ -16,6 +16,8 @@
     viewTrends: document.getElementById('view-trends'),
     search: document.getElementById('search'),
     count: document.getElementById('count'),
+    benchmarkFilter: document.getElementById('benchmark-filter'),
+    benchmarkFilterName: document.getElementById('benchmark-filter-name'),
     span: document.getElementById('span'),
     earlier: document.getElementById('earlier'),
     later: document.getElementById('later'),
@@ -50,7 +52,8 @@
   const state = {
     releases: [],        // sorted oldest to newest
     benchmarks: [],      // sorted most used to least used, then by name
-    visible: [],         // releases currently shown (after search)
+    visible: [],         // releases currently shown (after model and benchmark filters)
+    benchmarkFilter: null,
     cells: new Map(),    // `${releaseId}\u0000${benchmarkId}` -> finding[]
     usage: new Map(),    // benchmarkId -> distinct releases with a verified tier
     artifacts: new Map(),
@@ -302,7 +305,11 @@
     const frag = document.createDocumentFragment();
     for (const b of state.benchmarks) {
       const usage = state.usage.get(b.id) || 0;
-      const label = h('span', { className: 'row-label' },
+      const label = h('button', {
+        type: 'button', className: 'row-label', dataset: { filterBenchmark: b.id },
+        'aria-pressed': String(state.benchmarkFilter === b.id),
+        title: state.benchmarkFilter === b.id ? 'Remove benchmark filter' : 'Show releases that use this benchmark',
+      },
         h('span', { className: 'name', text: b.name }),
         h('span', { className: 'usage', 'aria-hidden': 'true', text: String(usage) }),
         h('span', { className: 'visually-hidden', text: `, used by ${plural(usage, 'release')}` }));
@@ -818,6 +825,7 @@
     if (!['matrix', 'compare', 'trends'].includes(view)) return;
     state.view = view;
     el.toolbar.dataset.view = view;
+    el.benchmarkFilter.hidden = !state.benchmarkFilter || view === 'compare';
     el.viewMatrix.setAttribute('aria-pressed', String(view === 'matrix'));
     el.viewCompare.setAttribute('aria-pressed', String(view === 'compare'));
     el.viewTrends.setAttribute('aria-pressed', String(view === 'trends'));
@@ -851,12 +859,12 @@
   function applySearch() {
     const terms = parseQuery(el.search.value);
     const total = state.releases.length;
-    state.visible = terms.length
-      ? state.releases.filter((r) => {
-          const name = r.name.toLowerCase();
-          return terms.some((t) => name.includes(t));
-        })
-      : state.releases;
+    state.visible = state.releases.filter((r) =>
+      (!terms.length || terms.some((t) => r.name.toLowerCase().includes(t)))
+      && (!state.benchmarkFilter || isUsed(r.id, state.benchmarkFilter)));
+    const benchmark = state.benchmarkById.get(state.benchmarkFilter);
+    el.benchmarkFilterName.textContent = benchmark?.name || '';
+    el.benchmarkFilter.setAttribute('aria-label', `Clear benchmark filter${benchmark ? `: ${benchmark.name}` : ''}`);
 
     if (state.visible.length === 0) {
       el.count.textContent = `0 of ${total}`;
@@ -865,7 +873,7 @@
       return;
     }
 
-    el.count.textContent = terms.length ? `${state.visible.length} of ${total}` : `${total} releases`;
+    el.count.textContent = terms.length || state.benchmarkFilter ? `${state.visible.length} of ${total}` : `${total} releases`;
     state.activeReleaseId = state.visible.at(-1).id;
     renderMatrix();
     setView(state.view);
@@ -874,9 +882,9 @@
 
   function showNoMatches() {
     showState([
-      h('p', { className: 'error-title', text: 'No releases match that name.' }),
-      h('p', { text: 'Try Sonnet, GPT or Gemini, or separate several names with commas.' }),
-      h('p', null, h('button', { className: 'button', type: 'button', id: 'clear-search', text: 'Clear the filter' })),
+      h('p', { className: 'error-title', text: state.benchmarkFilter ? 'No releases match these filters.' : 'No releases match that name.' }),
+      h('p', { text: state.benchmarkFilter ? 'Clear the benchmark filter or try another model name.' : 'Try Sonnet, GPT or Gemini, or separate several names with commas.' }),
+      h('p', null, h('button', { className: 'button', type: 'button', id: 'clear-search', text: 'Clear filters' })),
     ]);
     el.span.textContent = 'Nothing to show';
     el.earlier.disabled = true;
@@ -1109,11 +1117,27 @@
   el.viewTrends.addEventListener('click', () => setView('trends'));
   el.search.addEventListener('input', onSearchInput);
   el.search.addEventListener('search', applySearch);
+  el.benchmarkFilter.addEventListener('click', () => {
+    state.benchmarkFilter = null;
+    applySearch();
+    el.search.focus({ preventScroll: true });
+  });
   el.earlier.addEventListener('click', () => moveRelease(-1));
   el.later.addEventListener('click', () => moveRelease(1));
   el.matrix.addEventListener('scroll', scheduleRange, { passive: true });
   el.matrix.addEventListener('keydown', onMatrixKey);
   document.querySelector('.surface').addEventListener('click', (event) => {
+    const benchmarkButton = event.target.closest('button[data-filter-benchmark]');
+    if (benchmarkButton) {
+      const id = benchmarkButton.dataset.filterBenchmark;
+      const scrollTop = el.matrix.scrollTop;
+      state.benchmarkFilter = state.benchmarkFilter === id ? null : id;
+      applySearch();
+      el.matrix.scrollTop = scrollTop;
+      const replacement = [...el.matrix.querySelectorAll('[data-filter-benchmark]')].find((button) => button.dataset.filterBenchmark === id);
+      (replacement || el.benchmarkFilter).focus({ preventScroll: true });
+      return;
+    }
     const stepButton = event.target.closest('button[data-step-release]');
     if (stepButton) {
       const direction = Number(stepButton.dataset.stepRelease);
@@ -1177,6 +1201,7 @@
     if (!target) return;
     if (target.id === 'clear-search') {
       el.search.value = '';
+      state.benchmarkFilter = null;
       applySearch();
       el.search.focus();
     } else if (target.id === 'retry') {
