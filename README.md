@@ -44,7 +44,7 @@ Optional archive regeneration commands are `python scripts/archive_sources.py`, 
 
 ## Hosting
 
-`firebase.json` is ready for Firebase Hosting and serves `site/dist`. No Firebase project is selected and no deployment has been made. After choosing the intended project, deploy explicitly with the Firebase CLI. Raw archived HTML is served as a sandboxed download; inert reading copies have a separate restrictive content policy. The local Python server does not apply Firebase response headers.
+The site is live at [witchbench.web.app](https://witchbench.web.app/) on the dedicated `witchbench` Hosting site in the `lyalinlabs` Firebase project. `firebase.json` serves `site/dist`, and `.firebaserc` selects that project. To publish a reviewed update, run `firebase deploy --only hosting --project lyalinlabs`. Raw archived HTML is served as a sandboxed download; inert reading copies have a separate restrictive content policy. The local Python server does not apply Firebase response headers.
 
 ## Contributions and rights
 

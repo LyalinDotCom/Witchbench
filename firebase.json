@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "witchbench",
     "public": "site/dist",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "cleanUrls": false,
