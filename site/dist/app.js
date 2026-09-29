@@ -12,6 +12,7 @@
     brandMeta: document.getElementById('brand-meta'),
     toolbar: document.querySelector('.toolbar'),
     viewMatrix: document.getElementById('view-matrix'),
+    viewCompare: document.getElementById('view-compare'),
     viewTrends: document.getElementById('view-trends'),
     search: document.getElementById('search'),
     count: document.getElementById('count'),
@@ -19,6 +20,14 @@
     earlier: document.getElementById('earlier'),
     later: document.getElementById('later'),
     matrix: document.getElementById('matrix'),
+    releaseBrowser: document.getElementById('release-browser'),
+    compare: document.getElementById('compare'),
+    compareLeft: document.getElementById('compare-left'),
+    compareRight: document.getElementById('compare-right'),
+    compareSummary: document.getElementById('compare-summary'),
+    compareTable: document.getElementById('compare-table'),
+    compareEmpty: document.getElementById('compare-empty'),
+    compareFilters: [document.getElementById('compare-all'), document.getElementById('compare-shared'), document.getElementById('compare-exclusive')],
     trends: document.getElementById('trends'),
     chart: document.getElementById('chart'),
     readout: document.getElementById('readout'),
@@ -54,9 +63,14 @@
     selected: new Set(), // trend selection, ephemeral
     cursor: null,        // month index under the pointer or keyboard
     lastTrigger: null,
+    activeReleaseId: null,
+    comparison: [null, null],
+    comparisonFilter: 'all',
+    comparisonTouched: false,
   };
 
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const compactScreen = window.matchMedia('(max-width: 960px)');
 
   // ---------- helpers ----------
 
@@ -199,6 +213,11 @@
 
     state.selected = new Set(state.benchmarks.slice(0, TOP_N).map((b) => b.id));
     state.cursor = null;
+    state.activeReleaseId = state.releases.at(-1).id;
+    const newest = state.releases.at(-1);
+    const other = [...state.releases].reverse().find((r) => r.lab !== newest.lab) || state.releases.at(-2);
+    state.comparison = [newest.id, other ? other.id : newest.id];
+    state.comparisonTouched = false;
   }
 
   function findingsFor(releaseId, benchmarkId) {
@@ -273,7 +292,8 @@
         h('time', { datetime: isString(r.date) ? r.date : null, text: formatShort(r.date) }),
         h('span', { className: 'model', text: r.name }),
         h('span', { className: 'lab', text: isString(r.lab) ? r.lab : '' }),
-        h('span', { className: 'card-status', dataset: { card: card.code }, title: card.note || null, text: card.label }));
+        h('span', { className: 'card-status', dataset: { card: card.code }, title: card.note || null, text: card.label }),
+        h('button', { type: 'button', className: 'column-compare', dataset: { compareRelease: r.id }, 'aria-label': `Compare ${r.name} with another release`, text: 'Compare' }));
       headRow.append(h('th', { scope: 'col', dataset: { release: r.id } }, head));
     }
     table.append(h('thead', null, headRow));
@@ -309,6 +329,169 @@
     tbody.append(frag);
     table.append(tbody);
     el.matrix.replaceChildren(table);
+  }
+
+  // ---------- compact release browser ----------
+
+  function activeRelease() {
+    return state.visible.find((r) => r.id === state.activeReleaseId) || state.visible.at(-1);
+  }
+
+  function coverageMarks(summary) {
+    const marks = h('span', { className: 'release-marks', 'aria-hidden': 'true' });
+    if (summary.blog) marks.append(tick('blog'));
+    if (summary.card) marks.append(tick('card'));
+    if (summary.unreviewed) marks.append(tick('unreviewed'));
+    return marks;
+  }
+
+  function releaseOption(release) {
+    return h('option', { value: release.id, text: `${release.name} · ${formatShort(release.date)}` });
+  }
+
+  function renderReleaseBrowser() {
+    const release = activeRelease();
+    if (!release) { el.releaseBrowser.replaceChildren(); return; }
+    state.activeReleaseId = release.id;
+    const select = h('select', { id: 'release-select' });
+    for (const r of [...state.visible].reverse()) select.append(releaseOption(r));
+    select.value = release.id;
+    const index = state.visible.findIndex((r) => r.id === release.id);
+    const pager = h('div', { className: 'pager' });
+    for (const direction of [-1, 1]) {
+      const disabled = direction < 0 ? index === 0 : index === state.visible.length - 1;
+      const button = h('button', { type: 'button', className: 'icon-button', disabled,
+        'aria-label': direction < 0 ? 'Previous release' : 'Next release', dataset: { stepRelease: direction } });
+      button.append(s('svg', { 'aria-hidden': 'true', viewBox: '0 0 16 16', width: 16, height: 16 },
+        s('path', { d: direction < 0 ? 'M10 3.5 5.5 8 10 12.5' : 'M6 3.5 10.5 8 6 12.5',
+          fill: 'none', stroke: 'currentColor', 'stroke-width': 1.8, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' })));
+      pager.append(button);
+    }
+    const nav = h('div', { className: 'release-nav' },
+      h('label', { className: 'visually-hidden', for: 'release-select', text: 'Release' }), select, pager);
+    const card = cardStatus(release);
+    const heading = h('div', { className: 'release-heading' },
+      h('div', { className: 'release-info' },
+        h('h2', { className: 'model-name', text: release.name }),
+        h('p', { className: 'model-meta', text: `${release.lab} · ${formatLong(release.date)} · ${card.label}`, title: card.note || null })),
+      h('button', { className: 'button release-compare', type: 'button', dataset: { compareRelease: release.id }, text: 'Compare' }));
+    const benchmarks = state.benchmarks.filter((b) => isUsed(release.id, b.id));
+    const blogCount = benchmarks.filter((b) => cellSummary(release.id, b.id).blog).length;
+    const cardCount = benchmarks.filter((b) => cellSummary(release.id, b.id).card).length;
+    const stats = h('p', { className: 'release-stats', text: `${plural(benchmarks.length, 'benchmark')} · ${blogCount} blog · ${cardCount} card` });
+    const list = h('div', { className: 'release-list' });
+    for (const benchmark of benchmarks) {
+      const summary = cellSummary(release.id, benchmark.id);
+      list.append(h('button', {
+        className: 'cell release-row', type: 'button',
+        dataset: { release: release.id, benchmark: benchmark.id },
+        'aria-label': describeCell(summary, release, benchmark),
+      }, h('span', { className: 'benchmark-name', text: benchmark.name }), coverageMarks(summary)));
+    }
+    if (!benchmarks.length) list.append(h('p', { className: 'release-empty', text: 'No verified benchmark usage in this release’s archived sources.' }));
+    el.releaseBrowser.replaceChildren(nav, heading, stats, list);
+  }
+
+  function moveRelease(direction) {
+    if (!compactScreen.matches) {
+      scrollByColumns(direction * pageColumns());
+      return;
+    }
+    const index = state.visible.findIndex((r) => r.id === state.activeReleaseId);
+    const next = state.visible[Math.min(state.visible.length - 1, Math.max(0, index + direction))];
+    if (!next) return;
+    state.activeReleaseId = next.id;
+    renderReleaseBrowser();
+    updateRange();
+  }
+
+  // ---------- comparison ----------
+
+  function buildComparisonPickers() {
+    for (const select of [el.compareLeft, el.compareRight]) {
+      select.replaceChildren(...[...state.releases].reverse().map(releaseOption));
+    }
+    syncComparisonPickers();
+  }
+
+  function syncComparisonPickers() {
+    [el.compareLeft, el.compareRight].forEach((select, side) => {
+      select.value = state.comparison[side];
+      for (const option of select.options) option.disabled = option.value === state.comparison[1 - side];
+    });
+  }
+
+  function compareRelease(releaseId) {
+    const release = state.releaseById.get(releaseId);
+    if (!release) return;
+    state.comparison[0] = releaseId;
+    state.comparisonTouched = true;
+    if (state.comparison[1] === releaseId) {
+      const other = [...state.releases].reverse().find((r) => r.id !== releaseId && r.lab !== release.lab)
+        || [...state.releases].reverse().find((r) => r.id !== releaseId);
+      state.comparison[1] = other ? other.id : releaseId;
+    }
+    state.comparisonFilter = 'all';
+    syncComparisonPickers();
+    setView('compare');
+    el.compareLeft.focus({ preventScroll: true });
+  }
+
+  function renderComparison() {
+    const releases = state.comparison.map((id) => state.releaseById.get(id));
+    if (releases.some((r) => !r)) return;
+    const [left, right] = releases;
+    const all = state.benchmarks.filter((b) => isUsed(left.id, b.id) || isUsed(right.id, b.id));
+    const shared = all.filter((b) => isUsed(left.id, b.id) && isUsed(right.id, b.id));
+    const counts = { all: all.length, shared: shared.length, exclusive: all.length - shared.length };
+    const labels = { all: 'All', shared: 'Shared', exclusive: 'Only one' };
+    for (const button of el.compareFilters) {
+      const filter = button.dataset.filter;
+      button.textContent = `${labels[filter]} ${counts[filter]}`;
+      button.setAttribute('aria-pressed', String(filter === state.comparisonFilter));
+    }
+    const benchmarks = all.filter((b) => {
+      const both = isUsed(left.id, b.id) && isUsed(right.id, b.id);
+      return state.comparisonFilter === 'all' || (state.comparisonFilter === 'shared' ? both : !both);
+    });
+    el.compareSummary.textContent = benchmarks.length === all.length ? plural(all.length, 'benchmark')
+      : `${benchmarks.length} of ${plural(all.length, 'benchmark')}`;
+    const table = h('table', { className: 'comparison-table', role: 'table', 'aria-label': 'Benchmark usage for models A and B' });
+    table.append(h('colgroup', null, h('col', { className: 'benchmark-col' }), h('col', { className: 'model-col' }), h('col', { className: 'model-col' })));
+    const header = h('tr', { className: 'comparison-header', role: 'row' }, h('th', { className: 'comparison-corner', role: 'columnheader', scope: 'col', text: 'Benchmark' }));
+    releases.forEach((release, i) => {
+      const card = cardStatus(release);
+      header.append(h('th', { scope: 'col', role: 'columnheader', className: 'comparison-model' },
+        h('span', { className: 'model-letter', text: i === 0 ? 'A' : 'B' }),
+        h('strong', { className: 'model-name', text: release.name }),
+        h('span', { className: 'model-meta', text: `${release.lab} · ${formatShort(release.date)}` }),
+        card.code === 'ok' ? null : h('span', { className: 'model-meta card-status', title: card.note || null, text: card.label })));
+    });
+    table.append(h('thead', { role: 'rowgroup' }, header));
+    const body = h('tbody', { role: 'rowgroup' });
+    for (const benchmark of benchmarks) {
+      const hasLeft = isUsed(left.id, benchmark.id);
+      const hasRight = isUsed(right.id, benchmark.id);
+      const coverage = hasLeft && hasRight ? 'shared' : hasLeft ? 'left' : 'right';
+      const row = h('tr', { className: 'comparison-row', role: 'row', dataset: { coverage, benchmark: benchmark.id } },
+        h('th', { scope: 'row', role: 'rowheader', className: 'benchmark-name', text: benchmark.name }));
+      for (const release of releases) {
+        const cell = h('td', { role: 'cell' });
+        if (isUsed(release.id, benchmark.id)) {
+          const summary = cellSummary(release.id, benchmark.id);
+          cell.append(h('button', { className: 'cell', type: 'button',
+            dataset: { release: release.id, benchmark: benchmark.id },
+            'aria-label': describeCell(summary, release, benchmark) }, coverageMarks(summary)));
+        } else cell.append(h('span', { className: 'comparison-absent', role: 'img', 'aria-label': 'No verified usage', text: '—' }));
+        row.append(cell);
+      }
+      body.append(row);
+    }
+    table.append(body);
+    el.compareTable.replaceChildren(table);
+    el.compareEmpty.hidden = benchmarks.length > 0;
+    el.compareEmpty.textContent = state.comparisonFilter === 'shared' ? 'These releases have no shared benchmarks.'
+      : state.comparisonFilter === 'exclusive' ? 'All their benchmarks are shared.' : 'No verified benchmark usage in either release.';
   }
 
   // ---------- matrix scrolling ----------
@@ -367,6 +550,14 @@
   }
 
   function updateRange() {
+    if (state.view === 'matrix' && compactScreen.matches && state.visible.length) {
+      const release = activeRelease();
+      const index = state.visible.findIndex((r) => r.id === release.id);
+      el.span.textContent = `${formatShort(release.date)} · ${index + 1} of ${state.visible.length}`;
+      el.earlier.disabled = index <= 0;
+      el.later.disabled = index >= state.visible.length - 1;
+      return;
+    }
     const range = el.matrix.hidden ? null : visibleRange();
     if (!range) {
       el.earlier.disabled = true;
@@ -465,7 +656,7 @@
     syncPickerColors(series);
     el.clearTrends.disabled = series.length === 0;
 
-    const W = Math.max(320, el.chart.clientWidth - 18 || 760);
+    const W = Math.max(260, el.chart.clientWidth - 18 || 760);
     const H = W < 500 ? 290 : 340, L = 56, R = 20, T = 20, B = 46;
     const plotW = W - L - R;
     const plotH = H - T - B;
@@ -492,6 +683,7 @@
     svg.append(s('text', { class: 'axis-title', transform: `translate(14 ${T + plotH / 2}) rotate(-90)`, 'text-anchor': 'middle', text: 'Share of releases' }));
 
     for (let m = 0; m < 12; m += 1) {
+      if (W < 420 && m % 2 === 1) continue;
       const muted = buckets[m].length === 0;
       svg.append(s('text', {
         class: muted ? 'axis-text month-label muted' : 'axis-text month-label',
@@ -623,15 +815,30 @@
   // ---------- views ----------
 
   function setView(view) {
+    if (!['matrix', 'compare', 'trends'].includes(view)) return;
     state.view = view;
     el.toolbar.dataset.view = view;
     el.viewMatrix.setAttribute('aria-pressed', String(view === 'matrix'));
+    el.viewCompare.setAttribute('aria-pressed', String(view === 'compare'));
     el.viewTrends.setAttribute('aria-pressed', String(view === 'trends'));
-    if (state.visible.length) {
-      el.matrix.hidden = view !== 'matrix';
-      el.trends.hidden = view !== 'trends';
-      if (view === 'matrix') updateRange();
-      else renderTrends();
+    const hasMatches = state.visible.length > 0;
+    el.matrix.hidden = view !== 'matrix' || !hasMatches;
+    el.releaseBrowser.hidden = el.matrix.hidden;
+    el.trends.hidden = view !== 'trends' || !hasMatches;
+    el.compare.hidden = view !== 'compare' || !state.releases.length;
+    if (!state.releases.length) return;
+    if (view === 'compare') {
+      hideState();
+      renderComparison();
+    } else if (!hasMatches) {
+      showNoMatches();
+    } else {
+      hideState();
+      if (view === 'matrix') {
+        renderReleaseBrowser();
+        fitColumnWidth();
+        updateRange();
+      } else renderTrends();
     }
   }
 
@@ -653,27 +860,27 @@
 
     if (state.visible.length === 0) {
       el.count.textContent = `0 of ${total}`;
-      el.matrix.hidden = true;
-      el.trends.hidden = true;
       el.matrix.replaceChildren();
-      showState([
-        h('p', { className: 'error-title', text: 'No releases match that name.' }),
-        h('p', { text: 'Try a model name such as Sonnet, GPT-5.5 or Gemini, or separate several names with commas.' }),
-        h('p', null, h('button', { className: 'button', type: 'button', id: 'clear-search', text: 'Clear the filter' })),
-      ]);
-      el.span.textContent = 'Nothing to show';
-      el.earlier.disabled = true;
-      el.later.disabled = true;
+      setView(state.view);
       return;
     }
 
     el.count.textContent = terms.length ? `${state.visible.length} of ${total}` : `${total} releases`;
-    hideState();
+    state.activeReleaseId = state.visible.at(-1).id;
     renderMatrix();
-    renderTrends();
-    el.matrix.hidden = state.view !== 'matrix';
-    el.trends.hidden = state.view !== 'trends';
+    setView(state.view);
     if (state.view === 'matrix') scrollToNewest();
+  }
+
+  function showNoMatches() {
+    showState([
+      h('p', { className: 'error-title', text: 'No releases match that name.' }),
+      h('p', { text: 'Try Sonnet, GPT or Gemini, or separate several names with commas.' }),
+      h('p', null, h('button', { className: 'button', type: 'button', id: 'clear-search', text: 'Clear the filter' })),
+    ]);
+    el.span.textContent = 'Nothing to show';
+    el.earlier.disabled = true;
+    el.later.disabled = true;
   }
 
   let searchTimer = 0;
@@ -696,6 +903,8 @@
   function showError(message) {
     el.state.setAttribute('role', 'alert');
     el.matrix.hidden = true;
+    el.releaseBrowser.hidden = true;
+    el.compare.hidden = true;
     el.trends.hidden = true;
     showState([
       h('p', { className: 'error-title', text: 'The dataset could not be loaded.' }),
@@ -832,6 +1041,8 @@
     const trigger = state.lastTrigger;
     state.lastTrigger = null;
     if (trigger && trigger.isConnected) trigger.focus();
+    else if (state.view === 'compare') el.compareLeft.focus();
+    else if (compactScreen.matches) el.releaseBrowser.querySelector('select')?.focus();
     else el.matrix.focus();
   }
 
@@ -839,10 +1050,10 @@
 
   function renderChrome(raw) {
     const bits = [String(state.year)];
-    if (isString(raw.snapshot) && raw.snapshot) bits.push(`snapshot ${formatLong(raw.snapshot) || raw.snapshot}`);
     bits.push(plural(state.releases.length, 'release'));
     bits.push(plural(state.benchmarks.length, 'benchmark'));
     el.brandMeta.textContent = bits.join(' · ');
+    if (isString(raw.snapshot) && raw.snapshot) el.brandMeta.title = `Snapshot ${formatLong(raw.snapshot) || raw.snapshot}`;
 
     if (state.repositoryUrl) {
       const base = state.repositoryUrl.replace(/\/+$/, '');
@@ -862,6 +1073,8 @@
   async function load() {
     el.state.setAttribute('role', 'status');
     el.matrix.hidden = true;
+    el.releaseBrowser.hidden = true;
+    el.compare.hidden = true;
     el.trends.hidden = true;
     showState([h('p', { text: 'Loading the dataset…' })]);
     let raw;
@@ -881,6 +1094,7 @@
     }
     renderChrome(raw);
     buildPicker();
+    buildComparisonPickers();
     el.search.disabled = false;
     applySearch();
   }
@@ -888,17 +1102,57 @@
   // ---------- wiring ----------
 
   el.viewMatrix.addEventListener('click', () => setView('matrix'));
+  el.viewCompare.addEventListener('click', () => {
+    if (state.view === 'matrix' && compactScreen.matches && !state.comparisonTouched && activeRelease()) compareRelease(activeRelease().id);
+    else setView('compare');
+  });
   el.viewTrends.addEventListener('click', () => setView('trends'));
   el.search.addEventListener('input', onSearchInput);
   el.search.addEventListener('search', applySearch);
-  el.earlier.addEventListener('click', () => scrollByColumns(-pageColumns()));
-  el.later.addEventListener('click', () => scrollByColumns(pageColumns()));
+  el.earlier.addEventListener('click', () => moveRelease(-1));
+  el.later.addEventListener('click', () => moveRelease(1));
   el.matrix.addEventListener('scroll', scheduleRange, { passive: true });
   el.matrix.addEventListener('keydown', onMatrixKey);
-  el.matrix.addEventListener('click', (event) => {
+  document.querySelector('.surface').addEventListener('click', (event) => {
+    const stepButton = event.target.closest('button[data-step-release]');
+    if (stepButton) {
+      const direction = Number(stepButton.dataset.stepRelease);
+      moveRelease(direction);
+      // The release header is rebuilt; retain keyboard focus on its replacement pager.
+      const replacement = el.releaseBrowser.querySelector(`[data-step-release="${direction}"]`);
+      (replacement && !replacement.disabled ? replacement : el.releaseBrowser.querySelector('select'))?.focus({ preventScroll: true });
+      return;
+    }
+    const compareButton = event.target.closest('button[data-compare-release]');
+    if (compareButton) { compareRelease(compareButton.dataset.compareRelease); return; }
     const button = event.target.closest('button.cell');
-    if (!button || !el.matrix.contains(button)) return;
+    if (!button) return;
     openDetails(button.dataset.release, button.dataset.benchmark, button);
+  });
+  el.releaseBrowser.addEventListener('change', (event) => {
+    if (event.target.id !== 'release-select') return;
+    state.activeReleaseId = event.target.value;
+    renderReleaseBrowser();
+    updateRange();
+    el.releaseBrowser.querySelector('select').focus({ preventScroll: true });
+  });
+  [el.compareLeft, el.compareRight].forEach((select, side) => {
+    select.addEventListener('change', () => {
+      if (!state.releaseById.has(select.value) || select.value === state.comparison[1 - side]) {
+        syncComparisonPickers();
+        return;
+      }
+      state.comparison[side] = select.value;
+      state.comparisonTouched = true;
+      syncComparisonPickers();
+      renderComparison();
+    });
+  });
+  el.compareFilters.forEach((button) => {
+    button.addEventListener('click', () => {
+      state.comparisonFilter = button.dataset.filter;
+      renderComparison();
+    });
   });
 
   el.picker.addEventListener('change', (event) => {
@@ -938,17 +1192,30 @@
   el.details.addEventListener('close', onDetailsClosed);
 
   let resizeTimer = 0;
+  let wasCompact = compactScreen.matches;
   window.addEventListener('resize', () => {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(() => {
+      if (!state.releases.length) return;
       const wasNewest = el.later.disabled;
       const previousColumn = el.matrix.scrollLeft / (metrics().colW || 1);
+      const nowCompact = compactScreen.matches;
+      if (nowCompact && !wasCompact) {
+        const range = visibleRange();
+        if (range) state.activeReleaseId = state.visible[range.last].id;
+      }
       fitColumnWidth();
       if (state.view === 'matrix') {
-        if (wasNewest) scrollToNewest();
+        if (nowCompact) renderReleaseBrowser();
+        else if (wasCompact) {
+          const index = state.visible.findIndex((r) => r.id === state.activeReleaseId);
+          const { colW, viewW } = metrics();
+          scrollToLeft((index + 1) * colW - viewW, false);
+        } else if (wasNewest) scrollToNewest();
         else scrollToLeft(previousColumn * metrics().colW, false);
         updateRange();
-      } else renderTrends();
+      } else if (state.view === 'trends') renderTrends();
+      wasCompact = nowCompact;
     }, 80);
   });
 

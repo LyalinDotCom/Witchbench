@@ -2,7 +2,7 @@
 
 Which benchmarks are in fashion? A static, source-linked view of benchmark usage in 2026 coding-capable model announcements from OpenAI, Anthropic, and Google.
 
-The interface contains coverage checks, never model benchmark scores. It opens at the newest release on the right, supports earlier/later paging and comma-separated model search, and switches to a monthly usage chart. CSV export always includes the entire annual snapshot.
+The interface contains coverage checks, never model benchmark scores. Desktop opens a matrix with the newest release on the right. Phones show one release’s benchmarks as a readable list, with a release selector and previous/next controls. Both support comma-separated model search and a monthly usage chart. Compare lets you select two releases and shows only benchmarks used by at least one of them, with Shared and Only one filters. Evidence remains a tap away. CSV export always includes the entire annual snapshot.
 
 ## Run locally
 
@@ -50,4 +50,4 @@ The site is live at [witchbench.web.app](https://witchbench.web.app/) on the ded
 
 Corrections and contributions are welcome through issues and pull requests; see [CONTRIBUTING.md](CONTRIBUTING.md). The repository is public for transparency. Original Witchbench work is copyright © 2026 Dmitry Lyalin. All rights reserved; public visibility does not imply a permissive license. Archived source materials retain their owners' rights. The vendored CookieConsent 3.1.0 component is MIT-licensed, with its license included.
 
-Claude Fable 5.1, through the Claude CLI, contributed the interface implementation as a peer; Codex handled source archiving, classification, integration, and validation.
+Claude Fable 5.1 contributed the original interface through the Claude CLI; Claude Opus 5.5 contributed the responsive redesign through Claude Code. Codex handled source archiving, classification, comparison behavior, integration, and validation.

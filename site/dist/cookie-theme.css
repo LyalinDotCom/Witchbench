@@ -1,21 +1,44 @@
 #cc-main {
-  --cc-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --cc-font-family: var(--font, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif);
   --cc-font-size: 14px;
   --cc-bg: #fff;
-  --cc-primary-color: #292b2e;
-  --cc-secondary-color: #565b61;
-  --cc-btn-primary-bg: #292b2e;
+  --cc-primary-color: #24292e;
+  --cc-secondary-color: #59616b;
+  --cc-btn-primary-bg: #24292e;
   --cc-btn-primary-color: #fff;
-  --cc-btn-primary-hover-bg: #44474c;
+  --cc-btn-primary-border-color: #24292e;
+  --cc-btn-primary-hover-bg: #3a4047;
+  --cc-btn-primary-hover-border-color: #3a4047;
   --cc-btn-secondary-bg: #f1f2f3;
-  --cc-btn-secondary-color: #292b2e;
+  --cc-btn-secondary-color: #24292e;
+  --cc-btn-secondary-border-color: #f1f2f3;
   --cc-btn-secondary-hover-bg: #e8e9eb;
-  --cc-btn-border-radius: 6px;
+  --cc-btn-secondary-hover-border-color: #e8e9eb;
+  --cc-btn-border-radius: 7px;
   --cc-modal-border-radius: 10px;
-  --cc-overlay-bg: rgba(28,30,32,.18);
+  --cc-separator-border-color: #eef0f2;
+  --cc-toggle-on-bg: #a85a2b;
+  --cc-toggle-readonly-bg: #d3d7dc;
+  --cc-link-color: #a85a2b;
+  --cc-overlay-bg: rgba(28, 30, 32, .18);
 }
-#cc-main .cm { max-width: 23rem; border: 1px solid #e2e4e6; box-shadow: 0 4px 22px #20252a14; }
+#cc-main .cm { max-width: 23rem; border: 1px solid #e4e6ea; box-shadow: 0 4px 22px #20252a14; }
 #cc-main .cm__desc { font-size: 14px; line-height: 1.5; padding: 0; }
 #cc-main .cm__texts { padding: 1rem; }
 #cc-main .cm__btns { padding: 0 1rem 1rem; border: 0; }
 #cc-main .cm__btn { min-height: 32px; font-size: 14px; padding: .45rem .8rem; }
+#cc-main a { color: #a85a2b; }
+
+/* Touch: 44px buttons, and the notice sits clear of the screen edges without covering half a phone. */
+@media (max-width: 960px), (pointer: coarse) {
+  #cc-main .cm__btn,
+  #cc-main .pm__btn { min-height: 44px; font-size: 15px; }
+  #cc-main .pm__close-btn { width: 44px; height: 44px; }
+}
+@media (max-width: 640px) {
+  #cc-main .cm { max-width: none; }
+  #cc-main .cm__texts { padding: .875rem 1rem; }
+  #cc-main .cm__btns { padding: 0 1rem 1rem; }
+  #cc-main .cm__btn-group { flex-direction: row !important; }
+  #cc-main .cm__btn { flex: 1 1 0; }
+}

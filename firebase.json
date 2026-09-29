@@ -11,6 +11,8 @@
         {"key": "X-Frame-Options", "value": "DENY"},
         {"key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"}
       ]},
+      {"source": "**/*.html", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
+      {"source": "/", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
       {"source": "/archive/**/raw/*.html", "headers": [
         {"key": "Content-Disposition", "value": "attachment"},
         {"key": "Content-Security-Policy", "value": "sandbox; default-src 'none'"}

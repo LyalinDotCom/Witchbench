@@ -6,13 +6,14 @@
   <title>Witchbench: which benchmarks 2026 coding-model releases talk about</title>
   <meta name="description" content="A research matrix of which benchmarks each 2026 coding-capable model release from OpenAI, Anthropic and Google highlights in its launch post or evaluates in its model card. Benchmark usage, not scores.">
   <meta name="theme-color" content="#ffffff">
+  <meta name="color-scheme" content="light">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260929.4">
   <link rel="stylesheet" href="vendor/cookieconsent.css">
-  <link rel="stylesheet" href="cookie-theme.css">
+  <link rel="stylesheet" href="cookie-theme.css?v=20260929.5">
 </head>
 <body>
-  <a class="skip-link" href="#search">Skip to controls</a>
+  <a class="skip-link" href="#view-matrix">Skip to views</a>
 
   <header class="site-header">
     <div class="brand">
@@ -25,7 +26,8 @@
   <main class="site-main">
     <section class="toolbar" aria-label="Controls" data-view="matrix">
       <div class="segmented" role="group" aria-label="View">
-        <button class="segment" type="button" id="view-matrix" aria-pressed="true" data-view="matrix">Matrix</button>
+        <button class="segment" type="button" id="view-matrix" aria-pressed="true" data-view="matrix">Releases</button>
+        <button class="segment" type="button" id="view-compare" aria-pressed="false" data-view="compare">Compare</button>
         <button class="segment" type="button" id="view-trends" aria-pressed="false" data-view="trends">Trends</button>
       </div>
 
@@ -54,12 +56,35 @@
         </div>
       </div>
 
-      <a class="button" id="csv" href="data/witchbench-2026.csv" download aria-describedby="csv-note">Download CSV</a>
+      <a class="button" id="csv" href="data/witchbench-2026.csv" download aria-describedby="csv-note"><span class="csv-verb">Download </span>CSV</a>
       <span class="visually-hidden" id="csv-note">The whole 2026 snapshot, regardless of the current filter.</span>
     </section>
 
     <div class="surface">
       <div class="matrix" id="matrix" tabindex="0" role="region" aria-label="Benchmark by release matrix. Use left and right arrow keys to move between releases." aria-describedby="legend" hidden></div>
+
+      <section class="release-browser" id="release-browser" aria-label="Benchmarks by release" hidden></section>
+
+      <section class="compare" id="compare" aria-label="Compare two releases" hidden>
+        <div class="compare-controls">
+          <div class="model-picker">
+            <label for="compare-left">Model A</label>
+            <select id="compare-left"></select>
+          </div>
+          <div class="model-picker">
+            <label for="compare-right">Model B</label>
+            <select id="compare-right"></select>
+          </div>
+          <div class="segmented compare-filters" role="group" aria-label="Show benchmarks">
+            <button class="segment" type="button" id="compare-all" data-filter="all" aria-pressed="true">All</button>
+            <button class="segment" type="button" id="compare-shared" data-filter="shared" aria-pressed="false">Shared</button>
+            <button class="segment" type="button" id="compare-exclusive" data-filter="exclusive" aria-pressed="false">Only one</button>
+          </div>
+        </div>
+        <p class="compare-summary" id="compare-summary" aria-live="polite"></p>
+        <div class="comparison" id="compare-table"></div>
+        <p class="compare-empty" id="compare-empty" hidden>No benchmarks match this filter.</p>
+      </section>
 
       <section class="trends" id="trends" aria-label="Benchmark usage trends" hidden>
         <div class="chart-panel">
@@ -116,7 +141,7 @@
     </div>
   </dialog>
 
-  <script src="app.js" defer></script>
+  <script src="app.js?v=20260929.4" defer></script>
   <script src="vendor/cookieconsent.umd.js" defer></script>
   <script src="cookie-notice.js" defer></script>
 </body>
