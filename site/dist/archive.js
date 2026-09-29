@@ -14,12 +14,12 @@
   }
   function render() {
     const q = search.value.trim().toLowerCase();
-    const matched = sources.filter(a => `${a.id} ${a.kind} ${a.sourceUrl}`.toLowerCase().includes(q));
+    const matched = sources.filter(a => `${a.title} ${a.id} ${a.kind} ${a.sourceUrl}`.toLowerCase().includes(q));
     rows.replaceChildren();
     for (const a of matched) {
       const tr = node('tr');
       const title = node('td');
-      title.append(node('span', a.id.replace(/-/g, ' ')), node('small', a.kind === 'blog' ? 'Launch post' : 'Model card'));
+      title.append(node('span', a.title), node('small', a.kind === 'blog' ? 'Launch post' : 'Model card'));
       const captured = node('td');
       captured.append(node('span', new Date(a.retrievedAt).toLocaleString('en-US', {dateStyle:'medium',timeStyle:'short',timeZone:'UTC'}) + ' UTC'));
       const details = node('details'); details.append(node('summary', 'SHA-256'), node('code', a.sha256)); captured.append(details);
@@ -34,5 +34,8 @@
   }
   search.addEventListener('input',render);
   fetch('data/dataset.json').then(r => { if (!r.ok) throw new Error('Source archive unavailable'); return r.json(); })
-    .then(d => { sources = d.artifacts; render(); }).catch(() => { status.textContent = 'Unable to load the archive. Reload to try again.'; });
+    .then(d => {
+      sources = d.artifacts.map(a => ({...a, title: [...new Set(d.releases.filter(r => r.blogArtifactId === a.id || r.cardArtifactId === a.id).map(r => r.name))].join(' · ') || a.id}));
+      render();
+    }).catch(() => { status.textContent = 'Unable to load the archive. Reload to try again.'; });
 })();
