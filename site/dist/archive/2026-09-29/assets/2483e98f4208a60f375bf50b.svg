@@ -1,0 +1,436 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1800" height="1012.5" viewBox="-45 -0.25 1800 1012.5" role="img"
+     aria-labelledby="graphic-title graphic-description">
+  <title id="graphic-title">CVE-2026-15903 Discovered by GPT-5.6 Cyber</title>
+  <desc id="graphic-description">A JIT compiler bug produces an out-of-bounds string, yielding sandboxed arbitrary read and write. A JSPI stack escape then enables native code execution, V8CTF flag capture, or progression to a browser sandbox stage.</desc>
+
+  <defs>
+    <style>
+      @font-face {
+        font-family: "OpenAI Sans";
+        font-style: normal;
+        font-weight: 400;
+        src: url("./v8-exploit-chain-fonts/OpenAISans-Regular.woff2") format("woff2"),
+             url("https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Regular.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "OpenAI Sans";
+        font-style: normal;
+        font-weight: 600;
+        src: url("./v8-exploit-chain-fonts/OpenAISans-Semibold.woff2") format("woff2"),
+             url("https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Semibold.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "OpenAI Sans";
+        font-style: normal;
+        font-weight: 700;
+        src: url("./v8-exploit-chain-fonts/OpenAISans-Bold.woff2") format("woff2"),
+             url("https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Bold.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "SF Mono";
+        font-style: normal;
+        font-weight: 400 800;
+        src: url("./v8-exploit-chain-fonts/SFMono.ttf") format("truetype");
+      }
+
+      text {
+        fill: #111111;
+        font-family: "OpenAI Sans", Arial, sans-serif;
+        font-weight: 600;
+      }
+      .title { font-size: 50px; font-weight: 700; letter-spacing: -1.15px; }
+      .section-title { font-size: 25px; font-weight: 700; letter-spacing: -.5px; }
+      .subheading { font-size: 20px; font-weight: 700; }
+      .label { font-size: 17px; font-weight: 600; }
+      .label-bold { font-size: 18px; font-weight: 700; }
+      .small { font-size: 15px; font-weight: 600; }
+      .tiny { font-size: 13px; font-weight: 600; }
+      .primitive-label { font-size: 12px; font-weight: 700; letter-spacing: .35px; }
+      .mono {
+        font-family: "SF Mono", ".SF NS Mono", "SFMono-Regular", Consolas,
+                     "Liberation Mono", ui-monospace, monospace;
+        font-weight: 600;
+        letter-spacing: .1px;
+      }
+      .code { font-size: 16px; }
+      .red-text { fill: #111111; }
+      .green-text { fill: #111111; }
+      .center { text-anchor: middle; }
+      .panel, .card {
+        fill: #ffffff;
+        stroke: #111111;
+        stroke-width: 2;
+      }
+      .line {
+        fill: none;
+        stroke: #111111;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .panel-warm, .card-warm { fill: #FFEDDE; }
+      .card-accent { fill: #FFBDA1; }
+      .card-pattern { fill: url(#vendy-dot-grid); }
+      .heavy { stroke-width: 3; }
+      .soft-line { stroke: #777777; stroke-dasharray: 5 4; }
+      .dashed { stroke-dasharray: 7 5; }
+      .red-line {
+        fill: none;
+        stroke: #111111;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .peach { fill: #FFEDDE; }
+      .coral { fill: #FFBDA1; }
+      .soft-green { fill: #FFEDDE; }
+    </style>
+
+    <pattern id="vendy-dot-grid" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#FFEDDE"/>
+      <circle cx="3" cy="3" r="1" fill="#ffffff"/>
+      <circle cx="9" cy="9" r="1" fill="#ffffff"/>
+    </pattern>
+
+    <marker id="arrow-black" viewBox="0 0 10 10" refX="8" refY="5"
+            markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 1 1 L 8 5 L 1 9" fill="none" stroke="#111111"
+            stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="8" refY="5"
+            markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 1 1 L 8 5 L 1 9" fill="none" stroke="#111111"
+            stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-fine" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 1 1 L 7 4 L 1 7" fill="none" stroke="#111111"
+            stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+
+    <symbol id="icon-check" viewBox="0 0 30 30">
+      <circle cx="15" cy="15" r="13" fill="#FFEDDE" stroke="#111111" stroke-width="1.8"/>
+      <path d="M 8.5 15.1 L 13 19.3 L 21.3 10.8" class="line"/>
+    </symbol>
+    <symbol id="icon-warning" viewBox="0 0 36 34">
+      <path d="M 18 2 L 34 31 H 2 Z" fill="none" stroke="#111111" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 18 11 V 20" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="18" cy="25" r="1.5" fill="#111111"/>
+    </symbol>
+    <symbol id="icon-shield" viewBox="0 0 64 72">
+      <path d="M 32 5 C 23 11 15 12 7 12 V 38 C 7 48 16 58 32 67 C 48 58 57 48 57 38 V 12 C 49 12 41 11 32 5 Z"
+            fill="none" stroke="#111111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M 20 35 L 29 44 L 44 27" class="line" stroke-width="2.5"/>
+    </symbol>
+    <symbol id="icon-lock" viewBox="0 0 28 31">
+      <path d="M 8 13 V 8 A 6 6 0 0 1 20 8 V 13" class="line"/>
+      <rect x="5" y="13" width="18" height="15" rx="1" fill="none" stroke="#111111" stroke-width="2"/>
+      <circle cx="14" cy="19" r="1.5" fill="#111111"/>
+      <path d="M 14 20 V 24" class="line"/>
+    </symbol>
+    <symbol id="icon-pencil" viewBox="0 0 36 36">
+      <path d="M 7 26 L 10 18 L 25 4 L 31 10 L 16 25 Z" class="line"/>
+      <path d="M 20 9 L 26 15 M 11 18 L 17 24" class="line"/>
+    </symbol>
+    <symbol id="icon-magnifier" viewBox="0 0 42 42">
+      <circle cx="17" cy="17" r="12" fill="none" stroke="#111111" stroke-width="2.3"/>
+      <path d="M 26 26 L 36 36" class="line" stroke-width="2.5"/>
+    </symbol>
+    <symbol id="icon-processor" viewBox="0 0 112 106">
+      <rect x="27" y="22" width="57" height="58" rx="5" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+      <rect x="42" y="37" width="30" height="29" rx="3" fill="#FFBDA1" stroke="#111111" stroke-width="1.6"/>
+      <path d="M 38 7 V 22 M 50 7 V 22 M 62 7 V 22 M 74 7 V 22
+               M 38 80 V 96 M 50 80 V 96 M 62 80 V 96 M 74 80 V 96
+               M 11 33 H 27 M 11 45 H 27 M 11 57 H 27 M 11 69 H 27
+               M 84 33 H 100 M 84 45 H 100 M 84 57 H 100 M 84 69 H 100" class="line"/>
+    </symbol>
+    <symbol id="icon-browser" viewBox="0 0 105 99">
+      <rect x="2" y="2" width="101" height="95" rx="3" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+      <path d="M 2 20 H 103" class="line"/>
+      <circle cx="12" cy="11" r="2.5" fill="#FFBDA1" stroke="#111111" stroke-width=".6"/>
+      <circle cx="22" cy="11" r="2.5" fill="#FFEDDE" stroke="#111111" stroke-width=".6"/>
+      <circle cx="32" cy="11" r="2.5" fill="#ffffff" stroke="#111111" stroke-width=".6"/>
+      <path d="M 52 34 C 45 39 39 39 32 39 V 58 C 32 67 40 76 52 82 C 65 76 72 67 72 58 V 39 C 66 39 59 39 52 34 Z"
+            fill="#FFEDDE" stroke="#111111" stroke-width="2"/>
+      <path d="M 43 58 L 49 64 L 61 51" class="line"/>
+    </symbol>
+    <symbol id="icon-flag" viewBox="0 0 122 89">
+      <path d="M 18 12 V 80" stroke="#111111" stroke-width="2.5"/>
+      <circle cx="18" cy="11" r="5" fill="#FFBDA1" stroke="#111111" stroke-width="1.4"/>
+      <path d="M 20 20 C 48 11 73 26 103 19 V 69 C 75 76 49 60 20 70 Z"
+            fill="#FFBDA1" stroke="#111111" stroke-width="2"/>
+      <circle cx="63" cy="44" r="15" fill="none" stroke="#ffffff" stroke-width="2.2"/>
+      <path d="M 55 44 L 61 50 L 73 37" fill="none" stroke="#ffffff" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 11 80 H 25" class="line"/>
+    </symbol>
+  </defs>
+
+  <rect x="-45" y="-0.25" width="1800" height="1012.5" fill="#ffffff"/>
+  <text x="20" y="58" class="title">CVE-2026-15903 Discovered by GPT-5.6 Cyber</text>
+
+  <!-- Stage 1: JIT compiler bug. -->
+  <g id="jit-compiler-bug">
+    <rect x="14" y="109" width="813" height="596" rx="12" class="panel panel-warm"/>
+    <text x="420.5" y="145" class="section-title center">JIT COMPILER BUG</text>
+
+    <path d="M 243 239 H 299 M 524 239 H 574" class="line heavy"/>
+
+    <g id="compiler-to-number">
+      <rect x="64" y="166" width="179" height="143" rx="9" class="card"/>
+      <text x="153.5" y="194" class="subheading mono code center">ToNumber</text>
+      <rect x="126" y="219" width="53" height="37" rx="4" class="card"/>
+      <text x="152.5" y="244" class="subheading mono center">123</text>
+      <text x="153.5" y="290" class="label-bold mono code center">→ Number</text>
+    </g>
+
+    <g id="compiler-additive-safe-integer">
+      <rect x="299" y="166" width="225" height="143" rx="9" class="card card-accent"/>
+      <text x="411.5" y="195" class="subheading mono code center">AdditiveSafeInteger</text>
+      <use href="#icon-shield" x="383" y="218" width="60" height="66"/>
+    </g>
+
+    <g id="compiler-optimized-graph">
+      <rect x="574" y="166" width="191" height="143" rx="9" class="card card-pattern"/>
+      <text x="669.5" y="193" class="subheading center">Optimized</text>
+      <text x="669.5" y="215" class="subheading center">Graph</text>
+      <path d="M 621 265 L 647 233 L 703 243 L 681 272 L 647 271 Z M 647 233 L 647 271" class="line"/>
+      <circle cx="621" cy="265" r="8" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+      <circle cx="647" cy="233" r="8" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+      <circle cx="703" cy="243" r="8" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+      <circle cx="681" cy="272" r="8" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+      <circle cx="647" cy="271" r="8" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+    </g>
+
+    <g id="compile-time-versus-runtime">
+      <rect x="42" y="331" width="751" height="185" rx="11" class="card card-warm"/>
+      <path d="M 42 378 H 793" class="line"/>
+      <path d="M 416 378 V 516" class="line dashed"/>
+
+      <text x="229" y="362" class="subheading mono center">COMPILE TIME</text>
+      <text x="605" y="362" class="subheading mono center">RUNTIME</text>
+
+      <text x="205" y="412" class="subheading mono code center">TYPER:  SAFE</text>
+      <use href="#icon-check" x="294" y="390" width="31" height="31"/>
+      <text x="229" y="455" class="label-bold center">Inputs stay within</text>
+      <text x="229" y="482" class="label-bold center">string bounds.</text>
+
+      <text x="485" y="412" class="subheading mono code">ACTUAL:</text>
+      <text x="584" y="412" class="subheading mono code">UNSAFE</text>
+      <use href="#icon-warning" x="681" y="389" width="38" height="36"/>
+      <text x="604" y="455" class="label-bold center">Edge case makes length</text>
+      <text x="604" y="482" class="label-bold center">calculation wrong.</text>
+    </g>
+
+    <g id="out-of-bounds-string">
+      <rect x="77" y="546" width="436" height="56" class="card"/>
+      <rect x="513" y="546" width="107" height="56" fill="#FFBDA1" stroke="#111111" stroke-width="1.7" stroke-dasharray="5 4"/>
+      <rect x="620" y="546" width="127" height="56" fill="#ffffff" stroke="#777777" stroke-width="1.8" stroke-dasharray="5 4"/>
+      <path d="M 126 546 V 602 M 175 546 V 602 M 224 546 V 602 M 273 546 V 602
+               M 322 546 V 602 M 371 546 V 602 M 420 546 V 602 M 469 546 V 602" class="line"/>
+      <path d="M 677 546 V 602" class="line soft-line"/>
+      <text x="101.5" y="582" class="subheading mono center">H</text>
+      <text x="150.5" y="582" class="subheading mono center">e</text>
+      <text x="199.5" y="582" class="subheading mono center">l</text>
+      <text x="248.5" y="582" class="subheading mono center">l</text>
+      <text x="297.5" y="582" class="subheading mono center">o</text>
+      <text x="346.5" y="582" class="subheading mono center">,</text>
+      <text x="395.5" y="582" class="subheading mono center">V</text>
+      <text x="444.5" y="582" class="subheading mono center">8</text>
+      <text x="493.5" y="582" class="subheading mono center">!</text>
+      <path d="M 542 524 V 625" stroke="#111111" stroke-width="4"/>
+      <path d="M 438 636 Q 438 621 455 621 H 513" class="line" marker-end="url(#arrow-black)"/>
+      <path d="M 602 540 H 619 V 607 H 602" class="red-line"/>
+      <text x="389" y="675" class="label-bold mono center">OUT-OF-BOUNDS STRING</text>
+    </g>
+  </g>
+
+  <!-- Centered, border-clear connector from the JIT stage into the sandbox. -->
+  <path d="M 830 352 H 845 M 839 347 L 845 352 L 839 357" class="line"/>
+
+  <!-- Stage 2: V8 heap sandbox and caged read/write. -->
+  <g id="v8-heap-sandbox">
+    <rect x="851" y="109" width="844" height="596" rx="12" class="panel"/>
+    <text x="1273" y="145" class="section-title center">V8 HEAP SANDBOX</text>
+
+    <g id="two-pass-decoder">
+      <rect x="888" y="163" width="341" height="202" rx="10" class="card card-warm"/>
+      <text x="1058.5" y="196" class="subheading center">TWO-PASS DECODER</text>
+      <text x="914" y="228" class="label-bold mono code">PASS 1 (in bounds)</text>
+
+      <rect x="914" y="243" width="92" height="35" class="card"/>
+      <path d="M 945 243 V 278 M 976 243 V 278" class="line"/>
+      <path d="M 1006 260 H 1095" class="line heavy" marker-end="url(#arrow-black)"/>
+
+      <text x="914" y="309" class="label-bold mono code">PASS 2 (overflow)</text>
+      <rect x="914" y="318" width="268" height="33" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+      <rect x="1004" y="319" width="177" height="31" class="peach"/>
+      <path d="M 944 318 V 351 M 974 318 V 351 M 1004 318 V 351 M 1034 318 V 351
+               M 1064 318 V 351 M 1094 318 V 351 M 1124 318 V 351 M 1154 318 V 351" class="line"/>
+    </g>
+
+    <g id="array-corruption">
+      <rect x="1283" y="163" width="388" height="202" rx="10" class="card card-accent"/>
+      <text x="1477" y="196" class="subheading center">ARRAY CORRUPTION</text>
+
+      <path d="M 1229 334 H 1302 V 259 H 1344" class="red-line" marker-end="url(#arrow-red)"/>
+      <rect x="1352" y="231" width="222" height="58" rx="8" class="card"/>
+      <rect x="1469" y="232" width="105" height="56" class="peach"/>
+      <path d="M 1394 231 V 289 M 1419 231 V 289 M 1444 231 V 289
+               M 1469 231 V 289 M 1494 231 V 289 M 1519 231 V 289
+               M 1544 231 V 289" class="line"/>
+      <text x="1374" y="266" class="label-bold center">•••</text>
+      <rect x="1574" y="232" width="32" height="56" rx="2" fill="#FFEDDE" stroke="#111111"
+            stroke-width="2" stroke-dasharray="5 4"/>
+      <path d="M 1607 260 H 1640" class="red-line" marker-end="url(#arrow-red)"/>
+
+      <text x="1477" y="320" class="label center">Length grows beyond</text>
+      <text x="1477" y="343" class="label center">intended bounds.</text>
+    </g>
+
+    <g id="arbitrary-read-write">
+      <rect x="888" y="376" width="783" height="270" rx="10" class="card"/>
+      <text x="1279.5" y="404" class="subheading center">ARBITRARY READ / WRITE</text>
+
+      <g id="write-primitive">
+        <circle cx="1086" cy="466" r="48" fill="#FFBDA1" stroke="#111111" stroke-width="1.8"/>
+        <use href="#icon-pencil" x="1072" y="428" width="28" height="28"/>
+        <text x="1086" y="473" class="primitive-label mono center">WRITE</text>
+        <text x="1086" y="489" class="primitive-label mono center">PRIMITIVE</text>
+        <path d="M 1086 514 V 528" class="line" stroke-width="1.6"/>
+        <path d="M 1086 528 H 994.5 V 544" class="line" stroke-width="1.6"
+              marker-end="url(#arrow-fine)"/>
+        <path d="M 1086 528 H 1177.5 V 544" class="line" stroke-width="1.6"
+              marker-end="url(#arrow-fine)"/>
+      </g>
+
+      <g id="read-primitive">
+        <circle cx="1473" cy="466" r="48" fill="#FFBDA1" stroke="#111111" stroke-width="1.8"/>
+        <use href="#icon-magnifier" x="1458" y="427" width="30" height="30"/>
+        <text x="1473" y="473" class="primitive-label mono center">READ</text>
+        <text x="1473" y="489" class="primitive-label mono center">PRIMITIVE</text>
+        <path d="M 1473 514 V 528" class="line" stroke-width="1.6"/>
+        <path d="M 1473 528 H 1381.5 V 544" class="line" stroke-width="1.6"
+              marker-end="url(#arrow-fine)"/>
+        <path d="M 1473 528 H 1564.5 V 544" class="line" stroke-width="1.6"
+              marker-end="url(#arrow-fine)"/>
+      </g>
+
+      <g id="sandbox-targets">
+        <rect x="912" y="552" width="165" height="82" rx="8" class="card"/>
+        <text x="994.5" y="578" class="label center">JS Object</text>
+        <text x="994.5" y="617" class="section-title center">{  }</text>
+
+        <rect x="1095" y="552" width="165" height="82" rx="8" class="card card-pattern"/>
+        <text x="1177.5" y="575" class="label center">Wasm Code</text>
+        <text x="1177.5" y="594" class="label center">Region</text>
+        <text x="1177.5" y="622" class="label mono center">1010 1101</text>
+
+        <rect x="1299" y="552" width="165" height="82" rx="8" class="card"/>
+        <text x="1381.5" y="575" class="label center">Array Buffer</text>
+        <text x="1381.5" y="594" class="label center">Data</text>
+        <g fill="#111111">
+          <circle cx="1343.5" cy="616" r="5"/><circle cx="1362.5" cy="616" r="5"/>
+          <circle cx="1381.5" cy="616" r="5"/><circle cx="1400.5" cy="616" r="5"/>
+          <circle cx="1419.5" cy="616" r="5"/>
+        </g>
+
+        <rect x="1482" y="552" width="165" height="82" rx="8" class="card"/>
+        <text x="1564.5" y="575" class="label center">Function</text>
+        <text x="1564.5" y="594" class="label center">Table</text>
+        <circle cx="1522" cy="606" r="4" fill="none" stroke="#111111" stroke-width="1.8"/>
+        <circle cx="1522" cy="619" r="4" fill="none" stroke="#111111" stroke-width="1.8"/>
+        <path d="M 1537 606 H 1611 M 1537 619 H 1611" class="line"/>
+      </g>
+    </g>
+
+    <g id="sandboxed-only-badge">
+      <rect x="1080" y="659" width="320" height="38" rx="19" fill="#FFEDDE" stroke="#111111" stroke-width="2"/>
+      <use href="#icon-lock" x="1112" y="663" width="24" height="28"/>
+      <text x="1278" y="685" class="label mono center">BLOCKED BY SANDBOX</text>
+    </g>
+  </g>
+
+  <!-- Centered, border-clear connector from the sandbox into the JSPI stage. -->
+  <path d="M 1236 708 V 719 M 1231 714 L 1236 719 L 1241 714" class="line"/>
+
+  <!-- Stage 3: JSPI stack escape and execution outcomes. -->
+  <g id="jspi-stack-escape">
+    <rect x="14" y="724" width="1681" height="277" rx="12" class="panel"/>
+    <text x="553" y="758" class="section-title center">JSPI STACK ESCAPE</text>
+
+    <g id="wasmresume-fixed-argument-assumption">
+      <rect x="96" y="768" width="191" height="61" rx="7" class="card"/>
+      <text x="191.5" y="808" class="subheading mono center">WasmResume</text>
+      <path d="M 191.5 829 V 850" class="line" marker-end="url(#arrow-black)"/>
+      <rect x="96" y="854" width="191" height="82" rx="7" class="card card-accent"/>
+      <text x="191.5" y="883" class="small mono center">FIXED ARGUMENT</text>
+      <text x="191.5" y="908" class="small mono center">ASSUMPTION</text>
+    </g>
+
+    <g id="zero-arguments">
+      <text x="528" y="789" class="label-bold mono center">0 ARGUMENTS</text>
+      <rect x="446" y="820" width="84" height="86" rx="5" class="card"/>
+      <rect x="452" y="815" width="84" height="86" rx="5" class="card"/>
+      <rect x="458" y="811" width="84" height="86" rx="5" class="card"/>
+      <rect x="464" y="806" width="84" height="86" rx="5" class="card"/>
+      <rect x="562" y="808" width="37" height="85" rx="5" fill="#FFEDDE" stroke="#111111"
+            stroke-width="2" stroke-dasharray="6 5"/>
+      <text x="526" y="942" class="label-bold center">Too few arguments</text>
+      <text x="526" y="967" class="label-bold center">leave a gap.</text>
+    </g>
+
+    <g id="extra-arguments">
+      <text x="812" y="789" class="label-bold mono center">EXTRA ARGUMENTS</text>
+      <rect x="725" y="820" width="82" height="84" rx="5" class="card"/>
+      <rect x="731" y="815" width="82" height="84" rx="5" class="card"/>
+      <rect x="738" y="810" width="82" height="84" rx="5" class="card"/>
+      <rect x="745" y="805" width="82" height="84" rx="5" class="card"/>
+      <rect x="828" y="812" width="34" height="78" rx="4" fill="#FFEDDE" stroke="#111111"
+            stroke-width="2" transform="rotate(5 845 851)"/>
+      <rect x="854" y="816" width="36" height="76" rx="4" fill="#FFBDA1" stroke="#111111"
+            stroke-width="2" transform="rotate(8 872 854)"/>
+      <text x="812" y="942" class="label-bold center">Too many arguments</text>
+      <text x="812" y="967" class="label-bold center">overflow the stack.</text>
+    </g>
+
+    <g id="breached-sandbox-boundary">
+      <path d="M 924 859 H 976 V 847 L 1012 870 L 976 893 V 881 H 924 Z"
+            fill="#FFEDDE" stroke="#111111" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 1037 780 V 840 M 1037 900 V 960" class="line"/>
+      <path d="M 1023 835 L 1035 842 L 1029 852 L 1042 860
+               M 1024 900 L 1032 890 L 1042 896" class="line"/>
+      <path d="M 1037 855 H 1072 V 844 L 1108 871 L 1072 897 V 885 H 1037 Z"
+            fill="#FFBDA1" stroke="#111111" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 1050 816 L 1056 807 L 1061 814 L 1054 822 Z
+               M 1060 919 L 1068 910 L 1073 917 L 1066 925 Z"
+            fill="#FFBDA1" stroke="#111111" stroke-width="1"/>
+    </g>
+
+    <g id="native-code-execution">
+      <use href="#icon-processor" x="1158" y="811" width="111" height="104"/>
+      <text x="1213.5" y="950" class="label-bold center">NATIVE CODE</text>
+      <text x="1213.5" y="976" class="label-bold center">EXECUTION</text>
+    </g>
+
+    <path d="M 1260 866 H 1317 Q 1327 866 1327 855 V 790 Q 1327 782 1336 782 H 1375"
+          class="line heavy" marker-end="url(#arrow-black)"/>
+    <path d="M 1260 867 H 1317 Q 1327 867 1327 878 V 949 Q 1327 958 1337 958 H 1375"
+          class="line heavy" marker-end="url(#arrow-black)"/>
+
+    <g id="v8ctf-flag-captured">
+      <rect x="1387" y="735" width="298" height="114" rx="8" class="card card-accent"/>
+      <use href="#icon-flag" x="1397" y="746" width="116" height="88"/>
+      <text x="1581" y="785" class="subheading mono code center">V8CTF FLAG</text>
+      <text x="1581" y="812" class="subheading mono code center">CAPTURED</text>
+    </g>
+
+    <g id="next-stage-browser-sandbox">
+      <rect x="1387" y="867" width="298" height="118" rx="8" class="card card-pattern"/>
+      <use href="#icon-browser" x="1399" y="875" width="105" height="101"/>
+      <text x="1591" y="923" class="small mono center">NEXT STAGE</text>
+      <text x="1591" y="950" class="tiny mono center">BROWSER SANDBOX</text>
+    </g>
+  </g>
+</svg>

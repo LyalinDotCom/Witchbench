@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-mythos-preview-blog",
+  "sourceUrl": "https://www.anthropic.com/glasswing",
+  "expectedBytes": 230484,
+  "expectedSha256": "db38aea9904507aa93e44cc0d049f72b25e8c999c0eeaf1d41aefdc8bb9b1e5b",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.100154+00:00",
+  "finalUrl": "https://www.anthropic.com/glasswing",
+  "contentType": "text/html",
+  "bytes": 230484,
+  "sha256": "db38aea9904507aa93e44cc0d049f72b25e8c999c0eeaf1d41aefdc8bb9b1e5b",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-mythos-preview-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-mythos-preview-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-mythos-preview-blog.json",
+  "matchesResearchHash": true
+}

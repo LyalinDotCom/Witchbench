@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-mythos-preview-card",
+  "sourceUrl": "https://www.anthropic.com/claude-mythos-preview-system-card",
+  "expectedBytes": 23762465,
+  "expectedSha256": "55f6ed1c0735ec1b5b14d99c91794fb759ac4647edc64381123b68be89fd3225",
+  "expectedPages": 245,
+  "kind": "card",
+  "pages": 245,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:45:22.115966+00:00",
+  "finalUrl": "https://www-cdn.anthropic.com/7624816413e9b4d2e3ba620c5a5e091b98b190a5/Claude%20Mythos%20Preview%20System%20Card.pdf",
+  "contentType": "application/pdf",
+  "bytes": 23762465,
+  "sha256": "55f6ed1c0735ec1b5b14d99c91794fb759ac4647edc64381123b68be89fd3225",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-mythos-preview-card.pdf",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-mythos-preview-card.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-mythos-preview-card.json",
+  "matchesResearchHash": true
+}

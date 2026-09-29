@@ -1,0 +1,33 @@
+name: Data correction
+description: Report a missing release, benchmark, or incorrect coverage check
+title: "Correction: "
+body:
+  - type: input
+    id: release
+    attributes:
+      label: Model release
+    validations:
+      required: true
+  - type: input
+    id: benchmark
+    attributes:
+      label: Benchmark and version
+    validations:
+      required: true
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Tier
+      options:
+        - Blog highlight
+        - Card evaluation
+        - Release or source metadata
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Correction and evidence
+      description: Include a source link and page, figure, or passage location.
+    validations:
+      required: true

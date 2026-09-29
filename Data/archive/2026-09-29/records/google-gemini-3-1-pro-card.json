@@ -1,0 +1,19 @@
+{
+  "id": "google-gemini-3-1-pro-card",
+  "sourceUrl": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+  "expectedBytes": 159665,
+  "expectedSha256": "13d4d9a0331bca695369635909599e2351feea391ee1f2e40f482b0ed0c3e9d4",
+  "expectedPages": null,
+  "kind": "card",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.304590+00:00",
+  "finalUrl": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+  "contentType": "text/html",
+  "bytes": 159665,
+  "sha256": "13d4d9a0331bca695369635909599e2351feea391ee1f2e40f482b0ed0c3e9d4",
+  "localPath": "Data/archive/2026-09-29/raw/google-gemini-3-1-pro-card.html",
+  "textPath": "Data/archive/2026-09-29/text/google-gemini-3-1-pro-card.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/google-gemini-3-1-pro-card.json",
+  "matchesResearchHash": true
+}

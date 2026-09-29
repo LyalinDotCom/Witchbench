@@ -1,0 +1,229 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "h1",
+      "text": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "heading": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "p",
+      "text": "Mar 03, 2026",
+      "heading": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "Get best-in-class intelligence for your highest-volume workloads.",
+      "heading": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "p",
+      "text": "Equipe do Google Gemini",
+      "heading": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "p",
+      "text": "Your browser does not support the audio element.",
+      "heading": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "p",
+      "text": "Today, we're introducing Gemini 3.1 Flash-Lite, our fastest and most cost-efficient Gemini 3 series model. Built for high-volume developer workloads at scale, 3.1 Flash-Lite delivers high quality for its price and model tier.",
+      "heading": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "p",
+      "text": "Starting today, 3.1 Flash-Lite is rolling out in preview to developers via the Gemini API in Google AI Studio and for enterprises via Vertex AI .",
+      "heading": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "isFootnote": false
+    },
+    {
+      "index": 8,
+      "tag": "h2",
+      "text": "Cost-efficiency without compromise",
+      "heading": "Cost-efficiency without compromise",
+      "isFootnote": false
+    },
+    {
+      "index": 9,
+      "tag": "p",
+      "text": "Priced at just $0.25/1M input tokens and $1.50/1M output tokens, 3.1 Flash-Lite delivers enhanced performance at a fraction of the cost of larger models. It outperforms 2.5 Flash with a 2.5X faster Time to First Answer Token and 45% increase in output speed, according to the Artificial Analysis benchmark while maintaining similar or better quality. This low latency is needed for high-frequency workflows, making it an ideal model for developers to build responsive, real-time experiences.",
+      "heading": "Cost-efficiency without compromise",
+      "isFootnote": false
+    },
+    {
+      "index": 10,
+      "tag": "p",
+      "text": "Gemini 3.1 Flash-Lite outperforms 2.5 Flash in speed and quality.",
+      "heading": "Cost-efficiency without compromise",
+      "isFootnote": false
+    },
+    {
+      "index": 11,
+      "tag": "p",
+      "text": "3.1 Flash-Lite achieves an impressive Elo score of 1432 on the Arena.ai Leaderboard and outperforms other models of similar tier across reasoning and multimodal understanding benchmarks, including 86.9% on GPQA Diamond and 76.8% on MMMU Pro–even surpassing larger Gemini models from prior generations like 2.5 Flash.",
+      "heading": "Cost-efficiency without compromise",
+      "isFootnote": false
+    },
+    {
+      "index": 12,
+      "tag": "h2",
+      "text": "Adaptive intelligence at scale for developers",
+      "heading": "Adaptive intelligence at scale for developers",
+      "isFootnote": false
+    },
+    {
+      "index": 13,
+      "tag": "p",
+      "text": "Beyond its raw performance, Gemini 3.1 Flash-Lite comes standard with thinking levels in AI Studio and Vertex AI, giving developers the control and flexibility to select how much the model “thinks” for a task, which is critical for managing high-frequency workloads. 3.1 Flash-Lite can tackle tasks at scale, like high-volume translation and content moderation, where cost is a priority. And it can also handle more complex workloads where more in-depth reasoning is needed, like generating user interfaces and dashboards, creating simulations or following instructions.",
+      "heading": "Adaptive intelligence at scale for developers",
+      "isFootnote": false
+    },
+    {
+      "index": 14,
+      "tag": "p",
+      "text": "3.1 Flash-Lite instantly fills an e-commerce wireframe with hundreds of products in different categories.",
+      "heading": "Adaptive intelligence at scale for developers",
+      "isFootnote": false
+    },
+    {
+      "index": 15,
+      "tag": "p",
+      "text": "3.1 Flash-Lite can generate dynamic weather dashboards in real-time , using live forecasts and historical data.",
+      "heading": "Adaptive intelligence at scale for developers",
+      "isFootnote": false
+    },
+    {
+      "index": 16,
+      "tag": "p",
+      "text": "3.1 Flash-Lite creates a SaaS agent capable of executing versatile, multi-step tasks for a business .",
+      "heading": "Adaptive intelligence at scale for developers",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "p",
+      "text": "3.1 Flash-Lite can analyze and sort large numbers of content like images quickly.",
+      "heading": "Adaptive intelligence at scale for developers",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "p",
+      "text": "Early-access developers on AI Studio and Vertex AI, and companies like Latitude, Cartwheel and Whering are already using 3.1 Flash-Lite to solve complex problems at scale. Early testers highlighted 3.1 Flash-Lite’s efficiency and reasoning capabilities, saying it can handle complex inputs with the precision of a larger-tier model, plus follow instructions and maintain adherence.",
+      "heading": "Adaptive intelligence at scale for developers",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "p",
+      "text": "We look forward to seeing what you build with 3.1 Flash-Lite and the rest of the Gemini 3 series models.",
+      "heading": "Adaptive intelligence at scale for developers",
+      "isFootnote": false
+    },
+    {
+      "index": 20,
+      "tag": "h2",
+      "text": "Get the latest news from Google in your inbox",
+      "heading": "Get the latest news from Google in your inbox",
+      "isFootnote": false
+    },
+    {
+      "index": 21,
+      "tag": "p",
+      "text": "Sign up for our newsletters with product updates, event information, special offers, and more.",
+      "heading": "Get the latest news from Google in your inbox",
+      "isFootnote": false
+    },
+    {
+      "index": 22,
+      "tag": "p",
+      "text": "Done. Just one step more.",
+      "heading": "Get the latest news from Google in your inbox",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "p",
+      "text": "Check your inbox to confirm your subscription.",
+      "heading": "Get the latest news from Google in your inbox",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "p",
+      "text": "You can also subscribe with a different email address .",
+      "heading": "Get the latest news from Google in your inbox",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "p",
+      "text": "Your information will be used in accordance with Google's privacy policy. You may opt out at any time.",
+      "heading": "Get the latest news from Google in your inbox",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "h2",
+      "text": "Related stories",
+      "heading": "Related stories",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "h3",
+      "text": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "heading": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "h3",
+      "text": "See what 4 builders are making with Gemini 3.8 Flash",
+      "heading": "See what 4 builders are making with Gemini 3.8 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "h3",
+      "text": "Introducing Gemini 3.8 Live with Live Avatar",
+      "heading": "Introducing Gemini 3.8 Live with Live Avatar",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "h3",
+      "text": "Google Beam expands with new regions, partners, and customers",
+      "heading": "Google Beam expands with new regions, partners, and customers",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "h3",
+      "text": "Gemini 3.8 text-to-speech says hello",
+      "heading": "Gemini 3.8 text-to-speech says hello",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "h3",
+      "text": "New experts join Google’s AI & Economy team",
+      "heading": "New experts join Google’s AI & Economy team",
+      "isFootnote": false
+    }
+  ]
+}

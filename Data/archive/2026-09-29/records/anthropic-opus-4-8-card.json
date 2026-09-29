@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-opus-4-8-card",
+  "sourceUrl": "https://www.anthropic.com/claude-opus-4-8-system-card",
+  "expectedBytes": 20587425,
+  "expectedSha256": "0df5d061b6688c2d5839476620d66960011cb69043185dbed87ed1f68ab76d8f",
+  "expectedPages": 246,
+  "kind": "card",
+  "pages": 246,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:45:20.774024+00:00",
+  "finalUrl": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf",
+  "contentType": "application/pdf",
+  "bytes": 20587425,
+  "sha256": "0df5d061b6688c2d5839476620d66960011cb69043185dbed87ed1f68ab76d8f",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-opus-4-8-card.pdf",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-opus-4-8-card.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-opus-4-8-card.json",
+  "matchesResearchHash": true
+}

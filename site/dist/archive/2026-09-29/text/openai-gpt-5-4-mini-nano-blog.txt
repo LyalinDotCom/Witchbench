@@ -1,0 +1,65 @@
+0001 [p] March 17, 2026
+0002 [h1] Introducing GPT‑5.4 mini and nano
+0003 [p] Fast and efficient models optimized for coding and subagents
+0004 [p] Today we’re releasing GPT‑5.4 mini and nano, our most capable small models yet. They bring many of the strengths of GPT‑5.4 to faster, more efficient models designed for high-volume workloads.
+0005 [p] GPT‑5.4 mini significantly improves over GPT‑5 mini across coding, reasoning, multimodal understanding, and tool use, while running more than 2x faster. It also approaches the performance of the larger GPT‑5.4 model on several evaluations, including SWE-Bench Pro and OSWorld-Verified.
+0006 [p] GPT‑5.4 nano is the smallest, cheapest version of GPT‑5.4 for tasks where speed and cost matter most. It is also a significant upgrade over GPT‑5 nano. We recommend it for classification, data extraction, ranking, and coding subagents that handle simpler supporting tasks.
+0007 [p] These models are built for the kinds of workloads where latency directly shapes the product experience: coding assistants that need to feel responsive, subagents that quickly complete supporting tasks, computer-using systems that capture and interpret screenshots, and multimodal applications that can reason over images in real-time. In these settings, the best model is often not the largest one—it’s the one that can respond quickly, use tools reliably, and still perform well on complex professional tasks.
+0008 [tr] | GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)
+0009 [tr] SWE-Bench Pro (Public) | 57.7% | 54.4% | 52.4% | 45.7%
+0010 [tr] Terminal-Bench 2.0 | 75.1% | 60.0% | 46.3% | 38.2%
+0011 [tr] Toolathlon | 54.6% | 42.9% | 35.5% | 26.9%
+0012 [tr] GPQA Diamond | 93.0% | 88.0% | 82.8% | 81.6%
+0013 [tr] OSWorld-Verified | 75.0% | 72.1% | 39.0% | 42.0%
+0014 [p] 1 The highest reasoning_effort available for GPT‑5 mini is 'high'.
+0015 [p] Here’s what our customers think after testing GPT‑5.4 mini and nano in their workflows:
+0016 [h2] Coding
+0017 [p] GPT‑5.4 mini and nano are especially effective in coding workflows that benefit from fast iteration. The models handle targeted edits, codebase navigation, front-end generation, and debugging loops with low latency, making them a strong fit for coding tasks that need to be completed at faster speeds and lower costs.
+0018 [p] In benchmarks, GPT‑5.4 mini consistently outperforms GPT‑5‑mini at similar latencies and approaches GPT‑5.4‑level pass rates while running much faster, delivering one of the strongest performance-per-latency tradeoffs for coding workflows.
+0019 [figcaption] We estimate latency by looking at the production behavior of our models, and simulating this offline. The latency estimate accounts for tool call duration (code execution time), sampled tokens, and input tokens. Real-world latency may vary substantially, and depends on many factors not captured in our simulation. Similarly, costs are estimated based on API pricing of these models at the time of writing. Costs may change in the future. Reasoning efforts were swept from low to xhigh.
+0020 [h3] Subagents
+0021 [p] GPT‑5.4 mini is also a strong fit for systems that combine models of different sizes. In Codex, for example, a larger model like GPT‑5.4 can handle planning, coordination, and final judgment, while delegating to GPT‑5.4 mini subagents that handle narrower subtasks in parallel—like searching a codebase, reviewing a large file, or processing supporting documents. Learn how subagents work in Codex in the docs ⁠ (opens in a new window) .
+0022 [p] This pattern becomes more useful as smaller models get faster and more capable. Instead of using one model for everything, developers can compose systems where larger models decide what to do and smaller models execute quickly at scale. GPT‑5.4 mini is our strongest mini model yet for that style of workflow.
+0023 [h2] Computer use
+0024 [p] GPT‑5.4 mini is also strong on multimodal tasks, particularly those related to computer use. The model can quickly interpret screenshots of dense user interfaces to complete computer use tasks with speed. On OSWorld-Verified, GPT‑5.4 mini approaches GPT‑5.4 while substantially outperforming GPT‑5 mini.
+0025 [h2] Availability & pricing
+0026 [p] GPT‑5.4 mini is available today in the API, Codex, and ChatGPT.
+0027 [p] In the API, GPT‑5.4 mini supports text and image inputs, tool use, function calling, web search, file search, computer use, and skills. It has a 400k context window and costs $0.75 per 1M input tokens and $4.50 per 1M output tokens.
+0028 [p] In Codex, GPT‑5.4 mini is available across the Codex app, CLI, IDE extension and web. It uses only 30% of the GPT‑5.4 quota, letting developers quickly handle simpler coding tasks in Codex for about one-third the cost. Codex can also delegate to GPT‑5.4 mini subagents so that less reasoning-intensive work runs on the cheaper model.
+0029 [p] In ChatGPT, GPT‑5.4 mini is available to Free and Go users via the “Thinking” feature in the + menu. For all other users, GPT‑5.4 mini is available as a rate limit fallback for GPT‑5.4 Thinking.
+0030 [p] GPT‑5.4 nano is only available in the API and costs $0.20 per 1M input tokens and $1.25 per 1M output tokens.
+0031 [p] For more information on the models’ safeguards, please check out the System Card addendum on our Deployment Safety Hub ⁠ (opens in a new window) .
+0032 [h5] Coding
+0033 [tr] | GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)
+0034 [tr] SWE-bench Pro (Public) | 57.7% | 54.4% | 52.4% | 45.7%
+0035 [tr] Terminal-Bench 2.0 | 75.1% | 60.0% | 46.3% | 38.2%
+0036 [h5] Tool-calling
+0037 [tr] | GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)
+0038 [tr] MCP Atlas | 67.2% | 57.7% | 56.1% | 47.6%
+0039 [tr] Toolathlon | 54.6% | 42.9% | 35.5% | 26.9%
+0040 [tr] τ2-bench (telecom) | 98.9% | 93.4% | 92.5% | 74.1%
+0041 [h5] Intelligence
+0042 [tr] | GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)
+0043 [tr] GPQA Diamond | 93.0% | 88.0% | 82.8% | 81.6%
+0044 [tr] HLE w/ tool | 52.1% | 41.5% | 37.7% | 31.6%
+0045 [tr] HLE w/o tools | 39.8% | 28.2% | 24.3% | 18.3%
+0046 [h5] MM / Vision / CUA
+0047 [tr] | GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)
+0048 [tr] OSWorld-Verified | 75.0% | 72.1% | 39.0% | 42.0%
+0049 [tr] MMMUPro w/ Python | 81.5% | 78.0% | 69.5% | 74.1%
+0050 [tr] MMMUPro | 81.2% | 76.6% | 66.1% | 67.5%
+0051 [tr] OmniDocBench 1.5 (no tools)² — lower is better | 0.109 | 0.1263 | 0.2419 | 0.1791
+0052 [h5] Long context
+0053 [tr] | GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)
+0054 [tr] OpenAI MRCR v2 8-needle 64K–128K | 86.0% | 47.7% | 44.2% | 35.1%
+0055 [tr] OpenAI MRCR v2 8-needle 128K–256K | 79.3% | 33.6% | 33.1% | 19.4%
+0056 [tr] Graphwalks BFS 0K–128K | 93.1% | 76.3% | 73.4% | 73.4%
+0057 [tr] Graphwalks parents 0–128K (accuracy) | 89.8% | 71.5% | 50.8% | 64.3%
+0058 [p] 1 The highest reasoning_effort available for GPT‑5 mini is 'high'.
+0059 [p] 2 Overall Edit Distance. OmniDocBench was run with reasoning_effort set to 'none' to reflect low-cost, low-latency performance.
+0060 [li] 2026
+0061 [h2] Author
+0062 [h2] Keep reading
+0063 [p] Company Sep 28, 2026
+0064 [p] Company Sep 28, 2026
+0065 [p] Company Sep 23, 2026

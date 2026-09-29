@@ -1,0 +1,27 @@
+.brand-link { color: inherit; text-decoration: none; }
+.page-nav { margin-left: auto; display: flex; align-items: center; gap: 22px; font-size: 14px; color: var(--ink-2); }
+.site-header { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.document { max-width: 740px; margin: 54px auto 80px; padding: 0 24px; }
+.document h1, .archive-main h1 { font-size: 24px; letter-spacing: -.6px; margin: 0 0 24px; font-weight: 600; }
+.document p { font-size: 16px; line-height: 1.75; margin: 0 0 24px; }
+.document details { margin: 30px 0; border-top: 1px solid var(--line); padding-top: 18px; }
+.document summary { cursor: pointer; font-size: 15px; font-weight: 500; }
+.document details p { font-size: 14px; margin: 18px 0 0; }
+.archive-main { padding: 30px var(--page-x) 0; }
+.archive-toolbar { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-bottom: 20px; }
+.archive-toolbar h1 { margin: 0; }
+.archive-toolbar input { margin-left: auto; border: 1px solid var(--line); background: var(--surface); border-radius: 7px; padding: 8px 12px; font: inherit; font-size: 14px; min-width: 220px; }
+.archive-table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; }
+.archive-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.archive-table th { text-align: left; font-weight: 500; color: var(--ink-2); }
+.archive-table th, .archive-table td { padding: 14px 16px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
+.archive-table tr:last-child td { border-bottom: 0; }
+.archive-table td:first-child { min-width: 220px; }
+.archive-table td:last-child { white-space: nowrap; }
+.archive-table a { margin-right: 14px; }
+.archive-table small { display: block; color: var(--ink-2); font-size: 12px; margin-top: 6px; }
+.archive-table details { font-size: 12px; }
+.archive-table summary { cursor: pointer; }
+.archive-table code { display: block; overflow-wrap: anywhere; white-space: normal; max-width: 440px; margin-top: 10px; }
+.archive-note { font-size: 13px; color: var(--ink-2); line-height: 1.6; }
+@media(max-width: 600px) { .document { margin-top: 30px; } .page-nav { gap: 16px; } .archive-toolbar input { width: 100%; margin: 0; } }

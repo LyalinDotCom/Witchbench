@@ -1,0 +1,19 @@
+{
+  "id": "openai-gpt-5-3-codex-card",
+  "sourceUrl": "https://deploymentsafety.openai.com/gpt-5-3-codex",
+  "expectedBytes": 349115,
+  "expectedSha256": "3e8f316ae6dede0a03e7361bfacce57455a6577a655deefe68c9cecfda49e121",
+  "expectedPages": null,
+  "kind": "card",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.546226+00:00",
+  "finalUrl": "https://deploymentsafety.openai.com/gpt-5-3-codex",
+  "contentType": "text/html",
+  "bytes": 349115,
+  "sha256": "125ab307f27720c3dfc3a87c1ecf7732a1acb29027f11a585ff02246643799a4",
+  "localPath": "Data/archive/2026-09-29/raw/openai-gpt-5-3-codex-card.html",
+  "textPath": "Data/archive/2026-09-29/text/openai-gpt-5-3-codex-card.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/openai-gpt-5-3-codex-card.json",
+  "matchesResearchHash": false
+}

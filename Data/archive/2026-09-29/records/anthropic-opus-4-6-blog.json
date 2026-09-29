@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-opus-4-6-blog",
+  "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-6",
+  "expectedBytes": 355892,
+  "expectedSha256": "dbd1ec1b038bda248d656d1263d327d3a3bdacd82641ddf9756f4e98af1e80ee",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.119462+00:00",
+  "finalUrl": "https://www.anthropic.com/news/claude-opus-4-6",
+  "contentType": "text/html",
+  "bytes": 355892,
+  "sha256": "dbd1ec1b038bda248d656d1263d327d3a3bdacd82641ddf9756f4e98af1e80ee",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-opus-4-6-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-opus-4-6-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-opus-4-6-blog.json",
+  "matchesResearchHash": true
+}

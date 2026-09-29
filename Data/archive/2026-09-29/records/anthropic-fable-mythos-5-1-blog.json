@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-fable-mythos-5-1-blog",
+  "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+  "expectedBytes": 580541,
+  "expectedSha256": "d9acd0ccc91e42ffc587f97830c627d5949cd67b137cb08afbf6c86c25c3bf7f",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.100418+00:00",
+  "finalUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+  "contentType": "text/html",
+  "bytes": 580532,
+  "sha256": "eb762d4e48efcdcdc59b6ee4a9217c1cc825ee43872f6528e5e1264711711c08",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-fable-mythos-5-1-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-fable-mythos-5-1-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-fable-mythos-5-1-blog.json",
+  "matchesResearchHash": false
+}

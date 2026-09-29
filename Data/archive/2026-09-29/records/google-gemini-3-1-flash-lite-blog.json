@@ -1,0 +1,19 @@
+{
+  "id": "google-gemini-3-1-flash-lite-blog",
+  "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+  "expectedBytes": 398041,
+  "expectedSha256": "d917cba20837e76fba5f673e22cfc5011f610b414d73b7507637292e4f6cd04c",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.304557+00:00",
+  "finalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+  "contentType": "text/html",
+  "bytes": 398041,
+  "sha256": "d917cba20837e76fba5f673e22cfc5011f610b414d73b7507637292e4f6cd04c",
+  "localPath": "Data/archive/2026-09-29/raw/google-gemini-3-1-flash-lite-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/google-gemini-3-1-flash-lite-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/google-gemini-3-1-flash-lite-blog.json",
+  "matchesResearchHash": true
+}

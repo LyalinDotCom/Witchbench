@@ -1,0 +1,612 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "h1",
+      "text": "Introducing GPT‑6 Sol and Luna",
+      "heading": "Introducing GPT‑6 Sol and Luna",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "p",
+      "text": "More ways to bring frontier intelligence into the work you do every day.",
+      "heading": "Introducing GPT‑6 Sol and Luna",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "Earlier this month, we introduced GPT‑6 Astra , the most intelligent and aligned model in the world. While the most demanding and important projects still call for Astra’s full depth, work happens at different scales, rhythms, and budgets.",
+      "heading": "Introducing GPT‑6 Sol and Luna",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "p",
+      "text": "That’s why we’re expanding the GPT‑6 universe with GPT‑6 Sol and GPT‑6 Luna. GPT‑6 Astra introduced a new generation of intelligence—these models help distribute the benefits of that intelligence by advancing the frontier on cost efficiency. We trained GPT‑6 Sol and Luna with similar methods as GPT‑6 Astra, bringing the advances behind Astra’s state-of-the-art performance in professional work, factuality, coding, computer use, and alignment to faster, more affordable models.",
+      "heading": "Introducing GPT‑6 Sol and Luna",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "p",
+      "text": "The GPT‑6 models lead across the cost–intelligence curve, combining exceptional capabilities at every tier with infrastructure that delivers them efficiently at scale. Improvements in caching and inference let us serve these models at lower cost, and we’re passing those savings directly on to users and customers by reducing API prices for Sol and Luna by 50% compared with their GPT‑5.6 promotional pricing. Together, these improvements make advanced AI practical for more everyday tasks and applications at scale.",
+      "heading": "Introducing GPT‑6 Sol and Luna",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "h3",
+      "text": "GPT‑6 API pricing",
+      "heading": "GPT‑6 API pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "tr",
+      "text": "Model | Input | Output | Price reduction",
+      "heading": "GPT‑6 API pricing",
+      "isFootnote": false,
+      "cells": [
+        "Model",
+        "Input",
+        "Output",
+        "Price reduction"
+      ],
+      "tableHeaders": [
+        [
+          "Model",
+          "Input",
+          "Output",
+          "Price reduction"
+        ],
+        [
+          "GPT‑5.6 Sol → GPT‑6 Sol",
+          "$4 → $2",
+          "$20 → $10",
+          "50% cheaper"
+        ]
+      ]
+    },
+    {
+      "index": 8,
+      "tag": "tr",
+      "text": "GPT‑5.6 Sol → GPT‑6 Sol | $4 → $2 | $20 → $10 | 50% cheaper",
+      "heading": "GPT‑6 API pricing",
+      "isFootnote": false,
+      "cells": [
+        "GPT‑5.6 Sol → GPT‑6 Sol",
+        "$4 → $2",
+        "$20 → $10",
+        "50% cheaper"
+      ],
+      "tableHeaders": [
+        [
+          "Model",
+          "Input",
+          "Output",
+          "Price reduction"
+        ],
+        [
+          "GPT‑5.6 Sol → GPT‑6 Sol",
+          "$4 → $2",
+          "$20 → $10",
+          "50% cheaper"
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "tag": "tr",
+      "text": "GPT‑5.6 Luna → GPT‑6 Luna | $0.20 → $0.10 | $1.20 → $0.50 | 50% cheaper",
+      "heading": "GPT‑6 API pricing",
+      "isFootnote": false,
+      "cells": [
+        "GPT‑5.6 Luna → GPT‑6 Luna",
+        "$0.20 → $0.10",
+        "$1.20 → $0.50",
+        "50% cheaper"
+      ],
+      "tableHeaders": [
+        [
+          "Model",
+          "Input",
+          "Output",
+          "Price reduction"
+        ],
+        [
+          "GPT‑5.6 Sol → GPT‑6 Sol",
+          "$4 → $2",
+          "$20 → $10",
+          "50% cheaper"
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "tag": "p",
+      "text": "Prices are per 1 million tokens.",
+      "heading": "GPT‑6 API pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 11,
+      "tag": "p",
+      "text": "GPT‑6 Astra continues to be our best model across the board. Choose it when you want the best results and an uncompromising experience.",
+      "heading": "GPT‑6 API pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 12,
+      "tag": "h2",
+      "text": "A step up across the model family",
+      "heading": "A step up across the model family",
+      "isFootnote": false
+    },
+    {
+      "index": 13,
+      "tag": "p",
+      "text": "GPT‑6 Sol and Luna bring intelligence upgrades and cost efficiency to the models you already know and use across capabilities most useful for getting complex work done.",
+      "heading": "A step up across the model family",
+      "isFootnote": false
+    },
+    {
+      "index": 14,
+      "tag": "h3",
+      "text": "Professional work",
+      "heading": "Professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 15,
+      "tag": "p",
+      "text": "GPT‑6 Sol can take on difficult work tasks while giving you more room to iterate with higher usage limits and lower cost, offering more intelligence and better results versus similarly priced competitor models.",
+      "heading": "Professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 16,
+      "tag": "p",
+      "text": "On AutomationBench, a test of business workflows across apps, GPT‑6 Sol at xhigh effort outperforms Claude Opus 5 at max effort at just 9% of Opus 5’s cost per task. At high effort, GPT‑6 Luna improves on its predecessor by 5.4 percentage points at 58% lower cost per task.",
+      "heading": "Professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "figcaption",
+      "text": "In AutomationBench 1.0.6 ⁠ (opens in a new window) , AI agents are tested on end-to-end workflows using 47 tools across sales, marketing, operations, support, finance, and HR. The datapoint for Claude Fable 5.1 understates its actual cost, as it omits the cost of the Opus 5 fallbacks, which occurred on ~40% of tasks.",
+      "heading": "Professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "p",
+      "text": "GPT‑6 Sol also exceeds Claude Fable 5.1 at far lower cost, and even bests low-effort GPT‑6 Astra.",
+      "heading": "Professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "tr",
+      "text": "Model (and effort) | Score | Cost per task",
+      "heading": "Professional work",
+      "isFootnote": false,
+      "cells": [
+        "Model (and effort)",
+        "Score",
+        "Cost per task"
+      ],
+      "tableHeaders": [
+        [
+          "Model (and effort)",
+          "Score",
+          "Cost per task"
+        ],
+        [
+          "GPT‑6 Sol (xhigh)",
+          "33.2%",
+          "$0.27"
+        ]
+      ]
+    },
+    {
+      "index": 20,
+      "tag": "tr",
+      "text": "GPT‑6 Sol (xhigh) | 33.2% | $0.27",
+      "heading": "Professional work",
+      "isFootnote": false,
+      "cells": [
+        "GPT‑6 Sol (xhigh)",
+        "33.2%",
+        "$0.27"
+      ],
+      "tableHeaders": [
+        [
+          "Model (and effort)",
+          "Score",
+          "Cost per task"
+        ],
+        [
+          "GPT‑6 Sol (xhigh)",
+          "33.2%",
+          "$0.27"
+        ]
+      ]
+    },
+    {
+      "index": 21,
+      "tag": "tr",
+      "text": "GPT‑6 Astra (low) | 30.3% | 3.9x GPT‑6 Sol",
+      "heading": "Professional work",
+      "isFootnote": false,
+      "cells": [
+        "GPT‑6 Astra (low)",
+        "30.3%",
+        "3.9x GPT‑6 Sol"
+      ],
+      "tableHeaders": [
+        [
+          "Model (and effort)",
+          "Score",
+          "Cost per task"
+        ],
+        [
+          "GPT‑6 Sol (xhigh)",
+          "33.2%",
+          "$0.27"
+        ]
+      ]
+    },
+    {
+      "index": 22,
+      "tag": "tr",
+      "text": "Claude Opus 5 (max) | 26.9% | 11.1x GPT‑6 Sol",
+      "heading": "Professional work",
+      "isFootnote": false,
+      "cells": [
+        "Claude Opus 5 (max)",
+        "26.9%",
+        "11.1x GPT‑6 Sol"
+      ],
+      "tableHeaders": [
+        [
+          "Model (and effort)",
+          "Score",
+          "Cost per task"
+        ],
+        [
+          "GPT‑6 Sol (xhigh)",
+          "33.2%",
+          "$0.27"
+        ]
+      ]
+    },
+    {
+      "index": 23,
+      "tag": "tr",
+      "text": "Claude Fable 5.1 w/ Opus 5 Fallback (max) | 31.4% | >8.9x GPT‑6 Sol (fallback cost not reported)",
+      "heading": "Professional work",
+      "isFootnote": false,
+      "cells": [
+        "Claude Fable 5.1 w/ Opus 5 Fallback (max)",
+        "31.4%",
+        ">8.9x GPT‑6 Sol (fallback cost not reported)"
+      ],
+      "tableHeaders": [
+        [
+          "Model (and effort)",
+          "Score",
+          "Cost per task"
+        ],
+        [
+          "GPT‑6 Sol (xhigh)",
+          "33.2%",
+          "$0.27"
+        ]
+      ]
+    },
+    {
+      "index": 24,
+      "tag": "p",
+      "text": "On Agents’ Last Exam , which evaluates agents on complex professional workflows, GPT‑6 Sol at max effort scores 56.4%, above Claude Opus 5’s highest score in the evaluation at 60% lower cost per task.",
+      "heading": "Professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "figcaption",
+      "text": "In Agents’ Last Exam V1 ⁠ (opens in a new window) , AI agents are evaluated on long-horizon, economically valuable tasks spanning 55 sub-industries, covering most major fields of professional work performed on a computer.",
+      "heading": "Professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "h3",
+      "text": "Factuality",
+      "heading": "Factuality",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "p",
+      "text": "The usefulness of an answer depends on getting the facts right, and we’re continuing to make progress on factual reliability. On our internal factuality evaluation, which is based on de-identified real-world conversations where users flagged mistakes by our models, GPT‑6 Sol makes about half as many mistakes as its predecessor, approaching Astra-level reliability at much lower cost. GPT‑6 Luna also improves substantially; at higher effort levels it matches GPT‑5.6 Sol at about a hundredth its cost.",
+      "heading": "Factuality",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "figcaption",
+      "text": "Here we evaluate factuality on de-identified ChatGPT conversations where users had flagged a factual error from a prior model. These error-inducing conversations are not representative of typical usage, where factual errors are more rare. Scores are not controlled for length; however, our verbosity sweeps showed almost no dependence on answer length.",
+      "heading": "Factuality",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "h3",
+      "text": "Coding",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "p",
+      "text": "This year, coding agents have begun tackling tasks with more complexity, scope, and duration than ever before. At OpenAI, our internal usage has grown exponentially. Valued at API prices, daily token usage has exceeded $600 for the median researcher and $7,000 for researchers at the 90th percentile ( Research acceleration: The view inside OpenAI ⁠ ). As coding agents take on longer and more demanding tasks, the cost of sustained use matters more. GPT‑6 Sol and Luna combine strong coding performance with lower API prices, giving developers more room to iterate and teams the confidence to be more ambitious about what they ask Codex to take on.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "p",
+      "text": "On FrontierCode , which evaluates whether coding agents produce changes ready to merge into real codebases, GPT‑6 Sol improves substantially over GPT‑5.6 Sol, and is able to match Claude Fable 5.1 xhigh at much lower cost.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "figcaption",
+      "text": "In FrontierCode 1.1 Main ⁠ (opens in a new window) , AI agents write code that’s graded not only on correctness but also “mergeability”: e.g., test quality, scope discipline, code style, and adherence to codebase standards.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "p",
+      "text": "On DeepSWE v1.1, which tests performance on complex software-engineering tasks in real codebases, GPT‑6 Sol at max effort scores 68.8%, within 1.1 percentage points of Claude Fable 5’s highest score in the evaluation—69.9% at xhigh effort—at approximately 80% lower cost per task.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 34,
+      "tag": "p",
+      "text": "GPT‑6 Luna at max effort scores 66.6%, comparable to Claude Opus 5 and Fable 5 at medium effort. In these comparisons, Luna costs 93% less per task than Opus 5 and 96% less than Fable 5.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 35,
+      "tag": "figcaption",
+      "text": "In DeepSWE 1.1 ⁠ (opens in a new window) , AI agents solve original, long-horizon software engineering tasks.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 36,
+      "tag": "h3",
+      "text": "Computer use",
+      "heading": "Computer use",
+      "isFootnote": false
+    },
+    {
+      "index": 37,
+      "tag": "p",
+      "text": "While GPT‑6 Astra remains the world’s best model for computer use, GPT‑6 Sol and Luna offer more cost-efficient performance than their predecessors. On OSWorld 2.0 offline , GPT‑6 Sol at xhigh effort achieves a similar score to Claude Opus 5 at medium effort—60.5% versus 60.3%—at approximately 80% lower cost per task. GPT‑6 Luna (max) is able to exceed GPT‑5.6 Sol (medium) at one tenth of its cost.",
+      "heading": "Computer use",
+      "isFootnote": false
+    },
+    {
+      "index": 38,
+      "tag": "figcaption",
+      "text": "In OSWorld 2.0 ⁠ (opens in a new window) , AI agents attempt long-horizon computer-use workflows spanning everyday and professional tasks. We report the partial reward on the offline set from the v2026.08.08 release.",
+      "heading": "Computer use",
+      "isFootnote": false
+    },
+    {
+      "index": 39,
+      "tag": "h3",
+      "text": "Collaboration style",
+      "heading": "Collaboration style",
+      "isFootnote": false
+    },
+    {
+      "index": 40,
+      "tag": "p",
+      "text": "We’ve also brought GPT‑6 Astra’s improved communication style to Sol and Luna, which we think will be especially noticeable in technical and coding conversations. Expect to see more clarity, less jargon, fewer odd turns of phrase, fewer low-value details, and slightly shorter answers overall without losing substance.",
+      "heading": "Collaboration style",
+      "isFootnote": false
+    },
+    {
+      "index": 41,
+      "tag": "p",
+      "text": "Absolutely. I can get the bento feel and the top-right sliding page switcher without pulling in React—the interaction is small enough to stay fast and smooth in the current site. I’m reshaping all four pages around that system now.",
+      "heading": "Collaboration style",
+      "isFootnote": false
+    },
+    {
+      "index": 42,
+      "tag": "p",
+      "text": "Done — open the live site.",
+      "heading": "Collaboration style",
+      "isFootnote": false
+    },
+    {
+      "index": 43,
+      "tag": "p",
+      "text": "It now has a colorful bento-box layout across all four pages and an animated top-right Home / Play / Place / Taste slider. React wasn’t necessary; native page transitions keep it lightweight and smooth.",
+      "heading": "Collaboration style",
+      "isFootnote": false
+    },
+    {
+      "index": 44,
+      "tag": "p",
+      "text": "The built-in image tool created the food artwork. Prompt: “An energetic gouache-and-ink editorial illustration celebrating dumplings and spicy noodles, with bright colors, steam, spice, and no text or logos.”",
+      "heading": "Collaboration style",
+      "isFootnote": false
+    },
+    {
+      "index": 45,
+      "tag": "p",
+      "text": "I’ll reshape the pages into a bento grid and turn the top-right links into a sliding page switcher. I’ll keep the existing site and check whether that interaction needs React before changing its setup.",
+      "heading": "Collaboration style",
+      "isFootnote": false
+    },
+    {
+      "index": 46,
+      "tag": "p",
+      "text": "The updated site is live. Every page now has a playful bento layout, and the top-right page switcher slides between sections. I checked it on desktop and narrow mobile screens, including browser back navigation. The existing site didn’t need React for this.",
+      "heading": "Collaboration style",
+      "isFootnote": false
+    },
+    {
+      "index": 47,
+      "tag": "figcaption",
+      "text": "Although style is subjective, we prefer GPT‑6 Sol’s reply here. It doesn’t jump to conclusions as quickly, spends less time reiterating details that might be obvious to the asker (e.g., that the website has four pages), uses less vague language (e.g., “bento feel”, “reshaping… around that system”), is more forthcoming with what it did and didn’t check, and doesn’t unnecessarily share implementation details like its image tool prompt.",
+      "heading": "Collaboration style",
+      "isFootnote": false
+    },
+    {
+      "index": 48,
+      "tag": "h2",
+      "text": "Improving caching for agents and long conversations",
+      "heading": "Improving caching for agents and long conversations",
+      "isFootnote": false
+    },
+    {
+      "index": 49,
+      "tag": "p",
+      "text": "Alongside lower token prices, we’re helping developers building on GPT‑6 save more on the context their applications reuse. We’ve improved prompt caching for GPT‑6 to deliver higher cache hit rates by default, helping agents reuse more context, respond faster, and benefit from discounts of 90% on cached input-token reads.",
+      "heading": "Improving caching for agents and long conversations",
+      "isFootnote": false
+    },
+    {
+      "index": 50,
+      "tag": "p",
+      "text": "Developers also have more ways to measure and optimize their caching performance:",
+      "heading": "Improving caching for agents and long conversations",
+      "isFootnote": false
+    },
+    {
+      "index": 51,
+      "tag": "li",
+      "text": "Monitor and diagnose. The Prompt Caching Dashboard ⁠ (opens in a new window) shows how much input is cached and how that changes over time. The diagnostics tool ⁠ (opens in a new window) helps explain missed opportunities for caching and what to fix.",
+      "heading": "Improving caching for agents and long conversations",
+      "isFootnote": false
+    },
+    {
+      "index": 52,
+      "tag": "li",
+      "text": "Adjust reasoning effort and tool availability without breaking cache. Increase reasoning effort ⁠ (opens in a new window) for harder tasks or lower it for simpler follow-ups, and enable or disable tools ⁠ (opens in a new window) as your agent’s needs change. Both controls now preserve earlier context for cache reuse.",
+      "heading": "Improving caching for agents and long conversations",
+      "isFootnote": false
+    },
+    {
+      "index": 53,
+      "tag": "li",
+      "text": "Optimize which prefixes get cached. Explicit breakpoints let developers choose where cached prompt prefixes end. This gives developers more control over cache reuse and can improve performance.",
+      "heading": "Improving caching for agents and long conversations",
+      "isFootnote": false
+    },
+    {
+      "index": 54,
+      "tag": "p",
+      "text": "GitHub reports that, over the past several months, these improvements have reduced the share of prompt tokens requiring fresh processing by more than 50% across billions of requests to OpenAI models, helping Copilot respond faster.",
+      "heading": "Improving caching for agents and long conversations",
+      "isFootnote": false
+    },
+    {
+      "index": 55,
+      "tag": "h2",
+      "text": "Continuing to improve alignment",
+      "heading": "Continuing to improve alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 56,
+      "tag": "p",
+      "text": "GPT‑6 Sol and Luna build on the alignment work introduced with Astra, our most aligned model to date. In our alignment evaluations, both Sol and Luna show improvements over their GPT‑5.6 counterparts, including lower rates of misleading claims about their coding work.",
+      "heading": "Continuing to improve alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 57,
+      "tag": "p",
+      "text": "The evaluations below deliberately test challenging situations and do not measure failure rates in typical use. See the system card ⁠ (opens in a new window) for the full results.",
+      "heading": "Continuing to improve alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 58,
+      "tag": "h2",
+      "text": "Availability",
+      "heading": "Availability",
+      "isFootnote": false
+    },
+    {
+      "index": 59,
+      "tag": "p",
+      "text": "GPT‑6 Sol and GPT‑6 Luna are available in ChatGPT Work and Codex starting today for all Plus, Pro, Business, Enterprise, and Edu users. Free and Go users can access GPT‑6 Luna in the desktop app. These models are not yet available in Chat. In the OpenAI API, they are available as gpt-6-sol and gpt-6-luna .",
+      "heading": "Availability",
+      "isFootnote": false
+    },
+    {
+      "index": 60,
+      "tag": "p",
+      "text": "To keep service stable for everyone, we plan to roll out these models in ChatGPT gradually throughout the day. If you don’t see the new models in ChatGPT Work or Codex, please try again later.",
+      "heading": "Availability",
+      "isFootnote": false
+    },
+    {
+      "index": 61,
+      "tag": "p",
+      "text": "Evaluations of GPT were performed in our research environment or via our API, which may provide slightly different output from production ChatGPT due to differences in the system prompts, tools available, etc. Evaluations of competitor models were taken from publicly available reports. Scores for Claude Fable 5 were reported when scores for Claude Fable 5.1 were unavailable.",
+      "heading": "Availability",
+      "isFootnote": false
+    },
+    {
+      "index": 62,
+      "tag": "h2",
+      "text": "Author",
+      "heading": "Author",
+      "isFootnote": true
+    },
+    {
+      "index": 63,
+      "tag": "h2",
+      "text": "Keep reading",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 64,
+      "tag": "p",
+      "text": "Product Sep 23, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 65,
+      "tag": "p",
+      "text": "Product Sep 22, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 66,
+      "tag": "p",
+      "text": "Product Sep 16, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    }
+  ]
+}

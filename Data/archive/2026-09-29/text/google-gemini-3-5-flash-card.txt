@@ -1,0 +1,101 @@
+0001 [h1] Gemini 3.5 Flash
+0002 [p] Model Cards are intended to provide essential information on Gemini models, including known limitations, mitigation approaches, and safety performance. Model cards may be updated from time to time; for example, to include updated evaluations as the model is improved or revised.
+0003 [p] Published: May 2026
+0004 [li] Model Information
+0005 [li] Model Data
+0006 [li] Implementation and Sustainability
+0007 [li] Distribution
+0008 [li] Evaluation
+0009 [li] Intended Usage and Limitations
+0010 [li] Ethics and Content Safety
+0011 [h2] Model Information
+0012 [h3] Description
+0013 [p] Gemini 3.5 Flash is the next iteration in the Gemini 3 series of highly-capable, natively multimodal, reasoning models. Gemini 3.5 Flash is based on the Gemini 3 Flash reasoning foundation with thinking levels to control the mix of quality, cost and latency.
+0014 [h3] Model dependencies
+0015 [p] Gemini 3.5 Flash is based on Gemini 3 Flash.
+0016 [h3] Inputs
+0017 [p] Text strings (e.g., a question, a prompt, document(s) to be summarized), images, audio, and video files, with a token context window of up to 1M.
+0018 [h3] Outputs
+0019 [p] Text, with a 64K token output.
+0020 [h3] Architecture
+0021 [p] Gemini 3.5 Flash is based on Gemini 3 Flash. For more information about the model architecture for Gemini 3.5 Flash, see the Gemini 3 Flash model card .
+0022 [h2] Model Data
+0023 [h3] Training Dataset
+0024 [p] Gemini 3.5 Flash is based on Gemini 3 Flash. For more information about the training dataset for Gemini 3.5 Flash, see the Gemini 3 Flash model card .
+0025 [h3] Training Data Processing
+0026 [p] For more information about the training data processing for Gemini 3.5 Flash, see the Gemini 3 Flash model card .
+0027 [h2] Implementation and Sustainability
+0028 [h3] Hardware
+0029 [p] Gemini 3.5 Flash is based on Gemini 3 Flash. For more information about the hardware for Gemini 3.5 Flash and our continued commitment to operate sustainably , see the Gemini 3 Flash model card .
+0030 [h3] Software
+0031 [p] Gemini 3.5 Flash is based on Gemini 3 Flash. For more information about the software for Gemini 3.5 Flash, see the Gemini 3 Flash model card .
+0032 [h2] Distribution
+0033 [p] Gemini 3.5 Flash is distributed in the following channels; respective documentation shared in line:
+0034 [li] Gemini App
+0035 [li] Gemini Enterprise App
+0036 [li] Gemini Enterprise Agent Platform
+0037 [li] Google AI Studio
+0038 [li] Gemini API
+0039 [li] Google Search AI Mode
+0040 [li] Google Antigravity
+0041 [p] Our models are available to downstream providers via an application program interface (API) and subject to relevant terms of use. There is no required hardware or software to use the model. For AI Studio and Gemini API, see the Gemini API Additional Terms of Service ; for Gemini Enterprise Agent Platform, see Google Cloud Platform Terms of Service . For more information, see Gemini Model API instructions and Gemini API quickstart .
+0042 [h2] Evaluation
+0043 [h3] Approach
+0044 [p] Gemini 3.5 Flash was evaluated across a range of benchmarks, including reasoning, coding, agentic tool use, multimodal capabilities, multi-lingual performance, and long-context. Additional benchmarks and details on approach, results and their methodologies can be found at: deepmind.com/models/evals-methodology/gemini-3-5-flash .
+0045 [h3] Results
+0046 [p] Results as of May, 2026 are listed below:
+0047 [tr] | Benchmark | | Gemini 3.5 Flash | Gemini 3 Flash | Gemini 3.1 Pro | Claude Sonnet 4.6 | Claude Opus 4.7 | GPT-5.5
+0048 [tr] Coding | Terminal-bench 2.1 Agentic terminal coding | Terminus-2 harness | 76.2% | 58.0% | 70.3% | — | 66.1% | 78.2%
+0049 [tr] SWE-Bench Pro (Public) Diverse agentic coding tasks | Single attempt | 55.1% | 49.6% | 54.2% | — | 64.3% | 58.6%
+0050 [tr] Agentic | MCP Atlas Multi-step workflows using MCP | | 83.6% | 62.0% | 78.2% | 69.5% | 79.1% | 75.3%
+0051 [tr] Toolathlon Real-world general tool use | | 56.5% | 49.4% | — | — | — | 55.6%
+0052 [tr] UI Control | OSWorld-Verified Agentic computer use | | 78.4% | 65.1% | 76.2% | 72.5% | 78.0% | 78.7%
+0053 [tr] Expert tasks | Finance Agent v2 Financial analysis and decision-making | | 57.9% | 42.6% | 43.0% | 51.0% | 51.5% | 51.8%
+0054 [tr] GDPval-AA Economically valuable knowledge work | Elo | 1656 | 1204 | 1314 | 1676 | 1753 | 1769
+0055 [tr] Multimodal | CharXiv Reasoning Information synthesis from complex charts | No tools | 84.2% | 80.3% | 83.3% | 72.4% | 82.1% | 84.1%
+0056 [tr] MMMU-Pro Multimodal understanding and reasoning | No tools | 83.6% | 81.2% | 80.5% | 74.5% | 75.2% | 81.2%
+0057 [tr] Blueprint-Bench 2 Agentic spatial reasoning | Normalized score | 33.6% | 0.0% | 26.5% | 6.7% | 24.5% | 36.2%
+0058 [tr] Long context | MRCR v2 (8-needle) Long context performance | 128k (average) | 77.3% | 67.2% | 84.9% | 84.9% | 59.3% | 94.8%
+0059 [tr] 1M (pointwise) | 26.6% | 22.1% | 26.3% | — | — | —
+0060 [tr] Reasoning | Humanity’s Last Exam Academic reasoning (full set, text + MM) | | 40.2% | 33.7% | 44.4% | 33.2% | 46.9% | 41.4%
+0061 [tr] ARC-AGI-2 Abstract reasoning puzzles | | 72.1% | 33.6% | 77.1% | 58.3% | 75.8% | 84.6%
+0062 [p] For details on our evaluation methodology please see deepmind.google/models/evals-methodology/gemini-3-5-flash
+0063 [h2] Intended Usage and Limitations
+0064 [h3] Benefit and Intended Usage
+0065 [p] Gemini 3.5 Flash is well-suited for users, developers, and enterprises, some use cases include: agentic workflows, coding tasks, and multi-week enterprise processes.
+0066 [h3] Known Limitations
+0067 [p] For more information about the known limitations for Gemini 3.5 Flash, see the Gemini 3 Flash model card .
+0068 [h3] Acceptable Usage
+0069 [p] For more information about the acceptable usage for Gemini 3.5 Flash, see the Gemini 3 Flash model card .
+0070 [h2] Ethics and Content Safety
+0071 [h3] Evaluation Approach
+0072 [p] For more information about the evaluation approach for Gemini 3.5 Flash, see the Gemini 3 Flash model card .
+0073 [h3] Safety Policies
+0074 [p] For more information about the safety policies for Gemini 3.5 Flash, see the Gemini 3 Flash model card .
+0075 [h3] Training and Development Evaluation Results
+0076 [p] Results for some of the internal safety evaluations conducted during the development phase are listed below. The evaluation results are for automated evaluations and not human evaluation or red teaming. Scores are provided as an absolute percentage increase or decrease in performance compared to the indicated model, as described below.
+0077 [p] Overall, Gemini 3.5 Flash outperforms Gemini 3 Flash across both safety and tone, while keeping unjustified refusals low. We mark improvements in blue and regressions in orange.
+0078 [tr] Evaluation | Description | Gemini 3.5 Flash vs. Gemini 3 Flash
+0079 [tr] Text to Text Safety | Automated content safety evaluation measuring safety policies | -3.9%
+0080 [tr] Multilingual Safety | Automated safety policy evaluation across multiple languages | -2.6%
+0081 [tr] Image to Text Safety | Automated content safety evaluation measuring safety policies | 0%
+0082 [tr] Tone 1 | Automated evaluation measuring objective tone of model refusal | +8.9%
+0083 [tr] Unjustified-refusals | Automated evaluation measuring model’s ability to respond to borderline prompts while remaining safe | +0.8% (non-egregious)
+0084 [p] 1 For tone and instruction following, a positive percentage increase represents an improvement in the tone of the model on sensitive topics and the model’s ability to follow instructions while remaining safe compared to Gemini 3 Flash. We mark improvements in green and regressions in yellow.
+0085 [p] We continue to improve our internal evaluations, including refining automated evaluations to reduce false positives and negatives, as well as update query sets to ensure balance and maintain a high standard of results. The performance results reported below are computed with improved evaluations and thus are not directly comparable with performance results found in previous Gemini model cards.
+0086 [p] We expect variation in our automated safety evaluations results, which is why we review flagged content to check for egregious or dangerous material. Our manual review confirmed losses were overwhelmingly either a) false positives or b) not egregious.
+0087 [h3] Human Red Teaming Results
+0088 [p] We conduct manual red teaming by specialist teams who sit outside of the model development team. High-level findings are fed back to the model team. For child safety evaluations, Gemini 3.5 Flash satisfied required launch thresholds, which were developed by expert teams to protect children online and meet Google’s commitments to child safety across our models and Google products. For content safety policies generally, including child safety, we saw similar or improved safety performance compared to Gemini 3 Flash. Additionally, the scope of red teaming covered potential issues outside of our strict policies, compared performance to Gemini 3.1 Pro, and found no egregious concerns.
+0089 [h3] Frontier Safety Assessment
+0090 [p] Gemini 3.5 Flash is part of the Gemini 3 series of models. We evaluated Gemini 3.1 Pro for Frontier Safety as it was the most generally capable model as of publication of this model card, and it did not reach any Critical Capability Levels (CCLs) outlined in our Frontier Safety Framework . Our assessments have shown that, while Gemini 3.5 Flash excels at agents and coding, it does not have meaningful new capabilities or material increases in performance with respect to Frontier Safety compared to Gemini 3.1 Pro, therefore based on Gemini 3.1 Pro results, we are confident that Gemini 3.5 Flash is also unlikely to reach any CCLs.
+0091 [p] As previous models in the Gemini 3 series reached the alert threshold for cyber, we performed additional testing in this domain and found that Gemini 3.5 Flash remains below the cyber CCL.
+0092 [p] For more information on our Frontier Safety Assessment, read the Gemini 3.1 Pro Model Card .
+0093 [h3] Risks and Mitigations
+0094 [p] For more information about the risks and mitigations for Gemini 3.5 Flash, see the Gemini 3.1 Pro model card .
+0095 [h2] Latest model cards
+0096 [h3] Gemini 3.8 Flash
+0097 [h3] Gemini Robotics On-Device 2
+0098 [h3] Gemini Robotics ER 2
+0099 [h3] Lyria 3.5
+0100 [h3] Gemini 3.6 Flash
+0101 [h3] Gemini 3.5 Flash-Lite

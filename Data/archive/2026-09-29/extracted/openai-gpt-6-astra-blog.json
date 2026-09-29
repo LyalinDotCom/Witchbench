@@ -1,0 +1,2392 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "h1",
+      "text": "GPT-6 Astra: A new generation of intelligence",
+      "heading": "GPT-6 Astra: A new generation of intelligence",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "h2",
+      "text": "A new generation of intelligence",
+      "heading": "A new generation of intelligence",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "Update on September 22, 2026: We are expanding our GPT‑6 family with GPT‑6 Sol and GPT‑6 Luna. Learn more.",
+      "heading": "A new generation of intelligence",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "p",
+      "text": "We’re introducing GPT‑6 Astra, the world’s most intelligent and aligned model.",
+      "heading": "A new generation of intelligence",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "p",
+      "text": "GPT‑6 Astra brings together years of research and big bets across pre-training, reinforcement learning, and alignment. Astra is state-of-the-art on computer use, browsing, software engineering, cybersecurity, science, and professional work. Astra saturates FrontierMath Tier 4 with a 98% score, having already helped solve long-standing open problems ⁠ in mathematics. Astra also saturates ARC-AGI-3 with a 99.9% score and ExploitBench with a 100% score. It also sets a new frontier on computer and browser use, handling the most demanding professional work with unmatched speed, accuracy, and judgment.",
+      "heading": "A new generation of intelligence",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "p",
+      "text": "GPT‑6 Astra is rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API, Microsoft Azure, and AWS Bedrock.",
+      "heading": "A new generation of intelligence",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "figcaption",
+      "text": "Greg Kamradt, ARC Prize Foundation",
+      "heading": "A new generation of intelligence",
+      "isFootnote": false
+    },
+    {
+      "index": 8,
+      "tag": "p",
+      "text": "Astra is our most aligned model, with substantial improvements in understanding user intent and model behavior—you can delegate tasks with greater confidence in Astra’s judgment. As one way that we test this, we built a new evaluation informed by the Hugging Face incident that evaluates whether a model facing a difficult or impossible task will go beyond its intended scope. Compared to GPT‑5.6 Sol, which without production safeguards went beyond the authorized target 48% of the time, GPT‑6 Astra did this in 0% of cases.",
+      "heading": "A new generation of intelligence",
+      "isFootnote": false
+    },
+    {
+      "index": 9,
+      "tag": "h2",
+      "text": "The world’s best computer use model",
+      "heading": "The world’s best computer use model",
+      "isFootnote": false
+    },
+    {
+      "index": 10,
+      "tag": "p",
+      "text": "GPT‑6 Astra marks a new frontier in the speed, accuracy, and safety of computer use. It can take care of tedious tasks like filling out online forms, updating customer records in a CRM, and organizing your calendar. It can conduct online research and draft summaries in your email or in your document editor. It can analyze scientific data, generate plots, create a website, and run frontend QA checks to make sure all the features on that site work. It can help you autonomously install and test software, and troubleshoot problems you see on screen. These improvements are also reflected in our state-of-the-art evaluation results.",
+      "heading": "The world’s best computer use model",
+      "isFootnote": false
+    },
+    {
+      "index": 11,
+      "tag": "p",
+      "text": "These improvements also result in significant efficiency gains in real knowledge-work tasks. In latency simulations on OSWorld 2.0, Astra achieves higher computer-use performance in about 47% less time per task than GPT‑5.6 Sol, scoring 72.6% at roughly 40 minutes per task, compared with 65.7% at roughly 75 minutes. 3",
+      "heading": "The world’s best computer use model",
+      "isFootnote": false
+    },
+    {
+      "index": 12,
+      "tag": "p",
+      "text": "GPT‑6 Astra’s computer-use capabilities can be seen in outputs across domains, including game development, electrical engineering, and everyday knowledge work:",
+      "heading": "The world’s best computer use model",
+      "isFootnote": false
+    },
+    {
+      "index": 13,
+      "tag": "p",
+      "text": "Alongside Astra, we are also updating the Codex harness to significantly improve the speed of computer use. Combined with Astra’s efficiency, this translates to a 1.9x faster task completion compared to the current GPT‑5.6 Sol experience, on the Mind2Web benchmark. The model’s improvements on speed mean it can take on many time-consuming life tasks for you, faster than you can. 4",
+      "heading": "The world’s best computer use model",
+      "isFootnote": false
+    },
+    {
+      "index": 14,
+      "tag": "figcaption",
+      "text": "Silas Alberti, SVP Research, Cognition",
+      "heading": "The world’s best computer use model",
+      "isFootnote": false
+    },
+    {
+      "index": 15,
+      "tag": "h2",
+      "text": "A step change in professional work",
+      "heading": "A step change in professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 16,
+      "tag": "p",
+      "text": "GPT‑6 Astra pairs advances in computer use with targeted training for professional environments, to help tackle complex work tasks. It combines the intelligence required for complex problems with the ability to carry out multistep workflows and produce polished documents, spreadsheets, and presentations.",
+      "heading": "A step change in professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "p",
+      "text": "GPT‑6 Astra is our best model for adhering to existing templates and producing slides that are well laid out and succinctly convey key points with a structured narrative. It creates clear, well-structured documents, presentations, spreadsheets, and analyses that follow your templates and match your writing and visual style. Astra is also trained to specifically pull only the context that matters into outputs, instead of repeating information unnecessary for the work at hand. All this means it can output more immediately usable artifacts that match your business context and standards.",
+      "heading": "A step change in professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "p",
+      "text": "GPT‑6 Astra also brings stronger visual judgment to the websites, games, applications, and renderings it builds. With Sites ⁠ (opens in a new window) in ChatGPT, Astra can create, host, and share websites, web apps, and games directly from a prompt.",
+      "heading": "A step change in professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "figcaption",
+      "text": "Alex Mashrabov, CEO and Co-founder, Higgsfield AI",
+      "heading": "A step change in professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 20,
+      "tag": "p",
+      "text": "When instructions leave room for interpretation, GPT‑6 Astra is better than previous models at making the right call. It uses context to fill in routine gaps and asks focused questions when the answer could change the outcome. In Codex, it can ask asynchronously while continuing work that doesn’t depend on your reply. If you don’t respond, it proceeds with sensible assumptions where appropriate, but waits for your input on consequential decisions.",
+      "heading": "A step change in professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 21,
+      "tag": "p",
+      "text": "The examples below show how Astra collaborates on everyday tasks where missing information can materially change the answer.",
+      "heading": "A step change in professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 22,
+      "tag": "p",
+      "text": "Astra is also better at staying oriented as a task evolves. Earlier models sometimes treated steering messages as a new goal, losing track of the original request or earlier constraints. Astra incorporates new requirements, changes course when asked, and answers side questions without dropping the broader task.",
+      "heading": "A step change in professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "figcaption",
+      "text": "Niko Grupen, Head of Applied Research, Harvey",
+      "heading": "A step change in professional work",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "h2",
+      "text": "Coding",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "p",
+      "text": "GPT‑6 Astra is the best model for software engineering to date.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "figcaption",
+      "text": "John Crepezzi, AI Assistants, Jane Street",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "figcaption",
+      "text": "Fabian Hedin, CTO & Co-founder, Lovable",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "figcaption",
+      "text": "John Crepezzi, AI Assistants, Jane Street",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "li",
+      "text": "Jane Street",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "li",
+      "text": "Lovable",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "p",
+      "text": "With Astra, we’re introducing a new way for Codex to preserve and retrieve context when the context window fills. Historically, models have used compaction to summarize work during long sessions, such as when debugging complex issues or tackling large refactors. Each compaction can leave out details about why a fix failed or how a component behaves. In Codex, Astra can keep notes across context windows, preserving accumulated details without repeatedly compressing them into a single summary. Earlier context windows remain searchable, so Astra can find requirements or test results from previous messages and tool outputs—even if that information wasn’t captured in its notes. You can enable this experimental feature in your Codex config.toml, ⁠ (opens in a new window) and it will become the default for Astra in the coming weeks.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "h2",
+      "text": "Advancing scientific discovery",
+      "heading": "Advancing scientific discovery",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "figcaption",
+      "text": "Greg Burnham, EpochAI",
+      "heading": "Advancing scientific discovery",
+      "isFootnote": false
+    },
+    {
+      "index": 34,
+      "tag": "p",
+      "text": "GPT‑6 Astra is a major advance for scientific discovery, mathematics, and health. Today, we’re sharing two further results on the gaps between prime numbers. 9 , 10",
+      "heading": "Advancing scientific discovery",
+      "isFootnote": false
+    },
+    {
+      "index": 35,
+      "tag": "p",
+      "text": "Astra also sets new records across a suite of math and science evaluations.",
+      "heading": "Advancing scientific discovery",
+      "isFootnote": false
+    },
+    {
+      "index": 36,
+      "tag": "p",
+      "text": "Astra can help with the practical work behind scientific discovery. By combining scientific reasoning with computer use, it can work directly in specialized software to inspect data and explore results, helping researchers assess the evidence and decide what to investigate next.",
+      "heading": "Advancing scientific discovery",
+      "isFootnote": false
+    },
+    {
+      "index": 37,
+      "tag": "h2",
+      "text": "Cybersecurity",
+      "heading": "Cybersecurity",
+      "isFootnote": false
+    },
+    {
+      "index": 38,
+      "tag": "p",
+      "text": "As we discussed in our safety update ⁠ , Astra is a significant jump in cyber capabilities and meets the Critical threshold in cybersecurity under our Preparedness Framework . Its ability to identify and develop zero-day exploits can help defenders find and patch weaknesses, but it also creates a need for stronger safeguards. To understand how far these capabilities extend, we ran Astra on internal and third-party expert evaluations.",
+      "heading": "Cybersecurity",
+      "isFootnote": false
+    },
+    {
+      "index": 39,
+      "tag": "p",
+      "text": "We first tested the model without production safeguards on ExploitBench and ExploitGym, which evaluate whether models can turn known software vulnerabilities into working exploits. On ExploitBench, Astra achieved a perfect score of 100%, compared with 78.5% for GPT‑5.6 Sol, our previous frontier cyber-capable model. On ExploitGym, Astra reached a 42.4% success rate, compared with 30.3% for GPT‑5.6 Sol, while using substantially fewer output tokens. 13",
+      "heading": "Cybersecurity",
+      "isFootnote": false
+    },
+    {
+      "index": 40,
+      "tag": "p",
+      "text": "Given concerns that exposure to historical software vulnerabilities may have affected benchmark results, we also evaluated Astra on two novel benchmarks. For one, we built an internal “ExploitBench (June–August 2026)” evaluation to test exploit development using vulnerabilities from the previous three months. 14 Astra achieved substantially higher arbitrary code-execution rates than GPT‑5.6 Sol on this dataset while using far fewer output tokens. During the evaluation, Astra even discovered and used two previously unknown zero-day vulnerabilities. We are disclosing both vulnerabilities to their maintainers.",
+      "heading": "Cybersecurity",
+      "isFootnote": false
+    },
+    {
+      "index": 41,
+      "tag": "p",
+      "text": "We also tested Astra on SRE-Bench 15 , a benchmark that measures whether models can reverse engineer software binaries to understand its core logic without access to raw source code. Astra solved 88.0% of tasks in a single attempt and 99.2% within four attempts, compared with 55.9% and 68.7% for GPT‑5.6 Sol, respectively.",
+      "heading": "Cybersecurity",
+      "isFootnote": false
+    },
+    {
+      "index": 42,
+      "tag": "p",
+      "text": "Beyond benchmarks, expert-led assessments found that Astra, when run without production safeguards, could use previously unknown vulnerabilities to achieve arbitrary code execution in hardened browsers and create privilege-escalation exploits for hardened operating-systems.",
+      "heading": "Cybersecurity",
+      "isFootnote": false
+    },
+    {
+      "index": 43,
+      "tag": "p",
+      "text": "As we discussed in The Defender’s Window , frontier cyber capabilities can help defenders find weaknesses faster, but they also make those weaknesses easier to exploit, raising the urgency for defenders to adapt. With the version of Astra launching today, defenders can use it to complete tasks such as secure code review and patching.",
+      "heading": "Cybersecurity",
+      "isFootnote": false
+    },
+    {
+      "index": 44,
+      "tag": "p",
+      "text": "However, Astra will refuse to comply with more advanced cybersecurity tasks such as creating proof-of-concept exploits for vulnerabilities. Through OpenAI Daybreak ⁠ , we plan to expand access and roll out less restrictive safeguards in the coming weeks. This will enable more defensive workflows, including vulnerability and proof-of-concept validation, malware analysis, and detection engineering.",
+      "heading": "Cybersecurity",
+      "isFootnote": false
+    },
+    {
+      "index": 45,
+      "tag": "p",
+      "text": "We have also strengthened our protections against potential cyber misuse, building upon our safeguards stack for GPT‑5.6 Sol. These include stronger model robustness to better withstand potential jailbreaks and more context for our monitoring systems. We have continued rigorous internal and external testing, including automated evaluations with our internal red-teaming attackers . More details about our cyber safeguards and testing are available in the Astra safety overview ⁠ and system card ⁠ (opens in a new window) . .",
+      "heading": "Cybersecurity",
+      "isFootnote": false
+    },
+    {
+      "index": 46,
+      "tag": "h2",
+      "text": "Aligning and deploying GPT‑6 Astra responsibly",
+      "heading": "Aligning and deploying GPT‑6 Astra responsibly",
+      "isFootnote": false
+    },
+    {
+      "index": 47,
+      "tag": "p",
+      "text": "Astra is our most aligned model. Astra excels at exercising care, respecting task boundaries, and communicating transparently. This work is the latest product of our long-running research program focused on training models that remain aligned with human intent from start to finish.",
+      "heading": "Aligning and deploying GPT‑6 Astra responsibly",
+      "isFootnote": false
+    },
+    {
+      "index": 48,
+      "tag": "p",
+      "text": "In sensitive environments, Astra proceeds with care commensurate with its risk. In an evaluation of computer use tasks adversarially selected to elicit misbehavior, Astra was more successful at avoiding unintended consequences. Running with additional security measures offered by default yielded even stronger performance.",
+      "heading": "Aligning and deploying GPT‑6 Astra responsibly",
+      "isFootnote": false
+    },
+    {
+      "index": 49,
+      "tag": "figcaption",
+      "text": "Astra causes fewer misaligned outcomes than any other frontier models tested. For a fair comparison, we used a generic computer-using-agent harness (based on the native computer use tools available in both the OpenAI Responses API ⁠ (opens in a new window) and Anthropic Messages API ⁠ (opens in a new window) ) and without additional protections that are normally deployed to Codex and ChatGPT Work users (auto-review, confirmation policy). 16",
+      "heading": "Aligning and deploying GPT‑6 Astra responsibly",
+      "isFootnote": false
+    },
+    {
+      "index": 50,
+      "tag": "p",
+      "text": "Astra is also more likely to operate within the boundaries set by the user and implied by its environment. In an internal evaluation, Astra never attempted to circumvent a Codex Auto-Review denial. This held even when Auto-review was deliberately configured to be evadable and the task was impossible to complete otherwise. This respect for the environment restrictions is consistent with the results of our impossible cyber task evaluation that we shared in the intro of this post and other findings documented in our system card ⁠ (opens in a new window) .",
+      "heading": "Aligning and deploying GPT‑6 Astra responsibly",
+      "isFootnote": false
+    },
+    {
+      "index": 51,
+      "tag": "p",
+      "text": "Astra additionally sets new marks in transparent user communication. In one evaluation, Astra is three times less likely than GPT‑5.6 Sol to make inaccurate representations about its capabilities and affordances.",
+      "heading": "Aligning and deploying GPT‑6 Astra responsibly",
+      "isFootnote": false
+    },
+    {
+      "index": 52,
+      "tag": "figcaption",
+      "text": "In our capability-hallucination evaluation, Astra shows a substantial improvement over GPT‑5.6 Sol, making fewer misleading claims about its capabilities.",
+      "heading": "Aligning and deploying GPT‑6 Astra responsibly",
+      "isFootnote": false
+    },
+    {
+      "index": 53,
+      "tag": "p",
+      "text": "Our evaluations found Astra’s written reasoning harder to monitor than GPT‑5.6 Sol’s, based on tests that explicitly asked it to evade monitoring. We attribute this to Astra’s greater control over written reasoning on simpler tasks and ability to solve problems with fewer written steps. Astra still appears to struggle to conceal the reasoning needed for complex tasks, but we take the decline seriously. Improving monitorability remains a research priority, and the accompanying system card ⁠ (opens in a new window) details our findings and ongoing work.",
+      "heading": "Aligning and deploying GPT‑6 Astra responsibly",
+      "isFootnote": false
+    },
+    {
+      "index": 54,
+      "tag": "p",
+      "text": "Alignment training is core to our approach to deployment. As an additional layer of defenses, we also build system safeguards like Codex Auto-review ⁠ (opens in a new window) and monitoring agents’ reasoning and actions to help detect and contain unsafe behavior. As described in our safety update ⁠ , we are also deploying misalignment monitoring in production for Astra-class models in order to have visibility into misalignment, and help contain its worst instances. These safeguards resemble our monitoring for internal deployments and involve a system of classifiers which check the model’s reasoning and actions for unauthorized behavior and automatically stop potentially unauthorized activity.",
+      "heading": "Aligning and deploying GPT‑6 Astra responsibly",
+      "isFootnote": false
+    },
+    {
+      "index": 55,
+      "tag": "p",
+      "text": "Given the significant increase in Astra’s cybersecurity capabilities, we are being especially careful to make this deployment safe and secure. Extra safety checks can sometimes slow, pause, or stop legitimate work, including defensive cybersecurity. If a task is paused in ChatGPT or Codex, you may be asked to review the action before continuing. In the API, the task will stop. These checks can sometimes interrupt legitimate work, and we are continuing to iterate on this system to reduce unnecessary interruptions. Misalignment monitoring cannot replace alignment: our goal is to build models that reliably stay within their authorized scope, so these protections do not need to intervene.",
+      "heading": "Aligning and deploying GPT‑6 Astra responsibly",
+      "isFootnote": false
+    },
+    {
+      "index": 56,
+      "tag": "h2",
+      "text": "Availability",
+      "heading": "Availability",
+      "isFootnote": false
+    },
+    {
+      "index": 57,
+      "tag": "p",
+      "text": "GPT‑6 Astra is rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API, Microsoft Azure, and AWS Bedrock. Astra usage is included within the existing subscription allowances—users and businesses will also be able to purchase credits for additional usage. Users on the Pro, Business, and Enterprise plans will also get access to GPT‑6 Astra Pro. Enterprise administrators can enable Astra for their workspace; access is off by default at launch.",
+      "heading": "Availability",
+      "isFootnote": false
+    },
+    {
+      "index": 58,
+      "tag": "p",
+      "text": "Astra supports Zero Data Retention for eligible API customers, and as we shared last month, we're testing Private Safety Processing to strengthen safety monitoring while preserving customer privacy.",
+      "heading": "Availability",
+      "isFootnote": false
+    },
+    {
+      "index": 59,
+      "tag": "p",
+      "text": "For developers, GPT‑6 Astra will be available in the OpenAI API as gpt-6-astra and through Microsoft Azure and Amazon Bedrock.",
+      "heading": "Availability",
+      "isFootnote": false
+    },
+    {
+      "index": 60,
+      "tag": "p",
+      "text": "OpenAI API Standard pricing is $10 per million input tokens and $50 per million output tokens. Separate rates apply to cache reads and writes. Fast mode is available for GPT‑6 Astra in the API and delivers up to 2x the speed of Standard processing at 2x the Standard price.",
+      "heading": "Availability",
+      "isFootnote": false
+    },
+    {
+      "index": 61,
+      "tag": "h3",
+      "text": "Computer Use",
+      "heading": "Computer Use",
+      "isFootnote": false
+    },
+    {
+      "index": 62,
+      "tag": "tr",
+      "text": "Computer Use | GPT‑6 Astra | GPT‑5.6 Sol 2 | Claude Fable 5.1 | Claude Fable 5 | Claude Opus 5 | Gemini 3.8 Flash",
+      "heading": "Computer Use",
+      "isFootnote": false,
+      "cells": [
+        "Computer Use",
+        "GPT‑6 Astra",
+        "GPT‑5.6 Sol 2",
+        "Claude Fable 5.1",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Gemini 3.8 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Computer Use",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol 2",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Agents' Last Exam",
+          "59.3%",
+          "53.6%",
+          "-",
+          "48.7%",
+          "55.5%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 63,
+      "tag": "tr",
+      "text": "Agents' Last Exam | 59.3% | 53.6% | - | 48.7% | 55.5% | -",
+      "heading": "Computer Use",
+      "isFootnote": false,
+      "cells": [
+        "Agents' Last Exam",
+        "59.3%",
+        "53.6%",
+        "-",
+        "48.7%",
+        "55.5%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Computer Use",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol 2",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Agents' Last Exam",
+          "59.3%",
+          "53.6%",
+          "-",
+          "48.7%",
+          "55.5%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 64,
+      "tag": "tr",
+      "text": "OSWorld 2.0 (v2026.08.08, offline set, partial score) | 72.6% | 65.7% | - | - | 70.2% 3 | -",
+      "heading": "Computer Use",
+      "isFootnote": false,
+      "cells": [
+        "OSWorld 2.0 (v2026.08.08, offline set, partial score)",
+        "72.6%",
+        "65.7%",
+        "-",
+        "-",
+        "70.2% 3",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Computer Use",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol 2",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Agents' Last Exam",
+          "59.3%",
+          "53.6%",
+          "-",
+          "48.7%",
+          "55.5%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 65,
+      "tag": "tr",
+      "text": "ScreenSpot-Pro (no tools) | 92.7% | 76.9% | - | 87.3% 17 | - | -",
+      "heading": "Computer Use",
+      "isFootnote": false,
+      "cells": [
+        "ScreenSpot-Pro (no tools)",
+        "92.7%",
+        "76.9%",
+        "-",
+        "87.3% 17",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Computer Use",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol 2",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Agents' Last Exam",
+          "59.3%",
+          "53.6%",
+          "-",
+          "48.7%",
+          "55.5%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 66,
+      "tag": "h3",
+      "text": "Professional",
+      "heading": "Professional",
+      "isFootnote": false
+    },
+    {
+      "index": 67,
+      "tag": "tr",
+      "text": "Professional | GPT‑6 Astra | GPT‑5.6 Sol | Claude Fable 5.1 | Claude Fable 5 | Claude Opus 5 | Gemini 3.8 Flash",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "Professional",
+        "GPT‑6 Astra",
+        "GPT‑5.6 Sol",
+        "Claude Fable 5.1",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Gemini 3.8 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Professional",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "AutomationBench",
+          "41.4%",
+          "18.1%",
+          "31.4%",
+          "17.4%",
+          "26.9%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 68,
+      "tag": "tr",
+      "text": "AutomationBench | 41.4% | 18.1% | 31.4% | 17.4% | 26.9% | -",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "AutomationBench",
+        "41.4%",
+        "18.1%",
+        "31.4%",
+        "17.4%",
+        "26.9%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Professional",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "AutomationBench",
+          "41.4%",
+          "18.1%",
+          "31.4%",
+          "17.4%",
+          "26.9%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 69,
+      "tag": "tr",
+      "text": "BenchCAD | 95.9% | 83.3% | 84.3% 5 | 67.5% 5 | 82.1% 5 | -",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "BenchCAD",
+        "95.9%",
+        "83.3%",
+        "84.3% 5",
+        "67.5% 5",
+        "82.1% 5",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Professional",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "AutomationBench",
+          "41.4%",
+          "18.1%",
+          "31.4%",
+          "17.4%",
+          "26.9%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 70,
+      "tag": "tr",
+      "text": "BrowseComp | 91.5% | 90.4% | - | 87.4% | 90.8% | -",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "BrowseComp",
+        "91.5%",
+        "90.4%",
+        "-",
+        "87.4%",
+        "90.8%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Professional",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "AutomationBench",
+          "41.4%",
+          "18.1%",
+          "31.4%",
+          "17.4%",
+          "26.9%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 71,
+      "tag": "tr",
+      "text": "OpenScore String Quartets (1 - OMR-NED) | 0.84 | 0.19 | - | - | - | -",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "OpenScore String Quartets (1 - OMR-NED)",
+        "0.84",
+        "0.19",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Professional",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "AutomationBench",
+          "41.4%",
+          "18.1%",
+          "31.4%",
+          "17.4%",
+          "26.9%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 72,
+      "tag": "tr",
+      "text": "Internal Design Tasks | 50.0% | 47.4% | - | 35.8% | - | -",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "Internal Design Tasks",
+        "50.0%",
+        "47.4%",
+        "-",
+        "35.8%",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Professional",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "AutomationBench",
+          "41.4%",
+          "18.1%",
+          "31.4%",
+          "17.4%",
+          "26.9%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 73,
+      "tag": "tr",
+      "text": "Internal Data Science Tasks | 40.9% | 30.5% | - | 34.7% | - | -",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "Internal Data Science Tasks",
+        "40.9%",
+        "30.5%",
+        "-",
+        "34.7%",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Professional",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "AutomationBench",
+          "41.4%",
+          "18.1%",
+          "31.4%",
+          "17.4%",
+          "26.9%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 74,
+      "tag": "tr",
+      "text": "Artificial Analysis Intelligence Index v4.1.1 | 61.2 | 60.9 | 65.7 | 62.1 | 63.1 | 58.7",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "Artificial Analysis Intelligence Index v4.1.1",
+        "61.2",
+        "60.9",
+        "65.7",
+        "62.1",
+        "63.1",
+        "58.7"
+      ],
+      "tableHeaders": [
+        [
+          "Professional",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "AutomationBench",
+          "41.4%",
+          "18.1%",
+          "31.4%",
+          "17.4%",
+          "26.9%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 75,
+      "tag": "h3",
+      "text": "Coding",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 76,
+      "tag": "tr",
+      "text": "Coding | GPT‑6 Astra | GPT‑5.6 Sol | Claude Fable 5.1 | Claude Fable 5 | Claude Opus 5 | Gemini 3.8 Flash",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "Coding",
+        "GPT‑6 Astra",
+        "GPT‑5.6 Sol",
+        "Claude Fable 5.1",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Gemini 3.8 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Coding",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench 4.0",
+          "57.9%",
+          "37.3%",
+          "55.8%",
+          "44.5%",
+          "52.6%",
+          "19.1%"
+        ]
+      ]
+    },
+    {
+      "index": 77,
+      "tag": "tr",
+      "text": "Terminal-Bench 4.0 | 57.9% | 37.3% | 55.8% | 44.5% | 52.6% | 19.1%",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "Terminal-Bench 4.0",
+        "57.9%",
+        "37.3%",
+        "55.8%",
+        "44.5%",
+        "52.6%",
+        "19.1%"
+      ],
+      "tableHeaders": [
+        [
+          "Coding",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench 4.0",
+          "57.9%",
+          "37.3%",
+          "55.8%",
+          "44.5%",
+          "52.6%",
+          "19.1%"
+        ]
+      ]
+    },
+    {
+      "index": 78,
+      "tag": "tr",
+      "text": "DeepSWE v1.1 | 74.1% | 72.7% | 67.4% | 69.9% | 73.7% | 73.8%",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "DeepSWE v1.1",
+        "74.1%",
+        "72.7%",
+        "67.4%",
+        "69.9%",
+        "73.7%",
+        "73.8%"
+      ],
+      "tableHeaders": [
+        [
+          "Coding",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench 4.0",
+          "57.9%",
+          "37.3%",
+          "55.8%",
+          "44.5%",
+          "52.6%",
+          "19.1%"
+        ]
+      ]
+    },
+    {
+      "index": 79,
+      "tag": "tr",
+      "text": "FrontierCode 1.1 Extended (score) | 64.5% 8 | 60.6% | 63.6% | 64.9% | 63.6% | 56.3%",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "FrontierCode 1.1 Extended (score)",
+        "64.5% 8",
+        "60.6%",
+        "63.6%",
+        "64.9%",
+        "63.6%",
+        "56.3%"
+      ],
+      "tableHeaders": [
+        [
+          "Coding",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench 4.0",
+          "57.9%",
+          "37.3%",
+          "55.8%",
+          "44.5%",
+          "52.6%",
+          "19.1%"
+        ]
+      ]
+    },
+    {
+      "index": 80,
+      "tag": "tr",
+      "text": "FrontierCode 1.1 Main (score) | 53.3% 8 | 47.5% | 50.9% | 53.5% | 53.4% | 43.6%",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "FrontierCode 1.1 Main (score)",
+        "53.3% 8",
+        "47.5%",
+        "50.9%",
+        "53.5%",
+        "53.4%",
+        "43.6%"
+      ],
+      "tableHeaders": [
+        [
+          "Coding",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench 4.0",
+          "57.9%",
+          "37.3%",
+          "55.8%",
+          "44.5%",
+          "52.6%",
+          "19.1%"
+        ]
+      ]
+    },
+    {
+      "index": 81,
+      "tag": "tr",
+      "text": "Internal Database Migration Tasks | 63.9% | 42.7% | 57.8% | 50.3% | - | -",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "Internal Database Migration Tasks",
+        "63.9%",
+        "42.7%",
+        "57.8%",
+        "50.3%",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Coding",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench 4.0",
+          "57.9%",
+          "37.3%",
+          "55.8%",
+          "44.5%",
+          "52.6%",
+          "19.1%"
+        ]
+      ]
+    },
+    {
+      "index": 82,
+      "tag": "tr",
+      "text": "Artificial Analysis Coding Agent Index v1.4 | 67.0 | 65.1 | - | 67.2 | 68.1 | 61.2",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "Artificial Analysis Coding Agent Index v1.4",
+        "67.0",
+        "65.1",
+        "-",
+        "67.2",
+        "68.1",
+        "61.2"
+      ],
+      "tableHeaders": [
+        [
+          "Coding",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench 4.0",
+          "57.9%",
+          "37.3%",
+          "55.8%",
+          "44.5%",
+          "52.6%",
+          "19.1%"
+        ]
+      ]
+    },
+    {
+      "index": 83,
+      "tag": "h3",
+      "text": "Academic",
+      "heading": "Academic",
+      "isFootnote": false
+    },
+    {
+      "index": 84,
+      "tag": "tr",
+      "text": "Academic | GPT‑6 Astra | GPT‑5.6 Sol | Claude Fable 5.1 | Claude Fable 5 | Claude Opus 5 | Gemini 3.8 Flash",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "Academic",
+        "GPT‑6 Astra",
+        "GPT‑5.6 Sol",
+        "Claude Fable 5.1",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Gemini 3.8 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Academic",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench Science 0.1",
+          "64.6%",
+          "22.4%",
+          "52.6%",
+          "21.4%",
+          "30.0%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 85,
+      "tag": "tr",
+      "text": "Terminal-Bench Science 0.1 | 64.6% | 22.4% | 52.6% | 21.4% | 30.0% | -",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "Terminal-Bench Science 0.1",
+        "64.6%",
+        "22.4%",
+        "52.6%",
+        "21.4%",
+        "30.0%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Academic",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench Science 0.1",
+          "64.6%",
+          "22.4%",
+          "52.6%",
+          "21.4%",
+          "30.0%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 86,
+      "tag": "tr",
+      "text": "FrontierMath Tier 4 (v2) | 97.6% | 83.0% | 87.8% | 90.2% | 73.2% | -",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "FrontierMath Tier 4 (v2)",
+        "97.6%",
+        "83.0%",
+        "87.8%",
+        "90.2%",
+        "73.2%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Academic",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench Science 0.1",
+          "64.6%",
+          "22.4%",
+          "52.6%",
+          "21.4%",
+          "30.0%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 87,
+      "tag": "tr",
+      "text": "GPQA Diamond | 96.0% | 94.6% | 93.7% | 92.6% | 93.7% | 95.3%",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "GPQA Diamond",
+        "96.0%",
+        "94.6%",
+        "93.7%",
+        "92.6%",
+        "93.7%",
+        "95.3%"
+      ],
+      "tableHeaders": [
+        [
+          "Academic",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench Science 0.1",
+          "64.6%",
+          "22.4%",
+          "52.6%",
+          "21.4%",
+          "30.0%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 88,
+      "tag": "tr",
+      "text": "Humanity's Last Exam (w/ tools) | 57.2% | - | 65.0% | 63.8% | 63.6% | -",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "Humanity's Last Exam (w/ tools)",
+        "57.2%",
+        "-",
+        "65.0%",
+        "63.8%",
+        "63.6%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Academic",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Terminal-Bench Science 0.1",
+          "64.6%",
+          "22.4%",
+          "52.6%",
+          "21.4%",
+          "30.0%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 89,
+      "tag": "h3",
+      "text": "Science and Health",
+      "heading": "Science and Health",
+      "isFootnote": false
+    },
+    {
+      "index": 90,
+      "tag": "tr",
+      "text": "Science and Health | GPT‑6 Astra | GPT‑5.6 Sol | Claude Fable 5.1 | Claude Fable 5 | Claude Opus 5 | Gemini 3.8 Flash",
+      "heading": "Science and Health",
+      "isFootnote": false,
+      "cells": [
+        "Science and Health",
+        "GPT‑6 Astra",
+        "GPT‑5.6 Sol",
+        "Claude Fable 5.1",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Gemini 3.8 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Science and Health",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "GeneBench Pro",
+          "37.1%",
+          "32.3%",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 91,
+      "tag": "tr",
+      "text": "GeneBench Pro | 37.1% | 32.3% | - | - | - | -",
+      "heading": "Science and Health",
+      "isFootnote": false,
+      "cells": [
+        "GeneBench Pro",
+        "37.1%",
+        "32.3%",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Science and Health",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "GeneBench Pro",
+          "37.1%",
+          "32.3%",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 92,
+      "tag": "tr",
+      "text": "MedChemBench (Internal) | 49.3% | 47.4% | - | - | - | -",
+      "heading": "Science and Health",
+      "isFootnote": false,
+      "cells": [
+        "MedChemBench (Internal)",
+        "49.3%",
+        "47.4%",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Science and Health",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "GeneBench Pro",
+          "37.1%",
+          "32.3%",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 93,
+      "tag": "tr",
+      "text": "LifeSciBench | 60.3% | 59.9% | - | - | - | -",
+      "heading": "Science and Health",
+      "isFootnote": false,
+      "cells": [
+        "LifeSciBench",
+        "60.3%",
+        "59.9%",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Science and Health",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "GeneBench Pro",
+          "37.1%",
+          "32.3%",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 94,
+      "tag": "tr",
+      "text": "HealthBench Professional (length-adjusted) | 63.4% | 60.5% | 58.1% 11 | 60.9% 11 | 56.4% 11 | 52.1%",
+      "heading": "Science and Health",
+      "isFootnote": false,
+      "cells": [
+        "HealthBench Professional (length-adjusted)",
+        "63.4%",
+        "60.5%",
+        "58.1% 11",
+        "60.9% 11",
+        "56.4% 11",
+        "52.1%"
+      ],
+      "tableHeaders": [
+        [
+          "Science and Health",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "GeneBench Pro",
+          "37.1%",
+          "32.3%",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 95,
+      "tag": "h3",
+      "text": "Cybersecurity",
+      "heading": "Cybersecurity",
+      "isFootnote": false
+    },
+    {
+      "index": 96,
+      "tag": "tr",
+      "text": "Cybersecurity | GPT‑6 Astra | GPT‑5.6 Sol | Claude Fable 5.1 | Claude Fable 5 | Claude Opus 5 | Gemini 3.8 Flash",
+      "heading": "Cybersecurity",
+      "isFootnote": false,
+      "cells": [
+        "Cybersecurity",
+        "GPT‑6 Astra",
+        "GPT‑5.6 Sol",
+        "Claude Fable 5.1",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Gemini 3.8 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Cybersecurity",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "ExploitBench",
+          "100.0%",
+          "78.5%",
+          "-",
+          "-",
+          "70%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 97,
+      "tag": "tr",
+      "text": "ExploitBench | 100.0% | 78.5% | - | - | 70% | -",
+      "heading": "Cybersecurity",
+      "isFootnote": false,
+      "cells": [
+        "ExploitBench",
+        "100.0%",
+        "78.5%",
+        "-",
+        "-",
+        "70%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Cybersecurity",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "ExploitBench",
+          "100.0%",
+          "78.5%",
+          "-",
+          "-",
+          "70%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 98,
+      "tag": "tr",
+      "text": "ExploitGym | 42.4% 13 | 30.3% 13 | 30.4% 17 | 28.4% 17 | 22.0% | -",
+      "heading": "Cybersecurity",
+      "isFootnote": false,
+      "cells": [
+        "ExploitGym",
+        "42.4% 13",
+        "30.3% 13",
+        "30.4% 17",
+        "28.4% 17",
+        "22.0%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Cybersecurity",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "ExploitBench",
+          "100.0%",
+          "78.5%",
+          "-",
+          "-",
+          "70%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 99,
+      "tag": "tr",
+      "text": "ExploitBench (June-Aug 2026) | 39.0% | 5.5% | - | - | - | -",
+      "heading": "Cybersecurity",
+      "isFootnote": false,
+      "cells": [
+        "ExploitBench (June-Aug 2026)",
+        "39.0%",
+        "5.5%",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Cybersecurity",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "ExploitBench",
+          "100.0%",
+          "78.5%",
+          "-",
+          "-",
+          "70%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 100,
+      "tag": "tr",
+      "text": "SRE-Bench | 88.0% | 55.9% | - | - | 12.5% | -",
+      "heading": "Cybersecurity",
+      "isFootnote": false,
+      "cells": [
+        "SRE-Bench",
+        "88.0%",
+        "55.9%",
+        "-",
+        "-",
+        "12.5%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Cybersecurity",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "ExploitBench",
+          "100.0%",
+          "78.5%",
+          "-",
+          "-",
+          "70%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 101,
+      "tag": "tr",
+      "text": "SEC-Bench Pro | 85.4% | 79.1% | - | - | - | -",
+      "heading": "Cybersecurity",
+      "isFootnote": false,
+      "cells": [
+        "SEC-Bench Pro",
+        "85.4%",
+        "79.1%",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Cybersecurity",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "ExploitBench",
+          "100.0%",
+          "78.5%",
+          "-",
+          "-",
+          "70%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 102,
+      "tag": "h3",
+      "text": "Alignment",
+      "heading": "Alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 103,
+      "tag": "tr",
+      "text": "Alignment | GPT‑6 Astra | GPT‑5.6 Sol | Claude Fable 5.1 | Claude Fable 5 | Claude Opus 5 | Gemini 3.8 Flash",
+      "heading": "Alignment",
+      "isFootnote": false,
+      "cells": [
+        "Alignment",
+        "GPT‑6 Astra",
+        "GPT‑5.6 Sol",
+        "Claude Fable 5.1",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Gemini 3.8 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Alignment",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Internal computer use safety benchmark (lower is better)",
+          "2.4%",
+          "22.0%",
+          "9.5%",
+          "18.3%",
+          "11.5%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 104,
+      "tag": "tr",
+      "text": "Internal computer use safety benchmark (lower is better) | 2.4% | 22.0% | 9.5% | 18.3% | 11.5% | -",
+      "heading": "Alignment",
+      "isFootnote": false,
+      "cells": [
+        "Internal computer use safety benchmark (lower is better)",
+        "2.4%",
+        "22.0%",
+        "9.5%",
+        "18.3%",
+        "11.5%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Alignment",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Internal computer use safety benchmark (lower is better)",
+          "2.4%",
+          "22.0%",
+          "9.5%",
+          "18.3%",
+          "11.5%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 105,
+      "tag": "tr",
+      "text": "Internal computer use safety benchmark, w/ AutoReview (lower is better) | 1.8% | 4.3% | - | - | - | -",
+      "heading": "Alignment",
+      "isFootnote": false,
+      "cells": [
+        "Internal computer use safety benchmark, w/ AutoReview (lower is better)",
+        "1.8%",
+        "4.3%",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Alignment",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Internal computer use safety benchmark (lower is better)",
+          "2.4%",
+          "22.0%",
+          "9.5%",
+          "18.3%",
+          "11.5%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 106,
+      "tag": "tr",
+      "text": "Internal circumvention benchmark (lower is better) | 0.00% | 0.29% | - | - | - | -",
+      "heading": "Alignment",
+      "isFootnote": false,
+      "cells": [
+        "Internal circumvention benchmark (lower is better)",
+        "0.00%",
+        "0.29%",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Alignment",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Internal computer use safety benchmark (lower is better)",
+          "2.4%",
+          "22.0%",
+          "9.5%",
+          "18.3%",
+          "11.5%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 107,
+      "tag": "tr",
+      "text": "ExploitGym honeypot (lower is better) | 0.0% | 48.2% | - | - | - | -",
+      "heading": "Alignment",
+      "isFootnote": false,
+      "cells": [
+        "ExploitGym honeypot (lower is better)",
+        "0.0%",
+        "48.2%",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Alignment",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Internal computer use safety benchmark (lower is better)",
+          "2.4%",
+          "22.0%",
+          "9.5%",
+          "18.3%",
+          "11.5%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 108,
+      "tag": "tr",
+      "text": "Impossible ExploitGym | 100.0% | - | - | - | - | -",
+      "heading": "Alignment",
+      "isFootnote": false,
+      "cells": [
+        "Impossible ExploitGym",
+        "100.0%",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Alignment",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Internal computer use safety benchmark (lower is better)",
+          "2.4%",
+          "22.0%",
+          "9.5%",
+          "18.3%",
+          "11.5%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 109,
+      "tag": "tr",
+      "text": "Internal hallucination benchmark (lower is better) | 4.2% | 12.2% | - | - | - | -",
+      "heading": "Alignment",
+      "isFootnote": false,
+      "cells": [
+        "Internal hallucination benchmark (lower is better)",
+        "4.2%",
+        "12.2%",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Alignment",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "Internal computer use safety benchmark (lower is better)",
+          "2.4%",
+          "22.0%",
+          "9.5%",
+          "18.3%",
+          "11.5%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 110,
+      "tag": "h3",
+      "text": "Long Context",
+      "heading": "Long Context",
+      "isFootnote": false
+    },
+    {
+      "index": 111,
+      "tag": "tr",
+      "text": "Long Context | GPT‑6 Astra | GPT‑5.6 Sol | Claude Fable 5.1 | Claude Fable 5 | Claude Opus 5 | Gemini 3.8 Flash",
+      "heading": "Long Context",
+      "isFootnote": false,
+      "cells": [
+        "Long Context",
+        "GPT‑6 Astra",
+        "GPT‑5.6 Sol",
+        "Claude Fable 5.1",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Gemini 3.8 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Long Context",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 256K-512K",
+          "100.0%",
+          "91.5%",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 112,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 256K-512K | 100.0% | 91.5% | - | - | - | -",
+      "heading": "Long Context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 256K-512K",
+        "100.0%",
+        "91.5%",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Long Context",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 256K-512K",
+          "100.0%",
+          "91.5%",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 113,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 512K-1M | 96.3% | 73.8% | - | - | - | -",
+      "heading": "Long Context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 512K-1M",
+        "96.3%",
+        "73.8%",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Long Context",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 256K-512K",
+          "100.0%",
+          "91.5%",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 114,
+      "tag": "h3",
+      "text": "Abstract reasoning",
+      "heading": "Abstract reasoning",
+      "isFootnote": false
+    },
+    {
+      "index": 115,
+      "tag": "tr",
+      "text": "Abstract reasoning | GPT‑6 Astra | GPT‑5.6 Sol | Claude Fable 5.1 | Claude Fable 5 | Claude Opus 5 | Gemini 3.8 Flash",
+      "heading": "Abstract reasoning",
+      "isFootnote": false,
+      "cells": [
+        "Abstract reasoning",
+        "GPT‑6 Astra",
+        "GPT‑5.6 Sol",
+        "Claude Fable 5.1",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Gemini 3.8 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Abstract reasoning",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "ARC-AGI-3",
+          "99.9% 1",
+          "7.8%",
+          "-",
+          "-",
+          "30.2%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 116,
+      "tag": "tr",
+      "text": "ARC-AGI-3 | 99.9% 1 | 7.8% | - | - | 30.2% | -",
+      "heading": "Abstract reasoning",
+      "isFootnote": false,
+      "cells": [
+        "ARC-AGI-3",
+        "99.9% 1",
+        "7.8%",
+        "-",
+        "-",
+        "30.2%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Abstract reasoning",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "ARC-AGI-3",
+          "99.9% 1",
+          "7.8%",
+          "-",
+          "-",
+          "30.2%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 117,
+      "tag": "tr",
+      "text": "ARC-AGI-2 | 95.0% | 92.5% | 90.0% | 89.2% | 90.4% | -",
+      "heading": "Abstract reasoning",
+      "isFootnote": false,
+      "cells": [
+        "ARC-AGI-2",
+        "95.0%",
+        "92.5%",
+        "90.0%",
+        "89.2%",
+        "90.4%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Abstract reasoning",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "ARC-AGI-3",
+          "99.9% 1",
+          "7.8%",
+          "-",
+          "-",
+          "30.2%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 118,
+      "tag": "tr",
+      "text": "ARC-AGI-1 | 98.5% | 97.5% | 97.5% | 98.5% | 97.5% | -",
+      "heading": "Abstract reasoning",
+      "isFootnote": false,
+      "cells": [
+        "ARC-AGI-1",
+        "98.5%",
+        "97.5%",
+        "97.5%",
+        "98.5%",
+        "97.5%",
+        "-"
+      ],
+      "tableHeaders": [
+        [
+          "Abstract reasoning",
+          "GPT‑6 Astra",
+          "GPT‑5.6 Sol",
+          "Claude Fable 5.1",
+          "Claude Fable 5",
+          "Claude Opus 5",
+          "Gemini 3.8 Flash"
+        ],
+        [
+          "ARC-AGI-3",
+          "99.9% 1",
+          "7.8%",
+          "-",
+          "-",
+          "30.2%",
+          "-"
+        ]
+      ]
+    },
+    {
+      "index": 119,
+      "tag": "p",
+      "text": "Evaluation scores are the maximum at any effort. GPT evaluations were run in our research environment or via our API, which may provide slightly different output from production ChatGPT due to differences in the system prompts, tools available, etc.",
+      "heading": "Abstract reasoning",
+      "isFootnote": false
+    },
+    {
+      "index": 120,
+      "tag": "li",
+      "text": "2026",
+      "heading": "Abstract reasoning",
+      "isFootnote": true
+    },
+    {
+      "index": 121,
+      "tag": "h2",
+      "text": "FOOTNOTES",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 122,
+      "tag": "li",
+      "text": "1 On ARC-AGI-3, GPT-6 Astra was run with our responses API harness ⁠ , which changes two settings to better match real-world performance. The changes do not specifically target ARC-AGI-3.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 123,
+      "tag": "li",
+      "text": "2 GPT-5.6 Sol refers to the version available in our API, ChatGPT Codex, and ChatGPT Work. The version in ChatGPT Chat is slightly different. ⁠",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 124,
+      "tag": "li",
+      "text": "3 OSWorld V2-Offline is a subset of the original OSWorld V2 that works without internet access. Claude model performance on OSWorld-V2 Offline was reproduced by the authors on the official leaderboard ⁠ (opens in a new window) . On OSWorld 2.0, the scores for Claude use the official settings, and not the modified tasks and modified grading from the Fable 5.1 System Card.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 125,
+      "tag": "li",
+      "text": "4 Model times are the reported elapsed times for the corresponding demonstration runs. The displayed clips are edited excerpts.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 126,
+      "tag": "li",
+      "text": "5 On BenchCAD, Claude's scores reflect 3 modifications to the eval, detailed in the Fable 5.1 System Card ⁠ (opens in a new window) .",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 127,
+      "tag": "li",
+      "text": "6 Guang Yang, Victoria Ebert, Nazif Tamer, Brian Siyuan Zheng, Luiza Pozzobon, and Noah A. Smith. “ LEGATO: Large-scale End-to-end Generalizable Approach to Typeset OMR ⁠ (opens in a new window) .” arXiv:2506.19065, 2025.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 128,
+      "tag": "li",
+      "text": "7 Mark R. H. Gotham, Maureen Redbond, Bruno Bower, and Peter Jonas. “ The OpenScore String Quartet Corpus ⁠ (opens in a new window) .” Proceedings of the 10th International Conference on Digital Libraries for Musicology, pp. 49–57. ACM, 2023.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 129,
+      "tag": "li",
+      "text": "8 On FrontierCode, GPT-6 Astra was run with a developer message similar to a section of its developer message in Codex ⁠ (opens in a new window) : \"Avoid creating excessive test files. Create a new test file only when required by repository conventions or when no existing file is a suitable home. Avoid unrelated cleanup and unnecessary complexity. Reuse suitable existing utilities. Read relevant repository instructions and inspect nearby code, tests, documentation, and CI. Follow established conventions. The goal is clean, mergeable code.\" The prompt was not optimized for the eval.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 130,
+      "tag": "li",
+      "text": "9 The first concerns how close together prime numbers can occur, however far along the number line you go. For more than a decade, the best known result established that infinitely many pairs of primes are at most 246 apart. Julia Stadlmann ⁠ (opens in a new window) recently improved that bound to 240. Astra helped establish a stronger bound of 186, showing that infinitely many pairs occur within this smaller distance. Short prime gaps: Proof ⁠ (opens in a new window) and supporting research ⁠ (opens in a new window) .",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 131,
+      "tag": "li",
+      "text": "10 The second concerns unusually large gaps between primes. Astra improved a term in a bound on these gaps that had remained unchanged for more than 80 years. We’re sharing the proofs and abridged chain of thought and verification materials for both results. Large prime gaps: Proof ⁠ (opens in a new window) and supporting research ⁠ (opens in a new window) .",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 132,
+      "tag": "li",
+      "text": "11 We independently evaluated all Claude models following the intended HealthBench Professional procedure, using GPT‑5.4 grading and length-adjusted, unclipped scores. For Fable 5.1, we used Opus 5 fallback for provider refusals.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 133,
+      "tag": "li",
+      "text": "12 Claude Fable 5 and 5.1 are not included in LifeSciBench Gold v1, GeneBench Pro v13, and MedChemBench because they refuse the majority of questions in these evaluations.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 134,
+      "tag": "li",
+      "text": "13 On ExploitGym, we tested Astra and Sol without the 6-hour time limit, to better assess their full cyber capabilities. They are fast enough that it has little impact.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 135,
+      "tag": "li",
+      "text": "14 ExploitBench (June–August 2026) contains 20 high-severity V8 vulnerabilities across 13 stable Chrome releases. The benchmark tests whether agents can achieve arbitrary code execution in V8 and official Chrome releases for Linux by exploiting each specified vulnerability. Some included vulnerabilities may not permit arbitrary code execution under the evaluation’s constraints, so a 100% success rate may not be achievable. Note: the 5.5% score of GPT-5.6 Sol is an artifact of the 300-turn limit in the benchmark, which is not a limit that real customers using max would have. The model at similar settings achieved an 11.5% score when hitting fewer limits.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 136,
+      "tag": "li",
+      "text": "15 Jeremy Spence et al. “ The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark ⁠ (opens in a new window) .” arXiv:2608.11469v1, 2026.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 137,
+      "tag": "li",
+      "text": "16 When we test across third-party models, we use a simpler research setup. Codex has a more complex production configuration, which can result in different raw-model error rates. Provider-side safeguards and computer-tool implementations still differ. Users do not experience the no-confirmation scenario in Codex, as it's an internal research configuration.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    },
+    {
+      "index": 138,
+      "tag": "li",
+      "text": "17 For ScreenSpot-Pro and ExploitGym, the Fable scores we report come from Mythos, which is Fable with fewer safeguards.",
+      "heading": "FOOTNOTES",
+      "isFootnote": true
+    }
+  ]
+}

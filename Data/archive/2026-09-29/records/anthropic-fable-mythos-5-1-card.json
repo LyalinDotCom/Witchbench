@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-fable-mythos-5-1-card",
+  "sourceUrl": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+  "expectedBytes": 16397488,
+  "expectedSha256": "b0d59edc7a60eef32a879c13d713cce60c3fefd7e6b5183afdc8b835af3c8c39",
+  "expectedPages": 212,
+  "kind": "card",
+  "pages": 212,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:45:14.794975+00:00",
+  "finalUrl": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+  "contentType": "application/pdf",
+  "bytes": 16397488,
+  "sha256": "b0d59edc7a60eef32a879c13d713cce60c3fefd7e6b5183afdc8b835af3c8c39",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-fable-mythos-5-1-card.pdf",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-fable-mythos-5-1-card.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-fable-mythos-5-1-card.json",
+  "matchesResearchHash": true
+}

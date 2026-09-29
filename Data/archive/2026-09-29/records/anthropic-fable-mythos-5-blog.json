@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-fable-mythos-5-blog",
+  "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "expectedBytes": 380786,
+  "expectedSha256": "0bf6817d17ca69b5cb136fe9cf658ff6fdd4bd3c783b213ee2d44a2b94776815",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.099468+00:00",
+  "finalUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "contentType": "text/html",
+  "bytes": 380786,
+  "sha256": "0bf6817d17ca69b5cb136fe9cf658ff6fdd4bd3c783b213ee2d44a2b94776815",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-fable-mythos-5-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-fable-mythos-5-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-fable-mythos-5-blog.json",
+  "matchesResearchHash": true
+}

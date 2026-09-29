@@ -1,0 +1,19 @@
+{
+  "id": "google-gemini-3-5-flash-cyber-blog",
+  "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+  "expectedBytes": 143169,
+  "expectedSha256": "194ff5aaabfb6cef1c24f46b574727ed28bae08d28d876c3a24ea48f44520e38",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.390312+00:00",
+  "finalUrl": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+  "contentType": "text/html",
+  "bytes": 143169,
+  "sha256": "194ff5aaabfb6cef1c24f46b574727ed28bae08d28d876c3a24ea48f44520e38",
+  "localPath": "Data/archive/2026-09-29/raw/google-gemini-3-5-flash-cyber-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/google-gemini-3-5-flash-cyber-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/google-gemini-3-5-flash-cyber-blog.json",
+  "matchesResearchHash": true
+}

@@ -1,0 +1,1081 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "p",
+      "text": "March 17, 2026",
+      "heading": "",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "h1",
+      "text": "Introducing GPT‑5.4 mini and nano",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "Fast and efficient models optimized for coding and subagents",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "p",
+      "text": "Today we’re releasing GPT‑5.4 mini and nano, our most capable small models yet. They bring many of the strengths of GPT‑5.4 to faster, more efficient models designed for high-volume workloads.",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "p",
+      "text": "GPT‑5.4 mini significantly improves over GPT‑5 mini across coding, reasoning, multimodal understanding, and tool use, while running more than 2x faster. It also approaches the performance of the larger GPT‑5.4 model on several evaluations, including SWE-Bench Pro and OSWorld-Verified.",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "p",
+      "text": "GPT‑5.4 nano is the smallest, cheapest version of GPT‑5.4 for tasks where speed and cost matter most. It is also a significant upgrade over GPT‑5 nano. We recommend it for classification, data extraction, ranking, and coding subagents that handle simpler supporting tasks.",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "p",
+      "text": "These models are built for the kinds of workloads where latency directly shapes the product experience: coding assistants that need to feel responsive, subagents that quickly complete supporting tasks, computer-using systems that capture and interpret screenshots, and multimodal applications that can reason over images in real-time. In these settings, the best model is often not the largest one—it’s the one that can respond quickly, use tools reliably, and still perform well on complex professional tasks.",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false
+    },
+    {
+      "index": 8,
+      "tag": "tr",
+      "text": "| GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false,
+      "cells": [
+        "",
+        "GPT-5.4 (xhigh)",
+        "GPT-5.4 mini (xhigh)",
+        "GPT-5.4 nano (xhigh)",
+        "GPT-5 mini (high¹)"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "SWE-Bench Pro (Public)",
+          "57.7%",
+          "54.4%",
+          "52.4%",
+          "45.7%"
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "tag": "tr",
+      "text": "SWE-Bench Pro (Public) | 57.7% | 54.4% | 52.4% | 45.7%",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false,
+      "cells": [
+        "SWE-Bench Pro (Public)",
+        "57.7%",
+        "54.4%",
+        "52.4%",
+        "45.7%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "SWE-Bench Pro (Public)",
+          "57.7%",
+          "54.4%",
+          "52.4%",
+          "45.7%"
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "tag": "tr",
+      "text": "Terminal-Bench 2.0 | 75.1% | 60.0% | 46.3% | 38.2%",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false,
+      "cells": [
+        "Terminal-Bench 2.0",
+        "75.1%",
+        "60.0%",
+        "46.3%",
+        "38.2%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "SWE-Bench Pro (Public)",
+          "57.7%",
+          "54.4%",
+          "52.4%",
+          "45.7%"
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "tag": "tr",
+      "text": "Toolathlon | 54.6% | 42.9% | 35.5% | 26.9%",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false,
+      "cells": [
+        "Toolathlon",
+        "54.6%",
+        "42.9%",
+        "35.5%",
+        "26.9%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "SWE-Bench Pro (Public)",
+          "57.7%",
+          "54.4%",
+          "52.4%",
+          "45.7%"
+        ]
+      ]
+    },
+    {
+      "index": 12,
+      "tag": "tr",
+      "text": "GPQA Diamond | 93.0% | 88.0% | 82.8% | 81.6%",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false,
+      "cells": [
+        "GPQA Diamond",
+        "93.0%",
+        "88.0%",
+        "82.8%",
+        "81.6%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "SWE-Bench Pro (Public)",
+          "57.7%",
+          "54.4%",
+          "52.4%",
+          "45.7%"
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "tag": "tr",
+      "text": "OSWorld-Verified | 75.0% | 72.1% | 39.0% | 42.0%",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false,
+      "cells": [
+        "OSWorld-Verified",
+        "75.0%",
+        "72.1%",
+        "39.0%",
+        "42.0%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "SWE-Bench Pro (Public)",
+          "57.7%",
+          "54.4%",
+          "52.4%",
+          "45.7%"
+        ]
+      ]
+    },
+    {
+      "index": 14,
+      "tag": "p",
+      "text": "1 The highest reasoning_effort available for GPT‑5 mini is 'high'.",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false
+    },
+    {
+      "index": 15,
+      "tag": "p",
+      "text": "Here’s what our customers think after testing GPT‑5.4 mini and nano in their workflows:",
+      "heading": "Introducing GPT‑5.4 mini and nano",
+      "isFootnote": false
+    },
+    {
+      "index": 16,
+      "tag": "h2",
+      "text": "Coding",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "p",
+      "text": "GPT‑5.4 mini and nano are especially effective in coding workflows that benefit from fast iteration. The models handle targeted edits, codebase navigation, front-end generation, and debugging loops with low latency, making them a strong fit for coding tasks that need to be completed at faster speeds and lower costs.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "p",
+      "text": "In benchmarks, GPT‑5.4 mini consistently outperforms GPT‑5‑mini at similar latencies and approaches GPT‑5.4‑level pass rates while running much faster, delivering one of the strongest performance-per-latency tradeoffs for coding workflows.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "figcaption",
+      "text": "We estimate latency by looking at the production behavior of our models, and simulating this offline. The latency estimate accounts for tool call duration (code execution time), sampled tokens, and input tokens. Real-world latency may vary substantially, and depends on many factors not captured in our simulation. Similarly, costs are estimated based on API pricing of these models at the time of writing. Costs may change in the future. Reasoning efforts were swept from low to xhigh.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 20,
+      "tag": "h3",
+      "text": "Subagents",
+      "heading": "Subagents",
+      "isFootnote": false
+    },
+    {
+      "index": 21,
+      "tag": "p",
+      "text": "GPT‑5.4 mini is also a strong fit for systems that combine models of different sizes. In Codex, for example, a larger model like GPT‑5.4 can handle planning, coordination, and final judgment, while delegating to GPT‑5.4 mini subagents that handle narrower subtasks in parallel—like searching a codebase, reviewing a large file, or processing supporting documents. Learn how subagents work in Codex in the docs ⁠ (opens in a new window) .",
+      "heading": "Subagents",
+      "isFootnote": false
+    },
+    {
+      "index": 22,
+      "tag": "p",
+      "text": "This pattern becomes more useful as smaller models get faster and more capable. Instead of using one model for everything, developers can compose systems where larger models decide what to do and smaller models execute quickly at scale. GPT‑5.4 mini is our strongest mini model yet for that style of workflow.",
+      "heading": "Subagents",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "h2",
+      "text": "Computer use",
+      "heading": "Computer use",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "p",
+      "text": "GPT‑5.4 mini is also strong on multimodal tasks, particularly those related to computer use. The model can quickly interpret screenshots of dense user interfaces to complete computer use tasks with speed. On OSWorld-Verified, GPT‑5.4 mini approaches GPT‑5.4 while substantially outperforming GPT‑5 mini.",
+      "heading": "Computer use",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "h2",
+      "text": "Availability & pricing",
+      "heading": "Availability & pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "p",
+      "text": "GPT‑5.4 mini is available today in the API, Codex, and ChatGPT.",
+      "heading": "Availability & pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "p",
+      "text": "In the API, GPT‑5.4 mini supports text and image inputs, tool use, function calling, web search, file search, computer use, and skills. It has a 400k context window and costs $0.75 per 1M input tokens and $4.50 per 1M output tokens.",
+      "heading": "Availability & pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "p",
+      "text": "In Codex, GPT‑5.4 mini is available across the Codex app, CLI, IDE extension and web. It uses only 30% of the GPT‑5.4 quota, letting developers quickly handle simpler coding tasks in Codex for about one-third the cost. Codex can also delegate to GPT‑5.4 mini subagents so that less reasoning-intensive work runs on the cheaper model.",
+      "heading": "Availability & pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "p",
+      "text": "In ChatGPT, GPT‑5.4 mini is available to Free and Go users via the “Thinking” feature in the + menu. For all other users, GPT‑5.4 mini is available as a rate limit fallback for GPT‑5.4 Thinking.",
+      "heading": "Availability & pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "p",
+      "text": "GPT‑5.4 nano is only available in the API and costs $0.20 per 1M input tokens and $1.25 per 1M output tokens.",
+      "heading": "Availability & pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "p",
+      "text": "For more information on the models’ safeguards, please check out the System Card addendum on our Deployment Safety Hub ⁠ (opens in a new window) .",
+      "heading": "Availability & pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "h5",
+      "text": "Coding",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "tr",
+      "text": "| GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "",
+        "GPT-5.4 (xhigh)",
+        "GPT-5.4 mini (xhigh)",
+        "GPT-5.4 nano (xhigh)",
+        "GPT-5 mini (high¹)"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "SWE-bench Pro (Public)",
+          "57.7%",
+          "54.4%",
+          "52.4%",
+          "45.7%"
+        ]
+      ]
+    },
+    {
+      "index": 34,
+      "tag": "tr",
+      "text": "SWE-bench Pro (Public) | 57.7% | 54.4% | 52.4% | 45.7%",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "SWE-bench Pro (Public)",
+        "57.7%",
+        "54.4%",
+        "52.4%",
+        "45.7%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "SWE-bench Pro (Public)",
+          "57.7%",
+          "54.4%",
+          "52.4%",
+          "45.7%"
+        ]
+      ]
+    },
+    {
+      "index": 35,
+      "tag": "tr",
+      "text": "Terminal-Bench 2.0 | 75.1% | 60.0% | 46.3% | 38.2%",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "Terminal-Bench 2.0",
+        "75.1%",
+        "60.0%",
+        "46.3%",
+        "38.2%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "SWE-bench Pro (Public)",
+          "57.7%",
+          "54.4%",
+          "52.4%",
+          "45.7%"
+        ]
+      ]
+    },
+    {
+      "index": 36,
+      "tag": "h5",
+      "text": "Tool-calling",
+      "heading": "Tool-calling",
+      "isFootnote": false
+    },
+    {
+      "index": 37,
+      "tag": "tr",
+      "text": "| GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)",
+      "heading": "Tool-calling",
+      "isFootnote": false,
+      "cells": [
+        "",
+        "GPT-5.4 (xhigh)",
+        "GPT-5.4 mini (xhigh)",
+        "GPT-5.4 nano (xhigh)",
+        "GPT-5 mini (high¹)"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "MCP Atlas",
+          "67.2%",
+          "57.7%",
+          "56.1%",
+          "47.6%"
+        ]
+      ]
+    },
+    {
+      "index": 38,
+      "tag": "tr",
+      "text": "MCP Atlas | 67.2% | 57.7% | 56.1% | 47.6%",
+      "heading": "Tool-calling",
+      "isFootnote": false,
+      "cells": [
+        "MCP Atlas",
+        "67.2%",
+        "57.7%",
+        "56.1%",
+        "47.6%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "MCP Atlas",
+          "67.2%",
+          "57.7%",
+          "56.1%",
+          "47.6%"
+        ]
+      ]
+    },
+    {
+      "index": 39,
+      "tag": "tr",
+      "text": "Toolathlon | 54.6% | 42.9% | 35.5% | 26.9%",
+      "heading": "Tool-calling",
+      "isFootnote": false,
+      "cells": [
+        "Toolathlon",
+        "54.6%",
+        "42.9%",
+        "35.5%",
+        "26.9%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "MCP Atlas",
+          "67.2%",
+          "57.7%",
+          "56.1%",
+          "47.6%"
+        ]
+      ]
+    },
+    {
+      "index": 40,
+      "tag": "tr",
+      "text": "τ2-bench (telecom) | 98.9% | 93.4% | 92.5% | 74.1%",
+      "heading": "Tool-calling",
+      "isFootnote": false,
+      "cells": [
+        "τ2-bench (telecom)",
+        "98.9%",
+        "93.4%",
+        "92.5%",
+        "74.1%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "MCP Atlas",
+          "67.2%",
+          "57.7%",
+          "56.1%",
+          "47.6%"
+        ]
+      ]
+    },
+    {
+      "index": 41,
+      "tag": "h5",
+      "text": "Intelligence",
+      "heading": "Intelligence",
+      "isFootnote": false
+    },
+    {
+      "index": 42,
+      "tag": "tr",
+      "text": "| GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)",
+      "heading": "Intelligence",
+      "isFootnote": false,
+      "cells": [
+        "",
+        "GPT-5.4 (xhigh)",
+        "GPT-5.4 mini (xhigh)",
+        "GPT-5.4 nano (xhigh)",
+        "GPT-5 mini (high¹)"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "GPQA Diamond",
+          "93.0%",
+          "88.0%",
+          "82.8%",
+          "81.6%"
+        ]
+      ]
+    },
+    {
+      "index": 43,
+      "tag": "tr",
+      "text": "GPQA Diamond | 93.0% | 88.0% | 82.8% | 81.6%",
+      "heading": "Intelligence",
+      "isFootnote": false,
+      "cells": [
+        "GPQA Diamond",
+        "93.0%",
+        "88.0%",
+        "82.8%",
+        "81.6%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "GPQA Diamond",
+          "93.0%",
+          "88.0%",
+          "82.8%",
+          "81.6%"
+        ]
+      ]
+    },
+    {
+      "index": 44,
+      "tag": "tr",
+      "text": "HLE w/ tool | 52.1% | 41.5% | 37.7% | 31.6%",
+      "heading": "Intelligence",
+      "isFootnote": false,
+      "cells": [
+        "HLE w/ tool",
+        "52.1%",
+        "41.5%",
+        "37.7%",
+        "31.6%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "GPQA Diamond",
+          "93.0%",
+          "88.0%",
+          "82.8%",
+          "81.6%"
+        ]
+      ]
+    },
+    {
+      "index": 45,
+      "tag": "tr",
+      "text": "HLE w/o tools | 39.8% | 28.2% | 24.3% | 18.3%",
+      "heading": "Intelligence",
+      "isFootnote": false,
+      "cells": [
+        "HLE w/o tools",
+        "39.8%",
+        "28.2%",
+        "24.3%",
+        "18.3%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "GPQA Diamond",
+          "93.0%",
+          "88.0%",
+          "82.8%",
+          "81.6%"
+        ]
+      ]
+    },
+    {
+      "index": 46,
+      "tag": "h5",
+      "text": "MM / Vision / CUA",
+      "heading": "MM / Vision / CUA",
+      "isFootnote": false
+    },
+    {
+      "index": 47,
+      "tag": "tr",
+      "text": "| GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)",
+      "heading": "MM / Vision / CUA",
+      "isFootnote": false,
+      "cells": [
+        "",
+        "GPT-5.4 (xhigh)",
+        "GPT-5.4 mini (xhigh)",
+        "GPT-5.4 nano (xhigh)",
+        "GPT-5 mini (high¹)"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "OSWorld-Verified",
+          "75.0%",
+          "72.1%",
+          "39.0%",
+          "42.0%"
+        ]
+      ]
+    },
+    {
+      "index": 48,
+      "tag": "tr",
+      "text": "OSWorld-Verified | 75.0% | 72.1% | 39.0% | 42.0%",
+      "heading": "MM / Vision / CUA",
+      "isFootnote": false,
+      "cells": [
+        "OSWorld-Verified",
+        "75.0%",
+        "72.1%",
+        "39.0%",
+        "42.0%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "OSWorld-Verified",
+          "75.0%",
+          "72.1%",
+          "39.0%",
+          "42.0%"
+        ]
+      ]
+    },
+    {
+      "index": 49,
+      "tag": "tr",
+      "text": "MMMUPro w/ Python | 81.5% | 78.0% | 69.5% | 74.1%",
+      "heading": "MM / Vision / CUA",
+      "isFootnote": false,
+      "cells": [
+        "MMMUPro w/ Python",
+        "81.5%",
+        "78.0%",
+        "69.5%",
+        "74.1%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "OSWorld-Verified",
+          "75.0%",
+          "72.1%",
+          "39.0%",
+          "42.0%"
+        ]
+      ]
+    },
+    {
+      "index": 50,
+      "tag": "tr",
+      "text": "MMMUPro | 81.2% | 76.6% | 66.1% | 67.5%",
+      "heading": "MM / Vision / CUA",
+      "isFootnote": false,
+      "cells": [
+        "MMMUPro",
+        "81.2%",
+        "76.6%",
+        "66.1%",
+        "67.5%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "OSWorld-Verified",
+          "75.0%",
+          "72.1%",
+          "39.0%",
+          "42.0%"
+        ]
+      ]
+    },
+    {
+      "index": 51,
+      "tag": "tr",
+      "text": "OmniDocBench 1.5 (no tools)² — lower is better | 0.109 | 0.1263 | 0.2419 | 0.1791",
+      "heading": "MM / Vision / CUA",
+      "isFootnote": false,
+      "cells": [
+        "OmniDocBench 1.5 (no tools)² — lower is better",
+        "0.109",
+        "0.1263",
+        "0.2419",
+        "0.1791"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "OSWorld-Verified",
+          "75.0%",
+          "72.1%",
+          "39.0%",
+          "42.0%"
+        ]
+      ]
+    },
+    {
+      "index": 52,
+      "tag": "h5",
+      "text": "Long context",
+      "heading": "Long context",
+      "isFootnote": false
+    },
+    {
+      "index": 53,
+      "tag": "tr",
+      "text": "| GPT-5.4 (xhigh) | GPT-5.4 mini (xhigh) | GPT-5.4 nano (xhigh) | GPT-5 mini (high¹)",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "",
+        "GPT-5.4 (xhigh)",
+        "GPT-5.4 mini (xhigh)",
+        "GPT-5.4 nano (xhigh)",
+        "GPT-5 mini (high¹)"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 64K–128K",
+          "86.0%",
+          "47.7%",
+          "44.2%",
+          "35.1%"
+        ]
+      ]
+    },
+    {
+      "index": 54,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 64K–128K | 86.0% | 47.7% | 44.2% | 35.1%",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 64K–128K",
+        "86.0%",
+        "47.7%",
+        "44.2%",
+        "35.1%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 64K–128K",
+          "86.0%",
+          "47.7%",
+          "44.2%",
+          "35.1%"
+        ]
+      ]
+    },
+    {
+      "index": 55,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 128K–256K | 79.3% | 33.6% | 33.1% | 19.4%",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 128K–256K",
+        "79.3%",
+        "33.6%",
+        "33.1%",
+        "19.4%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 64K–128K",
+          "86.0%",
+          "47.7%",
+          "44.2%",
+          "35.1%"
+        ]
+      ]
+    },
+    {
+      "index": 56,
+      "tag": "tr",
+      "text": "Graphwalks BFS 0K–128K | 93.1% | 76.3% | 73.4% | 73.4%",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "Graphwalks BFS 0K–128K",
+        "93.1%",
+        "76.3%",
+        "73.4%",
+        "73.4%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 64K–128K",
+          "86.0%",
+          "47.7%",
+          "44.2%",
+          "35.1%"
+        ]
+      ]
+    },
+    {
+      "index": 57,
+      "tag": "tr",
+      "text": "Graphwalks parents 0–128K (accuracy) | 89.8% | 71.5% | 50.8% | 64.3%",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "Graphwalks parents 0–128K (accuracy)",
+        "89.8%",
+        "71.5%",
+        "50.8%",
+        "64.3%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT-5.4 (xhigh)",
+          "GPT-5.4 mini (xhigh)",
+          "GPT-5.4 nano (xhigh)",
+          "GPT-5 mini (high¹)"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 64K–128K",
+          "86.0%",
+          "47.7%",
+          "44.2%",
+          "35.1%"
+        ]
+      ]
+    },
+    {
+      "index": 58,
+      "tag": "p",
+      "text": "1 The highest reasoning_effort available for GPT‑5 mini is 'high'.",
+      "heading": "Long context",
+      "isFootnote": false
+    },
+    {
+      "index": 59,
+      "tag": "p",
+      "text": "2 Overall Edit Distance. OmniDocBench was run with reasoning_effort set to 'none' to reflect low-cost, low-latency performance.",
+      "heading": "Long context",
+      "isFootnote": false
+    },
+    {
+      "index": 60,
+      "tag": "li",
+      "text": "2026",
+      "heading": "Long context",
+      "isFootnote": true
+    },
+    {
+      "index": 61,
+      "tag": "h2",
+      "text": "Author",
+      "heading": "Author",
+      "isFootnote": true
+    },
+    {
+      "index": 62,
+      "tag": "h2",
+      "text": "Keep reading",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 63,
+      "tag": "p",
+      "text": "Company Sep 28, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 64,
+      "tag": "p",
+      "text": "Company Sep 28, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 65,
+      "tag": "p",
+      "text": "Company Sep 23, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    }
+  ]
+}

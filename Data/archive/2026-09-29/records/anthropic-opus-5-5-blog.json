@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-opus-5-5-blog",
+  "sourceUrl": "https://www.anthropic.com/claude-opus-5-5",
+  "expectedBytes": 664021,
+  "expectedSha256": "908701192cb4f173c0626744d5efb4a062735c80dd39968b8a6a81f6bf49934e",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.196948+00:00",
+  "finalUrl": "https://www.anthropic.com/claude-opus-5-5",
+  "contentType": "text/html",
+  "bytes": 664021,
+  "sha256": "908701192cb4f173c0626744d5efb4a062735c80dd39968b8a6a81f6bf49934e",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-opus-5-5-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-opus-5-5-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-opus-5-5-blog.json",
+  "matchesResearchHash": true
+}

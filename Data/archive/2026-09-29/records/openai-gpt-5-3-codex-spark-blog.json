@@ -1,0 +1,19 @@
+{
+  "id": "openai-gpt-5-3-codex-spark-blog",
+  "sourceUrl": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+  "expectedBytes": 442817,
+  "expectedSha256": "81b47f9fc95b48b0d4c1a6d74c30e2bca2f028398ee0fde706f9c1ded4c2b5d6",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.546349+00:00",
+  "finalUrl": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+  "contentType": "text/html",
+  "bytes": 442855,
+  "sha256": "aca85fbdc445c7480236611be0f362507a5be0d3a64eedeae62256182f881a60",
+  "localPath": "Data/archive/2026-09-29/raw/openai-gpt-5-3-codex-spark-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/openai-gpt-5-3-codex-spark-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/openai-gpt-5-3-codex-spark-blog.json",
+  "matchesResearchHash": false
+}

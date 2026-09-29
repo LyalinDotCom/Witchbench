@@ -1,0 +1,19 @@
+{
+  "id": "google-gemini-3-1-flash-lite-card",
+  "sourceUrl": "https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/",
+  "expectedBytes": 153141,
+  "expectedSha256": "b0262d331d29ca2ed1f4365131e436c731366ece1acd27d095543117f51234df",
+  "expectedPages": null,
+  "kind": "card",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.342498+00:00",
+  "finalUrl": "https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/",
+  "contentType": "text/html",
+  "bytes": 153141,
+  "sha256": "b0262d331d29ca2ed1f4365131e436c731366ece1acd27d095543117f51234df",
+  "localPath": "Data/archive/2026-09-29/raw/google-gemini-3-1-flash-lite-card.html",
+  "textPath": "Data/archive/2026-09-29/text/google-gemini-3-1-flash-lite-card.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/google-gemini-3-1-flash-lite-card.json",
+  "matchesResearchHash": true
+}

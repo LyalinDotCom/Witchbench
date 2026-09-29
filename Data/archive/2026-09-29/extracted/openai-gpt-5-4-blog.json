@@ -1,0 +1,2277 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "p",
+      "text": "March 5, 2026",
+      "heading": "",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "h1",
+      "text": "Introducing GPT‑5.4",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "Designed for professional work",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "p",
+      "text": "Today, we’re releasing GPT‑5.4 in ChatGPT (as GPT‑5.4 Thinking), the API, and Codex. It’s our most capable and efficient frontier model for professional work. We’re also releasing GPT‑5.4 Pro in ChatGPT and the API, for people who want maximum performance on complex tasks.",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "p",
+      "text": "GPT‑5.4 brings together the best of our recent advances in reasoning, coding, and agentic workflows into a single frontier model. It incorporates the industry-leading coding capabilities of GPT‑5.3‑Codex ⁠ while improving how the model works across tools, software environments, and professional tasks involving spreadsheets, presentations, and documents. The result is a model that gets complex real work done accurately, effectively, and efficiently—delivering what you asked for with less back and forth.",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "p",
+      "text": "In ChatGPT, GPT‑5.4 Thinking can now provide an upfront plan of its thinking, so you can adjust course mid-response while it’s working , and arrive at a final output that’s more closely aligned with what you need without additional turns. GPT‑5.4 Thinking also improves deep web research, particularly for highly specific queries, while better maintaining context for questions that require longer thinking. Together, these improvements mean higher-quality answers that arrive faster and stay relevant to the task at hand.",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "p",
+      "text": "In Codex and the API, GPT‑5.4 is the first general-purpose model we’ve released with native, state-of-the-art computer-use capabilities , enabling agents to operate computers and carry out complex workflows across applications. It supports up to 1M tokens of context , allowing agents to plan, execute, and verify tasks across long horizons. GPT‑5.4 also improves how models work across large ecosystems of tools and connectors with tool search , helping agents find and use the right tools more efficiently without sacrificing intelligence. Finally, GPT‑5.4 is our most token efficient reasoning model yet, using significantly fewer tokens to solve problems when compared to GPT‑5.2—translating to reduced token usage and faster speeds.",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false
+    },
+    {
+      "index": 8,
+      "tag": "p",
+      "text": "Together with advances in general reasoning, coding, and professional knowledge work, GPT‑5.4 enables more reliable agents, faster developer workflows, and higher-quality outputs across ChatGPT, the API, and Codex.",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false
+    },
+    {
+      "index": 9,
+      "tag": "tr",
+      "text": "| GPT‑5.4 | GPT‑5.3‑Codex | GPT‑5.2",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false,
+      "cells": [
+        "",
+        "GPT‑5.4",
+        "GPT‑5.3‑Codex",
+        "GPT‑5.2"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT‑5.4",
+          "GPT‑5.3‑Codex",
+          "GPT‑5.2"
+        ],
+        [
+          "GDPval (wins or ties)",
+          "83.0%",
+          "70.9%",
+          "70.9%"
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "tag": "tr",
+      "text": "GDPval (wins or ties) | 83.0% | 70.9% | 70.9%",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false,
+      "cells": [
+        "GDPval (wins or ties)",
+        "83.0%",
+        "70.9%",
+        "70.9%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT‑5.4",
+          "GPT‑5.3‑Codex",
+          "GPT‑5.2"
+        ],
+        [
+          "GDPval (wins or ties)",
+          "83.0%",
+          "70.9%",
+          "70.9%"
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "tag": "tr",
+      "text": "SWE-Bench Pro (Public) | 57.7% | 56.8% | 55.6%",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false,
+      "cells": [
+        "SWE-Bench Pro (Public)",
+        "57.7%",
+        "56.8%",
+        "55.6%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT‑5.4",
+          "GPT‑5.3‑Codex",
+          "GPT‑5.2"
+        ],
+        [
+          "GDPval (wins or ties)",
+          "83.0%",
+          "70.9%",
+          "70.9%"
+        ]
+      ]
+    },
+    {
+      "index": 12,
+      "tag": "tr",
+      "text": "OSWorld-Verified | 75.0% | 74.0%* | 47.3%",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false,
+      "cells": [
+        "OSWorld-Verified",
+        "75.0%",
+        "74.0%*",
+        "47.3%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT‑5.4",
+          "GPT‑5.3‑Codex",
+          "GPT‑5.2"
+        ],
+        [
+          "GDPval (wins or ties)",
+          "83.0%",
+          "70.9%",
+          "70.9%"
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "tag": "tr",
+      "text": "Toolathlon | 54.6% | 51.9% | 46.3%",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false,
+      "cells": [
+        "Toolathlon",
+        "54.6%",
+        "51.9%",
+        "46.3%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT‑5.4",
+          "GPT‑5.3‑Codex",
+          "GPT‑5.2"
+        ],
+        [
+          "GDPval (wins or ties)",
+          "83.0%",
+          "70.9%",
+          "70.9%"
+        ]
+      ]
+    },
+    {
+      "index": 14,
+      "tag": "tr",
+      "text": "BrowseComp | 82.7% | 77.3% | 65.8%",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false,
+      "cells": [
+        "BrowseComp",
+        "82.7%",
+        "77.3%",
+        "65.8%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "GPT‑5.4",
+          "GPT‑5.3‑Codex",
+          "GPT‑5.2"
+        ],
+        [
+          "GDPval (wins or ties)",
+          "83.0%",
+          "70.9%",
+          "70.9%"
+        ]
+      ]
+    },
+    {
+      "index": 15,
+      "tag": "p",
+      "text": "*Previously reported as 64.7%. GPT‑5.3‑Codex achieves 74.0% with a newly introduced API parameter that preserves the original image resolution.",
+      "heading": "Introducing GPT‑5.4",
+      "isFootnote": false
+    },
+    {
+      "index": 16,
+      "tag": "h2",
+      "text": "Knowledge work",
+      "heading": "Knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "p",
+      "text": "Building on GPT‑5.2’s general reasoning capabilities, GPT‑5.4 delivers even more consistent and polished results on real-world tasks that matter to professionals.",
+      "heading": "Knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "p",
+      "text": "On GDPval ⁠ , which tests agents’ abilities to produce well-specified knowledge work across 44 occupations, GPT‑5.4 achieves a new state of the art, matching or exceeding industry professionals in 83.0% of comparisons, compared to 70.9% for GPT‑5.2.",
+      "heading": "Knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "figcaption",
+      "text": "In GDPval, models attempt well-specified knowledge work spanning 44 occupations from the top 9 industries contributing to U.S. GDP. Tasks request real work products, such as sales presentations, accounting spreadsheets, urgent care schedules, manufacturing diagrams, or short videos. Reasoning effort was set to xhigh for GPT‑5.4 and heavy for GPT‑5.2 (a slightly lower level in ChatGPT).",
+      "heading": "Knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 20,
+      "tag": "p",
+      "text": "We put a particular focus on improving GPT‑5.4’s ability to create and edit spreadsheets, presentations, and documents. On an internal benchmark of spreadsheet modeling tasks that a junior investment banking analyst might do, GPT‑5.4 achieves a mean score of 87.3% , compared to 68.4% for GPT‑5.2. On a set of presentation evaluation prompts, human raters preferred presentations from GPT‑5.4 68.0% of the time over those from GPT‑5.2 due to stronger aesthetics, greater visual variety, and more effective use of image generation.",
+      "heading": "Knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 21,
+      "tag": "p",
+      "text": "You can try these capabilities in ChatGPT using GPT‑5.4 Thinking or Pro. If you’re an Enterprise customer, we recommend using our newly released ChatGPT for Excel add-in ⁠ (opens in a new window) , which was also launched today. We've also updated our spreadsheet ⁠ (opens in a new window) and presentation skills ⁠ (opens in a new window) available in Codex and the API.",
+      "heading": "Knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 22,
+      "tag": "p",
+      "text": "To make GPT‑5.4 better at real-world work, we continued our progress at driving down hallucinations and errors. GPT‑5.4 is our most factual model yet: on a set of de-identified prompts where users flagged factual errors, GPT‑5.4’s individual claims are 33% less likely to be false and its full responses are 18% less likely to contain any errors, relative to GPT‑5.2.",
+      "heading": "Knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "h2",
+      "text": "Computer use and vision",
+      "heading": "Computer use and vision",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "p",
+      "text": "GPT‑5.4 is our first general-purpose model with native computer-use capabilities and marks a major step forward for developers and agents alike. It’s the best model currently available for developers building agents that complete real tasks across websites and software systems.",
+      "heading": "Computer use and vision",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "p",
+      "text": "We’ve designed GPT‑5.4 to be performant across a wide range of computer-use workloads. It is excellent at writing code to operate computers via libraries like Playwright, as well as issuing mouse and keyboard commands in response to screenshots. Its behavior is steerable via developer messages, meaning that developers can adjust behavior to suit particular use cases. Developers can even configure the model’s safety behavior to suit different levels of risk tolerance by specifying custom confirmation policies.",
+      "heading": "Computer use and vision",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "p",
+      "text": "The model’s performance and flexibility are reflected across benchmarks that test computer use across different settings. On OSWorld-Verified , which measures a model’s ability to navigate a desktop environment through screenshots and keyboard/mouse actions, GPT‑5.4 achieves a state-of-the-art 75.0% success rate, far exceeding GPT‑5.2’s 47.3% , and surpassing human performance at 72.4%. 1",
+      "heading": "Computer use and vision",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "p",
+      "text": "On WebArena-Verified , which tests browser use, GPT‑5.4 achieves a leading 67.3% success rate when using both DOM- and screenshot-driven interaction, compared to GPT‑5.2’s 65.4% . On Online-Mind2Web , which also tests browser use, GPT‑5.4 achieves a 92.8% success rate using screenshot-based observations alone, improving over ChatGPT Atlas’s Agent Mode, which achieves a success rate of 70.9% .",
+      "heading": "Computer use and vision",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "figcaption",
+      "text": "A tool yield is when an assistant yields to await tool responses. If 3 tools are called in parallel, followed by 3 more tools called in parallel, the number of yields would be 2. Tool yields are a better proxy of latency than tool calls because they reflect the benefits of parallelization.",
+      "heading": "Computer use and vision",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "p",
+      "text": "GPT‑5.4’s improved computer use is built on the model’s improved general visual perception capabilities. On MMMU-Pro , a test of a model’s visual understanding and reasoning, GPT‑5.4 achieves an 81.2% success rate without tool use, an improvement over GPT‑5.2’s 79.5% . Improved visual perception also translates into better document parsing capabilities. On OmniDocBench , GPT‑5.4 without reasoning effort achieves an average error (measured by normalized edit distance between model prediction and ground truth) of 0.109 , improved from GPT‑5.2’s 0.140 .",
+      "heading": "Computer use and vision",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "figcaption",
+      "text": "MMMUPro was run with reasoning effort set to xhigh. OmniDocBench was run with reasoning effort set to none, to reflect low-cost, low-latency performance.",
+      "heading": "Computer use and vision",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "p",
+      "text": "We’re also improving visual understanding for dense, high-resolution images where full fidelity matters. Starting with GPT‑5.4, we’re introducing an original image input detail ⁠ (opens in a new window) level which supports full-fidelity perception up to 10.24M total pixels or 6000-pixel maximum dimension, whichever is lower; the high image input detail level now supports up to 2.56M total pixels or a 2048-pixel maximum dimension. In early testing with API users, we observed strong gains in localization ability, image understanding, and click accuracy when using original or high detail.",
+      "heading": "Computer use and vision",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "p",
+      "text": "In the API, developers can access these capabilities using the updated computer tool. Please see our updated documentation ⁠ (opens in a new window) for recommended best practices.",
+      "heading": "Computer use and vision",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "h2",
+      "text": "Coding",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 34,
+      "tag": "p",
+      "text": "GPT‑5.4 combines the coding strengths of GPT‑5.3‑Codex with leading knowledge work and computer-use capabilities, which matter most on longer-running tasks where the model can use tools, iterate, and push work further with less manual intervention. It matches or outperforms GPT‑5.3‑Codex on SWE-Bench Pro while being lower latency across reasoning efforts.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 35,
+      "tag": "figcaption",
+      "text": "We estimate latency by looking at the production behavior of our models, and simulating this offline. The latency estimate accounts for tool call duration (code execution time), sampled tokens, and input tokens. Real-world latency may vary substantially, and depends on many factors not captured in our simulation. Reasoning efforts were swept from none to xhigh.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 36,
+      "tag": "p",
+      "text": "When toggled on, /fast mode in Codex delivers up to 1.5x faster token velocity with GPT‑5.4. It’s the same model and the same intelligence, just faster. That means users can move through coding tasks, iteration, and debugging while staying in flow. Developers can access GPT‑5.4 at the same fast speeds via the API by using priority processing ⁠ (opens in a new window) .",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 37,
+      "tag": "p",
+      "text": "In evaluation and internal testing we found that GPT‑5.4 excels at complex frontend tasks, with noticeably more aesthetic and more functional results than any models we’ve launched previously.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 38,
+      "tag": "p",
+      "text": "As a demonstration of the model’s improved computer-use and coding capabilities working in tandem, we’re also releasing an experimental Codex skill called “ Playwright (Interactive) ⁠ (opens in a new window) ”. This allows Codex to visually debug web and Electron apps; it can even be used to test an app it’s building, as it’s building it.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 39,
+      "tag": "h2",
+      "text": "Tool use",
+      "heading": "Tool use",
+      "isFootnote": false
+    },
+    {
+      "index": 40,
+      "tag": "p",
+      "text": "With GPT‑5.4, we’ve significantly improved how models work with external tools. Agents can now operate across larger tool ecosystems, choose the right tools more reliably, and complete multi-step workflows with lower cost and latency.",
+      "heading": "Tool use",
+      "isFootnote": false
+    },
+    {
+      "index": 41,
+      "tag": "h3",
+      "text": "Tool search",
+      "heading": "Tool search",
+      "isFootnote": false
+    },
+    {
+      "index": 42,
+      "tag": "p",
+      "text": "In the API, GPT‑5.4 introduces tool search ⁠ (opens in a new window) , which allows models to work efficiently when given many tools.",
+      "heading": "Tool search",
+      "isFootnote": false
+    },
+    {
+      "index": 43,
+      "tag": "p",
+      "text": "Previously, when a model was given tools, all tool definitions were included in the prompt upfront. For systems with many tools, this could add thousands—or even tens of thousands—of tokens to every request, increasing cost, slowing responses, and crowding the context with information the model might never use.",
+      "heading": "Tool search",
+      "isFootnote": false
+    },
+    {
+      "index": 44,
+      "tag": "p",
+      "text": "With tool search, GPT‑5.4 instead receives a lightweight list of available tools along with a tool search capability. When the model needs to use a tool, it can look up that tool’s definition and append it to the conversation at that moment.",
+      "heading": "Tool search",
+      "isFootnote": false
+    },
+    {
+      "index": 45,
+      "tag": "p",
+      "text": "This approach dramatically reduces the number of tokens required for tool-heavy workflows and preserves the cache, making requests faster and cheaper. It also enables agents to reliably work with much larger tool ecosystems. For MCP servers that may contain tens of thousands of tokens of tool definitions, the efficiency gains can be substantial.",
+      "heading": "Tool search",
+      "isFootnote": false
+    },
+    {
+      "index": 46,
+      "tag": "p",
+      "text": "To demonstrate the efficiency gains, we evaluated 250 tasks from Scale’s MCP Atlas ⁠ (opens in a new window) benchmark with all 36 MCP servers enabled in two modes: (1) exposing every MCP function directly in the model context, and (2) placing all MCP servers behind tool search. The tool-search configuration reduced total token usage by 47% while achieving the same accuracy.",
+      "heading": "Tool search",
+      "isFootnote": false
+    },
+    {
+      "index": 47,
+      "tag": "figcaption",
+      "text": "Example token counts come from averaging 250 tasks in the MCP-Atlas public dataset.",
+      "heading": "Tool search",
+      "isFootnote": false
+    },
+    {
+      "index": 48,
+      "tag": "h3",
+      "text": "Agentic tool calling",
+      "heading": "Agentic tool calling",
+      "isFootnote": false
+    },
+    {
+      "index": 49,
+      "tag": "p",
+      "text": "GPT‑5.4 also improves tool calling , making it more accurate and efficient when deciding when and how to use tools during reasoning, particularly in the API. Compared to GPT‑5.2, it achieves higher accuracy in fewer turns on Toolathlon, a benchmark that tests how well AI agents can use real-world tools and APIs to complete multi-step tasks. For example, an agent needs to read emails, extract assignment attachments, upload them, grade them and record results in a spreadsheet.",
+      "heading": "Agentic tool calling",
+      "isFootnote": false
+    },
+    {
+      "index": 50,
+      "tag": "figcaption",
+      "text": "A tool yield is when an assistant yields to await tool responses. If 3 tools are called in parallel, followed by 3 more tools called in parallel, the number of yields would be 2. Tool yields are a better proxy of latency than tool calls because they reflect the benefits of parallelization.",
+      "heading": "Agentic tool calling",
+      "isFootnote": false
+    },
+    {
+      "index": 51,
+      "tag": "p",
+      "text": "For latency-sensitive use cases where reasoning effort None is preferred, GPT‑5.4 further improves upon its predecessors.",
+      "heading": "Agentic tool calling",
+      "isFootnote": false
+    },
+    {
+      "index": 52,
+      "tag": "figcaption",
+      "text": "In τ2-bench⁠ ⁠ (opens in a new window) , a model must use tools to accomplish a customer service task, where there may be a simulated user who can communicate and take actions on the world state. Reasoning effort was set to None.",
+      "heading": "Agentic tool calling",
+      "isFootnote": false
+    },
+    {
+      "index": 53,
+      "tag": "h3",
+      "text": "Improved web search",
+      "heading": "Improved web search",
+      "isFootnote": false
+    },
+    {
+      "index": 54,
+      "tag": "p",
+      "text": "GPT‑5.4 is better at agentic web search. On BrowseComp, a measurement of how well AI agents can persistently browse the web to find hard-to-locate information, GPT‑5.4 leaps 17% abs over GPT‑5.2, and GPT‑5.4 Pro sets a new state of the art of 89.3%.",
+      "heading": "Improved web search",
+      "isFootnote": false
+    },
+    {
+      "index": 55,
+      "tag": "p",
+      "text": "In practice, this means GPT‑5.4 Thinking is stronger at answering questions that require pulling together information from many sources on the web. It can more persistently search across multiple rounds to identify the most relevant sources, particularly for “needle-in-a-haystack” questions, and synthesize them into a clear, well-reasoned answer.",
+      "heading": "Improved web search",
+      "isFootnote": false
+    },
+    {
+      "index": 56,
+      "tag": "figcaption",
+      "text": "In BrowseComp, we used a search blocklist excluding websites containing benchmark answers from evaluation to prevent contamination and ensure a fair measure of performance. GPT‑5.4 was measured on a later date than GPT‑5.2, so scores reflect changes in the model, our search system, and state of the internet. GPT‑5.4 was tested with a longer, updated blocklist. Models use the ChatGPT search tool, which can have small differences from API search.",
+      "heading": "Improved web search",
+      "isFootnote": false
+    },
+    {
+      "index": 57,
+      "tag": "h2",
+      "text": "Steerability",
+      "heading": "Steerability",
+      "isFootnote": false
+    },
+    {
+      "index": 58,
+      "tag": "p",
+      "text": "Similarly to how Codex outlines its approach when it starts working, GPT‑5.4 Thinking in ChatGPT will now outline its work with a preamble for longer, more complex queries. You can also add instructions or adjust its direction mid-response. This makes it easier to guide the model toward the exact outcome you want without starting over or requiring multiple additional turns. This feature is available now on chatgpt.com ⁠ (opens in a new window) and the Android app, coming soon to the iOS app.",
+      "heading": "Steerability",
+      "isFootnote": false
+    },
+    {
+      "index": 59,
+      "tag": "p",
+      "text": "The model can also think longer on difficult tasks while maintaining stronger awareness of earlier steps in the conversation. This allows it to handle longer workflows and more complex prompts while keeping answers coherent and relevant throughout.",
+      "heading": "Steerability",
+      "isFootnote": false
+    },
+    {
+      "index": 60,
+      "tag": "p",
+      "text": "This video was sped up for illustrative purposes.",
+      "heading": "Steerability",
+      "isFootnote": false
+    },
+    {
+      "index": 61,
+      "tag": "h2",
+      "text": "Safety",
+      "heading": "Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 62,
+      "tag": "p",
+      "text": "Over recent months, we’ve continued improving the safeguards we introduced with GPT‑5.3‑Codex while preparing GPT‑5.4 for deployment. Similar to GPT‑5.3‑Codex, we are treating GPT‑5.4 as High cyber capability under our Preparedness Framework, and we are deploying it with the corresponding protections as documented in the system card ⁠ (opens in a new window) . These include an expanded cyber safety stack, including monitoring systems, trusted access controls, and asynchronous blocking for higher-risk requests for customers on Zero Data Retention (ZDR) surfaces, alongside ongoing investment in the broader security ecosystem.",
+      "heading": "Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 63,
+      "tag": "p",
+      "text": "Because cybersecurity capabilities are inherently dual-use, we maintain a precautionary approach to deployment while continuing to calibrate our policies and classifiers. For certain customers on ZDR surfaces, request-level blocking remains part of our cyber risk mitigation stack; because classifiers are still improving, some false positives may occur as we continue refining these safeguards. These updates aim to improve how safeguards operate in practice, including reducing unnecessary refusals and overly caveated responses, while preserving strong protections against misuse.",
+      "heading": "Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 64,
+      "tag": "p",
+      "text": "We’ve continued our safety research on Chain-of-Thought (CoT) monitorability to better understand how models reason and help detect potential misbehavior. As part of this work, we introduce a new open-source evaluation, CoT controllability ⁠ , measuring whether models can deliberately obfuscate their reasoning to evade monitoring. We find that GPT‑5.4 Thinking’s ability to control its CoT is low, which is a positive property for safety, suggesting that the model lacks the ability to hide its reasoning and that CoT monitoring remains an effective safety tool.",
+      "heading": "Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 65,
+      "tag": "h2",
+      "text": "Availability and pricing",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 66,
+      "tag": "p",
+      "text": "GPT‑5.4 is rolling out gradually today across ChatGPT and Codex. In the API, GPT‑5.4 is available now as gpt-5.4 . GPT‑5.4 Pro is also available in the API as gpt-5.4-pro for developers who need maximum performance on the most complex tasks.",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 67,
+      "tag": "p",
+      "text": "In ChatGPT, GPT‑5.4 Thinking is available starting today to ChatGPT Plus, Team, and Pro users, replacing GPT‑5.2 Thinking. GPT‑5.2 Thinking will remain available for three months for paid users in the model picker under the Legacy Models section, after which it will be retired on June 5, 2026. Those on Enterprise and Edu plans can enable early access via admin settings. GPT‑5.4 Pro is available to Pro and Enterprise plans. Context windows ⁠ (opens in a new window) in ChatGPT for GPT‑5.4 Thinking remain unchanged from GPT‑5.2 Thinking.",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 68,
+      "tag": "p",
+      "text": "GPT‑5.4 is our first mainline reasoning model that incorporates the frontier coding capabilities of GPT‑5.3‑codex and that is rolling out across ChatGPT, the API and Codex. We're calling it GPT‑5.4 to reflect that jump, and to simplify the choice between models when using Codex. Over time, you can expect our Instant models and Thinking models to evolve at different speeds.",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 69,
+      "tag": "p",
+      "text": "GPT‑5.4 in Codex includes experimental support for the 1M context window. Developers can try this by configuring model_context_window and model_auto_compact_token_limit . Requests that exceed the standard 272K context window count against usage limits at 2x the normal rate.",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 70,
+      "tag": "p",
+      "text": "In the API, GPT‑5.4 is priced higher per token than GPT‑5.2 to reflect its improved capabilities, while its greater token efficiency helps reduce the total number of tokens required for many tasks. Batch and Flex pricing are available at half the standard API rate, while Priority processing is available at twice the standard API rate.",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 71,
+      "tag": "tr",
+      "text": "API model | Input price | Cached input price | Output price",
+      "heading": "Availability and pricing",
+      "isFootnote": false,
+      "cells": [
+        "API model",
+        "Input price",
+        "Cached input price",
+        "Output price"
+      ],
+      "tableHeaders": [
+        [
+          "API model",
+          "Input price",
+          "Cached input price",
+          "Output price"
+        ],
+        [
+          "gpt-5.2",
+          "$1.75 / M tokens",
+          "$0.175 / M tokens",
+          "$14 / M tokens"
+        ]
+      ]
+    },
+    {
+      "index": 72,
+      "tag": "tr",
+      "text": "gpt-5.2 | $1.75 / M tokens | $0.175 / M tokens | $14 / M tokens",
+      "heading": "Availability and pricing",
+      "isFootnote": false,
+      "cells": [
+        "gpt-5.2",
+        "$1.75 / M tokens",
+        "$0.175 / M tokens",
+        "$14 / M tokens"
+      ],
+      "tableHeaders": [
+        [
+          "API model",
+          "Input price",
+          "Cached input price",
+          "Output price"
+        ],
+        [
+          "gpt-5.2",
+          "$1.75 / M tokens",
+          "$0.175 / M tokens",
+          "$14 / M tokens"
+        ]
+      ]
+    },
+    {
+      "index": 73,
+      "tag": "tr",
+      "text": "gpt-5.4 | $2.50 / M tokens | $0.25 / M tokens | $15 / M tokens",
+      "heading": "Availability and pricing",
+      "isFootnote": false,
+      "cells": [
+        "gpt-5.4",
+        "$2.50 / M tokens",
+        "$0.25 / M tokens",
+        "$15 / M tokens"
+      ],
+      "tableHeaders": [
+        [
+          "API model",
+          "Input price",
+          "Cached input price",
+          "Output price"
+        ],
+        [
+          "gpt-5.2",
+          "$1.75 / M tokens",
+          "$0.175 / M tokens",
+          "$14 / M tokens"
+        ]
+      ]
+    },
+    {
+      "index": 74,
+      "tag": "tr",
+      "text": "gpt-5.2-pro | $21 / M tokens | - | $168 / M tokens",
+      "heading": "Availability and pricing",
+      "isFootnote": false,
+      "cells": [
+        "gpt-5.2-pro",
+        "$21 / M tokens",
+        "-",
+        "$168 / M tokens"
+      ],
+      "tableHeaders": [
+        [
+          "API model",
+          "Input price",
+          "Cached input price",
+          "Output price"
+        ],
+        [
+          "gpt-5.2",
+          "$1.75 / M tokens",
+          "$0.175 / M tokens",
+          "$14 / M tokens"
+        ]
+      ]
+    },
+    {
+      "index": 75,
+      "tag": "tr",
+      "text": "gpt-5.4-pro | $30 / M tokens | - | $180 / M tokens",
+      "heading": "Availability and pricing",
+      "isFootnote": false,
+      "cells": [
+        "gpt-5.4-pro",
+        "$30 / M tokens",
+        "-",
+        "$180 / M tokens"
+      ],
+      "tableHeaders": [
+        [
+          "API model",
+          "Input price",
+          "Cached input price",
+          "Output price"
+        ],
+        [
+          "gpt-5.2",
+          "$1.75 / M tokens",
+          "$0.175 / M tokens",
+          "$14 / M tokens"
+        ]
+      ]
+    },
+    {
+      "index": 76,
+      "tag": "h2",
+      "text": "Evaluations",
+      "heading": "Evaluations",
+      "isFootnote": false
+    },
+    {
+      "index": 77,
+      "tag": "h3",
+      "text": "Professional",
+      "heading": "Professional",
+      "isFootnote": false
+    },
+    {
+      "index": 78,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.4 | GPT‑5.4 Pro | GPT‑5.3-Codex | GPT‑5.2 | GPT‑5.2 Pro",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.4",
+        "GPT‑5.4 Pro",
+        "GPT‑5.3-Codex",
+        "GPT‑5.2",
+        "GPT‑5.2 Pro"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "GDPval",
+          "83.0%",
+          "82.0%",
+          "70.9%",
+          "70.9%",
+          "74.1%"
+        ]
+      ]
+    },
+    {
+      "index": 79,
+      "tag": "tr",
+      "text": "GDPval | 83.0% | 82.0% | 70.9% | 70.9% | 74.1%",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "GDPval",
+        "83.0%",
+        "82.0%",
+        "70.9%",
+        "70.9%",
+        "74.1%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "GDPval",
+          "83.0%",
+          "82.0%",
+          "70.9%",
+          "70.9%",
+          "74.1%"
+        ]
+      ]
+    },
+    {
+      "index": 80,
+      "tag": "tr",
+      "text": "FinanceAgent v1.1 | 56.0% | 61.5% | 54.0% | 59.5% | —",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "FinanceAgent v1.1",
+        "56.0%",
+        "61.5%",
+        "54.0%",
+        "59.5%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "GDPval",
+          "83.0%",
+          "82.0%",
+          "70.9%",
+          "70.9%",
+          "74.1%"
+        ]
+      ]
+    },
+    {
+      "index": 81,
+      "tag": "tr",
+      "text": "Investment Banking Modeling Tasks (Internal) | 87.3% | 83.6% | 79.3% | 68.4% | 71.7%",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "Investment Banking Modeling Tasks (Internal)",
+        "87.3%",
+        "83.6%",
+        "79.3%",
+        "68.4%",
+        "71.7%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "GDPval",
+          "83.0%",
+          "82.0%",
+          "70.9%",
+          "70.9%",
+          "74.1%"
+        ]
+      ]
+    },
+    {
+      "index": 82,
+      "tag": "tr",
+      "text": "OfficeQA | 68.1% | — | 65.1% | 63.1% | —",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "OfficeQA",
+        "68.1%",
+        "—",
+        "65.1%",
+        "63.1%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "GDPval",
+          "83.0%",
+          "82.0%",
+          "70.9%",
+          "70.9%",
+          "74.1%"
+        ]
+      ]
+    },
+    {
+      "index": 83,
+      "tag": "h3",
+      "text": "Coding",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 84,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.4 | GPT‑5.4 Pro | GPT‑5.3-Codex | GPT‑5.2 | GPT‑5.2 Pro",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.4",
+        "GPT‑5.4 Pro",
+        "GPT‑5.3-Codex",
+        "GPT‑5.2",
+        "GPT‑5.2 Pro"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "SWE-Bench Pro (Public)",
+          "57.7%",
+          "—",
+          "56.8%",
+          "55.6%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 85,
+      "tag": "tr",
+      "text": "SWE-Bench Pro (Public) | 57.7% | — | 56.8% | 55.6% | —",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "SWE-Bench Pro (Public)",
+        "57.7%",
+        "—",
+        "56.8%",
+        "55.6%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "SWE-Bench Pro (Public)",
+          "57.7%",
+          "—",
+          "56.8%",
+          "55.6%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 86,
+      "tag": "tr",
+      "text": "Terminal-Bench 2.0 | 75.1% | — | 77.3% | 62.2% | —",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "Terminal-Bench 2.0",
+        "75.1%",
+        "—",
+        "77.3%",
+        "62.2%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "SWE-Bench Pro (Public)",
+          "57.7%",
+          "—",
+          "56.8%",
+          "55.6%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 87,
+      "tag": "h3",
+      "text": "Computer use and vision",
+      "heading": "Computer use and vision",
+      "isFootnote": false
+    },
+    {
+      "index": 88,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.4 | GPT‑5.4 Pro | GPT‑5.3-Codex | GPT‑5.2 | GPT‑5.2 Pro",
+      "heading": "Computer use and vision",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.4",
+        "GPT‑5.4 Pro",
+        "GPT‑5.3-Codex",
+        "GPT‑5.2",
+        "GPT‑5.2 Pro"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "OSWorld-Verified",
+          "75.0%",
+          "—",
+          "74.0%",
+          "47.3%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 89,
+      "tag": "tr",
+      "text": "OSWorld-Verified | 75.0% | — | 74.0% | 47.3% | —",
+      "heading": "Computer use and vision",
+      "isFootnote": false,
+      "cells": [
+        "OSWorld-Verified",
+        "75.0%",
+        "—",
+        "74.0%",
+        "47.3%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "OSWorld-Verified",
+          "75.0%",
+          "—",
+          "74.0%",
+          "47.3%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 90,
+      "tag": "tr",
+      "text": "MMMU Pro (no tools) | 81.2% | — | — | 79.5% | —",
+      "heading": "Computer use and vision",
+      "isFootnote": false,
+      "cells": [
+        "MMMU Pro (no tools)",
+        "81.2%",
+        "—",
+        "—",
+        "79.5%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "OSWorld-Verified",
+          "75.0%",
+          "—",
+          "74.0%",
+          "47.3%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 91,
+      "tag": "tr",
+      "text": "MMMU Pro (with tools) | 82.1% | — | — | 80.4% | —",
+      "heading": "Computer use and vision",
+      "isFootnote": false,
+      "cells": [
+        "MMMU Pro (with tools)",
+        "82.1%",
+        "—",
+        "—",
+        "80.4%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "OSWorld-Verified",
+          "75.0%",
+          "—",
+          "74.0%",
+          "47.3%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 92,
+      "tag": "h3",
+      "text": "Tool use",
+      "heading": "Tool use",
+      "isFootnote": false
+    },
+    {
+      "index": 93,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.4 | GPT‑5.4 Pro | GPT‑5.3-Codex | GPT‑5.2 | GPT‑5.2 Pro",
+      "heading": "Tool use",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.4",
+        "GPT‑5.4 Pro",
+        "GPT‑5.3-Codex",
+        "GPT‑5.2",
+        "GPT‑5.2 Pro"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "BrowseComp",
+          "82.7%",
+          "89.3%",
+          "77.3%",
+          "65.8%",
+          "77.9%"
+        ]
+      ]
+    },
+    {
+      "index": 94,
+      "tag": "tr",
+      "text": "BrowseComp | 82.7% | 89.3% | 77.3% | 65.8% | 77.9%",
+      "heading": "Tool use",
+      "isFootnote": false,
+      "cells": [
+        "BrowseComp",
+        "82.7%",
+        "89.3%",
+        "77.3%",
+        "65.8%",
+        "77.9%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "BrowseComp",
+          "82.7%",
+          "89.3%",
+          "77.3%",
+          "65.8%",
+          "77.9%"
+        ]
+      ]
+    },
+    {
+      "index": 95,
+      "tag": "tr",
+      "text": "MCP Atlas | 67.2% | — | — | 60.6% | —",
+      "heading": "Tool use",
+      "isFootnote": false,
+      "cells": [
+        "MCP Atlas",
+        "67.2%",
+        "—",
+        "—",
+        "60.6%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "BrowseComp",
+          "82.7%",
+          "89.3%",
+          "77.3%",
+          "65.8%",
+          "77.9%"
+        ]
+      ]
+    },
+    {
+      "index": 96,
+      "tag": "tr",
+      "text": "Toolathlon | 54.6% | — | 51.9% | 45.7% | —",
+      "heading": "Tool use",
+      "isFootnote": false,
+      "cells": [
+        "Toolathlon",
+        "54.6%",
+        "—",
+        "51.9%",
+        "45.7%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "BrowseComp",
+          "82.7%",
+          "89.3%",
+          "77.3%",
+          "65.8%",
+          "77.9%"
+        ]
+      ]
+    },
+    {
+      "index": 97,
+      "tag": "tr",
+      "text": "Tau2-bench Telecom | 98.9% | — | — | 98.7% | —",
+      "heading": "Tool use",
+      "isFootnote": false,
+      "cells": [
+        "Tau2-bench Telecom",
+        "98.9%",
+        "—",
+        "—",
+        "98.7%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "BrowseComp",
+          "82.7%",
+          "89.3%",
+          "77.3%",
+          "65.8%",
+          "77.9%"
+        ]
+      ]
+    },
+    {
+      "index": 98,
+      "tag": "h3",
+      "text": "Academic",
+      "heading": "Academic",
+      "isFootnote": false
+    },
+    {
+      "index": 99,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.4 | GPT‑5.4 Pro | GPT‑5.3-Codex | GPT‑5.2 | GPT‑5.2 Pro",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.4",
+        "GPT‑5.4 Pro",
+        "GPT‑5.3-Codex",
+        "GPT‑5.2",
+        "GPT‑5.2 Pro"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Frontier Science Research",
+          "33.0%",
+          "36.7%",
+          "—",
+          "25.2%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 100,
+      "tag": "tr",
+      "text": "Frontier Science Research | 33.0% | 36.7% | — | 25.2% | —",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "Frontier Science Research",
+        "33.0%",
+        "36.7%",
+        "—",
+        "25.2%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Frontier Science Research",
+          "33.0%",
+          "36.7%",
+          "—",
+          "25.2%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 101,
+      "tag": "tr",
+      "text": "FrontierMath Tier 1–3 | 47.6% | 50.0% | — | 40.7% | —",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "FrontierMath Tier 1–3",
+        "47.6%",
+        "50.0%",
+        "—",
+        "40.7%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Frontier Science Research",
+          "33.0%",
+          "36.7%",
+          "—",
+          "25.2%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 102,
+      "tag": "tr",
+      "text": "FrontierMath Tier 4 | 27.1% | 38.0% | — | 18.8% | 31.3%",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "FrontierMath Tier 4",
+        "27.1%",
+        "38.0%",
+        "—",
+        "18.8%",
+        "31.3%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Frontier Science Research",
+          "33.0%",
+          "36.7%",
+          "—",
+          "25.2%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 103,
+      "tag": "tr",
+      "text": "GPQA Diamond | 92.8% | 94.4% | 92.6% | 92.4% | 93.2%",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "GPQA Diamond",
+        "92.8%",
+        "94.4%",
+        "92.6%",
+        "92.4%",
+        "93.2%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Frontier Science Research",
+          "33.0%",
+          "36.7%",
+          "—",
+          "25.2%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 104,
+      "tag": "tr",
+      "text": "Humanity's Last Exam (no tools) | 39.8% | 42.7% | — | 34.5% | 36.6%",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "Humanity's Last Exam (no tools)",
+        "39.8%",
+        "42.7%",
+        "—",
+        "34.5%",
+        "36.6%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Frontier Science Research",
+          "33.0%",
+          "36.7%",
+          "—",
+          "25.2%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 105,
+      "tag": "tr",
+      "text": "Humanity's Last Exam (with tools) | 52.1% | 58.7% | — | 45.5% | 50.0%",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "Humanity's Last Exam (with tools)",
+        "52.1%",
+        "58.7%",
+        "—",
+        "45.5%",
+        "50.0%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Frontier Science Research",
+          "33.0%",
+          "36.7%",
+          "—",
+          "25.2%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 106,
+      "tag": "h3",
+      "text": "Long context",
+      "heading": "Long context",
+      "isFootnote": false
+    },
+    {
+      "index": 107,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.4 | GPT‑5.4 Pro | GPT‑5.3-Codex | GPT‑5.2 | GPT‑5.2 Pro",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.4",
+        "GPT‑5.4 Pro",
+        "GPT‑5.3-Codex",
+        "GPT‑5.2",
+        "GPT‑5.2 Pro"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 108,
+      "tag": "tr",
+      "text": "Graphwalks BFS 0K–128K | 93.0% | — | — | 94.0% | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "Graphwalks BFS 0K–128K",
+        "93.0%",
+        "—",
+        "—",
+        "94.0%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 109,
+      "tag": "tr",
+      "text": "Graphwalks BFS 256K–1M | 21.4% | — | — | — | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "Graphwalks BFS 256K–1M",
+        "21.4%",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 110,
+      "tag": "tr",
+      "text": "Graphwalks parents 0–128K (accuracy) | 89.8% | — | — | 89.0% | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "Graphwalks parents 0–128K (accuracy)",
+        "89.8%",
+        "—",
+        "—",
+        "89.0%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 111,
+      "tag": "tr",
+      "text": "Graphwalks parents 256K–1M (accuracy) | 32.4% | — | — | — | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "Graphwalks parents 256K–1M (accuracy)",
+        "32.4%",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 112,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 4K–8K | 97.3% | — | — | 98.2% | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 4K–8K",
+        "97.3%",
+        "—",
+        "—",
+        "98.2%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 113,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 8K–16K | 91.4% | — | — | 89.3% | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 8K–16K",
+        "91.4%",
+        "—",
+        "—",
+        "89.3%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 114,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 16K–32K | 97.2% | — | — | 95.3% | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 16K–32K",
+        "97.2%",
+        "—",
+        "—",
+        "95.3%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 115,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 32K–64K | 90.5% | — | — | 92.0% | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 32K–64K",
+        "90.5%",
+        "—",
+        "—",
+        "92.0%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 116,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 64K–128K | 86.0% | — | — | 85.6% | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 64K–128K",
+        "86.0%",
+        "—",
+        "—",
+        "85.6%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 117,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 128K–256K | 79.3% | — | — | 77.0% | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 128K–256K",
+        "79.3%",
+        "—",
+        "—",
+        "77.0%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 118,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 256K–512K | 57.5% | — | — | — | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 256K–512K",
+        "57.5%",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 119,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 512K–1M | 36.6% | — | — | — | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 512K–1M",
+        "36.6%",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "Graphwalks BFS 0K–128K",
+          "93.0%",
+          "—",
+          "—",
+          "94.0%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 120,
+      "tag": "h3",
+      "text": "Abstract reasoning",
+      "heading": "Abstract reasoning",
+      "isFootnote": false
+    },
+    {
+      "index": 121,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.4 | GPT‑5.4 Pro | GPT‑5.3-Codex | GPT‑5.2 | GPT‑5.2 Pro",
+      "heading": "Abstract reasoning",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.4",
+        "GPT‑5.4 Pro",
+        "GPT‑5.3-Codex",
+        "GPT‑5.2",
+        "GPT‑5.2 Pro"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "ARC-AGI-1 (Verified)",
+          "93.7%",
+          "94.5%",
+          "—",
+          "86.2%",
+          "90.5%"
+        ]
+      ]
+    },
+    {
+      "index": 122,
+      "tag": "tr",
+      "text": "ARC-AGI-1 (Verified) | 93.7% | 94.5% | — | 86.2% | 90.5%",
+      "heading": "Abstract reasoning",
+      "isFootnote": false,
+      "cells": [
+        "ARC-AGI-1 (Verified)",
+        "93.7%",
+        "94.5%",
+        "—",
+        "86.2%",
+        "90.5%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "ARC-AGI-1 (Verified)",
+          "93.7%",
+          "94.5%",
+          "—",
+          "86.2%",
+          "90.5%"
+        ]
+      ]
+    },
+    {
+      "index": 123,
+      "tag": "tr",
+      "text": "ARC-AGI-2 (Verified) | 73.3% | 83.3% | — | 52.9% | 54.2% (high)",
+      "heading": "Abstract reasoning",
+      "isFootnote": false,
+      "cells": [
+        "ARC-AGI-2 (Verified)",
+        "73.3%",
+        "83.3%",
+        "—",
+        "52.9%",
+        "54.2% (high)"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4",
+          "GPT‑5.4 Pro",
+          "GPT‑5.3-Codex",
+          "GPT‑5.2",
+          "GPT‑5.2 Pro"
+        ],
+        [
+          "ARC-AGI-1 (Verified)",
+          "93.7%",
+          "94.5%",
+          "—",
+          "86.2%",
+          "90.5%"
+        ]
+      ]
+    },
+    {
+      "index": 124,
+      "tag": "h3",
+      "text": "Evals without reasoning",
+      "heading": "Evals without reasoning",
+      "isFootnote": false
+    },
+    {
+      "index": 125,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.4 (none) | GPT‑5.2 (none) | GPT‑4.1",
+      "heading": "Evals without reasoning",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.4 (none)",
+        "GPT‑5.2 (none)",
+        "GPT‑4.1"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4 (none)",
+          "GPT‑5.2 (none)",
+          "GPT‑4.1"
+        ],
+        [
+          "OmniDocBench (normalized edit distance)",
+          "0.109",
+          "0.140",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 126,
+      "tag": "tr",
+      "text": "OmniDocBench (normalized edit distance) | 0.109 | 0.140 | —",
+      "heading": "Evals without reasoning",
+      "isFootnote": false,
+      "cells": [
+        "OmniDocBench (normalized edit distance)",
+        "0.109",
+        "0.140",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4 (none)",
+          "GPT‑5.2 (none)",
+          "GPT‑4.1"
+        ],
+        [
+          "OmniDocBench (normalized edit distance)",
+          "0.109",
+          "0.140",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 127,
+      "tag": "tr",
+      "text": "Tau2-bench Telecom | 64.3% | 57.2% | 43.6%",
+      "heading": "Evals without reasoning",
+      "isFootnote": false,
+      "cells": [
+        "Tau2-bench Telecom",
+        "64.3%",
+        "57.2%",
+        "43.6%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.4 (none)",
+          "GPT‑5.2 (none)",
+          "GPT‑4.1"
+        ],
+        [
+          "OmniDocBench (normalized edit distance)",
+          "0.109",
+          "0.140",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 128,
+      "tag": "p",
+      "text": "Evals were run with reasoning effort set to xhigh, except where specified otherwise. Benchmarks were conducted in a research environment, which may provide slightly different output from production ChatGPT in some cases.",
+      "heading": "Evals without reasoning",
+      "isFootnote": false
+    },
+    {
+      "index": 129,
+      "tag": "li",
+      "text": "2026",
+      "heading": "Evals without reasoning",
+      "isFootnote": true
+    },
+    {
+      "index": 130,
+      "tag": "h2",
+      "text": "Author",
+      "heading": "Author",
+      "isFootnote": true
+    },
+    {
+      "index": 131,
+      "tag": "h2",
+      "text": "Footnotes",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 132,
+      "tag": "p",
+      "text": "1 Human performance reported in OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments ⁠ (opens in a new window) .",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 133,
+      "tag": "h2",
+      "text": "Keep reading",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 134,
+      "tag": "p",
+      "text": "Product Sep 23, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 135,
+      "tag": "p",
+      "text": "Product Sep 22, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 136,
+      "tag": "p",
+      "text": "Product Sep 22, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    }
+  ]
+}

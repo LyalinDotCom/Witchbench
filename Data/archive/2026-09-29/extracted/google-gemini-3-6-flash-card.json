@@ -1,0 +1,1200 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "h1",
+      "text": "Gemini 3.6 Flash",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "p",
+      "text": "Model Cards are intended to provide essential information on Gemini models, including known limitations, mitigation approaches, and safety performance. Model cards may be updated from time to time; for example, to include updated evaluations as the model is improved or revised. See the Google DeepMind site for a comprehensive list of model cards.",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "Published: July 2026",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "li",
+      "text": "Model Information",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "li",
+      "text": "Model Data",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "li",
+      "text": "Implementation and Sustainability",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "li",
+      "text": "Distribution",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 8,
+      "tag": "li",
+      "text": "Evaluation",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 9,
+      "tag": "li",
+      "text": "Intended Usage and Limitations",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 10,
+      "tag": "li",
+      "text": "Ethics and Content Safety",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 11,
+      "tag": "h2",
+      "text": "Model Information",
+      "heading": "Model Information",
+      "isFootnote": false
+    },
+    {
+      "index": 12,
+      "tag": "h3",
+      "text": "Description",
+      "heading": "Description",
+      "isFootnote": false
+    },
+    {
+      "index": 13,
+      "tag": "p",
+      "text": "Gemini 3.6 Flash is an addition to the Gemini 3 series of highly-capable, natively multimodal, reasoning models. Gemini 3.6 Flash is our workhorse model that delivers better coding, knowledge work, and multimodal performance, while providing better token-efficiency than Gemini 3.5 Flash.",
+      "heading": "Description",
+      "isFootnote": false
+    },
+    {
+      "index": 14,
+      "tag": "h3",
+      "text": "Model dependencies",
+      "heading": "Model dependencies",
+      "isFootnote": false
+    },
+    {
+      "index": 15,
+      "tag": "p",
+      "text": "Gemini 3.6 Flash is based on Gemini 3.5 Flash.",
+      "heading": "Model dependencies",
+      "isFootnote": false
+    },
+    {
+      "index": 16,
+      "tag": "h3",
+      "text": "Inputs",
+      "heading": "Inputs",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "p",
+      "text": "Text strings (e.g., a question, a prompt, document(s) to be summarized), images, audio, and video files, with a token context window of up to 1M.",
+      "heading": "Inputs",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "h3",
+      "text": "Outputs",
+      "heading": "Outputs",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "p",
+      "text": "Text, with a 64K token output.",
+      "heading": "Outputs",
+      "isFootnote": false
+    },
+    {
+      "index": 20,
+      "tag": "h3",
+      "text": "Architecture",
+      "heading": "Architecture",
+      "isFootnote": false
+    },
+    {
+      "index": 21,
+      "tag": "p",
+      "text": "Gemini 3.6 Flash is based on Gemini 3.5 Flash. For more information about the model architecture for Gemini 3.6 Flash, see the Gemini 3.5 Flash model card .",
+      "heading": "Architecture",
+      "isFootnote": false
+    },
+    {
+      "index": 22,
+      "tag": "h2",
+      "text": "Model Data",
+      "heading": "Model Data",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "h3",
+      "text": "Training Dataset",
+      "heading": "Training Dataset",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "p",
+      "text": "Gemini 3.6 Flash is based on Gemini 3.5 Flash. For more information about the training dataset for Gemini 3.6 Flash, see the Gemini 3.5 Flash model card .",
+      "heading": "Training Dataset",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "h3",
+      "text": "Training Data Processing",
+      "heading": "Training Data Processing",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "p",
+      "text": "For more information about the training data processing for Gemini 3.6 Flash, see the Gemini 3.5 Flash model card .",
+      "heading": "Training Data Processing",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "h2",
+      "text": "Implementation and Sustainability",
+      "heading": "Implementation and Sustainability",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "h3",
+      "text": "Hardware",
+      "heading": "Hardware",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "p",
+      "text": "Gemini 3.6 Flash is based on Gemini 3.5 Flash. For more information about the hardware for Gemini 3.6 Flash and our continued commitment to operate sustainably , see the Gemini 3.5 Flash model card .",
+      "heading": "Hardware",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "h3",
+      "text": "Software",
+      "heading": "Software",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "p",
+      "text": "Gemini 3.6 Flash is based on Gemini 3.5 Flash. For more information about the software for Gemini 3.6 Flash, see the Gemini 3.5 Flash model card .",
+      "heading": "Software",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "h2",
+      "text": "Distribution",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "p",
+      "text": "Gemini 3.6 Flash is distributed in the following channels; respective documentation shared in line:",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 34,
+      "tag": "li",
+      "text": "Gemini App",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 35,
+      "tag": "li",
+      "text": "Gemini Enterprise App",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 36,
+      "tag": "li",
+      "text": "Gemini Enterprise Agent Platform",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 37,
+      "tag": "li",
+      "text": "Google AI Studio",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 38,
+      "tag": "li",
+      "text": "Gemini API",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 39,
+      "tag": "li",
+      "text": "Google Antigravity",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 40,
+      "tag": "p",
+      "text": "Our models are available to downstream providers via an application program interface (API) and subject to relevant terms of use. There is no required hardware or software to use the model. For AI Studio and Gemini API, see the Gemini API Additional Terms of Service ; for Gemini Enterprise Agent Platform, see Google Cloud Platform Terms of Service . For more information, see Gemini Model API instructions and Gemini API quickstart .",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 41,
+      "tag": "h2",
+      "text": "Evaluation",
+      "heading": "Evaluation",
+      "isFootnote": false
+    },
+    {
+      "index": 42,
+      "tag": "h3",
+      "text": "Approach",
+      "heading": "Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 43,
+      "tag": "p",
+      "text": "Gemini 3.6 Flash was evaluated across a range of benchmarks, including reasoning, coding, agentic, multimodal capabilities, and long-context. Additional benchmarks and details on approach, results and their methodologies can be found at: deepmind.com/models/evals-methodology/gemini-3-6-flash .",
+      "heading": "Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 44,
+      "tag": "h3",
+      "text": "Results",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 45,
+      "tag": "p",
+      "text": "Results as of July, 2026 are listed below:",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 46,
+      "tag": "tr",
+      "text": "Benchmark | Notes | Gemini 3.6 Flash | Gemini 3.5 Flash | Gemini 3.1 Pro | GPT-5.6 Luna | Grok 4.5 | Claude Sonnet 5",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Benchmark",
+        "Notes",
+        "Gemini 3.6 Flash",
+        "Gemini 3.5 Flash",
+        "Gemini 3.1 Pro",
+        "GPT-5.6 Luna",
+        "Grok 4.5",
+        "Claude Sonnet 5"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 47,
+      "tag": "tr",
+      "text": "Input price $/1M tokens, no caching | | $1.50 | $1.50 | $2.00 | $1.00 | $2.00 | $3.00 $2.00 (temp discount)",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Input price $/1M tokens, no caching",
+        "",
+        "$1.50",
+        "$1.50",
+        "$2.00",
+        "$1.00",
+        "$2.00",
+        "$3.00 $2.00 (temp discount)"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 48,
+      "tag": "tr",
+      "text": "Output price $/1M tokens | | $7.50 | $9.00 | $12.00 | $6.00 | $6.00 | $15.00 $10.00 (temp discount)",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Output price $/1M tokens",
+        "",
+        "$7.50",
+        "$9.00",
+        "$12.00",
+        "$6.00",
+        "$6.00",
+        "$15.00 $10.00 (temp discount)"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 49,
+      "tag": "tr",
+      "text": "SWE-Bench Pro (Public) Diverse agentic coding tasks | | 58.7% | 55.1% | 54.2% | 62.7% | 64.7% | 63.2%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "SWE-Bench Pro (Public) Diverse agentic coding tasks",
+        "",
+        "58.7%",
+        "55.1%",
+        "54.2%",
+        "62.7%",
+        "64.7%",
+        "63.2%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 50,
+      "tag": "tr",
+      "text": "DeepSWE v1.1 Long-horizon software engineering | | 49% | 37% | 12% | 67% | 54% | 54%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "DeepSWE v1.1 Long-horizon software engineering",
+        "",
+        "49%",
+        "37%",
+        "12%",
+        "67%",
+        "54%",
+        "54%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 51,
+      "tag": "tr",
+      "text": "Terminal-bench 2.1 Agentic terminal coding | Terminus-2 harness | 78.0% | 76.2% | 73.8% | 84.7% | 83.3% | 80.4%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Terminal-bench 2.1 Agentic terminal coding",
+        "Terminus-2 harness",
+        "78.0%",
+        "76.2%",
+        "73.8%",
+        "84.7%",
+        "83.3%",
+        "80.4%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 52,
+      "tag": "tr",
+      "text": "MLE-Bench Machine Learning Engineering | | 63.9% | 49.7% | 42.6% | 47.6% | 43.2% | 66.9%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "MLE-Bench Machine Learning Engineering",
+        "",
+        "63.9%",
+        "49.7%",
+        "42.6%",
+        "47.6%",
+        "43.2%",
+        "66.9%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 53,
+      "tag": "tr",
+      "text": "GDPVal-AA v2 Knowledge work | Elo | 1421 | 1349 | 965 | 1584 | 1535 | 1607",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "GDPVal-AA v2 Knowledge work",
+        "Elo",
+        "1421",
+        "1349",
+        "965",
+        "1584",
+        "1535",
+        "1607"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 54,
+      "tag": "tr",
+      "text": "OSWorld-Verified Agentic computer use | | 83.0% | 78.4% | 76.2% | 72.6% | — | 81.2%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "OSWorld-Verified Agentic computer use",
+        "",
+        "83.0%",
+        "78.4%",
+        "76.2%",
+        "72.6%",
+        "—",
+        "81.2%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 55,
+      "tag": "tr",
+      "text": "CharXiv Reasoning Information synthesis from complex charts | No tools | 85.2% | 84.2% | 83.3% | 82.7% | 81.6% | 77.0%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "CharXiv Reasoning Information synthesis from complex charts",
+        "No tools",
+        "85.2%",
+        "84.2%",
+        "83.3%",
+        "82.7%",
+        "81.6%",
+        "77.0%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 56,
+      "tag": "tr",
+      "text": "With tools | 89.4% | 84.9% | 83.2% | — | — | 88.3%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "With tools",
+        "89.4%",
+        "84.9%",
+        "83.2%",
+        "—",
+        "—",
+        "88.3%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 57,
+      "tag": "tr",
+      "text": "GDM-MRCR v2 (8-needle) Long context performance | 128k (average) | 91.8% | 77.3% | 84.9% | 74.8% | 81.4% | 71.6%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "GDM-MRCR v2 (8-needle) Long context performance",
+        "128k (average)",
+        "91.8%",
+        "77.3%",
+        "84.9%",
+        "74.8%",
+        "81.4%",
+        "71.6%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 58,
+      "tag": "tr",
+      "text": "1M (pointwise) | 54.0% | 26.6% | 26.3% | — | — | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "1M (pointwise)",
+        "54.0%",
+        "26.6%",
+        "26.3%",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.6 Flash",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "GPT-5.6 Luna",
+          "Grok 4.5",
+          "Claude Sonnet 5"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "",
+          "$1.50",
+          "$1.50",
+          "$2.00",
+          "$1.00",
+          "$2.00",
+          "$3.00 $2.00 (temp discount)"
+        ]
+      ]
+    },
+    {
+      "index": 59,
+      "tag": "p",
+      "text": "Methodology: deepmind.com/models/evals-methodology/gemini-3-6-flash",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 60,
+      "tag": "h2",
+      "text": "Intended Usage and Limitations",
+      "heading": "Intended Usage and Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 61,
+      "tag": "h3",
+      "text": "Benefit and Intended Usage",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 62,
+      "tag": "p",
+      "text": "Gemini 3.6 Flash is well-suited for users, developers, and enterprises. Some use cases include: agentic workflows, complex video reasoning, coding tasks, and enterprise workflows.",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 63,
+      "tag": "h3",
+      "text": "Known Limitations",
+      "heading": "Known Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 64,
+      "tag": "p",
+      "text": "Gemini 3.6 Flash may exhibit some of the general limitations of foundation models, such as hallucinations. In addition to this, we are continually working to improve jailbreak resistance and have recently strengthened the mitigations across Frontier Safety. There may also be occasional slowness or timeout issues. The knowledge cutoff date for Gemini 3.6 Flash is March 2026 – users can expect updated information for some domains while in others they may experience the model’s knowledge is limited to January 2025 (in line with the Gemini 3 Model Family). For more information about known limitations, see the Gemini 3.5 Flash model card .",
+      "heading": "Known Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 65,
+      "tag": "h3",
+      "text": "Acceptable Usage",
+      "heading": "Acceptable Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 66,
+      "tag": "p",
+      "text": "For more information about the acceptable usage for Gemini 3.6 Flash, see the Gemini 3.5 Flash model card .",
+      "heading": "Acceptable Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 67,
+      "tag": "h2",
+      "text": "Ethics and Content Safety",
+      "heading": "Ethics and Content Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 68,
+      "tag": "h3",
+      "text": "Evaluation Approach",
+      "heading": "Evaluation Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 69,
+      "tag": "p",
+      "text": "For more information about the evaluation approach for Gemini 3.6 Flash, see the Gemini 3.5 Flash model card .",
+      "heading": "Evaluation Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 70,
+      "tag": "h3",
+      "text": "Safety Policies",
+      "heading": "Safety Policies",
+      "isFootnote": false
+    },
+    {
+      "index": 71,
+      "tag": "p",
+      "text": "For more information about the safety policies for Gemini 3.6 Flash, see the Gemini 3.5 Flash model card .",
+      "heading": "Safety Policies",
+      "isFootnote": false
+    },
+    {
+      "index": 72,
+      "tag": "h3",
+      "text": "Training and Development Evaluation Results",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 73,
+      "tag": "p",
+      "text": "Results for some of the internal safety evaluations conducted during the development phase are listed below. The evaluation results are for automated evaluations and not human evaluation or red teaming. Scores are provided as an absolute percentage increase or decrease in performance compared to the indicated model, as described below.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 74,
+      "tag": "p",
+      "text": "Overall, Gemini 3.6 Flash outperforms Gemini 3.5 Flash across both multi-lingual and content safety, while continuing to keep unjustified refusals low. Flash 3.6 saw slight regressions in tone, however this does not impact the overall safety of the model. We mark improvements in bolded green and regressions in red.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 75,
+      "tag": "tr",
+      "text": "Evaluation | Description | Gemini 3.6 Flash vs. Gemini 3.5 Flash (percentage point increase/decrease)",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Evaluation",
+        "Description",
+        "Gemini 3.6 Flash vs. Gemini 3.5 Flash (percentage point increase/decrease)"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.6 Flash vs. Gemini 3.5 Flash (percentage point increase/decrease)"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.35% Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 76,
+      "tag": "tr",
+      "text": "Text to Text Safety | Automated content safety evaluation measuring safety policies | -1.35% Lower is better",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Text to Text Safety",
+        "Automated content safety evaluation measuring safety policies",
+        "-1.35% Lower is better"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.6 Flash vs. Gemini 3.5 Flash (percentage point increase/decrease)"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.35% Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 77,
+      "tag": "tr",
+      "text": "Multilingual Safety | Automated safety policy evaluation across multiple languages | -5.45% Lower is better",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Multilingual Safety",
+        "Automated safety policy evaluation across multiple languages",
+        "-5.45% Lower is better"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.6 Flash vs. Gemini 3.5 Flash (percentage point increase/decrease)"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.35% Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 78,
+      "tag": "tr",
+      "text": "Image to Text Safety | Automated content safety evaluation measuring safety policies | 0% Lower is better",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Image to Text Safety",
+        "Automated content safety evaluation measuring safety policies",
+        "0% Lower is better"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.6 Flash vs. Gemini 3.5 Flash (percentage point increase/decrease)"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.35% Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 79,
+      "tag": "tr",
+      "text": "Tone 1 | Automated evaluation measuring objective tone of model refusal | -3.31 Higher is better",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Tone 1",
+        "Automated evaluation measuring objective tone of model refusal",
+        "-3.31 Higher is better"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.6 Flash vs. Gemini 3.5 Flash (percentage point increase/decrease)"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.35% Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 80,
+      "tag": "tr",
+      "text": "Unjustified-refusals | Automated evaluation measuring model’s ability to respond to borderline prompts while remaining safe | +0.25% Lower is better",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Unjustified-refusals",
+        "Automated evaluation measuring model’s ability to respond to borderline prompts while remaining safe",
+        "+0.25% Lower is better"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.6 Flash vs. Gemini 3.5 Flash (percentage point increase/decrease)"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.35% Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 81,
+      "tag": "p",
+      "text": "1 For tone, a positive percentage increase represents an improvement in the tone of the model on sensitive topics and the model’s ability to follow instructions while remaining safe compared to Gemini 3.5 Flash.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 82,
+      "tag": "p",
+      "text": "We continue to improve our internal evaluations, including refining automated evaluations to reduce false positives and negatives, as well as update query sets to ensure balance and maintain a high standard of results. The performance results reported below are computed with improved evaluations and thus are not directly comparable with performance results found in previous Gemini model cards.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 83,
+      "tag": "p",
+      "text": "We expect variation in our automated safety evaluations results, which is why we review flagged content to check for egregious or dangerous material. Our manual review confirmed losses were overwhelmingly either a) false positives or b) not egregious.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 84,
+      "tag": "h3",
+      "text": "Human Red Teaming Results",
+      "heading": "Human Red Teaming Results",
+      "isFootnote": false
+    },
+    {
+      "index": 85,
+      "tag": "p",
+      "text": "We conduct manual red teaming by specialist teams who sit outside of the model development team in Google’s Trust & Safety organization. High-level findings are fed back to the model team. For child safety evaluations, Gemini 3.6 Flash satisfied required launch thresholds, which were developed by expert teams to protect children online and meet Google’s commitments to child safety across our models and Google products. For content safety policies generally, including child safety, we saw similar or improved safety performance compared to Gemini 3.5 Flash. Additionally, the scope of red teaming covered potential issues outside of our strict policies, compared performance to Gemini 3.1 Pro, and found no egregious concerns.",
+      "heading": "Human Red Teaming Results",
+      "isFootnote": false
+    },
+    {
+      "index": 86,
+      "tag": "h3",
+      "text": "Frontier Safety Assessment",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false
+    },
+    {
+      "index": 87,
+      "tag": "p",
+      "text": "Gemini 3.6 Flash is part of the Gemini 3 series of models. We evaluated Gemini 3.1 Pro for Frontier Safety as it was the most generally capable model as of publication of this model card, and it did not reach any Critical Capability Levels (CCLs) outlined in our Frontier Safety Framework . Our assessments have shown that, while Gemini 3.6 Flash excels at agents and coding, it does not have meaningful new capabilities or material increases in performance with respect to the domains outlined in our Frontier Safety Framework compared to Gemini 3.1 Pro; therefore, based on Gemini 3.1 Pro results, we are confident that Gemini 3.6 Flash is also unlikely to reach any CCLs.",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false
+    },
+    {
+      "index": 88,
+      "tag": "p",
+      "text": "As previous models in the Gemini 3 series reached the alert threshold for cyber, we performed additional testing in this domain and found that Gemini 3.6 Flash remains below the cyber CCL. For more information on our Frontier Safety Assessment, read the Gemini 3.1 Pro model card .",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false
+    },
+    {
+      "index": 89,
+      "tag": "h3",
+      "text": "Risks and Mitigations",
+      "heading": "Risks and Mitigations",
+      "isFootnote": false
+    },
+    {
+      "index": 90,
+      "tag": "p",
+      "text": "To make Gemini 3.6 Flash more resistant to jailbreaks, we enhanced Frontier Safety safeguards in the domains of Chemical, Biological, Radiological, and Nuclear (CBRN) and cyber offense misuses. We also trained the model to minimize refusals for beneficial uses. To see additional information about risks and mitigations for the Gemini 3 series, see the Gemini 3.1 Pro model card .",
+      "heading": "Risks and Mitigations",
+      "isFootnote": false
+    },
+    {
+      "index": 91,
+      "tag": "h2",
+      "text": "Latest model cards",
+      "heading": "Latest model cards",
+      "isFootnote": false
+    },
+    {
+      "index": 92,
+      "tag": "h3",
+      "text": "Gemini 3.8 Flash",
+      "heading": "Gemini 3.8 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 93,
+      "tag": "h3",
+      "text": "Gemini Robotics On-Device 2",
+      "heading": "Gemini Robotics On-Device 2",
+      "isFootnote": false
+    },
+    {
+      "index": 94,
+      "tag": "h3",
+      "text": "Gemini Robotics ER 2",
+      "heading": "Gemini Robotics ER 2",
+      "isFootnote": false
+    },
+    {
+      "index": 95,
+      "tag": "h3",
+      "text": "Lyria 3.5",
+      "heading": "Lyria 3.5",
+      "isFootnote": false
+    },
+    {
+      "index": 96,
+      "tag": "h3",
+      "text": "Gemini 3.6 Flash",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 97,
+      "tag": "h3",
+      "text": "Gemini 3.5 Flash-Lite",
+      "heading": "Gemini 3.5 Flash-Lite",
+      "isFootnote": false
+    }
+  ]
+}

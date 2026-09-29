@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-sonnet-5-5-blog",
+  "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5",
+  "expectedBytes": 430222,
+  "expectedSha256": "5503456d02b60fb6526a3d1960edeb60ec15a0f816309caedaf4bb236feae4d5",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.234250+00:00",
+  "finalUrl": "https://www.anthropic.com/claude-sonnet-5-5",
+  "contentType": "text/html",
+  "bytes": 430222,
+  "sha256": "5503456d02b60fb6526a3d1960edeb60ec15a0f816309caedaf4bb236feae4d5",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-sonnet-5-5-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-sonnet-5-5-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-sonnet-5-5-blog.json",
+  "matchesResearchHash": true
+}

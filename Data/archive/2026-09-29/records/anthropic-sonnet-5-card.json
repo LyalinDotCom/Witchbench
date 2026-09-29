@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-sonnet-5-card",
+  "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-system-card",
+  "expectedBytes": 10786341,
+  "expectedSha256": "33573adb9f1871b903f79b77d7755a44cc20bb913ef48ac9000ddb090e41f7ed",
+  "expectedPages": 146,
+  "kind": "card",
+  "pages": 146,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:45:44.247668+00:00",
+  "finalUrl": "https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf",
+  "contentType": "application/pdf",
+  "bytes": 10786341,
+  "sha256": "33573adb9f1871b903f79b77d7755a44cc20bb913ef48ac9000ddb090e41f7ed",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-sonnet-5-card.pdf",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-sonnet-5-card.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-sonnet-5-card.json",
+  "matchesResearchHash": true
+}

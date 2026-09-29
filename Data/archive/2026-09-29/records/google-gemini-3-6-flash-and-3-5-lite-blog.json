@@ -1,0 +1,19 @@
+{
+  "id": "google-gemini-3-6-flash-and-3-5-lite-blog",
+  "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+  "expectedBytes": 418094,
+  "expectedSha256": "37198b2ca00dc8dad501e77f54015bf5da7a29e6dabbb1b2b8aa91e5df256fce",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.426485+00:00",
+  "finalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+  "contentType": "text/html",
+  "bytes": 418094,
+  "sha256": "37198b2ca00dc8dad501e77f54015bf5da7a29e6dabbb1b2b8aa91e5df256fce",
+  "localPath": "Data/archive/2026-09-29/raw/google-gemini-3-6-flash-and-3-5-lite-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/google-gemini-3-6-flash-and-3-5-lite-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/google-gemini-3-6-flash-and-3-5-lite-blog.json",
+  "matchesResearchHash": true
+}

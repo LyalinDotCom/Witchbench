@@ -1,0 +1,1272 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "h1",
+      "text": "Gemini 3.1 Flash-Lite",
+      "heading": "Gemini 3.1 Flash-Lite",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "p",
+      "text": "Model Cards are intended to provide essential information on Gemini models, including known limitations, mitigation approaches, and safety performance. Model cards may be updated from time-to-time; for example, to include updated evaluations as the model is improved or revised.",
+      "heading": "Gemini 3.1 Flash-Lite",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "Published: March 2026",
+      "heading": "Gemini 3.1 Flash-Lite",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "li",
+      "text": "Model Information",
+      "heading": "Gemini 3.1 Flash-Lite",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "li",
+      "text": "Model Data",
+      "heading": "Gemini 3.1 Flash-Lite",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "li",
+      "text": "Implementation and Sustainability",
+      "heading": "Gemini 3.1 Flash-Lite",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "li",
+      "text": "Distribution",
+      "heading": "Gemini 3.1 Flash-Lite",
+      "isFootnote": false
+    },
+    {
+      "index": 8,
+      "tag": "li",
+      "text": "Evaluation",
+      "heading": "Gemini 3.1 Flash-Lite",
+      "isFootnote": false
+    },
+    {
+      "index": 9,
+      "tag": "li",
+      "text": "Intended Usage and Limitations",
+      "heading": "Gemini 3.1 Flash-Lite",
+      "isFootnote": false
+    },
+    {
+      "index": 10,
+      "tag": "li",
+      "text": "Ethics and Content Safety",
+      "heading": "Gemini 3.1 Flash-Lite",
+      "isFootnote": false
+    },
+    {
+      "index": 11,
+      "tag": "h2",
+      "text": "Model Information",
+      "heading": "Model Information",
+      "isFootnote": false
+    },
+    {
+      "index": 12,
+      "tag": "h3",
+      "text": "Description",
+      "heading": "Description",
+      "isFootnote": false
+    },
+    {
+      "index": 13,
+      "tag": "p",
+      "text": "Gemini 3.1 Flash-Lite is an addition to the Gemini 3 series of highly-capable, natively multimodal, reasoning models. The model is cost-efficient and fast, optimized for high-volume, latency-sensitive tasks like translation and classification.",
+      "heading": "Description",
+      "isFootnote": false
+    },
+    {
+      "index": 14,
+      "tag": "h3",
+      "text": "Model dependencies",
+      "heading": "Model dependencies",
+      "isFootnote": false
+    },
+    {
+      "index": 15,
+      "tag": "p",
+      "text": "Gemini 3.1 Flash-Lite is based on Gemini 3 Pro.",
+      "heading": "Model dependencies",
+      "isFootnote": false
+    },
+    {
+      "index": 16,
+      "tag": "h3",
+      "text": "Inputs",
+      "heading": "Inputs",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "p",
+      "text": "Text strings (e.g., a question, a prompt, document(s) to be summarized), images, audio, and video files, with a token context window of up to 1M.",
+      "heading": "Inputs",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "h3",
+      "text": "Outputs",
+      "heading": "Outputs",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "p",
+      "text": "Text, with a 64K token output.",
+      "heading": "Outputs",
+      "isFootnote": false
+    },
+    {
+      "index": 20,
+      "tag": "h3",
+      "text": "Architecture",
+      "heading": "Architecture",
+      "isFootnote": false
+    },
+    {
+      "index": 21,
+      "tag": "p",
+      "text": "Gemini 3.1 Flash-Lite is based on Gemini 3 Pro. For more information about the model architecture for Gemini 3.1 Flash-Lite, see the Gemini 3 Pro model card .",
+      "heading": "Architecture",
+      "isFootnote": false
+    },
+    {
+      "index": 22,
+      "tag": "h2",
+      "text": "Model Data",
+      "heading": "Model Data",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "h3",
+      "text": "Training Dataset",
+      "heading": "Training Dataset",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "p",
+      "text": "Gemini 3.1 Flash-Lite is based on Gemini 3 Pro. For more information about the training dataset for Gemini 3.1 Flash-Lite, see the Gemini 3 Pro model card .",
+      "heading": "Training Dataset",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "h3",
+      "text": "Training Data Processing",
+      "heading": "Training Data Processing",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "p",
+      "text": "For more information about the training data processing for Gemini 3.1 Flash-Lite, see the Gemini 3 Pro model card .",
+      "heading": "Training Data Processing",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "h2",
+      "text": "Implementation and Sustainability",
+      "heading": "Implementation and Sustainability",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "h3",
+      "text": "Hardware",
+      "heading": "Hardware",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "p",
+      "text": "Gemini 3.1 Flash-Lite was trained using Google’s Tensor Processing Units (TPUs). TPUs are specifically designed to handle the massive computations involved in training LLMs and can speed up training considerably compared to CPUs. TPUs often come with large amounts of high-bandwidth memory, allowing for the handling of large models and batch sizes during training, which can lead to better model quality. TPU Pods (large clusters of TPUs) also provide a scalable solution for handling the growing complexity of large foundation models. Training can be distributed across multiple TPU devices for faster and more efficient processing.",
+      "heading": "Hardware",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "p",
+      "text": "The efficiencies gained through the use of TPUs are aligned with Google's commitment to operate sustainably .",
+      "heading": "Hardware",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "h3",
+      "text": "Software",
+      "heading": "Software",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "p",
+      "text": "Training was done using JAX and ML Pathways .",
+      "heading": "Software",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "h2",
+      "text": "Distribution",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 34,
+      "tag": "p",
+      "text": "Gemini 3.1 Flash-Lite is distributed in the following channels; respective documentation shared in line:",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 35,
+      "tag": "li",
+      "text": "Google Cloud / Vertex AI",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 36,
+      "tag": "li",
+      "text": "Google AI Studio",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 37,
+      "tag": "li",
+      "text": "Gemini API",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 38,
+      "tag": "li",
+      "text": "Gemini App",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 39,
+      "tag": "li",
+      "text": "Gemini Search AI Overviews",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 40,
+      "tag": "p",
+      "text": "Our models are available to downstream providers via an application program interface (API) and subject to relevant terms of use. There is no required hardware or software to use the model. For AI Studio and Gemini API, see the Gemini API Additional Terms of Service ; for Vertex AI, see Google Cloud Platform Terms of Service . For more information, see Gemini Model API instructions and Gemini API in Vertex AI quickstart .",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 41,
+      "tag": "h2",
+      "text": "Evaluation",
+      "heading": "Evaluation",
+      "isFootnote": false
+    },
+    {
+      "index": 42,
+      "tag": "h3",
+      "text": "Approach",
+      "heading": "Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 43,
+      "tag": "p",
+      "text": "Gemini 3.1 Flash-Lite was evaluated across a range of benchmarks, including speed, reasoning, multimodal capabilities, factuality, agentic tool use, multi-lingual performance, coding, and long-context. Benchmark details on approach, results, and their methodologies can be found at: deepmind.google/models/evals-methodology/gemini-3-1-flash-lite",
+      "heading": "Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 44,
+      "tag": "h3",
+      "text": "Results",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 45,
+      "tag": "p",
+      "text": "Gemini 3.1 Flash-Lite results as of March, 2026 are below:",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 46,
+      "tag": "tr",
+      "text": "Benchmark | Notes | Gemini 3.1 Flash-Lite High | Gemini 2.5 Flash Dynamic | Gemini 2.5 Flash-Lite Dynamic | GPT-5 mini High | Claude 4.5 Haiku Extended Thinking | Grok 4.1 Fast Reasoning",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Benchmark",
+        "Notes",
+        "Gemini 3.1 Flash-Lite High",
+        "Gemini 2.5 Flash Dynamic",
+        "Gemini 2.5 Flash-Lite Dynamic",
+        "GPT-5 mini High",
+        "Claude 4.5 Haiku Extended Thinking",
+        "Grok 4.1 Fast Reasoning"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 47,
+      "tag": "tr",
+      "text": "Input price $/1M tokens, no caching | Lower is better | $0.25 | $0.30 | $0.10 | $0.25 | $1.00 | $0.20",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Input price $/1M tokens, no caching",
+        "Lower is better",
+        "$0.25",
+        "$0.30",
+        "$0.10",
+        "$0.25",
+        "$1.00",
+        "$0.20"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 48,
+      "tag": "tr",
+      "text": "Output price $/1M tokens | Lower is better | $1.50 | $2.50 | $0.40 | $2.00 | $5.00 | $0.50",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Output price $/1M tokens",
+        "Lower is better",
+        "$1.50",
+        "$2.50",
+        "$0.40",
+        "$2.00",
+        "$5.00",
+        "$0.50"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 49,
+      "tag": "tr",
+      "text": "Output speed Tokens / s | | 363 | 249 | 366 | 71 | 108 | 145",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Output speed Tokens / s",
+        "",
+        "363",
+        "249",
+        "366",
+        "71",
+        "108",
+        "145"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 50,
+      "tag": "tr",
+      "text": "Humanity’s Last Exam Academic reasoning (full set, text + MM) | No tools | 16.0% | 11.0% | 6.9% | 16.7% | 9.7% | 17.6%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Humanity’s Last Exam Academic reasoning (full set, text + MM)",
+        "No tools",
+        "16.0%",
+        "11.0%",
+        "6.9%",
+        "16.7%",
+        "9.7%",
+        "17.6%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 51,
+      "tag": "tr",
+      "text": "GPQA Diamond Scientific knowledge | No tools | 86.9% | 82.8% | 66.7% | 82.3% | 73.0% | 84.3%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "GPQA Diamond Scientific knowledge",
+        "No tools",
+        "86.9%",
+        "82.8%",
+        "66.7%",
+        "82.3%",
+        "73.0%",
+        "84.3%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 52,
+      "tag": "tr",
+      "text": "MMMU-Pro Multimodal understanding and reasoning | No tools | 76.8% | 66.7% | 51.0% | 74.1% | 58.0% | 63.0%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "MMMU-Pro Multimodal understanding and reasoning",
+        "No tools",
+        "76.8%",
+        "66.7%",
+        "51.0%",
+        "74.1%",
+        "58.0%",
+        "63.0%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 53,
+      "tag": "tr",
+      "text": "CharXiv Reasoning Information synthesis from complex charts | | 73.2% | 63.7% | 55.5% | 75.5% (+ python) | 61.7% | 31.6%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "CharXiv Reasoning Information synthesis from complex charts",
+        "",
+        "73.2%",
+        "63.7%",
+        "55.5%",
+        "75.5% (+ python)",
+        "61.7%",
+        "31.6%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 54,
+      "tag": "tr",
+      "text": "Video-MMMU Knowledge acquisition from videos | | 84.8% | 79.2% | 60.7% | 82.5% | — | 74.6%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Video-MMMU Knowledge acquisition from videos",
+        "",
+        "84.8%",
+        "79.2%",
+        "60.7%",
+        "82.5%",
+        "—",
+        "74.6%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 55,
+      "tag": "tr",
+      "text": "SimpleQA Verified Parametric knowledge | | 43.3% | 28.1% | 11.5% | 9.5% | 5.5% | 19.5%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "SimpleQA Verified Parametric knowledge",
+        "",
+        "43.3%",
+        "28.1%",
+        "11.5%",
+        "9.5%",
+        "5.5%",
+        "19.5%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 56,
+      "tag": "tr",
+      "text": "FACTS Benchmark Suite Factuality benchmark across grounding, parametric, search, and MM. | | 40.6% | 50.4% | 17.9% | 33.7% | 18.6% | 42.1%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "FACTS Benchmark Suite Factuality benchmark across grounding, parametric, search, and MM.",
+        "",
+        "40.6%",
+        "50.4%",
+        "17.9%",
+        "33.7%",
+        "18.6%",
+        "42.1%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 57,
+      "tag": "tr",
+      "text": "MMMLU Multilingual Q&A | | 88.9% | 86.6% | 84.5% | 84.9% | 83.0% | 86.8%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "MMMLU Multilingual Q&A",
+        "",
+        "88.9%",
+        "86.6%",
+        "84.5%",
+        "84.9%",
+        "83.0%",
+        "86.8%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 58,
+      "tag": "tr",
+      "text": "LiveCodeBench Code generation (UI: 1/1/2025-5/1/2025) | | 72.0% | 62.6% | 34.3% | 80.4% | 53.2% | 76.5%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "LiveCodeBench Code generation (UI: 1/1/2025-5/1/2025)",
+        "",
+        "72.0%",
+        "62.6%",
+        "34.3%",
+        "80.4%",
+        "53.2%",
+        "76.5%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 59,
+      "tag": "tr",
+      "text": "MRCR v2 (8-needle) Long context performance | 128k (average) | 60.1% | 54.3% | 30.6% | 52.5% | 35.3% | 54.6%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "MRCR v2 (8-needle) Long context performance",
+        "128k (average)",
+        "60.1%",
+        "54.3%",
+        "30.6%",
+        "52.5%",
+        "35.3%",
+        "54.6%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 60,
+      "tag": "tr",
+      "text": "1M (pointwise) | 12.3% | 21.0% | 5.4% | Not supported | Not supported | 6.1%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "1M (pointwise)",
+        "12.3%",
+        "21.0%",
+        "5.4%",
+        "Not supported",
+        "Not supported",
+        "6.1%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Flash-Lite High",
+          "Gemini 2.5 Flash Dynamic",
+          "Gemini 2.5 Flash-Lite Dynamic",
+          "GPT-5 mini High",
+          "Claude 4.5 Haiku Extended Thinking",
+          "Grok 4.1 Fast Reasoning"
+        ],
+        [
+          "Input price $/1M tokens, no caching",
+          "Lower is better",
+          "$0.25",
+          "$0.30",
+          "$0.10",
+          "$0.25",
+          "$1.00",
+          "$0.20"
+        ]
+      ]
+    },
+    {
+      "index": 61,
+      "tag": "p",
+      "text": "Methodology: deepmind.google/models/evals-methodology/gemini-3-1-flash-lite",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 62,
+      "tag": "h2",
+      "text": "Intended Usage and Limitations",
+      "heading": "Intended Usage and Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 63,
+      "tag": "h3",
+      "text": "Benefit and Intended Usage",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 64,
+      "tag": "p",
+      "text": "Gemini 3.1 Flash-Lite is well suited for applications that require high volume, cost-efficient and low latency tasks.",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 65,
+      "tag": "h3",
+      "text": "Known Limitations",
+      "heading": "Known Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 66,
+      "tag": "p",
+      "text": "For more information about the known limitations for Gemini 3.1 Flash-Lite, see the Gemini 3 Pro model card .",
+      "heading": "Known Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 67,
+      "tag": "h3",
+      "text": "Acceptable Usage",
+      "heading": "Acceptable Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 68,
+      "tag": "p",
+      "text": "For more information about the acceptable usage for Gemini 3.1 Flash-Lite, see the Gemini 3 Pro model card .",
+      "heading": "Acceptable Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 69,
+      "tag": "h2",
+      "text": "Ethics and Content Safety",
+      "heading": "Ethics and Content Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 70,
+      "tag": "h3",
+      "text": "Evaluation Approach",
+      "heading": "Evaluation Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 71,
+      "tag": "p",
+      "text": "For more information about the evaluation approach for Gemini 3.1 Flash-Lite, see the Gemini 3 Pro model card .",
+      "heading": "Evaluation Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 72,
+      "tag": "h3",
+      "text": "Safety Policies",
+      "heading": "Safety Policies",
+      "isFootnote": false
+    },
+    {
+      "index": 73,
+      "tag": "p",
+      "text": "For more information about the safety policies for Gemini 3.1 Flash-Lite, see the Gemini 3 Pro model card .",
+      "heading": "Safety Policies",
+      "isFootnote": false
+    },
+    {
+      "index": 74,
+      "tag": "h3",
+      "text": "Training and Development Evaluation Results",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 75,
+      "tag": "p",
+      "text": "Results for some of the internal safety evaluations conducted during the development phase are listed below. The evaluation results are for automated evaluations and not human evaluation or red teaming. Scores are provided as an absolute percentage increase or decrease in performance compared to the indicated model, as described below. Overall, Gemini 3.1 Flash-Lite outperforms Gemini 2.5 Flash-Lite across both safety and tone, while keeping unjustified refusals low. We mark improvements in green and regressions in red.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 76,
+      "tag": "tr",
+      "text": "Evaluation 1 | Description | Gemini 3.1 Flash-Lite vs. Gemini 2.5 Flash-Lite",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Evaluation 1",
+        "Description",
+        "Gemini 3.1 Flash-Lite vs. Gemini 2.5 Flash-Lite"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Flash-Lite vs. Gemini 2.5 Flash-Lite"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.18%"
+        ]
+      ]
+    },
+    {
+      "index": 77,
+      "tag": "tr",
+      "text": "Text to Text Safety | Automated content safety evaluation measuring safety policies | -1.18%",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Text to Text Safety",
+        "Automated content safety evaluation measuring safety policies",
+        "-1.18%"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Flash-Lite vs. Gemini 2.5 Flash-Lite"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.18%"
+        ]
+      ]
+    },
+    {
+      "index": 78,
+      "tag": "tr",
+      "text": "Multilingual Safety | Automated safety policy evaluation across multiple languages | -1.84%",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Multilingual Safety",
+        "Automated safety policy evaluation across multiple languages",
+        "-1.84%"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Flash-Lite vs. Gemini 2.5 Flash-Lite"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.18%"
+        ]
+      ]
+    },
+    {
+      "index": 79,
+      "tag": "tr",
+      "text": "Image to Text Safety | Automated content safety evaluation measuring safety policies | -21.7%",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Image to Text Safety",
+        "Automated content safety evaluation measuring safety policies",
+        "-21.7%"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Flash-Lite vs. Gemini 2.5 Flash-Lite"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.18%"
+        ]
+      ]
+    },
+    {
+      "index": 80,
+      "tag": "tr",
+      "text": "Tone 2 | Automated evaluation measuring objective tone of model refusal | +14.59%",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Tone 2",
+        "Automated evaluation measuring objective tone of model refusal",
+        "+14.59%"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Flash-Lite vs. Gemini 2.5 Flash-Lite"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.18%"
+        ]
+      ]
+    },
+    {
+      "index": 81,
+      "tag": "tr",
+      "text": "Unjustified-refusals | Automated evaluation measuring model’s ability to respond to borderline prompts while remaining safe | -14.41%",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Unjustified-refusals",
+        "Automated evaluation measuring model’s ability to respond to borderline prompts while remaining safe",
+        "-14.41%"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Flash-Lite vs. Gemini 2.5 Flash-Lite"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "-1.18%"
+        ]
+      ]
+    },
+    {
+      "index": 82,
+      "tag": "p",
+      "text": "1 The ordering of evaluations in this table has changed from previous iterations of the 2.5 Flash-Lite model card in order to list safety evaluations together and improve readability. The type of evaluations listed have remained the same.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 83,
+      "tag": "p",
+      "text": "2 For tone and instruction following, a positive percentage increase represents an improvement in the tone of the model on sensitive topics and the model’s ability to follow instructions while remaining safe compared to Gemini 2.5 Pro. We mark improvements in green and regressions in red.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 84,
+      "tag": "p",
+      "text": "We continue to improve our internal evaluations, including refining automated evaluations to reduce false positives and negatives, as well as update query sets to ensure balance and maintain a high standard of results. The performance results reported below are computed with improved evaluations and thus are not directly comparable with performance results found in previous Gemini model cards.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 85,
+      "tag": "p",
+      "text": "We expect variation in our automated safety evaluations results, which is why we review flagged content to check for egregious or dangerous material. Our manual review confirmed losses were overwhelmingly either a) false positives or b) not egregious.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 86,
+      "tag": "h3",
+      "text": "Human Red Teaming Results",
+      "heading": "Human Red Teaming Results",
+      "isFootnote": false
+    },
+    {
+      "index": 87,
+      "tag": "p",
+      "text": "We conduct manual red teaming by specialist teams who sit outside of the model development team. High-level findings are fed back to the model team. For child safety evaluations, Gemini 3.1 Flash-Lite satisfied required launch thresholds, which were developed by expert teams to protect children online and meet Google’s commitments to child safety across our models and Google products. For content safety policies generally, including child safety, we saw similar or improved safety performance compared to Gemini 2.5 Flash. Like 3 Pro, the scope of red teaming covered potential issues outside of our strict policies, and found no egregious concerns.",
+      "heading": "Human Red Teaming Results",
+      "isFootnote": false
+    },
+    {
+      "index": 88,
+      "tag": "h3",
+      "text": "Frontier Safety Assessment",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false
+    },
+    {
+      "index": 89,
+      "tag": "p",
+      "text": "Gemini 3.1 Flash-Lite is part of the Gemini 3 family of models. We rely on our evaluation of Gemini 3.1 Pro with Deep Think mode for Frontier Safety as it is the most generally capable model as of publication of this model card, and it did not reach any Critical Capability Levels (CCLs) outlined in our Frontier Safety Framework . Our assessments have shown that Gemini 3.1 Flash-Lite is less capable than Gemini 3.1 Pro, therefore based on Gemini 3.1 Pro, we are confident that Gemini 3.1 Flash-Lite is also unlikely to reach any CCLs. For more information, read the Gemini 3.1 Pro Model Card .",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false
+    },
+    {
+      "index": 90,
+      "tag": "h3",
+      "text": "Risks and Mitigations",
+      "heading": "Risks and Mitigations",
+      "isFootnote": false
+    },
+    {
+      "index": 91,
+      "tag": "p",
+      "text": "For more information about the risks and mitigations for Gemini 3.1 Flash-Lite, see the Gemini 3 Pro model card .",
+      "heading": "Risks and Mitigations",
+      "isFootnote": false
+    },
+    {
+      "index": 92,
+      "tag": "h2",
+      "text": "Latest model cards",
+      "heading": "Latest model cards",
+      "isFootnote": false
+    },
+    {
+      "index": 93,
+      "tag": "h3",
+      "text": "Gemini 3.8 Flash",
+      "heading": "Gemini 3.8 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 94,
+      "tag": "h3",
+      "text": "Gemini Robotics On-Device 2",
+      "heading": "Gemini Robotics On-Device 2",
+      "isFootnote": false
+    },
+    {
+      "index": 95,
+      "tag": "h3",
+      "text": "Gemini Robotics ER 2",
+      "heading": "Gemini Robotics ER 2",
+      "isFootnote": false
+    },
+    {
+      "index": 96,
+      "tag": "h3",
+      "text": "Lyria 3.5",
+      "heading": "Lyria 3.5",
+      "isFootnote": false
+    },
+    {
+      "index": 97,
+      "tag": "h3",
+      "text": "Gemini 3.6 Flash",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 98,
+      "tag": "h3",
+      "text": "Gemini 3.5 Flash-Lite",
+      "heading": "Gemini 3.5 Flash-Lite",
+      "isFootnote": false
+    }
+  ]
+}

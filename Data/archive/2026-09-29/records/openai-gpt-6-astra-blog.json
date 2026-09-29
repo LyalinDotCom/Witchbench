@@ -1,0 +1,19 @@
+{
+  "id": "openai-gpt-6-astra-blog",
+  "sourceUrl": "https://openai.com/index/gpt-6-astra/",
+  "expectedBytes": 2792187,
+  "expectedSha256": "8ca79110d0b674801288ef75f9c2a070f9044843eb544c26901f1c750f879946",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:44.049128+00:00",
+  "finalUrl": "https://openai.com/index/gpt-6-astra/",
+  "contentType": "text/html",
+  "bytes": 2792193,
+  "sha256": "843489907c44d3ff7513e510b186f0a5c4fcf76fa0b89a70892711523ab922cf",
+  "localPath": "Data/archive/2026-09-29/raw/openai-gpt-6-astra-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/openai-gpt-6-astra-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/openai-gpt-6-astra-blog.json",
+  "matchesResearchHash": false
+}

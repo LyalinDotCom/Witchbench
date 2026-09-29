@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-opus-5-card",
+  "sourceUrl": "https://www.anthropic.com/claude-opus-5-system-card",
+  "expectedBytes": 16281258,
+  "expectedSha256": "0950dae1ba6b341e4f1a009e535e0f025625efeca21bd043a9a5ae148a3f2e6b",
+  "expectedPages": 198,
+  "kind": "card",
+  "pages": 198,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:45:44.293131+00:00",
+  "finalUrl": "https://www-cdn.anthropic.com/ceaf5c7ff2783855203fde8208ec311252dced5b/Claude%20Opus%205%20System%20Card.pdf",
+  "contentType": "application/pdf",
+  "bytes": 16281258,
+  "sha256": "0950dae1ba6b341e4f1a009e535e0f025625efeca21bd043a9a5ae148a3f2e6b",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-opus-5-card.pdf",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-opus-5-card.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-opus-5-card.json",
+  "matchesResearchHash": true
+}

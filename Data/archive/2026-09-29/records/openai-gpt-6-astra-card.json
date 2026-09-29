@@ -1,0 +1,19 @@
+{
+  "id": "openai-gpt-6-astra-card",
+  "sourceUrl": "https://deploymentsafety.openai.com/gpt-6-astra",
+  "expectedBytes": 1500702,
+  "expectedSha256": "8d09f15801b2197b3d97fc9fa6e42c9fa1f1dad9d1528f4d51db8ed4b0e6caef",
+  "expectedPages": null,
+  "kind": "card",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:44.101937+00:00",
+  "finalUrl": "https://deploymentsafety.openai.com/gpt-6-astra",
+  "contentType": "text/html",
+  "bytes": 1500702,
+  "sha256": "693cef45ac873405fe4b90f2ca66c23a5eb162e25d7c69809fc4186245414508",
+  "localPath": "Data/archive/2026-09-29/raw/openai-gpt-6-astra-card.html",
+  "textPath": "Data/archive/2026-09-29/text/openai-gpt-6-astra-card.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/openai-gpt-6-astra-card.json",
+  "matchesResearchHash": false
+}

@@ -1,0 +1,19 @@
+{
+  "id": "openai-gpt-5-5-cyber-preview-blog",
+  "sourceUrl": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+  "expectedBytes": 542987,
+  "expectedSha256": "a5095a3504816eddba57a2f13534702f199a8fea8dbdb45c5690071afc767aa6",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.789884+00:00",
+  "finalUrl": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+  "contentType": "text/html",
+  "bytes": 542992,
+  "sha256": "b81345f85603d361c60964a4dec1fcca3f3bec02bf57025bbfa6be1fcb15b5d7",
+  "localPath": "Data/archive/2026-09-29/raw/openai-gpt-5-5-cyber-preview-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/openai-gpt-5-5-cyber-preview-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/openai-gpt-5-5-cyber-preview-blog.json",
+  "matchesResearchHash": false
+}

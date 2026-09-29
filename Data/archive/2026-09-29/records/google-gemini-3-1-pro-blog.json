@@ -1,0 +1,19 @@
+{
+  "id": "google-gemini-3-1-pro-blog",
+  "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+  "expectedBytes": 381672,
+  "expectedSha256": "d92d372995b2be06b2a06900c68eb6a6fdee4a979618a3c0704c39e5f6e027c8",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.317163+00:00",
+  "finalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+  "contentType": "text/html",
+  "bytes": 381672,
+  "sha256": "d92d372995b2be06b2a06900c68eb6a6fdee4a979618a3c0704c39e5f6e027c8",
+  "localPath": "Data/archive/2026-09-29/raw/google-gemini-3-1-pro-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/google-gemini-3-1-pro-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/google-gemini-3-1-pro-blog.json",
+  "matchesResearchHash": true
+}

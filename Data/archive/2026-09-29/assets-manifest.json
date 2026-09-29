@@ -1,0 +1,3906 @@
+[
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-3-codex/assets/images/ctfs_88_ci.png",
+    "status": "archived",
+    "file": "402dbb8575ca5da27736f185.png",
+    "bytes": 128552,
+    "sha256": "612b0fc080dac8efdff4bf7d967b51426417381486d56604715645d51d75a22a",
+    "retrievedAt": "2026-09-29T13:07:21.546051+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-3-codex/assets/images/cve3.png",
+    "status": "archived",
+    "file": "09ac315ca0c6b29c25edc75d.png",
+    "bytes": 66498,
+    "sha256": "fc91dfcf6deb4023fe5b461937edfd0923ebd4ff1e54829199bc57c7781c59df",
+    "retrievedAt": "2026-09-29T13:07:21.536448+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-3-codex/assets/images/cyber_range.png",
+    "status": "archived",
+    "file": "a2d1085d39c21ed0e4e04eef.png",
+    "bytes": 30213,
+    "sha256": "0ca464448ad1b1ce8e85527f972dac0c62c28190850173fc9df121355b7fb336",
+    "retrievedAt": "2026-09-29T13:07:21.513539+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-3-codex/assets/images/monorepo_bench.png",
+    "status": "archived",
+    "file": "a24254c2021a460872dc6461.png",
+    "bytes": 70777,
+    "sha256": "60ebb22e06b3d7f5c76aadfa87fdfc99286acebb49de65468446ab2335039876",
+    "retrievedAt": "2026-09-29T13:07:21.536507+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-3-codex/assets/images/openai_proof_qa.png",
+    "status": "archived",
+    "file": "932df945ecf75ae3ff861fe0.png",
+    "bytes": 73719,
+    "sha256": "6315750e5120dca8bc9ea36f69b627b7915f22d1aac95791368fef63b771fecb",
+    "retrievedAt": "2026-09-29T13:07:21.526538+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-3-codex/assets/images/protocolqa_openended.png",
+    "status": "archived",
+    "file": "23b78c473cf8a8165eddb657.png",
+    "bytes": 74963,
+    "sha256": "f49bff3ff62acf26dbbab2e83d157cdfe99a4627476626f081a772bb694f46a1",
+    "retrievedAt": "2026-09-29T13:07:21.545936+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-3-codex/assets/images/tacit.png",
+    "status": "archived",
+    "file": "1fceb90aa35f1e82b9c8de11.png",
+    "bytes": 78561,
+    "sha256": "f0bb0a09e711fd73c4dfeff439b319eca1cae7e42152f1d2a6a562ca3e41ffcd",
+    "retrievedAt": "2026-09-29T13:07:21.554072+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-3-codex/assets/images/troubleshootingbench_oneword.png",
+    "status": "archived",
+    "file": "a792868989bdd559efe1a5a9.png",
+    "bytes": 130399,
+    "sha256": "3348d00f3639383099d4851e1c064231e197c338f21a6e5429eb7273ef81026e",
+    "retrievedAt": "2026-09-29T13:07:21.546004+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-3-codex/assets/images/virology.png",
+    "status": "archived",
+    "file": "3089b851d42bdabddff02443.png",
+    "bytes": 77994,
+    "sha256": "511f0572c55e3cd7392d4bbd664c63933cb8f9d72fed1fd02be75af5a5ab93a4",
+    "retrievedAt": "2026-09-29T13:07:21.704970+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/agentic_misalignment.png",
+    "status": "archived",
+    "file": "24c4b292438781e581fe96af.png",
+    "bytes": 170512,
+    "sha256": "51ca56e464d147d4e5aacb76efe47f071695efe05ace44f81b05664edf43cfcc",
+    "retrievedAt": "2026-09-29T13:07:21.768468+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/barplot.png",
+    "status": "archived",
+    "file": "7b15bd51a5d4b7fed2579ef0.png",
+    "bytes": 74638,
+    "sha256": "80687656f4c7883cc8a5d5ef577e671e5c028ab3b0ab29fc81b492621fec6bcd",
+    "retrievedAt": "2026-09-29T13:07:21.722942+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/capture_the_flag.png",
+    "status": "archived",
+    "file": "ca3d0889cbd22ec069ee8282.png",
+    "bytes": 88893,
+    "sha256": "384debbcf54189943f9df98a08cf7ca18f45e9e34543c61fb4c348d3f435924d",
+    "retrievedAt": "2026-09-29T13:07:21.723723+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/controllability.png",
+    "status": "archived",
+    "file": "6d5ef3901fa8aea187520bcb.png",
+    "bytes": 189523,
+    "sha256": "e0da0b1486ee9c84482b81504b564ec9ed17c094be6362194a2a0778502c2f2a",
+    "retrievedAt": "2026-09-29T13:07:21.759398+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/cotcontrol.png",
+    "status": "archived",
+    "file": "92d590b95b05538216055c9a.png",
+    "bytes": 223965,
+    "sha256": "6cc38f39cedf3bcc420cb615eefff1fc1b3ce6cda191c7e1be5af95bd0f0bd67",
+    "retrievedAt": "2026-09-29T13:07:21.788788+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/cve_bench.png",
+    "status": "archived",
+    "file": "1310a6425a672cbdb7ec9830.png",
+    "bytes": 91719,
+    "sha256": "5f68ac86463145e114912795c3164639f618db9f3bab2177f3d3b3bd265ec40e",
+    "retrievedAt": "2026-09-29T13:07:21.724092+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/cyber_range.png",
+    "status": "archived",
+    "file": "f869b97cc9d7a9491e8b3861.png",
+    "bytes": 102792,
+    "sha256": "31c92ac61c1c239c8f6943988411826d7b7fb6c9d2654f7c9c4634a185151dd6",
+    "retrievedAt": "2026-09-29T13:07:21.744276+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/deceptionevals.png",
+    "status": "archived",
+    "file": "41431c1f3b06ac88f1b03f13.png",
+    "bytes": 175655,
+    "sha256": "a031c82dfdabac38a7a88dc7d49672474e74ae60fc6ce769f566251d6ecc0043",
+    "retrievedAt": "2026-09-29T13:07:21.910306+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/jailbreaks1.png",
+    "status": "archived",
+    "file": "f937cd512aaa1d8923b7da6b.png",
+    "bytes": 53829,
+    "sha256": "f9b3ef478ed2bf09618c7cfa47d6edcfdb4ac7a3a1df7868f941cd67dd3d3cfb",
+    "retrievedAt": "2026-09-29T13:07:21.917894+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/memory.png",
+    "status": "archived",
+    "file": "291ed3024a8e66e9c129c880.png",
+    "bytes": 114538,
+    "sha256": "ec3a4b4708ce850d6e7ed4f6eca857ae93785747d4e22fc922830712cc47affa",
+    "retrievedAt": "2026-09-29T13:07:21.920688+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/mle2.png",
+    "status": "archived",
+    "file": "b0b28c1d1650cc23a17798c2.png",
+    "bytes": 70622,
+    "sha256": "6ac32a6b27248e74cd5b341d2b3b8bebedddeeebff4ffce3e1cb05c993d920aa",
+    "retrievedAt": "2026-09-29T13:07:21.917958+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/monorepo_bench.png",
+    "status": "archived",
+    "file": "5c42cbcf932a42113c21b071.png",
+    "bytes": 91089,
+    "sha256": "0d3ffd9d2687e4f07bdbcad726c74d15a354463201dcbd9808d3ea299b7bf095",
+    "retrievedAt": "2026-09-29T13:07:21.935846+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/multimodal_troubleshooting_viro.png",
+    "status": "archived",
+    "file": "56a6cca2bed78ad7c5d9d89a.png",
+    "bytes": 102341,
+    "sha256": "e91ae21f29a523a0543493bc1b51b425ad4bba5f16f533c6a19544d9ea13123e",
+    "retrievedAt": "2026-09-29T13:07:21.944306+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/openai_proof_qa.png",
+    "status": "archived",
+    "file": "8e06a4cdc27d5f503d36c5c3.png",
+    "bytes": 91868,
+    "sha256": "47de40bd19357de694825ca5955416bf158cd1c2c5fdbcfc5ed46bef8eb51de5",
+    "retrievedAt": "2026-09-29T13:07:21.962561+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/protocolqa_open_ended.png",
+    "status": "archived",
+    "file": "07a885f53c3ebea90117470b.png",
+    "bytes": 98967,
+    "sha256": "79df3c432935d63cfe207c72b7a15a2237a93e7119ef1bfa15376ffe4c4d95d6",
+    "retrievedAt": "2026-09-29T13:07:21.971990+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/scatterplots_main.png",
+    "status": "archived",
+    "file": "f008298f2046c5d8d8e33181.png",
+    "bytes": 135726,
+    "sha256": "a166ab37c296285784e67b971472eb61e69d4513de9fa60a264d1320181c528c",
+    "retrievedAt": "2026-09-29T13:07:22.101527+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/tacit_knowledge_troubleshooting2.png",
+    "status": "archived",
+    "file": "ef18e9488b95737345e25cc6.png",
+    "bytes": 172031,
+    "sha256": "3c017bf3a24b2bc134f2ba31e72dd4174ea912322ea9f5a4e55b3990d03eb044",
+    "retrievedAt": "2026-09-29T13:07:22.149912+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-4-thinking/assets/images/troubleshootingbench2.png",
+    "status": "archived",
+    "file": "6c87da727baf26b95b94fc58.png",
+    "bytes": 91276,
+    "sha256": "0c16b1db72fda51fb76d821534000a0ed5ba80283d384179a2df05bceb868bba",
+    "retrievedAt": "2026-09-29T13:07:22.112730+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/barplot.png",
+    "status": "archived",
+    "file": "40d5e4f464a184345f82531e.png",
+    "bytes": 74837,
+    "sha256": "3651a51d9a0f839f26d3bfe750c8f8bed85b4c1cbc93dadd619c62091e530906",
+    "retrievedAt": "2026-09-29T13:07:22.112682+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/capture_the_flag.png",
+    "status": "archived",
+    "file": "d6b2b0bd1a12e1f3660c9950.png",
+    "bytes": 93462,
+    "sha256": "72949a9cd74b59fb76e66a0b03b76bc4c131d3dfd5f8f1d11cbc3cecf2f82ef4",
+    "retrievedAt": "2026-09-29T13:07:22.110391+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/control.png",
+    "status": "archived",
+    "file": "22f84b209fa219f182093b29.png",
+    "bytes": 266199,
+    "sha256": "13f0173f1a2b2d536b6d6856974f12bfbd4a5ef80e00922b9cca0f7a2b2524ed",
+    "retrievedAt": "2026-09-29T13:07:22.189749+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/cve.png",
+    "status": "archived",
+    "file": "3850e3db53554f078d8fbd09.png",
+    "bytes": 81473,
+    "sha256": "1fc63813e84b3ccc6b95df24a4e9c083a75091931f4bdce15a3752a8dc0fed23",
+    "retrievedAt": "2026-09-29T13:07:22.168568+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/debug1.png",
+    "status": "archived",
+    "file": "397e32190556497d3ecd080b.png",
+    "bytes": 111941,
+    "sha256": "75b88c68c38c57bc752581b0aae14a1a7763dbaa68356ef5b71e7d8426018fd3",
+    "retrievedAt": "2026-09-29T13:07:22.170149+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/debug3.png",
+    "status": "archived",
+    "file": "7d909000869d64b2fcdd8777.png",
+    "bytes": 334771,
+    "sha256": "8e38afb356772bbe833a2a29d3c09936c83940fc6c27d1df08018b5424c6db98",
+    "retrievedAt": "2026-09-29T13:07:22.324275+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/disallowed3.png",
+    "status": "archived",
+    "file": "5dc3e2b177ac111760641008.png",
+    "bytes": 60614,
+    "sha256": "43e0cf03464c8fb116a8e1541f4066f582f06180c8037a9e67697275f2b427e3",
+    "retrievedAt": "2026-09-29T13:07:22.305920+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/hallucination1.png",
+    "status": "archived",
+    "file": "e052d4269bc26096bd0684e7.png",
+    "bytes": 98111,
+    "sha256": "440e0b54e893d76b72d8b57fe3695c0ed1cb2646dc8c617763ed71e4b41d3d34",
+    "retrievedAt": "2026-09-29T13:07:22.326214+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/health_queries_evidence_field.png",
+    "status": "archived",
+    "file": "5af252a0b057929617bc37e8.png",
+    "bytes": 108769,
+    "sha256": "2e1c1cc7f9eed77a9df93f4447df4e5e4a73676623310ec774626a83af55c357",
+    "retrievedAt": "2026-09-29T13:07:22.294059+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/health_queries_patient_opinion.png",
+    "status": "archived",
+    "file": "7cc79f0be0e0aada90d323de.png",
+    "bytes": 110113,
+    "sha256": "539aab5b0428a0a6b629277de3f87938b1bd6c558db40bb06c0259b1c6c29a92",
+    "retrievedAt": "2026-09-29T13:07:22.328230+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/internaldep.png",
+    "status": "archived",
+    "file": "992c0fdc7931073a1abf5c76.png",
+    "bytes": 57283,
+    "sha256": "d63a3311cb775398005e504dc2a39a6bd6ec08898c99dcb84a3f4c356e65509e",
+    "retrievedAt": "2026-09-29T13:07:22.365453+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/jailbreaks5.png",
+    "status": "archived",
+    "file": "c5fa6e5ef092f512dd6ea19a.png",
+    "bytes": 169543,
+    "sha256": "dd613c4317387bfe9562bb775fa87e4360aaf96d1115875d4343f3f8b171eca5",
+    "retrievedAt": "2026-09-29T13:07:22.376176+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/misalign2.png",
+    "status": "archived",
+    "file": "0aa48523c21201614e3c2361.png",
+    "bytes": 165838,
+    "sha256": "867a3c9f39e344ef94a55d498e26c9f9db5ff285bffcac1e61e972a62a4ed190",
+    "retrievedAt": "2026-09-29T13:07:22.383833+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/misalign3.png",
+    "status": "archived",
+    "file": "a1de77fab3ddf8fc950f67b2.png",
+    "bytes": 52100,
+    "sha256": "d7fbd819bb7717b647dcc2d4afb216a949e64e5ec06f517e5f078077fd2fcc0a",
+    "retrievedAt": "2026-09-29T13:07:22.488467+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/mle2.png",
+    "status": "archived",
+    "file": "54c06a06a6cba58f063b3d86.png",
+    "bytes": 73064,
+    "sha256": "6eaa30b4a1874f4ad5c2bc3ed1557587dfd397c2a43612db6f831c7eccb4bab6",
+    "retrievedAt": "2026-09-29T13:07:22.504658+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/monorepo_bench.png",
+    "status": "archived",
+    "file": "4db3982175b1353f61323dd5.png",
+    "bytes": 81041,
+    "sha256": "f85b48af2c4defeeb25189c4aca810129f41875cd1522624e10aaa512be472e3",
+    "retrievedAt": "2026-09-29T13:07:22.523596+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/openai_proof_qa.png",
+    "status": "archived",
+    "file": "4993e18aed9ce28275368b81.png",
+    "bytes": 84398,
+    "sha256": "c1111ae7e1de0a8b8889b84016f658d1fd8d0e40cc80e6631c3bf21453a6c2c9",
+    "retrievedAt": "2026-09-29T13:07:22.553180+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/protocolqa.png",
+    "status": "archived",
+    "file": "1d2eb549e4896475bb8752d0.png",
+    "bytes": 93226,
+    "sha256": "325d0ee5f235251872b8d187552fa0348ab0be3894c4868545d091fd70116e71",
+    "retrievedAt": "2026-09-29T13:07:22.523665+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/scatterplots_main.png",
+    "status": "archived",
+    "file": "3ad0c337bc0babd29247998a.png",
+    "bytes": 155493,
+    "sha256": "8963c4be22507402997d45f8fabb51c97bf8eb4f2d11a1303962ee76185a5bde",
+    "retrievedAt": "2026-09-29T13:07:22.567253+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/tacit_knowledge_troubleshooting.png",
+    "status": "archived",
+    "file": "3bf501297ec5d4bfd625d535.png",
+    "bytes": 53414,
+    "sha256": "2ab74fd08e65b58e1d4b03c9cdcb99b5fe19ea4d01dafece5de36e91cb600f73",
+    "retrievedAt": "2026-09-29T13:07:22.556791+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/troubleshootingbench.png",
+    "status": "archived",
+    "file": "f5648db80918a4aba2e18540.png",
+    "bytes": 92007,
+    "sha256": "6454fe0e027faffd8cad91905b83cd217e74f7d09329e5509c2b6c44b2a08d67",
+    "retrievedAt": "2026-09-29T13:07:22.567300+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/viro.png",
+    "status": "archived",
+    "file": "f258eb3b761c399be1a38923.png",
+    "bytes": 98489,
+    "sha256": "fc7a94cb5171c9554b5834fab144fcbe35e6f7326d6165edb4cce9329f385518",
+    "retrievedAt": "2026-09-29T13:07:22.671670+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/Agentic_misalignment.png",
+    "status": "archived",
+    "file": "064fe7ccbe4537f8dd114400.png",
+    "bytes": 300904,
+    "sha256": "ce6483cee4ee61471ed9eed3d5aa6de3cbe33399794a29c2146300af0527a53d",
+    "retrievedAt": "2026-09-29T13:07:22.733834+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/Barplot.png",
+    "status": "archived",
+    "file": "ccbd3abfbeab30a0caf908e9.png",
+    "bytes": 72062,
+    "sha256": "f4255b6d07fdb7381ddd8e6e228130e65a684017bfbfc9c54ec2c1aa0163bf9c",
+    "retrievedAt": "2026-09-29T13:07:22.707607+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/Health_queries_patient_opinion.png",
+    "status": "archived",
+    "file": "14c5ee6628c822527e94d2db.png",
+    "bytes": 62822,
+    "sha256": "46e9bbc6f9f0a3f738b08c4982df54901fa872da8e20737bfe5319d69c590ba7",
+    "retrievedAt": "2026-09-29T13:07:22.707680+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/Protocolqa.png",
+    "status": "archived",
+    "file": "7c965729fc1071adfc82bcda.png",
+    "bytes": 104861,
+    "sha256": "351ef8e22986a6a8c04dfe2258c46e0ae814f36d1ac544868ff5be9a2c107e6e",
+    "retrievedAt": "2026-09-29T13:07:22.752907+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/Scatterplots_main.png",
+    "status": "archived",
+    "file": "cc5f2331957bfdb6ab72b843.png",
+    "bytes": 104783,
+    "sha256": "05e0f181e7121df0c119ba83249807f8e86c642394b5bd663ff0a390476522e1",
+    "retrievedAt": "2026-09-29T13:07:22.752846+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/cve.png",
+    "status": "archived",
+    "file": "9dfb377e5ee035aea0d8520e.png",
+    "bytes": 89417,
+    "sha256": "0771cfbef778386057b2ac33082f1166c4332bc9dc89168d4aaddef1c4961d46",
+    "retrievedAt": "2026-09-29T13:07:22.752407+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/debug1.png",
+    "status": "archived",
+    "file": "af2bf28af8bf40e8f01d5464.png",
+    "bytes": 115206,
+    "sha256": "10f5dbfe9abe6926bc28af80c4e838dfbcd023d3805d164322562a3c48aacaa7",
+    "retrievedAt": "2026-09-29T13:07:22.769650+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image1.png",
+    "status": "archived",
+    "file": "02de3d941aa13ddcd6d6bfa5.png",
+    "bytes": 84106,
+    "sha256": "f3073cf5ff3d8046ff7482e2fb11e5a5e5db8c6b121ff71cb54c75bb55910195",
+    "retrievedAt": "2026-09-29T13:07:22.868630+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image10.png",
+    "status": "archived",
+    "file": "0f9b8ac81deff9fa83ac5d75.png",
+    "bytes": 195431,
+    "sha256": "ee5ce3ce89dc7fe4bb07de74e08fd3b16517bc48e730528a3f8dcb1495cf1c6c",
+    "retrievedAt": "2026-09-29T13:07:22.942368+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image11.png",
+    "status": "archived",
+    "file": "fd4c5cd4297c2f58071c2759.png",
+    "bytes": 53268,
+    "sha256": "00ba1fa6c0de36b516280550b3c204b951d16e60db1b5e8807236a6da86d0239",
+    "retrievedAt": "2026-09-29T13:07:22.900473+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image12.png",
+    "status": "archived",
+    "file": "01136b0579a5e21dd3600005.png",
+    "bytes": 353295,
+    "sha256": "99a817877ea96b220af33c60274b3babebe0d2c9c6ca4fd9506c91eea9e0d1f4",
+    "retrievedAt": "2026-09-29T13:07:23.012725+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image14.png",
+    "status": "archived",
+    "file": "b2e0cbe2ec99e920fd8ffb3b.png",
+    "bytes": 126211,
+    "sha256": "c415d0dfcd39541f6f1f4d208008b5d4ab0a54d7385abc09929b5777a9f9d4d2",
+    "retrievedAt": "2026-09-29T13:07:22.957777+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image15.png",
+    "status": "archived",
+    "file": "9d25cc365a5a42f1ff337089.png",
+    "bytes": 99506,
+    "sha256": "f1f764ffbcb0ae9dc4bad066d5c6fe9384412bcedcabafed0e3f7581e4f459b0",
+    "retrievedAt": "2026-09-29T13:07:22.950595+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image16.png",
+    "status": "archived",
+    "file": "fbb0ca3e16bc483ffa42670e.png",
+    "bytes": 84851,
+    "sha256": "83cdd4a96ae35e41cbf905364553ca890b1481f3249a071700f0dfbb8191c12b",
+    "retrievedAt": "2026-09-29T13:07:22.977471+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image17.png",
+    "status": "archived",
+    "file": "2aeac6a019b178319b651c0d.png",
+    "bytes": 92744,
+    "sha256": "742fccfbd039ea15a3240e29c507ebf00338821f3d9e49838cf3f059226c6625",
+    "retrievedAt": "2026-09-29T13:07:22.948882+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image18.png",
+    "status": "archived",
+    "file": "254e8585f604b1b375c3a3d9.png",
+    "bytes": 97379,
+    "sha256": "b4ef564febb9429d303862d66ab3617f886ce8b97a055501d0eb4d5527ef9d05",
+    "retrievedAt": "2026-09-29T13:07:23.057435+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image19.png",
+    "status": "archived",
+    "file": "72f7078d2208de52e58867e1.png",
+    "bytes": 111763,
+    "sha256": "6fc3790d77f137af8e321e5fda984b13cafe9dd429c6ca9f32b3ebe5d00d5b64",
+    "retrievedAt": "2026-09-29T13:07:23.131349+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image2.png",
+    "status": "archived",
+    "file": "694a3414c1c46f9561345c23.png",
+    "bytes": 103573,
+    "sha256": "5193ee8b215f6adc81fa7e6c94f3e6fe8861d58d113e9ce2e26cedd04170738f",
+    "retrievedAt": "2026-09-29T13:07:23.148206+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image20.png",
+    "status": "archived",
+    "file": "66a31d8807369ce5de85bae9.png",
+    "bytes": 103165,
+    "sha256": "6e4fbd0c5997716859d476ecd0177ddc13e2c1f5fd4520926c851ccf9a763f17",
+    "retrievedAt": "2026-09-29T13:07:23.140465+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image21.png",
+    "status": "archived",
+    "file": "6138191e4f909e3fbd31ca23.png",
+    "bytes": 92556,
+    "sha256": "f425277775d1a4181bcb8db01843d775a436e8170f599d96d9b771a07f0c90c1",
+    "retrievedAt": "2026-09-29T13:07:23.140327+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image22.png",
+    "status": "archived",
+    "file": "c5a9b96b950bc4ea64fcd907.png",
+    "bytes": 98829,
+    "sha256": "7d86226142ecd2d205fff9083abe8d449b09df1c1736bf8ada26e40d1d30f1a9",
+    "retrievedAt": "2026-09-29T13:07:23.165939+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image23.png",
+    "status": "archived",
+    "file": "19173c9e6748b13316a87bf1.png",
+    "bytes": 95557,
+    "sha256": "66f46987896cf8d50c6a05facb782b1b8257c1ab38b7422af73744cbe1775794",
+    "retrievedAt": "2026-09-29T13:07:23.177149+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image24.png",
+    "status": "archived",
+    "file": "be3fab1c096d25bb936d4e27.png",
+    "bytes": 97335,
+    "sha256": "037f497c8024e4d2c3fd0663ddeede4f0d36d0a8d4bfab68f673042558cd72c7",
+    "retrievedAt": "2026-09-29T13:07:23.200729+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image26.png",
+    "status": "archived",
+    "file": "185f351a8afbc1158ae76ab6.png",
+    "bytes": 87926,
+    "sha256": "fd0c36d26b639ec64e1f1f783df4596243033824b7cc9771eed7838d98c504d0",
+    "retrievedAt": "2026-09-29T13:07:23.265387+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image29.png",
+    "status": "archived",
+    "file": "95102ae5485fc115c4011db5.png",
+    "bytes": 129735,
+    "sha256": "ee9cab86fe447d159e7cf49a5612ccc4aa05575fb80bdeae527fe24f19cea698",
+    "retrievedAt": "2026-09-29T13:07:23.346201+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image3.png",
+    "status": "archived",
+    "file": "f8039c34e4e79cd924852356.png",
+    "bytes": 106093,
+    "sha256": "391e2b466453c740ef2c6f53535e45862ae1e205cd4957d808ac20b6a615437d",
+    "retrievedAt": "2026-09-29T13:07:23.346476+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image31.png",
+    "status": "archived",
+    "file": "9193dc8d564badd4ad2c2a3a.png",
+    "bytes": 93785,
+    "sha256": "2c00aedfdf383398e74018789e689adb9bab83aadd8be3c34321275796b9cca4",
+    "retrievedAt": "2026-09-29T13:07:23.359297+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image32.png",
+    "status": "archived",
+    "file": "b51af24cca70b767daa58bc4.png",
+    "bytes": 88030,
+    "sha256": "b62ff5a15119e38c815282906a2a00268d23ff10d283ee2c095f7d3c807536bc",
+    "retrievedAt": "2026-09-29T13:07:23.328473+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image34.png",
+    "status": "archived",
+    "file": "30232d94d4aedd4f2238aaa6.png",
+    "bytes": 328808,
+    "sha256": "a96e2a1b468de536bb97c461569301c54e4f17886ba115f35c36434b54001249",
+    "retrievedAt": "2026-09-29T13:07:23.398433+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image35.png",
+    "status": "archived",
+    "file": "b20e164e674ecf44b2b2c381.png",
+    "bytes": 94860,
+    "sha256": "8278459677e7c96e1676f4842e81b294c7b070d8f34113791975621ac5e05a1e",
+    "retrievedAt": "2026-09-29T13:07:23.398554+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image37.png",
+    "status": "archived",
+    "file": "7a7fa3f5a6c192435b55b1d0.png",
+    "bytes": 563406,
+    "sha256": "c18e040642fd132aa5b3ca93beb337496d8fa467289343ee8a25b751865aa549",
+    "retrievedAt": "2026-09-29T13:07:23.448232+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image38.png",
+    "status": "archived",
+    "file": "d30a455086e3bcc940702670.png",
+    "bytes": 99431,
+    "sha256": "0a0a5a05be98bcc163b85214aac6e360cc7234895707e45f9cebfcb312a4d9d3",
+    "retrievedAt": "2026-09-29T13:07:23.450137+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image4.png",
+    "status": "archived",
+    "file": "5a9b7a286afdbfcd735dbcaf.png",
+    "bytes": 93717,
+    "sha256": "4a8b72e0467d73a0e38c6e702ce8f4259583d97b4ad68897224ac1ddae94eb90",
+    "retrievedAt": "2026-09-29T13:07:23.521266+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image41.png",
+    "status": "archived",
+    "file": "57723ff74b033986b4369950.png",
+    "bytes": 104352,
+    "sha256": "9603bed8793f1b003c34ca9423377feaa34290461d5c918761336effb4574a35",
+    "retrievedAt": "2026-09-29T13:07:23.527998+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image42.png",
+    "status": "archived",
+    "file": "ea37292ddf237c6624db6f71.png",
+    "bytes": 288215,
+    "sha256": "7346a7cd71919b7c36edd6b4dcb397b8c479a900e6ccba1edaecff5436b8e932",
+    "retrievedAt": "2026-09-29T13:07:23.576985+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image43.png",
+    "status": "archived",
+    "file": "1e5354ffbe60cad1755134f5.png",
+    "bytes": 598397,
+    "sha256": "5becfa7deacbfdf10b043007a9b8a1203bb831049d52a56c2b45335b9bb24c04",
+    "retrievedAt": "2026-09-29T13:07:23.586401+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image44.png",
+    "status": "archived",
+    "file": "be46fa94955f589ca33ca837.png",
+    "bytes": 126793,
+    "sha256": "c00912caca2b8afdc5be52973c646f50c1c6bf47a5abace74a647d51c8fa77f6",
+    "retrievedAt": "2026-09-29T13:07:23.599932+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image45.png",
+    "status": "archived",
+    "file": "0f8acd749f8adf12dd497767.png",
+    "bytes": 349342,
+    "sha256": "b312dcd196159650d2f9a054bd223d0f38f687a6fb196947e280b2aa72fae8a5",
+    "retrievedAt": "2026-09-29T13:07:23.637093+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image46.png",
+    "status": "archived",
+    "file": "329c49aa60a435adba9f7cb5.png",
+    "bytes": 65141,
+    "sha256": "8978b05227e311eaa6a72bed320bf9b9b35a4c74146125a25ae4f95e95d3c756",
+    "retrievedAt": "2026-09-29T13:07:23.636768+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image47.png",
+    "status": "archived",
+    "file": "a59fa88117d5f66824b8506f.png",
+    "bytes": 81891,
+    "sha256": "c2b4dbb5ce7658c570548e40fa300cd2373dbddc7d1b7b1a85506243303174eb",
+    "retrievedAt": "2026-09-29T13:07:23.638664+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image48.png",
+    "status": "archived",
+    "file": "740a7f13464c0851c60f12f2.png",
+    "bytes": 89833,
+    "sha256": "d73221bbac3bb27f7dab31bcd15a2b48c853ad6c2cf9c4373c7351efb1fb9528",
+    "retrievedAt": "2026-09-29T13:07:23.716034+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image5.png",
+    "status": "archived",
+    "file": "23ee656b60f13d75e729d0bc.png",
+    "bytes": 100308,
+    "sha256": "3749b878e1ba40250d0bc9dfaefdabb310052cea824556daf2220a5eb9fc0896",
+    "retrievedAt": "2026-09-29T13:07:23.738943+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image6.png",
+    "status": "archived",
+    "file": "26e308a75399ae879f81e05f.png",
+    "bytes": 87145,
+    "sha256": "ec6eafa44eb2e6f7b0869dba25f7a8b3cf3cf4ac3965f4fed2d9de8d8538206c",
+    "retrievedAt": "2026-09-29T13:07:23.779660+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image7.png",
+    "status": "archived",
+    "file": "5c73f0d4ff80095d2524fdae.png",
+    "bytes": 98880,
+    "sha256": "01e674df9a914e2c366de90cfd0cbf604f61aabf37da48ed528889b8fe60a6ea",
+    "retrievedAt": "2026-09-29T13:07:23.779805+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image8.png",
+    "status": "archived",
+    "file": "f52c249a8c5ea8b62eac230f.png",
+    "bytes": 74190,
+    "sha256": "89cb759e6d63fbd8b651828f041e0d689cbd99abc964619d3fc8f76d6c312e7c",
+    "retrievedAt": "2026-09-29T13:07:23.776419+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/impossible_tasks.png",
+    "status": "archived",
+    "file": "7c756434dd7587bcdc94c9ad.png",
+    "bytes": 113843,
+    "sha256": "7c13f2bdc4b4890f5660091ca5614d5a9edf9774e3d434a836cf49af7d60a17b",
+    "retrievedAt": "2026-09-29T13:07:23.840516+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/internaldep.png",
+    "status": "archived",
+    "file": "fcd653ab17ce76958ec5b7d5.png",
+    "bytes": 186152,
+    "sha256": "625ed41e6c7ab4179da68077799439b3a03d96768c72957c6bc2f84c400194a8",
+    "retrievedAt": "2026-09-29T13:07:23.858383+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/scruples.png",
+    "status": "archived",
+    "file": "c89f93762d90037117936b0f.png",
+    "bytes": 108795,
+    "sha256": "49515af6bf6aa0044a4050548a3ff9a7b72073ca8e9cb41bd0b0d2862a415541",
+    "retrievedAt": "2026-09-29T13:07:23.839294+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/Agentic_misalignment.png",
+    "status": "archived",
+    "file": "86ff381241481897a7ace1de.png",
+    "bytes": 300904,
+    "sha256": "ce6483cee4ee61471ed9eed3d5aa6de3cbe33399794a29c2146300af0527a53d",
+    "retrievedAt": "2026-09-29T13:07:23.959038+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/Barplot.png",
+    "status": "archived",
+    "file": "c2d08ae38505f397f23ee964.png",
+    "bytes": 72062,
+    "sha256": "f4255b6d07fdb7381ddd8e6e228130e65a684017bfbfc9c54ec2c1aa0163bf9c",
+    "retrievedAt": "2026-09-29T13:07:23.932128+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/Health_queries_patient_opinion.png",
+    "status": "archived",
+    "file": "6a8cab87d96d95fd588afd2a.png",
+    "bytes": 62822,
+    "sha256": "46e9bbc6f9f0a3f738b08c4982df54901fa872da8e20737bfe5319d69c590ba7",
+    "retrievedAt": "2026-09-29T13:07:23.993232+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/Protocolqa.png",
+    "status": "archived",
+    "file": "0683c84641ab944b158f5737.png",
+    "bytes": 104861,
+    "sha256": "351ef8e22986a6a8c04dfe2258c46e0ae814f36d1ac544868ff5be9a2c107e6e",
+    "retrievedAt": "2026-09-29T13:07:23.972584+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/Scatterplots_main.png",
+    "status": "archived",
+    "file": "05a3fad5c7ef8fb220abf756.png",
+    "bytes": 104783,
+    "sha256": "05e0f181e7121df0c119ba83249807f8e86c642394b5bd663ff0a390476522e1",
+    "retrievedAt": "2026-09-29T13:07:23.968087+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/cve.png",
+    "status": "archived",
+    "file": "b5bb9f1af8ef16d644d38546.png",
+    "bytes": 89417,
+    "sha256": "0771cfbef778386057b2ac33082f1166c4332bc9dc89168d4aaddef1c4961d46",
+    "retrievedAt": "2026-09-29T13:07:24.029184+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/debug1.png",
+    "status": "archived",
+    "file": "f0d6ea1d0f1b0f578f96179e.png",
+    "bytes": 115206,
+    "sha256": "10f5dbfe9abe6926bc28af80c4e838dfbcd023d3805d164322562a3c48aacaa7",
+    "retrievedAt": "2026-09-29T13:07:24.048746+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image1.png",
+    "status": "archived",
+    "file": "6256843509d705e43b88b21d.png",
+    "bytes": 84106,
+    "sha256": "f3073cf5ff3d8046ff7482e2fb11e5a5e5db8c6b121ff71cb54c75bb55910195",
+    "retrievedAt": "2026-09-29T13:07:24.046755+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image10.png",
+    "status": "archived",
+    "file": "c663f59c938ce074daae396b.png",
+    "bytes": 195431,
+    "sha256": "ee5ce3ce89dc7fe4bb07de74e08fd3b16517bc48e730528a3f8dcb1495cf1c6c",
+    "retrievedAt": "2026-09-29T13:07:24.136825+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image11.png",
+    "status": "archived",
+    "file": "d80699183304c0e1aa4d2817.png",
+    "bytes": 53268,
+    "sha256": "00ba1fa6c0de36b516280550b3c204b951d16e60db1b5e8807236a6da86d0239",
+    "retrievedAt": "2026-09-29T13:07:24.164305+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image12.png",
+    "status": "archived",
+    "file": "f4e1b8fb5b6e3c10575331fe.png",
+    "bytes": 353295,
+    "sha256": "99a817877ea96b220af33c60274b3babebe0d2c9c6ca4fd9506c91eea9e0d1f4",
+    "retrievedAt": "2026-09-29T13:07:24.191439+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image14.png",
+    "status": "archived",
+    "file": "215874485b6ff08d7965f890.png",
+    "bytes": 126211,
+    "sha256": "c415d0dfcd39541f6f1f4d208008b5d4ab0a54d7385abc09929b5777a9f9d4d2",
+    "retrievedAt": "2026-09-29T13:07:24.267108+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image15.png",
+    "status": "archived",
+    "file": "be465190f6a34429f4f49ace.png",
+    "bytes": 99506,
+    "sha256": "f1f764ffbcb0ae9dc4bad066d5c6fe9384412bcedcabafed0e3f7581e4f459b0",
+    "retrievedAt": "2026-09-29T13:07:24.230337+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image16.png",
+    "status": "archived",
+    "file": "97bf1514ba78e8aa8d448845.png",
+    "bytes": 84851,
+    "sha256": "83cdd4a96ae35e41cbf905364553ca890b1481f3249a071700f0dfbb8191c12b",
+    "retrievedAt": "2026-09-29T13:07:24.257096+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image17.png",
+    "status": "archived",
+    "file": "4b1ed239506bcaa4c2162e46.png",
+    "bytes": 92744,
+    "sha256": "742fccfbd039ea15a3240e29c507ebf00338821f3d9e49838cf3f059226c6625",
+    "retrievedAt": "2026-09-29T13:07:24.232831+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image18.png",
+    "status": "archived",
+    "file": "e8bf4f7d0672dde9e6974c60.png",
+    "bytes": 97379,
+    "sha256": "b4ef564febb9429d303862d66ab3617f886ce8b97a055501d0eb4d5527ef9d05",
+    "retrievedAt": "2026-09-29T13:07:24.241883+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image19.png",
+    "status": "archived",
+    "file": "5bbd5cb3ce428237dd8f35ce.png",
+    "bytes": 111763,
+    "sha256": "6fc3790d77f137af8e321e5fda984b13cafe9dd429c6ca9f32b3ebe5d00d5b64",
+    "retrievedAt": "2026-09-29T13:07:24.320008+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image2.png",
+    "status": "archived",
+    "file": "d32ec791ba877373e3057875.png",
+    "bytes": 103573,
+    "sha256": "5193ee8b215f6adc81fa7e6c94f3e6fe8861d58d113e9ce2e26cedd04170738f",
+    "retrievedAt": "2026-09-29T13:07:24.347793+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image20.png",
+    "status": "archived",
+    "file": "55c449f285804e4c240ecc47.png",
+    "bytes": 103165,
+    "sha256": "6e4fbd0c5997716859d476ecd0177ddc13e2c1f5fd4520926c851ccf9a763f17",
+    "retrievedAt": "2026-09-29T13:07:24.393358+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image21.png",
+    "status": "archived",
+    "file": "3a1126e20778328d1a52a6ef.png",
+    "bytes": 92556,
+    "sha256": "f425277775d1a4181bcb8db01843d775a436e8170f599d96d9b771a07f0c90c1",
+    "retrievedAt": "2026-09-29T13:07:24.434170+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image22.png",
+    "status": "archived",
+    "file": "3e7ec2f63e7db8bac14be7c3.png",
+    "bytes": 98829,
+    "sha256": "7d86226142ecd2d205fff9083abe8d449b09df1c1736bf8ada26e40d1d30f1a9",
+    "retrievedAt": "2026-09-29T13:07:24.428784+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image23.png",
+    "status": "archived",
+    "file": "bc2aea3cc8f65217d6ce3fc1.png",
+    "bytes": 95557,
+    "sha256": "66f46987896cf8d50c6a05facb782b1b8257c1ab38b7422af73744cbe1775794",
+    "retrievedAt": "2026-09-29T13:07:24.428723+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image24.png",
+    "status": "archived",
+    "file": "a152ab2ffd2bef4b8fe96655.png",
+    "bytes": 97335,
+    "sha256": "037f497c8024e4d2c3fd0663ddeede4f0d36d0a8d4bfab68f673042558cd72c7",
+    "retrievedAt": "2026-09-29T13:07:24.456510+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image26.png",
+    "status": "archived",
+    "file": "45a8a700ec15b40df7648b39.png",
+    "bytes": 87926,
+    "sha256": "fd0c36d26b639ec64e1f1f783df4596243033824b7cc9771eed7838d98c504d0",
+    "retrievedAt": "2026-09-29T13:07:24.473886+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image29.png",
+    "status": "archived",
+    "file": "1e68efe2084078e9a680f709.png",
+    "bytes": 129735,
+    "sha256": "ee9cab86fe447d159e7cf49a5612ccc4aa05575fb80bdeae527fe24f19cea698",
+    "retrievedAt": "2026-09-29T13:07:24.518995+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image3.png",
+    "status": "archived",
+    "file": "c1e3df63f1cf58e0f217cd1a.png",
+    "bytes": 106093,
+    "sha256": "391e2b466453c740ef2c6f53535e45862ae1e205cd4957d808ac20b6a615437d",
+    "retrievedAt": "2026-09-29T13:07:24.609826+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image31.png",
+    "status": "archived",
+    "file": "0ec9828cb6dc963d89aafcd2.png",
+    "bytes": 93785,
+    "sha256": "2c00aedfdf383398e74018789e689adb9bab83aadd8be3c34321275796b9cca4",
+    "retrievedAt": "2026-09-29T13:07:24.609912+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image32.png",
+    "status": "archived",
+    "file": "96f43ba9deeba9e60d43e82a.png",
+    "bytes": 88030,
+    "sha256": "b62ff5a15119e38c815282906a2a00268d23ff10d283ee2c095f7d3c807536bc",
+    "retrievedAt": "2026-09-29T13:07:24.623620+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image34.png",
+    "status": "archived",
+    "file": "79416ee3270d4e10fdc96e9e.png",
+    "bytes": 328808,
+    "sha256": "a96e2a1b468de536bb97c461569301c54e4f17886ba115f35c36434b54001249",
+    "retrievedAt": "2026-09-29T13:07:24.681109+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image35.png",
+    "status": "archived",
+    "file": "aabefb867d36c9b169ca2a99.png",
+    "bytes": 94860,
+    "sha256": "8278459677e7c96e1676f4842e81b294c7b070d8f34113791975621ac5e05a1e",
+    "retrievedAt": "2026-09-29T13:07:24.638132+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image37.png",
+    "status": "archived",
+    "file": "30fcffdd10c5018defd2e740.png",
+    "bytes": 563406,
+    "sha256": "c18e040642fd132aa5b3ca93beb337496d8fa467289343ee8a25b751865aa549",
+    "retrievedAt": "2026-09-29T13:07:24.702174+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image38.png",
+    "status": "archived",
+    "file": "e7ea818bf067fdad43801077.png",
+    "bytes": 99431,
+    "sha256": "0a0a5a05be98bcc163b85214aac6e360cc7234895707e45f9cebfcb312a4d9d3",
+    "retrievedAt": "2026-09-29T13:07:24.672758+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image4.png",
+    "status": "archived",
+    "file": "cf925d647bc48ad8785dde08.png",
+    "bytes": 93717,
+    "sha256": "4a8b72e0467d73a0e38c6e702ce8f4259583d97b4ad68897224ac1ddae94eb90",
+    "retrievedAt": "2026-09-29T13:07:24.730353+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image41.png",
+    "status": "archived",
+    "file": "c4e23fa20774bb3d6bfea29c.png",
+    "bytes": 104352,
+    "sha256": "9603bed8793f1b003c34ca9423377feaa34290461d5c918761336effb4574a35",
+    "retrievedAt": "2026-09-29T13:07:24.810891+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image42.png",
+    "status": "archived",
+    "file": "bc7baecc275ec6fdfc24570a.png",
+    "bytes": 288215,
+    "sha256": "7346a7cd71919b7c36edd6b4dcb397b8c479a900e6ccba1edaecff5436b8e932",
+    "retrievedAt": "2026-09-29T13:07:24.847858+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image43.png",
+    "status": "archived",
+    "file": "0d437599c2e16b4ca80438da.png",
+    "bytes": 598397,
+    "sha256": "5becfa7deacbfdf10b043007a9b8a1203bb831049d52a56c2b45335b9bb24c04",
+    "retrievedAt": "2026-09-29T13:07:24.896911+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image44.png",
+    "status": "archived",
+    "file": "0c72b898683af251cd471c9f.png",
+    "bytes": 126793,
+    "sha256": "c00912caca2b8afdc5be52973c646f50c1c6bf47a5abace74a647d51c8fa77f6",
+    "retrievedAt": "2026-09-29T13:07:24.856265+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image45.png",
+    "status": "archived",
+    "file": "09379a1e52d58a861cb85fb2.png",
+    "bytes": 349342,
+    "sha256": "b312dcd196159650d2f9a054bd223d0f38f687a6fb196947e280b2aa72fae8a5",
+    "retrievedAt": "2026-09-29T13:07:24.989833+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image46.png",
+    "status": "archived",
+    "file": "9013fee99b03b33e253600f7.png",
+    "bytes": 65141,
+    "sha256": "8978b05227e311eaa6a72bed320bf9b9b35a4c74146125a25ae4f95e95d3c756",
+    "retrievedAt": "2026-09-29T13:07:24.858391+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image47.png",
+    "status": "archived",
+    "file": "96eccf15bb9d400a87047fa2.png",
+    "bytes": 81891,
+    "sha256": "c2b4dbb5ce7658c570548e40fa300cd2373dbddc7d1b7b1a85506243303174eb",
+    "retrievedAt": "2026-09-29T13:07:24.896258+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image48.png",
+    "status": "archived",
+    "file": "6570b442d4d41cacaa1103dd.png",
+    "bytes": 89833,
+    "sha256": "d73221bbac3bb27f7dab31bcd15a2b48c853ad6c2cf9c4373c7351efb1fb9528",
+    "retrievedAt": "2026-09-29T13:07:24.916977+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image5.png",
+    "status": "archived",
+    "file": "c2b22ebe3490cb47de102d47.png",
+    "bytes": 100308,
+    "sha256": "3749b878e1ba40250d0bc9dfaefdabb310052cea824556daf2220a5eb9fc0896",
+    "retrievedAt": "2026-09-29T13:07:25.007739+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image6.png",
+    "status": "archived",
+    "file": "faa8a75540d4e4eda1d3ca86.png",
+    "bytes": 87145,
+    "sha256": "ec6eafa44eb2e6f7b0869dba25f7a8b3cf3cf4ac3965f4fed2d9de8d8538206c",
+    "retrievedAt": "2026-09-29T13:07:25.052600+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image7.png",
+    "status": "archived",
+    "file": "6f1ebccc9d3f9204f3523c3f.png",
+    "bytes": 98880,
+    "sha256": "01e674df9a914e2c366de90cfd0cbf604f61aabf37da48ed528889b8fe60a6ea",
+    "retrievedAt": "2026-09-29T13:07:25.071616+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/image8.png",
+    "status": "archived",
+    "file": "9d4c1aba9f5c8c7ea1d63658.png",
+    "bytes": 74190,
+    "sha256": "89cb759e6d63fbd8b651828f041e0d689cbd99abc964619d3fc8f76d6c312e7c",
+    "retrievedAt": "2026-09-29T13:07:25.078283+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/impossible_tasks.png",
+    "status": "archived",
+    "file": "a896e3c6d1d28466761e9179.png",
+    "bytes": 113843,
+    "sha256": "7c13f2bdc4b4890f5660091ca5614d5a9edf9774e3d434a836cf49af7d60a17b",
+    "retrievedAt": "2026-09-29T13:07:25.074184+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/internaldep.png",
+    "status": "archived",
+    "file": "24bfeddcc265afc1aa034009.png",
+    "bytes": 186152,
+    "sha256": "625ed41e6c7ab4179da68077799439b3a03d96768c72957c6bc2f84c400194a8",
+    "retrievedAt": "2026-09-29T13:07:25.114831+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6/assets/images/scruples.png",
+    "status": "archived",
+    "file": "10a95fc0b3ce22049b2efb9e.png",
+    "bytes": 108795,
+    "sha256": "49515af6bf6aa0044a4050548a3ff9a7b72073ca8e9cb41bd0b0d2862a415541",
+    "retrievedAt": "2026-09-29T13:07:25.126100+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/Barplot.png",
+    "status": "archived",
+    "file": "d4781d4ce3763e2ab4729203.png",
+    "bytes": 263566,
+    "sha256": "c5d59a45e9d21308f88e118143e2e3db192476642e97c85b6dfdcf4970e8bb58",
+    "retrievedAt": "2026-09-29T13:07:25.218543+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/Cot_distributions.png",
+    "status": "archived",
+    "file": "f37c3fcf8d4f081c729e5fa5.png",
+    "bytes": 220561,
+    "sha256": "24d53577743034a4eb88486f76abaa362450a894854215c462838f2bb1657d67",
+    "retrievedAt": "2026-09-29T13:07:25.218442+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/Per_environment_other.png",
+    "status": "archived",
+    "file": "c308e3bb42173ce94ff45312.png",
+    "bytes": 472780,
+    "sha256": "934dd8fc0813ac2a5b9487080964bde95787135b2c8fa9c696e3bdda34c39f9e",
+    "retrievedAt": "2026-09-29T13:07:25.291922+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/action_only_diff.png",
+    "status": "archived",
+    "file": "e154249e45f0c9fdfa4439ff.png",
+    "bytes": 278190,
+    "sha256": "8d298015f18831ab35f0dfdec80f66b39ea1b8359834eb22d84ef9a457569d5f",
+    "retrievedAt": "2026-09-29T13:07:25.307849+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/01-safety-pareto.png",
+    "status": "archived",
+    "file": "e681c867601063c8c1c8b7a9.png",
+    "bytes": 472998,
+    "sha256": "10fc8ac48240dd91e76bcd7d07dab784d83f2aeb3fff140d85a80004622a2c04",
+    "retrievedAt": "2026-09-29T13:07:25.330808+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/02-multiturn-jailbreaks.png",
+    "status": "archived",
+    "file": "7a0854ce76f4c830e39e85e8.png",
+    "bytes": 68320,
+    "sha256": "01a33b9eb66def84a39b2a59e2f649a5bddc4b0628a848f880c6912d7e0f16f1",
+    "retrievedAt": "2026-09-29T13:07:25.290341+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/03-prompt-injection.png",
+    "status": "archived",
+    "file": "5032c37098feb7e5549ea8bf.png",
+    "bytes": 187266,
+    "sha256": "659bd80138cc13affee82832322973cdbf2e29a2ea783e0854beb0d919f1f300",
+    "retrievedAt": "2026-09-29T13:07:25.324062+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/04-hallucinations.png",
+    "status": "archived",
+    "file": "1af196fe661a863c4c2da676.png",
+    "bytes": 220131,
+    "sha256": "11a8e1a6f9ccd3c38487506cfce42d5212ec547f790423c823564e73124470a7",
+    "retrievedAt": "2026-09-29T13:07:25.394798+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/05-auto-review.png",
+    "status": "archived",
+    "file": "e18a3a087fb29047bbb7bf52.png",
+    "bytes": 243155,
+    "sha256": "a7f694bd42f2c9369046e4af93c143f108ac8bddd44ba6d76f9df9b5dfde2498",
+    "retrievedAt": "2026-09-29T13:07:25.438970+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/06-warnings.png",
+    "status": "archived",
+    "file": "9f6a293ffe71158d1d49ec89.png",
+    "bytes": 179620,
+    "sha256": "c6d7acfa70b4295f0435f632980cb999b3effc8b00fa400766fd3b1c9b42a90e",
+    "retrievedAt": "2026-09-29T13:07:25.432492+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/07-exploitgym-honeypot.png",
+    "status": "archived",
+    "file": "d577195e42b18b61e5a4d924.png",
+    "bytes": 120381,
+    "sha256": "3cc4effe9131ca23c9906449320ed583e2f32c7fca0184ae1cb5e58fe735e2c7",
+    "retrievedAt": "2026-09-29T13:07:25.503319+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/08-coding-deception.png",
+    "status": "archived",
+    "file": "dabe350f224b7f38041a35d6.png",
+    "bytes": 168261,
+    "sha256": "526aa3df07f19fd6ddf8460a7f169f436866a44c9aaefda2f3a544000323357e",
+    "retrievedAt": "2026-09-29T13:07:25.521109+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/09-broken-search-tool.png",
+    "status": "archived",
+    "file": "f87ec8b4532c747c543f9025.png",
+    "bytes": 177707,
+    "sha256": "10e3c5493ca13c135caed1d26492735281dbab6186d7ca8e172893ed61962d2d",
+    "retrievedAt": "2026-09-29T13:07:25.633232+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/10-external-agent-messages.png",
+    "status": "archived",
+    "file": "7afae508303e9b45189a2607.png",
+    "bytes": 213568,
+    "sha256": "c559f3a619e16a88d81f38263050ba90400355521fcec6fef67c572d753360f1",
+    "retrievedAt": "2026-09-29T13:07:25.538701+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/11-codex-misalignment-severity.png",
+    "status": "archived",
+    "file": "1d3335c528ee54c82ae4f73f.png",
+    "bytes": 206927,
+    "sha256": "3ed1c21f5e75a0b99c9796b3090316b8cbc6a38ef5cde268a70e6885ba254193",
+    "retrievedAt": "2026-09-29T13:07:25.538759+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/12-codex-severity-3-categories.png",
+    "status": "archived",
+    "file": "45b63d13d03119e794cc8247.png",
+    "bytes": 313641,
+    "sha256": "d656b50537945d14e40b32459e97b9265fc20ec927e0f54e57f28b7a14a1c202",
+    "retrievedAt": "2026-09-29T13:07:25.621010+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/13-codex-severity-1-2-categories.png",
+    "status": "archived",
+    "file": "1a8c4f2940e8bcd7340adab2.png",
+    "bytes": 412850,
+    "sha256": "87fec619b8974df71ddf384b487a2a27bd36419338a2ce01ecbf524a7f0457c1",
+    "retrievedAt": "2026-09-29T13:07:25.684066+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/14-codex-evaluation-awareness.png",
+    "status": "archived",
+    "file": "09d2571d6d191f64a02f4944.png",
+    "bytes": 147283,
+    "sha256": "4b7bf4b2efeef99b754c9bd14c1962d224ec52f2d5944994c31a6707ee0a47b6",
+    "retrievedAt": "2026-09-29T13:07:25.655997+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/15-cot-controllability.png",
+    "status": "archived",
+    "file": "a83fb18cc8681f86c0c314b4.png",
+    "bytes": 404637,
+    "sha256": "6e9da7befa25768d1a062804edb44019e84fd37c986a4c10898939aeb4b2eab3",
+    "retrievedAt": "2026-09-29T13:07:25.732607+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/16-cot-controllability-datasets.png",
+    "status": "archived",
+    "file": "6d8d453cc78fbd436b5ced0c.png",
+    "bytes": 287210,
+    "sha256": "7ce6357a95a00492da3871658c2d977a2630ac488ecd3efdc11cb3adf2106f80",
+    "retrievedAt": "2026-09-29T13:07:25.749760+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/17-cot-controllability-instructions.png",
+    "status": "archived",
+    "file": "1a917c1320bd61e883f8d2a1.png",
+    "bytes": 464510,
+    "sha256": "215da1f34a6256e83de6642983b1003eec430cc09638710283ed09569b6da6f5",
+    "retrievedAt": "2026-09-29T13:07:25.768522+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/18-oai-repo-sabotage-task-guided.png",
+    "status": "archived",
+    "file": "bcd8e8d6e28c8dff1491771c.png",
+    "bytes": 448370,
+    "sha256": "ebaad5eba7a0091c26df8aa2ee65f34f81d105e388b2550b97d756d034ba2b9c",
+    "retrievedAt": "2026-09-29T13:07:25.999282+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/19-oai-repo-sabotage-unguided.png",
+    "status": "archived",
+    "file": "305df6f14789768bc09d5f52.png",
+    "bytes": 391478,
+    "sha256": "94b06b9cba098335b2f0b6f7a1d3887b8765f4d8537cb55ffe96cb820cd30c08",
+    "retrievedAt": "2026-09-29T13:07:25.847990+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/20-honeypot-monitorability.png",
+    "status": "archived",
+    "file": "885fe24b9b25d777a072dab2.png",
+    "bytes": 161715,
+    "sha256": "04f6e30a3bbbdb3049dd04321f46be5a126d385bb7c93af6eaaa6fdefe5209c6",
+    "retrievedAt": "2026-09-29T13:07:25.855648+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/21-math-sidetasking-1.png",
+    "status": "archived",
+    "file": "e1829957df197cea2483f9fa.png",
+    "bytes": 213749,
+    "sha256": "b26b0632e83072d3a6ce2f3ebc9e0add5b5077a71d6d8c568a8ef649912cbf31",
+    "retrievedAt": "2026-09-29T13:07:25.886240+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/22-math-sidetasking-2.png",
+    "status": "archived",
+    "file": "6dfa3cea1c021a2221a7c3d4.png",
+    "bytes": 138122,
+    "sha256": "5f118831e1bff6b2e45cd82171c91bd7f22035ce41df998935778e36c3f9a7f8",
+    "retrievedAt": "2026-09-29T13:07:25.875125+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/23-exploitbench.png",
+    "status": "archived",
+    "file": "57cf1b52a549dd5bf2c674dd.png",
+    "bytes": 184533,
+    "sha256": "9420b5657bd827b4bfc1e63be9737ebb6d021c8b995272e13da69bfda9e37cdd",
+    "retrievedAt": "2026-09-29T13:07:25.929421+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/24-exploitbench-internal-port.png",
+    "status": "archived",
+    "file": "771448d5aaede3e136c64cee.png",
+    "bytes": 191374,
+    "sha256": "04cb126c36e02b0eaa6f510f3c6de4e13802066f26902783bd8906736a283195",
+    "retrievedAt": "2026-09-29T13:07:25.964792+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/25-sec-bench-pro.png",
+    "status": "archived",
+    "file": "d0a8e2f7a928d589370d43b7.png",
+    "bytes": 219083,
+    "sha256": "d74c1acf12200e7f54d458a7b1246d926b315e885da20bdaea7f116c67099c79",
+    "retrievedAt": "2026-09-29T13:07:25.989516+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/26-exploitgym.png",
+    "status": "archived",
+    "file": "d1bb96ce141574f1f5c431f3.png",
+    "bytes": 198347,
+    "sha256": "8358ae3c1affbb0e62f70ccb6e34f93764e3b9abf2cdd8d41391e2d7ca3971f4",
+    "retrievedAt": "2026-09-29T13:07:26.092431+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/27-sandbox-bench.png",
+    "status": "archived",
+    "file": "8a667eabbfe7d12209732f1f.png",
+    "bytes": 157264,
+    "sha256": "231124f98556f412a412ce4bcbb30ef3da5af9fbd25560b7dcb4a4948e902392",
+    "retrievedAt": "2026-09-29T13:07:26.087598+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/28-research-debugging.png",
+    "status": "archived",
+    "file": "fdeadf392de06c3efed44f9c.png",
+    "bytes": 183157,
+    "sha256": "12d51e9c2e7010de65acfebc2df2bef0b40461e3307135bdf12162c73943409b",
+    "retrievedAt": "2026-09-29T13:07:26.113255+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/appendix/29-kernelgen-1p.png",
+    "status": "archived",
+    "file": "c80ef5376ceefb71ca8ed918.png",
+    "bytes": 170273,
+    "sha256": "8085b1338cd64202c2adbcd4b6ccf2e6d2964a4e8c4a743a93ae9b21fc978b25",
+    "retrievedAt": "2026-09-29T13:07:26.113299+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image1.png",
+    "status": "archived",
+    "file": "0a9f5ec9aa923206ac50c8ac.png",
+    "bytes": 370211,
+    "sha256": "c89e6beb1f064f1f1eb55b2753559ee9c9a70d045c7d27f101c36507fcf43908",
+    "retrievedAt": "2026-09-29T13:07:26.177716+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image10.png",
+    "status": "archived",
+    "file": "7af9e47094701441de22bc10.png",
+    "bytes": 224334,
+    "sha256": "70397bef24d0a2e8cd4dbe34b47781c76375470581311fba3d8d052b939a84e8",
+    "retrievedAt": "2026-09-29T13:07:26.177684+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image12.png",
+    "status": "archived",
+    "file": "6e22d77754f14f7915d7b490.png",
+    "bytes": 142585,
+    "sha256": "36b4716a6e5972e7ddd9a7112c41fafba2910146d9830306935f359927d12e8f",
+    "retrievedAt": "2026-09-29T13:07:26.177639+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image13.png",
+    "status": "archived",
+    "file": "68d67c1d07fecf75286e0739.png",
+    "bytes": 441111,
+    "sha256": "b729089add36adae8a84f8e3ac47f3a3975ddd3cb3e22c47980ed9c531316bcc",
+    "retrievedAt": "2026-09-29T13:07:26.225690+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image14.png",
+    "status": "archived",
+    "file": "4cff403704b4eb715b8422e8.png",
+    "bytes": 179887,
+    "sha256": "b7ed294b72e497ec054633efb2a50f31bdbc20fbc440eaf35d98b342aa41031f",
+    "retrievedAt": "2026-09-29T13:07:26.363944+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image16.png",
+    "status": "archived",
+    "file": "9da8d6e0632d47fdd093b494.png",
+    "bytes": 278200,
+    "sha256": "b1ebf7f40dd5b034dd098bb265292b0a79793e3cba8d90de2b35ece7df8aa9c2",
+    "retrievedAt": "2026-09-29T13:07:26.324459+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image17.png",
+    "status": "archived",
+    "file": "596c4396ddae2f627ad881bb.png",
+    "bytes": 158357,
+    "sha256": "4a29914cd248b6c28d46b827688952549b190a3f291f2012ba29808ff72be952",
+    "retrievedAt": "2026-09-29T13:07:26.324385+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image18.png",
+    "status": "archived",
+    "file": "36c516f6fad6d22aae3dd321.png",
+    "bytes": 149385,
+    "sha256": "16095756f68aa2761e0eb0a02036857598cd33489e9e739dcd87ba7c51f5c04a",
+    "retrievedAt": "2026-09-29T13:07:26.324421+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image19.png",
+    "status": "archived",
+    "file": "e34b375cb1092398ab3e48ca.png",
+    "bytes": 243667,
+    "sha256": "80f6c88982335c2cec05f43805e9d7f0a309046c2bb3d35148c36bbb313e8f74",
+    "retrievedAt": "2026-09-29T13:07:26.389763+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image2.png",
+    "status": "archived",
+    "file": "b78c52a108ef6dccbee6b287.png",
+    "bytes": 233169,
+    "sha256": "dd6a824568df3ec8358ec6d3bb959d9c622e3d1f0e5a73813d33c6e54d728914",
+    "retrievedAt": "2026-09-29T13:07:26.420652+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image21.png",
+    "status": "archived",
+    "file": "52663d438db8cdd8b63f1dad.png",
+    "bytes": 160738,
+    "sha256": "7a38af854099655032cf979ff24787abfb26f52042d4ab836e71f3d28c992b53",
+    "retrievedAt": "2026-09-29T13:07:26.388117+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image22.png",
+    "status": "archived",
+    "file": "f59e7396e9b1b26d6b417177.png",
+    "bytes": 166730,
+    "sha256": "0765a72b9f3e4ff2961f35239daf918e1cef9de2b007d6af8aec6bab32434678",
+    "retrievedAt": "2026-09-29T13:07:26.438109+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image23.png",
+    "status": "archived",
+    "file": "faaa2f293df944f9897c9179.png",
+    "bytes": 93736,
+    "sha256": "9742d930667ed37a2f286986489ec4f943783d6fd385a312132b2e0225d7492b",
+    "retrievedAt": "2026-09-29T13:07:26.499341+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image24.png",
+    "status": "archived",
+    "file": "c2255b798f4e6539382f8c1d.png",
+    "bytes": 248878,
+    "sha256": "4ca9d316d11026f043ebe214f5c5c90623e766231f34ddd218d3a78eb0a4f39f",
+    "retrievedAt": "2026-09-29T13:07:26.534506+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image25.png",
+    "status": "archived",
+    "file": "3d9976828c773aac556f252f.png",
+    "bytes": 187231,
+    "sha256": "ea566337a5b972cdbb52391a0caaefbca9d09189202952d4ceccc965d3d01e41",
+    "retrievedAt": "2026-09-29T13:07:26.532968+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image26.png",
+    "status": "archived",
+    "file": "1879dd5254f67ecbd7f10ca9.png",
+    "bytes": 304341,
+    "sha256": "f46ffd6e9646a28e30a568f9ce4aeb316a8ccc5a053c29020eede0ddb283569f",
+    "retrievedAt": "2026-09-29T13:07:26.603180+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image27.png",
+    "status": "archived",
+    "file": "9c4ad546b6c977f57b61ef5d.png",
+    "bytes": 111698,
+    "sha256": "bcee02deab39fcbd9b5f150b90842e55d73e20737043765db089f37c83ea2854",
+    "retrievedAt": "2026-09-29T13:07:26.594510+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image28.png",
+    "status": "archived",
+    "file": "e5978dae55b5b86e5d488415.png",
+    "bytes": 491138,
+    "sha256": "5f691646d1fa354eee81c34c01f4af4bab42d15b35a6d6663d3a1b6582b9fdc5",
+    "retrievedAt": "2026-09-29T13:07:26.641552+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image29.png",
+    "status": "archived",
+    "file": "b327be8ba0cac554c02417e4.png",
+    "bytes": 929626,
+    "sha256": "657810062bba054a4aa7829555cfec078a172ab201131d551b521c8e162c7cae",
+    "retrievedAt": "2026-09-29T13:07:26.669452+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image3.png",
+    "status": "archived",
+    "file": "b1a2e3532f5c8bf8d5e0c78c.png",
+    "bytes": 164758,
+    "sha256": "492af26cdfaaa0d1b7aaed599db49e93aed82cc1122c5b2383c0fdb79a97f1f2",
+    "retrievedAt": "2026-09-29T13:07:26.639890+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image30.png",
+    "status": "archived",
+    "file": "1f2faa9c83004e133dc48fde.png",
+    "bytes": 197773,
+    "sha256": "7f305977e2c748d655617e8284976e626b697a4d83709528ff21bac0a29f3171",
+    "retrievedAt": "2026-09-29T13:07:26.701783+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image31.png",
+    "status": "archived",
+    "file": "e7b0cf7f05c05926273b33f9.png",
+    "bytes": 255479,
+    "sha256": "24cdc0d3a7e289511d275f82eb3c999605fcd6a1eb703a3ec16fd7093bc47d29",
+    "retrievedAt": "2026-09-29T13:07:26.803995+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image32.png",
+    "status": "archived",
+    "file": "6fc544f4eac88ed2b23816da.png",
+    "bytes": 194925,
+    "sha256": "28ee40f74376c27768c5be6aacd4295c1cf53e4085dc220b5161ab67c6bf28ca",
+    "retrievedAt": "2026-09-29T13:07:26.758828+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image34.png",
+    "status": "archived",
+    "file": "9e1ddbec7ad3a2923fcb87e4.png",
+    "bytes": 195218,
+    "sha256": "a88711b9451058092219e813b222ddbc764983fcf2ba003ed9a8393f2e5a81be",
+    "retrievedAt": "2026-09-29T13:07:26.803921+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image36.png",
+    "status": "archived",
+    "file": "75220eeb45b21f781e339f85.png",
+    "bytes": 173922,
+    "sha256": "5da59e427df19fc3a8643f8b742a9b1b4034e3daf00e68bd16ca508cfbfddffb",
+    "retrievedAt": "2026-09-29T13:07:26.840417+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image37.png",
+    "status": "archived",
+    "file": "9ae87774c4b4cf56b821af96.png",
+    "bytes": 240285,
+    "sha256": "8935d5bf4fb1d889936f736a025eaa4c718505ad6c15ab5440b00ba490926d2f",
+    "retrievedAt": "2026-09-29T13:07:26.925065+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image38.png",
+    "status": "archived",
+    "file": "b55270704bce8839df6fa6e2.png",
+    "bytes": 164957,
+    "sha256": "1fbe65e76d8101251b56867e8b6a1f4603ee781999cb1d6045dc576b5c9cfbb3",
+    "retrievedAt": "2026-09-29T13:07:26.850460+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image39.png",
+    "status": "archived",
+    "file": "09db065d6dc3952fba3c2d75.png",
+    "bytes": 377740,
+    "sha256": "f22b951e2b557e0489879d8a8cb62fd2e5321ca7681391d0b5886c717e2a7ca7",
+    "retrievedAt": "2026-09-29T13:07:26.942006+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image4.png",
+    "status": "archived",
+    "file": "8bc072d66c5b19030b2a4469.png",
+    "bytes": 410596,
+    "sha256": "bcc9d589e9c9de414073b5329ee6e8a5a1bac96af25a2954f3cbb25399847e95",
+    "retrievedAt": "2026-09-29T13:07:26.968784+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image40.png",
+    "status": "archived",
+    "file": "b783366a83b0c224de9bba20.png",
+    "bytes": 185101,
+    "sha256": "5d9dd107c97e438bb8190e0533e608429d23da580dd68be800a5c8673b92c050",
+    "retrievedAt": "2026-09-29T13:07:27.001903+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image42.png",
+    "status": "archived",
+    "file": "a08e53b016a8c19167464872.png",
+    "bytes": 285427,
+    "sha256": "cf14dea4bfa8146959f56b6c1b90047df063b80aa27d4d029eb8142f592278b1",
+    "retrievedAt": "2026-09-29T13:07:27.394358+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image43.png",
+    "status": "archived",
+    "file": "fd497fc4dfc704cf8d21305f.png",
+    "bytes": 130690,
+    "sha256": "114d066b3c524e344522a91137cff0b30f32acb4d886d487fb9fcc49983c77cb",
+    "retrievedAt": "2026-09-29T13:07:27.424354+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image44.png",
+    "status": "archived",
+    "file": "8e58d579205b35cc9ab10dbb.png",
+    "bytes": 179312,
+    "sha256": "dbc8c73b056f489d71e36e59a8b9e0c327d34f96f8a1e1884dce59fd1805a3b9",
+    "retrievedAt": "2026-09-29T13:07:27.394273+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image45.png",
+    "status": "archived",
+    "file": "f95c25bfab4e7c150030a025.png",
+    "bytes": 122135,
+    "sha256": "447946527c359ea461712e12c7465313c0c0a860839b3556370ca8af59b766b0",
+    "retrievedAt": "2026-09-29T13:07:27.365645+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image46.png",
+    "status": "archived",
+    "file": "4744126df09dc767b1dde293.png",
+    "bytes": 131013,
+    "sha256": "b792a895a6fd423ce16db2179bd3c85d42a293565938fe277d634ec90f9d8f3e",
+    "retrievedAt": "2026-09-29T13:07:27.248425+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image47.png",
+    "status": "archived",
+    "file": "3bfceb70b56679507cdda842.png",
+    "bytes": 163390,
+    "sha256": "3b6456d58a900e8049b6504b5d82a833cca6ef319207fb1cade3543c52744a3c",
+    "retrievedAt": "2026-09-29T13:07:27.248522+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image49.png",
+    "status": "archived",
+    "file": "2071680f3fe1bd40fbc5822a.png",
+    "bytes": 334158,
+    "sha256": "141098301a3f8375b366d33ba0d9f501d5039c1431331371c5aa05186e00cffa",
+    "retrievedAt": "2026-09-29T13:07:27.319062+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image5.png",
+    "status": "archived",
+    "file": "c69414d3d1fcaad13cfabd0d.png",
+    "bytes": 189221,
+    "sha256": "2d115f1124a2606d8cbd384f143f92280cf57fc40eac5cedea4f741a990aebc3",
+    "retrievedAt": "2026-09-29T13:07:27.311560+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image50.png",
+    "status": "archived",
+    "file": "656e266f2d3f0a4caf7307a8.png",
+    "bytes": 209856,
+    "sha256": "421f46015065b1cca696bdd3bc247fb9e47d2d6c79c9165907e2dca24b924114",
+    "retrievedAt": "2026-09-29T13:07:27.440172+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image51.png",
+    "status": "archived",
+    "file": "458c0e1bb6210f3941a6d2ec.png",
+    "bytes": 457529,
+    "sha256": "26adcda1e54b0716501bd93e33973b7430b955bb7b4d8cc639dad3c58bab5083",
+    "retrievedAt": "2026-09-29T13:07:27.468210+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image52.png",
+    "status": "archived",
+    "file": "0ed9af01411a07e29f5e615d.png",
+    "bytes": 61782,
+    "sha256": "396af7056b32f28fbbb8599dff71dd5df2f625395711294f365f2617c1d4f5de",
+    "retrievedAt": "2026-09-29T13:07:27.501568+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image53.png",
+    "status": "archived",
+    "file": "f186be427a508bf0cbb6ba1d.png",
+    "bytes": 172922,
+    "sha256": "e08a431bf2c6e4dbb9cbbceec0da6aefbf464f67c951d45fb27de7c3abd8d5f1",
+    "retrievedAt": "2026-09-29T13:07:27.519653+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image54.png",
+    "status": "archived",
+    "file": "0b648e953171f42454e2bd54.png",
+    "bytes": 70876,
+    "sha256": "3824b6a29946915e153279966931713789bef6229ab25634ad785a9cdda30e80",
+    "retrievedAt": "2026-09-29T13:07:27.537228+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image55.png",
+    "status": "archived",
+    "file": "557781950edf9a5c111f4a10.png",
+    "bytes": 68195,
+    "sha256": "13ea30914b2ecbbf7169c920c32f3577d78ddd3a0c22ea9e85706ce0ed821fa8",
+    "retrievedAt": "2026-09-29T13:07:27.619370+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image56.png",
+    "status": "archived",
+    "file": "813f8922f8d292fe28b6e3fe.png",
+    "bytes": 69520,
+    "sha256": "4fc02b64b7b31184e171d3d8e3e5f58004fe02d6aeb721c8ebe1460184dda6d7",
+    "retrievedAt": "2026-09-29T13:07:27.593339+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image6.png",
+    "status": "archived",
+    "file": "3054a4a57365f80b4a4638c7.png",
+    "bytes": 940438,
+    "sha256": "06b3a31b4f030c0354fb6a693b88413475f2cc61d24518684f283d3d4a5a1f4a",
+    "retrievedAt": "2026-09-29T13:07:27.668160+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image7.png",
+    "status": "archived",
+    "file": "16d373d9854698dd57e64cff.png",
+    "bytes": 238067,
+    "sha256": "864d6b7fc8a879cf96336da6cfe800ba8e20c99568758041747e778a0c5519e1",
+    "retrievedAt": "2026-09-29T13:07:27.668232+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image8.png",
+    "status": "archived",
+    "file": "64a0b404a2a06ffcaa69b1f7.png",
+    "bytes": 246269,
+    "sha256": "fc335870d0b7ffa1091db49786c39c43a28e496270eec05907df6456d904461e",
+    "retrievedAt": "2026-09-29T13:07:27.666720+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/image9.png",
+    "status": "archived",
+    "file": "7d7fa9235f6da50d1a1111ce.png",
+    "bytes": 249206,
+    "sha256": "91b80d2163b57f34a6aee52b42c6412a37212a680b8649bc983c14e00d827290",
+    "retrievedAt": "2026-09-29T13:07:27.704091+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/oversight-gaming-examples.png",
+    "status": "archived",
+    "file": "9507fb91c2dad1cfc7a59a98.png",
+    "bytes": 305974,
+    "sha256": "b4c1432b1c6cb74df2067cb75f71cb281ea68decf2a2e38f78782d39c192e9b0",
+    "retrievedAt": "2026-09-29T13:07:27.735485+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/per_environment_misalignment.png",
+    "status": "archived",
+    "file": "a9bbd8653056989bbddbcf89.png",
+    "bytes": 621622,
+    "sha256": "059583333820d1b4c9363b333006eaa1f2a47b79c415b33af9b8e17a05f17e90",
+    "retrievedAt": "2026-09-29T13:07:27.808353+00:00"
+  },
+  {
+    "sourceUrl": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-astra/assets/images/scatterplots_main.png",
+    "status": "archived",
+    "file": "3ca0945ade4b5bb08a8f2771.png",
+    "bytes": 185792,
+    "sha256": "3d8b3ec44715f026eb950014cbd7cebf1a23167ab6cb1ff1a688c100624767f8",
+    "retrievedAt": "2026-09-29T13:07:27.808128+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/1WiRj8XUEoqruFEKNQJPRr/4063977e99833d7129b6a238b4d3d876/Bartosz_Visual.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "09ce45ab16396e0c33ca0085.webp",
+    "bytes": 133118,
+    "sha256": "4f8cf08d782e1f64b4a4646e265932f81d8d30f71178e7e9efe8b4c74e00716b",
+    "retrievedAt": "2026-09-29T13:07:27.839534+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/1XyYuz1U7KqnQDU3dz8Ig9/aea6b4ea875a8dd7ee89e57cd9c3caef/safetfy-cases-for-frontier-ai-training-cover.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "5a73dbae28232f82a37a80e0.webp",
+    "bytes": 20666,
+    "sha256": "a151101f41c63062f3f1c6a8124a98dbfdca73ea4055e1c2583c1420546562a9",
+    "retrievedAt": "2026-09-29T13:07:27.782895+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/1eFs7ss7lMxUlZlbCCd6mC/d62c48414621c37d251564b6880dccc0/Blog2.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "49f912c648578dad128573ce.webp",
+    "bytes": 41780,
+    "sha256": "10cd9304497c3de2af6c0771874ecdcfb3a1cc8f808a19555181d2ad01ab8607",
+    "retrievedAt": "2026-09-29T13:07:27.825051+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/1zwyfsJQbQ7yIffWJKKSN1/a7e0644dbd618284b3b62eeb5111bb1a/42a52ba1-4fd9-470e-9083-b2e8bc00629e.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "87543bab688a295ee282b554.webp",
+    "bytes": 64940,
+    "sha256": "307784b7bdcf6a6d73893d07100b69891aa86ddb68a1341381811774e80182d8",
+    "retrievedAt": "2026-09-29T13:07:27.831301+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/2LRApkCOWR8QHAX6Sj3Rik/367336096ea9ec8e9623c1f4d6035c9f/chatgpt-ads-expands-to-southeast-asia-and-taiwan-cover.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "7ab8dd1e64b7ac45d7804148.webp",
+    "bytes": 12638,
+    "sha256": "781ee35165fe9d00b989c6c2f37ef54eeabef741c03ce5937852cfd20ce4073c",
+    "retrievedAt": "2026-09-29T13:07:27.820980+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/2WEi6n2QuxSiOcn86kSS5h/33039f0206c3c6c3e5b78c05aaef2c9b/diagram1-desktop-8column-light.svg?w=3840&q=90",
+    "status": "archived",
+    "file": "8136a7f3a374cb5c20d176f8.svg",
+    "bytes": 139311,
+    "sha256": "175f1e76ab3a49b83c2a911e0cd606d4b0a911941c1ef380baf5fb6eb348c3aa",
+    "retrievedAt": "2026-09-29T13:07:27.961684+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/2cUS16rFVukXEvhllfm5A4/ace05408b550de68da57ff5fce5ede90/Blog5.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "5c5da6e8897027abfba706e1.webp",
+    "bytes": 35282,
+    "sha256": "26fde21c917feeadac53fc1256d2d4a1461d6e37b0a8e7e067d76482ed4adca6",
+    "retrievedAt": "2026-09-29T13:07:27.924360+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/2fzot6TymNQ0vTA2e07NGj/d4b7d478f130ff95ec0863bb4e533d5d/c3e05baf-2b5b-4285-9720-9a34a390a55e.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "41b2b62109911a36d7c53398.webp",
+    "bytes": 59404,
+    "sha256": "90b3824e02b7dc1d7948cfb58ec3da01c8cadb62a91937c8b80dd4760bb6ff82",
+    "retrievedAt": "2026-09-29T13:07:27.944645+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/2xO4DFtGj9mgmlKpR2EgBR/c8102d3256edfb11b21a8297d0891424/Blog3.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "f34b4148ed1f7d2a7a2ff88c.webp",
+    "bytes": 46738,
+    "sha256": "d4bc1ab845cd43d9a27db15824368161069fbe8ef41a52f357369f277dda07b2",
+    "retrievedAt": "2026-09-29T13:07:27.942518+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/3SiXxEkdWUe8tQHvZb54qo/16b56e5dc615e45cd29845671386e74d/our-response-to-the-incidents-affecting-australian-government-agencies-cover.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "e4587f22c24a2928744cb49c.webp",
+    "bytes": 22046,
+    "sha256": "fd47df58f2178556ed54f76b96e1839db5b3d0c5b6fe267fe1e46dc96c2e1bf0",
+    "retrievedAt": "2026-09-29T13:07:27.930669+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/3iCwHSjR2bfJPdDiWomsis/86d511413c2b0338bd211b41545be495/Option_65___1080_1080.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "2b4674b2425c283a2bfb92a3.webp",
+    "bytes": 22064,
+    "sha256": "605128aeebb11051578d6e88876cf20db6d854a37faefb08159d18b434745b23",
+    "retrievedAt": "2026-09-29T13:07:27.964269+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/3kfYeisRWae4jKIMSphLhU/0e06a3ac9f3a42b91d6cc7bba01c2e8c/System_Card_Art.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "730e8860c9fce3750daacff6.webp",
+    "bytes": 75878,
+    "sha256": "5ab0eed51dd968bbd3669417fe1a3157635fb4365b2eb3c8d511f510da95ee99",
+    "retrievedAt": "2026-09-29T13:07:27.992718+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/3oH3WSMMfaXAjUMh6DcIue/f594bb00b0711acda032f16240f2fe32/input-slide.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "46acf6b99d20e08bea1e76f9.webp",
+    "bytes": 66578,
+    "sha256": "116d0468175ba883a0740b5c7793687a17a5be4e4199cfa28ed639c0af6f2e21",
+    "retrievedAt": "2026-09-29T13:07:27.975606+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/3tvjV3IAWoNm6kBwh6XjQB/5d2c1ca28e25d5ee015fd220b919d5b3/Blog3.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "3ea76477d881603549cdaeb3.webp",
+    "bytes": 46738,
+    "sha256": "d4bc1ab845cd43d9a27db15824368161069fbe8ef41a52f357369f277dda07b2",
+    "retrievedAt": "2026-09-29T13:07:28.167901+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/4BabvjDCQdlYN2ISzOkgF9/78d35947274e9b3ac2483377782b007e/astra-cover-v001.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "b5566de433b6947a6b8d68db.webp",
+    "bytes": 20434,
+    "sha256": "999d87dbb44cb120c394b3388ce7d514eac4e4402976b64dbd97ed74b3e53b68",
+    "retrievedAt": "2026-09-29T13:07:28.056965+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/4HANTuYDvaT04gpR91bEQ9/885481304c5675cb7525bcccbe8c5580/gpt-6-sol-luna-art.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "1f2d84b11b1f9668eff28408.webp",
+    "bytes": 32896,
+    "sha256": "d5534d1117f8aed8888eb3ebd7313e9170c01d6fb9ddda4a9f7392065c1d54fc",
+    "retrievedAt": "2026-09-29T13:07:28.059231+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/4O6fFZArVSBeCoNjTFwXXZ/cc5e374a6b62b8f328555f002b3bca49/sam-altman-s-remarks-at-the-united-nations-security-council-cover.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "b60563bdc65ab134851bd79d.webp",
+    "bytes": 24180,
+    "sha256": "cd2c3eeb7328622060910696ad2b5ddb7efddd08f3e4e9167b0240db3a081daa",
+    "retrievedAt": "2026-09-29T13:07:28.059277+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/591l64YETZtF2WJ0IXzrIF/cb5232e98d881ecf4b99603e78af7bd0/v8-exploit-chain-blog-graphic-16x9.svg?w=3840&q=90",
+    "status": "archived",
+    "file": "2483e98f4208a60f375bf50b.svg",
+    "bytes": 23261,
+    "sha256": "914417d46f4b92ce65d507ebdc6ebcf297658dd5fec21ea69da5a90b9d96cc07",
+    "retrievedAt": "2026-09-29T13:07:28.088764+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/5A8f5mO7aKrwLH5ClDV0si/e49a0a3c56f63d9998dd338ce16d0dd6/Blog1.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "8b236ab72936ccba43be2f4a.webp",
+    "bytes": 41468,
+    "sha256": "685058b2a2d62f5d8e667c202cc0445231bd6129226b872dda2342a8e9e1170b",
+    "retrievedAt": "2026-09-29T13:07:28.122836+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/5kx7uMF0Iq0fRIluO7JgN1/1e899be5fe72247475ecd8dc9a3a0dd4/Blog5.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "860b01dc2fa7691f847f6cc9.webp",
+    "bytes": 35282,
+    "sha256": "26fde21c917feeadac53fc1256d2d4a1461d6e37b0a8e7e067d76482ed4adca6",
+    "retrievedAt": "2026-09-29T13:07:28.104462+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/67l2OXB95GXzinbThkLw7Q/649b8bdd5a890e72b761a5f7a97044f4/lenfest-september-cover.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "b3cc2176b806cdb63fbc0c71.webp",
+    "bytes": 22102,
+    "sha256": "cf69a66cb15163af2fd97ee46dd93082f8385d35fa5191777d6e19d3851062b5",
+    "retrievedAt": "2026-09-29T13:07:28.104392+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/6A6qyFaSLcyO8EjX0W5Id8/f8e9bede5a46a16d220f71f181e91b40/logo_cloud_for_codex_final.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "d9b1fd471ee5fab3782d8f19.webp",
+    "bytes": 263796,
+    "sha256": "203f02e419fe0fa4ecc1c8159e972780a56d16be8190f32f53ce175bb2e095b9",
+    "retrievedAt": "2026-09-29T13:07:28.321346+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/6T4xNx8jzQOmohTbNFpbt3/e85b69bdc6d86366e17d48739be4232e/Blog1.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "013a5cde811be051edeb0777.webp",
+    "bytes": 41468,
+    "sha256": "685058b2a2d62f5d8e667c202cc0445231bd6129226b872dda2342a8e9e1170b",
+    "retrievedAt": "2026-09-29T13:07:28.245976+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/72ZKzMh8JgRDfdg4EYRtwY/ee5e406a08b69f00b0beb4ac00270364/7kneoqlc2qh37z1utkmtfk-cover-v1.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "f75e431764c2223a5b56d3ae.webp",
+    "bytes": 21024,
+    "sha256": "876d6c0fa1933f27f17f6cdb03a8f8c4da37608fcd468deba1b47e65814ebc55",
+    "retrievedAt": "2026-09-29T13:07:28.166206+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/72r6bw8GUc0qCr8fXs4Fnu/8fd4014193a371af2db5b30026ddc540/Blog2.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "f9f1ea6941ece7b7be6f561b.webp",
+    "bytes": 41780,
+    "sha256": "10cd9304497c3de2af6c0771874ecdcfb3a1cc8f808a19555181d2ad01ab8607",
+    "retrievedAt": "2026-09-29T13:07:28.227538+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/7E1L5KrvfinYdmBBNDPhf5/710a8a46258bafe8fe2d26f31ff242c0/Codex_Landing_Page_SEO.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "88ba53dc5fa009ff4ba628e0.webp",
+    "bytes": 84082,
+    "sha256": "14e63b3c7267a617b2f1f4082b8c0044deabd1a2d00d7165f02ab6cdecf7ff56",
+    "retrievedAt": "2026-09-29T13:07:28.262735+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/7MS110rihMT7s5O8mXuCpT/5c376f0c3ab7850a11cd1756c242d3fa/OAI_GPT-5.2-Codex_ArtCard_1x1.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "36396b758602fa47e2515ec5.webp",
+    "bytes": 80572,
+    "sha256": "e05f28bb98b4450a460e3300f0daccf82efd430e0b40b7b11a3f9c376a2e73c1",
+    "retrievedAt": "2026-09-29T13:07:28.269545+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/7x54Eb1FniAlhNjopx6bKr/251c02c82c39cb8f82ca2f8401f65eac/Inline_Stats__1_.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "62ae34cebeb45e796ef0752c.webp",
+    "bytes": 79136,
+    "sha256": "6612746cf9a232c15998d1eded7f8e43b3a569f2cb3f26949a8f528b05c043b0",
+    "retrievedAt": "2026-09-29T13:07:28.278472+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/H9Mf4UPiWGb0N25sLJHUu/6d971b8e12cbab3db48c94617d703b5d/poster.webp?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "b2418d2c477bae1e9741aab3.webp",
+    "bytes": 65880,
+    "sha256": "83f8b27696389015d7db2a54f9abb70f67ab7763a000e2011203d5201ea1f677",
+    "retrievedAt": "2026-09-29T13:07:28.303769+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/Tc4KzRhOgVSaIxQoUkr9R/25c2cf38c314d47e6f3cb93e54e382aa/two-years-of-openai-academy-cover.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "298e31c4ee1d5f0271d948f9.webp",
+    "bytes": 22426,
+    "sha256": "829f4a7cef6b6601687caf6b8c255abfd1cc808feea84b7eb14e7ceb87a836f0",
+    "retrievedAt": "2026-09-29T13:07:28.260508+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/fHwkKLVG8WFHvuUPqMXtz/1c49ba0859fe1e1e21f5d64f692490f5/reimagining-advertising-with-ai-cover.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "4fe33a1e7a23dfec846d421f.webp",
+    "bytes": 38198,
+    "sha256": "b1389c13562ee35121b4c4cb865b2b50e6113dcd071bfb46bbda5952b0f48aa1",
+    "retrievedAt": "2026-09-29T13:07:28.351549+00:00"
+  },
+  {
+    "sourceUrl": "https://images.ctfassets.net/kftzwdyauwt9/xLTdc1cB9MjP3XZpAdE8D/263f939a44396dbd30d914b074a8af35/GPT-5.3-Codex_Artcard_1x1.png?w=3840&q=90&fm=webp",
+    "status": "archived",
+    "file": "577e8ccd186eefe9383f10c6.webp",
+    "bytes": 112448,
+    "sha256": "a4c2f54aef3ef3ec06d334b4f814b8a748ff6034f7ac7c6861cf8ef1d403a566",
+    "retrievedAt": "2026-09-29T13:07:28.466684+00:00"
+  },
+  {
+    "sourceUrl": "https://lh3.googleusercontent.com/2SfaBZi2B77t3_nwlhziN5pvSi_icX_e1ZTzjad6m5rBFfQLKWVxDOb_TPjJXz-e_mn_vMaPBHaYPaAUzmfUt9DwpBiq_gCLWYnAmGFhhLU9huogog=w1440-h810-n-nu",
+    "status": "archived",
+    "file": "b450884f7b81fbf99c514688.jpg",
+    "bytes": 58291,
+    "sha256": "2679219c383149743a5022e6d556c37d97a4bf3b5e5afa198685f8c6b796a27e",
+    "retrievedAt": "2026-09-29T13:07:28.594210+00:00"
+  },
+  {
+    "sourceUrl": "https://lh3.googleusercontent.com/i-ViYMZJGGDbTc1e07cMiCHuUxrQhPhTjO-yTQVRFxKLDl9FFB9RtvXQiKbUc8Z5WUMiGZyS_wYvm1lG809O08WRiGR2-r2TBMjRKo7XSfWieUt_9A=w1440-h810-n-nu",
+    "status": "archived",
+    "file": "41e271815cdb9e62497fc8d1.jpg",
+    "bytes": 58210,
+    "sha256": "a58f7aa1c165572d16ad40077fd3db5617f79a47a020a394f37c7f2438345ed6",
+    "retrievedAt": "2026-09-29T13:07:28.634275+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3Flash-Lite_Blog_Quote_1.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "078a1dbbc2be86a93e629d49.webp",
+    "bytes": 1246,
+    "sha256": "6d3157f355b0b6db095bc5fcd10387fbb499ca1cc3a9adcbe25d993a1f4eca6e",
+    "retrievedAt": "2026-09-29T13:08:47.793720+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3Flash-Lite_Blog_Quote_2.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "b7fb48ea31aab260e3cac33f.webp",
+    "bytes": 1692,
+    "sha256": "309a09581734c89525e32578522c5f5f5e55f81582b49048d944bc6619395259",
+    "retrievedAt": "2026-09-29T13:08:47.832119+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3Flash-Lite_Blog_Quote_3.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "5ebb37d9768a3788fd96bcaa.webp",
+    "bytes": 1420,
+    "sha256": "b80407312e803b4ac90adc7b1e146c507c63908cd296392742e994619e61d69e",
+    "retrievedAt": "2026-09-29T13:08:47.838491+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3Flash-Lite_Blog_Quote_4.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "ab86e5786e6ae512ea9bb729.webp",
+    "bytes": 1274,
+    "sha256": "ff71a33e048169a9ebbb7c6fb2b50a3053d9b76a464ffee8e04d9efb4de94ab8",
+    "retrievedAt": "2026-09-29T13:08:47.864136+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI__Economy_team_hero.2e16d0ba.fill-300x300.format-webp.webp",
+    "status": "archived",
+    "file": "7ecd85359d81f2369e88eee0.webp",
+    "bytes": 4372,
+    "sha256": "557898ba1ccbe6aef20a3286c05fa64e1f208063431962ceaf93c69ee486e72c",
+    "retrievedAt": "2026-09-29T13:08:47.787033+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_AI_Recap_socia.2e16d0ba.fill-300x300.format-webp.webp",
+    "status": "archived",
+    "file": "539fdb03fa458651fb9c7034.webp",
+    "bytes": 10758,
+    "sha256": "178959c7a7634d7d3439cbd01e5242adbe8a08d9871c2c5a7db4b2b3d6e479db",
+    "retrievedAt": "2026-09-29T13:08:47.804523+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Builders_Gemini_3.8_F.2e16d0ba.fill-300x300.format-webp.webp",
+    "status": "archived",
+    "file": "59899376a244bec2c653b445.webp",
+    "bytes": 11068,
+    "sha256": "00d6ea27fd9ff9511105e9071ea069c2b68cea69acbc36fac49c5efb40d8c22c",
+    "retrievedAt": "2026-09-29T13:08:47.804586+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GeminiModels_Artificial_Analysis.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "a78824e78d4ca3836d311b5e.webp",
+    "bytes": 22614,
+    "sha256": "4292ce9176b6396d2ca9ada4f39c0239286092c4eaeb2d52283578ca69c6ae12",
+    "retrievedAt": "2026-09-29T13:08:47.856937+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.2e16d0ba.fill-300x300.format-webp.webp",
+    "status": "archived",
+    "file": "463df8b73309f3090f11ec5f.webp",
+    "bytes": 10408,
+    "sha256": "f82977668bd1205422d8d350125c418434ea30c39004203be86211e25366b36b",
+    "retrievedAt": "2026-09-29T13:08:47.890004+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOCollection_social.width-800.format-webp.webp",
+    "status": "archived",
+    "file": "d14228210c817f76f545cb77.webp",
+    "bytes": 9000,
+    "sha256": "471286f8bf7585c6bfb6755f7f41bffeeb1785d9a33695cfdcdc09517333c653",
+    "retrievedAt": "2026-09-29T13:08:47.978108+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Slide_16_9_-_37.2e16d0ba.fill-300x300.format-webp.webp",
+    "status": "archived",
+    "file": "e13bd5e4d33d640814b94f9b.webp",
+    "bytes": 5988,
+    "sha256": "1f6060e7a0cf69a0244d1e6a2cf90761461dcd5d48932af77865fcf9ccfe06b3",
+    "retrievedAt": "2026-09-29T13:08:47.957879+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Spark_-_1.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "666a5457d1e1fe1bc8fd4f4e.webp",
+    "bytes": 578,
+    "sha256": "c0ac6dc9be3792ea3c90fd49dc3b17053ea8eaaccd9b803e2d2322e6488a979b",
+    "retrievedAt": "2026-09-29T13:08:47.973841+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Spark_-_2.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "b37070dc4e785a338a0df931.webp",
+    "bytes": 622,
+    "sha256": "8164f0efc4b5dc92c32d85e2401f04889055d1fbdc5d639d24de71671c15dfd9",
+    "retrievedAt": "2026-09-29T13:08:48.004099+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Spark_-_3.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "7002f6d111b94b69799684c3.webp",
+    "bytes": 528,
+    "sha256": "d4f2a7c743e23df3c5ec147441772d159088ba2539bcd7a012f92498102f8a99",
+    "retrievedAt": "2026-09-29T13:08:48.006381+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Spark_-_4.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "76015fab8b926ac87ba31db5.webp",
+    "bytes": 446,
+    "sha256": "279506333ea2479f90c3cc302a5de54ff314ddfbead5674c8ebf6ac48044e567",
+    "retrievedAt": "2026-09-29T13:08:48.025633+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Spark_-_5.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "59f8a66859804729699bc7d1.webp",
+    "bytes": 550,
+    "sha256": "3f9b72e0033fed846f3fcb4d425ea2cbfa4668357d96e4cc3c5110565c44b6bb",
+    "retrievedAt": "2026-09-29T13:08:48.032762+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_so.2e16d0ba.fill-300x300.format-webp.webp",
+    "status": "archived",
+    "file": "468eee6cc5aebb1a4ea67cb4.webp",
+    "bytes": 3206,
+    "sha256": "777faadc2de8fcd83696909b546c664d49c09bf2767d2da642430ed099d6efd3",
+    "retrievedAt": "2026-09-29T13:08:48.155805+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-cyber__evals__c.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "f222007b5f3c5f3080e3d9d4.webp",
+    "bytes": 15970,
+    "sha256": "4014f4f3ecfc17e8117755b70170142849e30b9ec262f67cd011d85301b12f5e",
+    "retrievedAt": "2026-09-29T13:08:48.176414+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-lite__evals__co.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "67f582c0da72e6483764ea7f.webp",
+    "bytes": 16804,
+    "sha256": "a86a75f81c1a7530f2b49e1bd0c061f6a6881f6f58ac30d40e21df89910a1f34",
+    "retrievedAt": "2026-09-29T13:08:48.208106+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-lite__evals__co.width-1200.format-webp_TEfcucF.webp",
+    "status": "archived",
+    "file": "8edae15b69a621469130e988.webp",
+    "bytes": 17676,
+    "sha256": "a3aadea122f4ceb13ed5d2143d478a3c66342f5dd0831026d8d8c5a57f85676e",
+    "retrievedAt": "2026-09-29T13:08:48.147346+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-lite__testimonia.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "e8e061f1d0532491b62e0572.webp",
+    "bytes": 1460,
+    "sha256": "b2d6652778ccf819083b2e0e7d39b71a900be6e6d2c9d285ad407e58b254bfee",
+    "retrievedAt": "2026-09-29T13:08:48.169818+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-lite__testimonia.width-100.format-webp_CdSRKRm.webp",
+    "status": "archived",
+    "file": "73b403f8f7b528cfad09383b.webp",
+    "bytes": 1372,
+    "sha256": "0d45eced0f3c7bd757315db79363c8a1f9f7f9a790201b74f60a92aeb6b7d8e2",
+    "retrievedAt": "2026-09-29T13:08:48.223460+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-lite__testimonia.width-100.format-webp_dgscSYO.webp",
+    "status": "archived",
+    "file": "a13b89a9ce70f9d19160949b.webp",
+    "bytes": 1192,
+    "sha256": "f88d70315626fbc81ebe1a2f23043afeb972be3d80ec4ffdaaf05a2d5308ee7d",
+    "retrievedAt": "2026-09-29T13:08:48.233497+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5_3-6_3-5-Cyber__key-art.width-200.format-webp.webp",
+    "status": "archived",
+    "file": "61e3f52bd8218fc364b2179c.webp",
+    "bytes": 2774,
+    "sha256": "3c9c0efdeb34f316e70686f942de9cb529688f3b866188c79e80809715e54d0a",
+    "retrievedAt": "2026-09-29T13:08:48.218415+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keyword__blog-header_.width-200.format-webp.webp",
+    "status": "archived",
+    "file": "b3f6b56e26dce7fea70ec423.webp",
+    "bytes": 1294,
+    "sha256": "f58a3f2b046b85af97597aa008fee041c8a91351f2d643182d99930edb462bd8",
+    "retrievedAt": "2026-09-29T13:08:48.361456+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6-flash__evals__figure-.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "747369f0dca7cf21356a0e05.webp",
+    "bytes": 25220,
+    "sha256": "d65795cae4f55cbfd51979f9e299f5c66cd8e9fd3f4e1f557cadfb37ce560dad",
+    "retrievedAt": "2026-09-29T13:08:48.376348+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6-flash__evals__quality.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "a24932e0e5497e083fe3e3af.webp",
+    "bytes": 17420,
+    "sha256": "4537c81fa446c3850ad8012dec1979e283b836e8e90084eeb8d4ca4d0bcc9fea",
+    "retrievedAt": "2026-09-29T13:08:48.358130+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6__testimonial-figma__ke.width-100.format-webp_fLGaXIs.webp",
+    "status": "archived",
+    "file": "9a4379b62083a0c2ee499c31.webp",
+    "bytes": 1056,
+    "sha256": "7d0213ff91cf0b87e9d7cc140eda8fcdffcb0bef0676d9265302d12c6db5d5d9",
+    "retrievedAt": "2026-09-29T13:08:48.434213+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6__testimonial-harvey__k.width-100.format-webp_LYvvm1L.webp",
+    "status": "archived",
+    "file": "bed29e0ce1b9a462ecf012a9.webp",
+    "bytes": 1250,
+    "sha256": "12c666f81f09077180edd8a152bdf96ec4938740e892d1e944870ddc6a4c5f4e",
+    "retrievedAt": "2026-09-29T13:08:48.407456+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6__testimonial-hebbia__k.width-100.format-webp_UIh1200.webp",
+    "status": "archived",
+    "file": "aea1c3636ac3cc3bf999abf3.webp",
+    "bytes": 1588,
+    "sha256": "0bcef91f57915d7cdecf0971412a086305aa4b22955ae1b32280425f81d6c1a2",
+    "retrievedAt": "2026-09-29T13:08:48.424702+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6__testimonial-jetbrains.width-100.format-webp_xEv9X02.webp",
+    "status": "archived",
+    "file": "5d3ad2fe9edf846f848eef41.webp",
+    "bytes": 1274,
+    "sha256": "d9dd265ab739faa16acc5eaadb844a68c5ac1ca527fe48f348cf2044f2888bb3",
+    "retrievedAt": "2026-09-29T13:08:48.408810+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash.width-200.format-webp.webp",
+    "status": "archived",
+    "file": "b3502309d70569c2c587e82c.webp",
+    "bytes": 1740,
+    "sha256": "40845f642dfba37e67706ceaa3062aab0922979e4aaae3aea562c8c36d8577b3",
+    "retrievedAt": "2026-09-29T13:08:48.394508+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__automati.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "9fb857f289640d45bf79e4c8.webp",
+    "bytes": 582,
+    "sha256": "1610997264368494040a2b94946ee30d177dad50c4350b88eebc0bc972524985",
+    "retrievedAt": "2026-09-29T13:08:48.503696+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__benchma.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "e76d4735be9b188e36da0c53.webp",
+    "bytes": 55052,
+    "sha256": "9c36699ef6e0b373fc00402ffb7016dec832ac12228ca204c3425ddea4bc47ed",
+    "retrievedAt": "2026-09-29T13:08:48.642399+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__codearen.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "33c0ad4942ce4b448a74654b.webp",
+    "bytes": 620,
+    "sha256": "97b1c5565704bcf67377cefeb1dd73fb5706b2ddbe49163c905092eb01ebe1e0",
+    "retrievedAt": "2026-09-29T13:08:48.525499+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__deepswe-.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "68eac607fa08cd48c93e0a17.webp",
+    "bytes": 650,
+    "sha256": "d79a8921cec8c0f592b77d693e6bb2793f7cd7c6bca4e1688df9d2472acc5957",
+    "retrievedAt": "2026-09-29T13:08:48.558449+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__frontier.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "9a721af55a50fb2aaaf69111.webp",
+    "bytes": 572,
+    "sha256": "0da19b8eae3928f8502ddef836e15f81c92204554f43ad77aea12234eead7526",
+    "retrievedAt": "2026-09-29T13:08:48.568521+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__gdp-pdf_.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "31ccf482c28a4a78c10e851a.webp",
+    "bytes": 658,
+    "sha256": "96a021884f2b8b57a1c5a86c9e851ee1c4244cff147ea2ffedce8c4c33fb4832",
+    "retrievedAt": "2026-09-29T13:08:48.549017+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__perform.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "0d8484c85809cf01504794cd.webp",
+    "bytes": 32024,
+    "sha256": "dfb47b6b68a4dd6a2ca509259574e3b58443c5560866deae410837e161a320e6",
+    "retrievedAt": "2026-09-29T13:08:48.674790+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__bo.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "0cd99ee1b8153f76890c4595.webp",
+    "bytes": 1264,
+    "sha256": "e5e53f311127f777719e469c0b49b58aa751d39c07d7230653145d708690a873",
+    "retrievedAt": "2026-09-29T13:08:48.615578+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__br.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "d1c576c62ab7accc6e90de33.webp",
+    "bytes": 740,
+    "sha256": "3ad15fe0e0a435cd8ab252e2b8b4b070951c56945a12c94001625ad37a7ee48f",
+    "retrievedAt": "2026-09-29T13:08:48.726950+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__ca.width-100.format-webp_dYz0MOf.webp",
+    "status": "archived",
+    "file": "648fb9383de7e7b5ec55f1eb.webp",
+    "bytes": 1294,
+    "sha256": "6b14bd5cbd3ae68d2bfdd2c3789cec8b513d0f1b50ab249acec572d96403469b",
+    "retrievedAt": "2026-09-29T13:08:48.719714+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__da.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "5b6f23ee733008f6010105e3.webp",
+    "bytes": 1712,
+    "sha256": "4e69f00491e85dc20dbaa3cfef144204b924ed6bf6437c6c57726cc497e099cb",
+    "retrievedAt": "2026-09-29T13:08:48.756268+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__em.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "3495e04d5bbe54a8b5de9193.webp",
+    "bytes": 1310,
+    "sha256": "7862a763364f23062a71db64949777b69050f188f02aa24c27f1ae130dcbf1c5",
+    "retrievedAt": "2026-09-29T13:08:48.710539+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__ha.width-100.format-webp_NtGWF6a.webp",
+    "status": "archived",
+    "file": "51e9658ef4bc241b3fe2b51c.webp",
+    "bytes": 1128,
+    "sha256": "b7e82e396bbe09c62a92350b7a0e935a6bab3f159faa218614cdd4031e3f43fa",
+    "retrievedAt": "2026-09-29T13:08:48.740455+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__he.width-100.format-webp_H9baWpR.webp",
+    "status": "archived",
+    "file": "5cffd4d748582a4f271b7fc7.webp",
+    "bytes": 1128,
+    "sha256": "300b0d3408ad8d86fd5ddba0e2bb2a7d701fbc13dd44427387a5ab8303e16538",
+    "retrievedAt": "2026-09-29T13:08:48.783751+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__la.width-100.format-webp_7qAt1Kr.webp",
+    "status": "archived",
+    "file": "03b4e00a7caac70ba240d494.webp",
+    "bytes": 1466,
+    "sha256": "822e18039a262ac64bfbb5f6f3b5ffdc1e6cd0a22d026fa92a0afef81a45959f",
+    "retrievedAt": "2026-09-29T13:08:48.850969+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__nu.width-100.format-webp_DyOGCzR.webp",
+    "status": "archived",
+    "file": "5bc4d194fb7eb8cf44b0066e.webp",
+    "bytes": 990,
+    "sha256": "3b83a80ecb5610c71b82a1bdf022f6e9296412bf2933f8381c05eed8aaaec1bb",
+    "retrievedAt": "2026-09-29T13:08:48.879405+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__op.width-100.format-webp_wy8PPtG.webp",
+    "status": "archived",
+    "file": "a3ecd9b6c6ca1e6441861288.webp",
+    "bytes": 1184,
+    "sha256": "3fced2a97f540ca892ea7fc2edacf267461d06c477cee814fc3f8eab9a81278e",
+    "retrievedAt": "2026-09-29T13:08:48.930051+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__py.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "a30343d18bcecd5ee8c475a2.webp",
+    "bytes": 1400,
+    "sha256": "19bcca17c9dbe4264f69e2cce36654eb966365c17ecccab77c86e1f0affcfc0f",
+    "retrievedAt": "2026-09-29T13:08:48.911379+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__st.width-100.format-webp_AzDrTOJ.webp",
+    "status": "archived",
+    "file": "04a01cfdaaa9f8e18a3b42cf.webp",
+    "bytes": 1428,
+    "sha256": "f5471220bd7fc3c128f54234488b541037638c9a3ec9e61f31e3f62539aa1822",
+    "retrievedAt": "2026-09-29T13:08:48.916296+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-cyber__evals__cwe-ben.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "1343ca3c3cae876979e26b1a.webp",
+    "bytes": 32792,
+    "sha256": "6179440c1c80329548f863448fbbd891150c55d2995d80f5644efe78d05a2330",
+    "retrievedAt": "2026-09-29T13:08:48.946454+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__evals__deepswe.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "02981a05b2b932266a68764c.webp",
+    "bytes": 24676,
+    "sha256": "01cb317de3000b72179842766fe941768cb0bec67ffddbc863ee69c5531db262",
+    "retrievedAt": "2026-09-29T13:08:48.933003+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__ar.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "ee3bc0cea51bfe779429a996.webp",
+    "bytes": 1610,
+    "sha256": "4ac5f67c27c49b96ed0fc4fa7b23ef2d91a31961c6e162cffc3ff9f3ca8dc4c1",
+    "retrievedAt": "2026-09-29T13:08:48.897047+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__pa.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "408ad50da14e5f14c37c4a7b.webp",
+    "bytes": 1360,
+    "sha256": "49cd9c5d4130aa98d9ccc14a07e3eaad181b020a0443283ef672effb1ed7185f",
+    "retrievedAt": "2026-09-29T13:08:49.050574+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__sn.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "dd466777084052f784273732.webp",
+    "bytes": 1484,
+    "sha256": "764434937592366c72e4224fe8d7321a96209b12e3a68e931e02dff86f082565",
+    "retrievedAt": "2026-09-29T13:08:49.062203+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8-flash__testimonial__wi.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "38a9913131ddf1c432a315be.webp",
+    "bytes": 1502,
+    "sha256": "fa1a03bab2fed8f339ead0d423eb2314086c5287682511a2f967cd759fad5d40",
+    "retrievedAt": "2026-09-29T13:08:49.048139+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-.2e16d0ba.fill-300x300.format-webp.webp",
+    "status": "archived",
+    "file": "e9d1d5ea5057e17629518594.webp",
+    "bytes": 4492,
+    "sha256": "ea4a981306f76d6d8a69b610d9375d06d85a70aa624b1d673b8caf2abdb5b82d",
+    "retrievedAt": "2026-09-29T13:08:49.081635+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blo.2e16d0ba.fill-300x300.format-webp.webp",
+    "status": "archived",
+    "file": "acd79379aa5872593f002a60.webp",
+    "bytes": 7222,
+    "sha256": "9453b158c44ca9b5dc2a675a625a3504e7626839062ef9f1ba7b5cfd3b89ca4f",
+    "retrievedAt": "2026-09-29T13:08:49.112504+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__1.width-200.format-webp.webp",
+    "status": "archived",
+    "file": "f5d3e2cca452ba6dafb34514.webp",
+    "bytes": 2294,
+    "sha256": "3ef6b9fe1b9888c4d91a113b85769c6984b9196dfb01ca26a02a4085a7884301",
+    "retrievedAt": "2026-09-29T13:08:49.060036+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1_flash_Lite_blog_keywor.width-200.format-webp.webp",
+    "status": "archived",
+    "file": "a5d9d7bf4b27a7a3ca41d835.webp",
+    "bytes": 2940,
+    "sha256": "61875211e4e2437422e423c82f41336bbfd02729538d3688f3ca86fdc39d858d",
+    "retrievedAt": "2026-09-29T13:08:49.125371+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1_pro_keyword_header_dar.width-200.format-webp.webp",
+    "status": "archived",
+    "file": "a66193475e87d257c44829b1.webp",
+    "bytes": 2510,
+    "sha256": "c0eecd3a8880c0195109983e9bed0a12fcab07bfdbda3f952264969848903735",
+    "retrievedAt": "2026-09-29T13:08:49.159688+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-cyber__evals__cybergy.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "1ef144aae0cea458041c24d2.webp",
+    "bytes": 19582,
+    "sha256": "23cf4a917d04ff91e6567872d2fb0820ba4db7110515db18dcf2915e5637daa7",
+    "retrievedAt": "2026-09-29T13:08:49.227491+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-cyber__evals__rw-vuln.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "b817db3d0ba42404eaef5849.webp",
+    "bytes": 19728,
+    "sha256": "ec977a96145f6fd5ca1a2159a95f683d11148b49fb64ab1b49ffa0574b13bed8",
+    "retrievedAt": "2026-09-29T13:08:49.221080+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash__evals__table_l.width-1200.format-webp_2pLdBp5.webp",
+    "status": "archived",
+    "file": "238bfca1d74c99ecc1d89a92.webp",
+    "bytes": 100230,
+    "sha256": "3343387ccc4ea5219f6ef38f568b18d78e8488459309de6572e30c83e81bfd3a",
+    "retrievedAt": "2026-09-29T13:08:49.273307+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash_evals_HLE_light.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "b0717f8df5561fd1b95efe52.webp",
+    "bytes": 762,
+    "sha256": "2c1833dae4c0fd1181178cc7bdcac83a027102382bb8ba405f87ed3c27f2b2a9",
+    "retrievedAt": "2026-09-29T13:08:49.172066+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash_evals_attack__l.width-1200.format-webp.webp",
+    "status": "archived",
+    "file": "bdbb45a7f4ff09ce2a392f2a.webp",
+    "bytes": 28476,
+    "sha256": "b88907e10508f875cd07a39bec0620cd75121c151f9780c7bf4fb0038f861ce0",
+    "retrievedAt": "2026-09-29T13:08:49.256668+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash_evals_harveys-le.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "0186e102e59094f189da795e.webp",
+    "bytes": 696,
+    "sha256": "355e9db31dfcf71a31a1513f5b7b019063df9f4a3a065c0445971fe70e5673d6",
+    "retrievedAt": "2026-09-29T13:08:49.227746+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.8-flash_evals_vals-finan.width-100.format-webp.webp",
+    "status": "archived",
+    "file": "28588600bb49278a4c570895.webp",
+    "bytes": 710,
+    "sha256": "c5e69f6b135b773997c576a540155cd7535ae74273932bb3c6d33b140033a09b",
+    "retrievedAt": "2026-09-29T13:08:49.223562+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__keyword.2e16d0ba.fill-300x300.format-webp.webp",
+    "status": "archived",
+    "file": "80e8312730807752cb459e8a.webp",
+    "bytes": 6118,
+    "sha256": "0317d411e077632b4614339ef3338167ff6420efa4e535a934410fa80ce87cb3",
+    "retrievedAt": "2026-09-29T13:08:49.330235+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-8_live___key.2e16d0ba.fill-300x300.format-webp.webp",
+    "status": "archived",
+    "file": "fb8bc8b5d97a415612a09df5.webp",
+    "bytes": 6706,
+    "sha256": "b57385cd5cd30daa2ad36bf7778c9895958e033a54873556f98df471cf2f965a",
+    "retrievedAt": "2026-09-29T13:08:49.326900+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-3-5__benchmarks__light.gif",
+    "status": "archived",
+    "file": "e4b5ee4b14de6d5e265ea1e5.gif",
+    "bytes": 122998,
+    "sha256": "9db2ce79d7fae814b1749f84b5ddb6efb45269b2393ae884c543152e9b8aacc3",
+    "retrievedAt": "2026-09-29T13:07:30.658596+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-3.1-flash-lite-table_1.gif",
+    "status": "archived",
+    "file": "15dfd2bf6c3e179e60ab3d73.gif",
+    "bytes": 90944,
+    "sha256": "176bfed80b7bd3e10aaabd0544fe499e2cc55cd28a60e18a9487655651e4614e",
+    "retrievedAt": "2026-09-29T13:07:30.697396+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-3.1_speed-cost_chart_1.gif",
+    "status": "archived",
+    "file": "a21bdf22dfb6391e0fd7fd62.gif",
+    "bytes": 78200,
+    "sha256": "a5e08b6e23b7aa76022a61fb8f7030e3c53a20165198995d7700b0a50b549249",
+    "retrievedAt": "2026-09-29T13:07:30.629769+00:00"
+  },
+  {
+    "sourceUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini_3-1-pro__benchmarks.gif",
+    "status": "archived",
+    "file": "627606cdf9a4151807b819ef.gif",
+    "bytes": 269118,
+    "sha256": "6b612deebae923833d917e863b80b7fa24a7dd33a092382e6c74ef03ad796feb",
+    "retrievedAt": "2026-09-29T13:07:30.813358+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/04280ffcf9a88b0f6fa85f2437b46102c8cb35e6-118x64.svg",
+    "status": "archived",
+    "file": "9b590b966eec7a990c004a2c.svg",
+    "bytes": 2547,
+    "sha256": "a27cda0c848e588f9458081c2c1a446c4241a65154fd6bd852a337487f58e59c",
+    "retrievedAt": "2026-09-29T13:07:30.537529+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/046fc90b1e849e0ef96b6a9923d47ae13272b50f-173x64.svg",
+    "status": "archived",
+    "file": "ddd0d47d2a51f42608addce8.svg",
+    "bytes": 11127,
+    "sha256": "5b2a9c96f312b9f50f6b8c68658873bf94732ee9ac4af2a0e9f3efe9d7d671a5",
+    "retrievedAt": "2026-09-29T13:07:30.547711+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0504471eb7da85317c6def349d315e2f8be00b0f-127x64.svg",
+    "status": "archived",
+    "file": "46c6b88299a2fbccdd2cfab3.svg",
+    "bytes": 4743,
+    "sha256": "bcd286bd91ee7ff33c689a3f919bce35d0cbce07c38b116a1d0ebd26d52829b0",
+    "retrievedAt": "2026-09-29T13:07:30.548725+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0685528963ca37424b468d3db596965e70077ca6-1000x278.svg",
+    "status": "archived",
+    "file": "49398e750338c35e25643dc2.svg",
+    "bytes": 134277,
+    "sha256": "dc84169ee70afabf8350986c3151c07f53e3eac9aac599ee18688046275c0885",
+    "retrievedAt": "2026-09-29T13:07:30.690947+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0ac44b8505d1e5d6ef413b164a81942a62e06f12-148x64.svg",
+    "status": "archived",
+    "file": "5ec9d4d9c3f5b386b76f25e2.svg",
+    "bytes": 6913,
+    "sha256": "867b818cd34d0d0314e09406fe8dc18fd92eb49a178b98d20ea5792ff3c8cf41",
+    "retrievedAt": "2026-09-29T13:07:30.662299+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0cd3307b18e36ea9146a2fa1cbcb2966c4ccfd36-107x64.svg",
+    "status": "archived",
+    "file": "b4468e31c28819d2786a6796.svg",
+    "bytes": 3745,
+    "sha256": "d19da82cefdb0b735a4854054d84997b52352290fef4ad5f8a64bc0e14fdf452",
+    "retrievedAt": "2026-09-29T13:07:30.663558+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/14d9832b251a1238714441b508072ad61dac4196-357x49.svg",
+    "status": "archived",
+    "file": "c462088e5ee6c9c26f23821c.svg",
+    "bytes": 5006,
+    "sha256": "4f091cd5639bf58b2d98245cefb13cade70365422bfe6451a70a8c3284535c1d",
+    "retrievedAt": "2026-09-29T13:07:30.688484+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/186a43fd79b2a941acbc7e4d7dfa2d17d42fc2f8-376x67.svg",
+    "status": "archived",
+    "file": "253fd08189d7a10749485d86.svg",
+    "bytes": 4551,
+    "sha256": "322807622f82bbfcf216a36b83f32afb6134f83ab22b7c4cd4df124aa0d5e7c7",
+    "retrievedAt": "2026-09-29T13:07:30.768125+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/18f900625532e1baaa3302bdf9539f73592bdf60-164x64.svg",
+    "status": "archived",
+    "file": "c2701dbff6d09445f597928c.svg",
+    "bytes": 8094,
+    "sha256": "92b3ba06511ffb7615c3a6e600d39ea4bccf76017d7a30ce7896cd8883bf4247",
+    "retrievedAt": "2026-09-29T13:07:30.780387+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/198c9eb920db5dc4581daefd3dc19d9fb51f6637-125x32.svg",
+    "status": "archived",
+    "file": "f6cd17e7f763e216eee56bbf.svg",
+    "bytes": 5837,
+    "sha256": "83d1e26216b8d92c57f48b31313883b58e6d00392b7c075ede4fa05b641ff907",
+    "retrievedAt": "2026-09-29T13:07:30.891742+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/1add7d4281e08801657b1a2cfb75a0adce536010-128x64.svg",
+    "status": "archived",
+    "file": "9278d313173c3b7d4ee90f59.svg",
+    "bytes": 6720,
+    "sha256": "86a9867e41278af969762bdadd5f1edbf7364790383a81559d75908594d6eb52",
+    "retrievedAt": "2026-09-29T13:07:30.772008+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/1d9e0d7a5760165244bba057a622513bb75cb65d-80x64.svg",
+    "status": "archived",
+    "file": "d99ac540c9c73858d7e4732d.svg",
+    "bytes": 4002,
+    "sha256": "bf2a184e2ac2d08d57516dde999a2f2790de1296bbb7824cda517001ed058449",
+    "retrievedAt": "2026-09-29T13:07:30.801487+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/23f75589f3e194fce5f0373643f50d5e457b8e02-353x65.svg",
+    "status": "archived",
+    "file": "c35dc2b41d665fe016979f61.svg",
+    "bytes": 6458,
+    "sha256": "d8ceda0424f851d37271e124f67a128987e202464ebb9f1c14e5615a23098a20",
+    "retrievedAt": "2026-09-29T13:07:30.813081+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/31f81aea37256a9c1600e17eb8916ac158443073-145x64.svg",
+    "status": "archived",
+    "file": "723fee6d7d5b799c8437d06b.svg",
+    "bytes": 6715,
+    "sha256": "62b13e9d76f31ea55c45239a0ad8c2ba5f533ac289889700c314a6ad56f01fa7",
+    "retrievedAt": "2026-09-29T13:07:30.815425+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/40a2a6a28afd8ac8fbf0e764b6bbf4ebf06a1977-133x64.svg",
+    "status": "archived",
+    "file": "3edbab0d570b2b6cb5daf028.svg",
+    "bytes": 9869,
+    "sha256": "df8ac0a3d96423efc55bcadd5c4ba50aa2cd3b6fcbaf284b8a83e46d69783be7",
+    "retrievedAt": "2026-09-29T13:07:30.891646+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/428460e52876e1ec0159ee37b5f5df71eee6472f-106x64.svg",
+    "status": "archived",
+    "file": "26d36ae29523dae8d40e0b51.svg",
+    "bytes": 4580,
+    "sha256": "b31a026d1d177e1c59ee48ec28de4b2149a1004feaf58412597c8c7b88f6de41",
+    "retrievedAt": "2026-09-29T13:07:30.928372+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4661a860c6f9018830d5f95679bbae5c2359109b-170x64.svg",
+    "status": "archived",
+    "file": "6a1ffe24a6cbceccbd977515.svg",
+    "bytes": 6874,
+    "sha256": "acbcca7f1b00ee040c3129eebf45670d3f79588cca793e521ec5d4d72d35b67b",
+    "retrievedAt": "2026-09-29T13:07:30.956849+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/48300e5f47724f676120a5ec430e1791b083b7ce-163x98.svg",
+    "status": "archived",
+    "file": "bf4c450fb9ce70cdca05e4ec.svg",
+    "bytes": 5354,
+    "sha256": "ba5a2ceedad6229dbd427cf6f10f19cbfaf7143b5bfaa015a6db5081e2338c8d",
+    "retrievedAt": "2026-09-29T13:07:30.935534+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/49b99af78924f43f878d39a25d574da293c68596-60x32.svg",
+    "status": "archived",
+    "file": "c045e8a7208de8ed7fa96bf3.svg",
+    "bytes": 1952,
+    "sha256": "dd146418df87a45c12aa2da95eb34be8a5443c7ce8f29cd9e10a21d961d591fc",
+    "retrievedAt": "2026-09-29T13:07:30.971227+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4d69b8406bf7616839fee80a8d86c118d4b7d8c9-174x64.svg",
+    "status": "archived",
+    "file": "0df93b32c7108f0300e53d6d.svg",
+    "bytes": 7336,
+    "sha256": "0945a77e0da772e35e62b78471fe540794b84cfbb7e92323f5b51c64708ec8a8",
+    "retrievedAt": "2026-09-29T13:07:30.978764+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4f4966b854cbc9f19d1b0209a75083cc102b9a7d-222x64.svg",
+    "status": "archived",
+    "file": "72e1bcae8f3aa7bd674b4be4.svg",
+    "bytes": 7358,
+    "sha256": "594b6d01d609cf622f99ef620c18269b4a0169eec8c38e176c4148d4ea5654b1",
+    "retrievedAt": "2026-09-29T13:07:30.991939+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/50f4e92c08e3640d95f500c7126f78e109558c9b-120x64.svg",
+    "status": "archived",
+    "file": "24e5795cb1a94dcdfcb9b6a3.svg",
+    "bytes": 4027,
+    "sha256": "3df372d523e6a2b0ff66f8c70cfd71d04befebac734acdebff3a43aae8a5dcae",
+    "retrievedAt": "2026-09-29T13:07:31.015636+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/512d82c580c9317a77b9f1bcd505f84f14eb603f-375x54.svg",
+    "status": "archived",
+    "file": "8ea89c40ae1a83d7f85a6453.svg",
+    "bytes": 11188,
+    "sha256": "ce03a1deaa785530fac02af787d963e113e7ce8d6ef64699dd3439af88ed8741",
+    "retrievedAt": "2026-09-29T13:07:30.999466+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/5d27d5fd738921411bb1e39bc27c396c6c075b4b-157x38.svg",
+    "status": "archived",
+    "file": "1901160bcfb661cff4a1270b.svg",
+    "bytes": 4859,
+    "sha256": "294dafe37c478db094cba8986940eb33b5392e9414c347b89dc5dffa2eb6f621",
+    "retrievedAt": "2026-09-29T13:07:31.052337+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/5e46a61d5d1fb792611e33dc7a6af84653c6744a-222x64.svg",
+    "status": "archived",
+    "file": "dda5265722263c3bca1e51d6.svg",
+    "bytes": 14256,
+    "sha256": "6d522621c3ae9eeaeec073525eae8be13659e51d0521ef3c047098704406ed62",
+    "retrievedAt": "2026-09-29T13:07:31.102908+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/608086181ee4ce73f49dd2e6ab3a4ed11a3d6f29-130x64.svg",
+    "status": "archived",
+    "file": "041bd29e1e7989bfc3e379f5.svg",
+    "bytes": 2145,
+    "sha256": "ce40694d7099d9cff91159f926c8206850b6bc7baa35f82fded1cd246abfca9e",
+    "retrievedAt": "2026-09-29T13:07:31.079525+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/60a35c504cedb3e3f581b211e4b8aef372ffe031-1000x1000.svg",
+    "status": "archived",
+    "file": "61ec19e7ab03a0b5036ca778.svg",
+    "bytes": 13928,
+    "sha256": "881ccb9471f9dd8d9281c1b5e39fb8b3d7d4a691fbef767ed8841acc434ba3c3",
+    "retrievedAt": "2026-09-29T13:07:31.096974+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d031c0893b24dd00e9f207c7635d6b91d809729-124x24.svg",
+    "status": "archived",
+    "file": "f34f8073f667cf8485d6c867.svg",
+    "bytes": 6662,
+    "sha256": "4ca035a73a400163491a0cd10c34fb156319b6f97319c85b5ff3dae3fd09699f",
+    "retrievedAt": "2026-09-29T13:07:31.088939+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6dfc3bd55cc5f9d5ebdd8d5437505ae4b8560412-120x64.svg",
+    "status": "archived",
+    "file": "a4c78c6a068db89382a9998d.svg",
+    "bytes": 2356,
+    "sha256": "09974117501fb1d7db04211ef12defca9d80b6a4539ef4e03d39fa0fb21e6c5b",
+    "retrievedAt": "2026-09-29T13:07:31.100464+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6e08084acc2ecab54d61761dbef22ece20aa0ff4-113x64.svg",
+    "status": "archived",
+    "file": "4890586df6754321272dcc2a.svg",
+    "bytes": 4550,
+    "sha256": "9cb908d287fbda2ad60c909435fd16aaae2fcd94c6181742c9c05cbb907278d2",
+    "retrievedAt": "2026-09-29T13:07:31.172085+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6e6ecfcd7c8ed79ef1c46cc27c4ecc4ab1ca7490-219x42.svg",
+    "status": "archived",
+    "file": "551657aae6f7d45eba34b32b.svg",
+    "bytes": 7404,
+    "sha256": "35a0a5bf193a9a4c1dab80dcb5ac1a414c0521200ff943ffb1926776a68ab999",
+    "retrievedAt": "2026-09-29T13:07:31.137791+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/73b380711885c6beb5270575119dbf31d7f71236-107x64.svg",
+    "status": "archived",
+    "file": "eeb4526ba79ed8480518c8a8.svg",
+    "bytes": 2774,
+    "sha256": "d7d9f6f001312e2338d39b09263dafc40fbcc4a1c48859a9ddc4c7208286bc02",
+    "retrievedAt": "2026-09-29T13:07:31.204658+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/74f9dcd65076def29413e42e822da248590b68d3-145x64.svg",
+    "status": "archived",
+    "file": "c6f4fa812fd56fe536d75f59.svg",
+    "bytes": 7322,
+    "sha256": "2e9b3103c4e9a070d25d6c64edb5ad82adb4d9ea540f3449e8e301d9a310fc7e",
+    "retrievedAt": "2026-09-29T13:07:31.244325+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/7504d4d2c41a3baa1ac5cb0d4e7bd19abc57e07d-105x64.svg",
+    "status": "archived",
+    "file": "71379f57b3ad7711f59d0c9f.svg",
+    "bytes": 4222,
+    "sha256": "2eacecff3a139a9b95133cfbfa809d636d93035e0d46cb1fe5f811ec1c99356f",
+    "retrievedAt": "2026-09-29T13:07:31.209925+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/7fbed01e869d6a4faf97317a1fc4b74f7997c66e-78x64.svg",
+    "status": "archived",
+    "file": "ab4c1a135668f12e719c39d8.svg",
+    "bytes": 756,
+    "sha256": "8ba50eaa003e72fb370b1eca6adfe6d739be0a7dee68330a655a7a683f1913be",
+    "retrievedAt": "2026-09-29T13:07:31.218925+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/810980148a3039102a4754f94895132ccb8b5b35-117x64.svg",
+    "status": "archived",
+    "file": "290ef47c6534e97ea90190a2.svg",
+    "bytes": 6549,
+    "sha256": "3c9cae4b13037150b1a212af352fb7e75378107062fd735e0cb8f5920efe884e",
+    "retrievedAt": "2026-09-29T13:07:31.264069+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/8d9b594d2799002fa929627be502f42830a52719-321x69.svg",
+    "status": "archived",
+    "file": "7d805b0e6fb80b8ebba683de.svg",
+    "bytes": 6058,
+    "sha256": "a136f08cc753e206ebf8e6fc51f4dff71da9e404ca42f07fe8c89b5f12a44307",
+    "retrievedAt": "2026-09-29T13:07:31.269562+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a0935a9396e8ec29b273be438cac14583c5999a6-130x64.svg",
+    "status": "archived",
+    "file": "8c4f3217aa88547ff1f319e6.svg",
+    "bytes": 4455,
+    "sha256": "a9eeaccbe8db3c74a918286f3e5173fb1273f77fb8c8c25a0d937b40884d1aec",
+    "retrievedAt": "2026-09-29T13:07:31.286432+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a22a882aef95ae7c1f7be40461df7f69eebc3cb6-157x64.svg",
+    "status": "archived",
+    "file": "56419bc0b284b8219f2a2a94.svg",
+    "bytes": 3466,
+    "sha256": "eabe48a02f191eae018e568ceb55986b3e0f0313f37055287a55d593119e2a2b",
+    "retrievedAt": "2026-09-29T13:07:31.381498+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a891afd7a10fae83d723c246d560da2b1bda45b9-249x84.svg",
+    "status": "archived",
+    "file": "3bf31202dff9d80f1b5e6c21.svg",
+    "bytes": 3913,
+    "sha256": "67add2a4952fb58214cb3670fcf04c736d5219379b83d870adb77000bf3b8980",
+    "retrievedAt": "2026-09-29T13:07:31.324227+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/ac77c59a0734811a829fab67d7ee8e801e45c50c-136x64.svg",
+    "status": "archived",
+    "file": "ada179ff049117df95ff46bf.svg",
+    "bytes": 4861,
+    "sha256": "8ed85c5eec69435b6a0d403c50bd8748fca23fdc94dcefe35b0139e928257204",
+    "retrievedAt": "2026-09-29T13:07:31.373105+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg",
+    "status": "archived",
+    "file": "2d7149939ac8dbf7a26c54f9.svg",
+    "bytes": 15868,
+    "sha256": "225d57055fe4d154f0d70119ef9843a65fb9cbb63255e737d7b37ff61978f9fb",
+    "retrievedAt": "2026-09-29T13:07:31.339360+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b130e0ceb83f1514a925c7dc93f9768ed60232e3-85x64.svg",
+    "status": "archived",
+    "file": "1f1e3af249da9996581d9909.svg",
+    "bytes": 2989,
+    "sha256": "2f1aa86a4b15137f150e2df67142abda7bc1e8c6afb60d449f2e08022a836021",
+    "retrievedAt": "2026-09-29T13:07:31.369973+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b55010004f106f318055d6b9f95625ca75df9a6f-321x61.svg",
+    "status": "archived",
+    "file": "97d418e171c14347f04fd167.svg",
+    "bytes": 2398,
+    "sha256": "9fe81ce47d5820775b65fc159e9061aff9ca30b4dae87fce39ef572d0bab2ecc",
+    "retrievedAt": "2026-09-29T13:07:31.379158+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b59ed46312c5dc6d29e8fc232abcd1a16f3331dc-145x30.svg",
+    "status": "archived",
+    "file": "fa0610612e81fceb5da89787.svg",
+    "bytes": 5397,
+    "sha256": "653d400f40ff4925d52ae5dc7447328b46fe60db5a1b1fe7c6746cb4061080c0",
+    "retrievedAt": "2026-09-29T13:07:31.396218+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b6ba30deda95060f1a9ff19cf03b184d36529a2a-92x64.svg",
+    "status": "archived",
+    "file": "f58d71324f75e2d3738da4d4.svg",
+    "bytes": 9742,
+    "sha256": "3ddfb0bad7c7213b53bcd9df8917d27668aa631ce03d6fdc480f08e0d6c4a4da",
+    "retrievedAt": "2026-09-29T13:07:31.406122+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b7787c9ab5714b0c1789da32a3a52daba81f6bef-63x64.svg",
+    "status": "archived",
+    "file": "f14ac6811c2172ae83e12761.svg",
+    "bytes": 3411,
+    "sha256": "3e66c5139f6bc200a27d15dbe4b432eb2930aebef12a36fe71deaa7f573dc7cb",
+    "retrievedAt": "2026-09-29T13:07:31.448443+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/beb4f74e935e111be9a63875ae7743aaea2cb0a2-88x64.svg",
+    "status": "archived",
+    "file": "f9d6f521d28231de20104f88.svg",
+    "bytes": 2720,
+    "sha256": "4c5c56c0558e73b3e66f28f3244fb635c0a8b9661a7193e707e9e1ca6e9e0f8d",
+    "retrievedAt": "2026-09-29T13:07:31.498200+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/bf162513ba017e72d4e07b0cd7683b86c4c5bc88-60x64.svg",
+    "status": "archived",
+    "file": "9759f1854a5130d875af78df.svg",
+    "bytes": 1817,
+    "sha256": "42f4cd3528f533e7b88e4b7f90625dad1a5ac0bdc38beaf5792e74b2439a7255",
+    "retrievedAt": "2026-09-29T13:07:31.501481+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/c40e0aa477d2cf411c9f13ffd51f4549938ba0aa-106x32.svg",
+    "status": "archived",
+    "file": "001b2fcdef52ae4023b49c75.svg",
+    "bytes": 2740,
+    "sha256": "19a83a95a5d09d3b5e4ed34fbcce3eb504abcb2f0be5220d88612ccd81f55247",
+    "retrievedAt": "2026-09-29T13:07:31.549535+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cc80b0a6f9534a34252756b93dd5a9bc26dd58f1-222x64.svg",
+    "status": "archived",
+    "file": "431168710a3042de22e20381.svg",
+    "bytes": 9390,
+    "sha256": "eff47456a37f1cf99dcbeb59e272235900477d177b139b6172e3124e2e1c0073",
+    "retrievedAt": "2026-09-29T13:07:31.503269+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cfaee5416044c0e687cf04a0fd1f3f3f26025dfc-125x32.svg",
+    "status": "archived",
+    "file": "ead89742648aa876ed56e5bd.svg",
+    "bytes": 5841,
+    "sha256": "c905b33f8a7b3dda8b98d6764fd2da099db554279fed3f4775f4fbe422fc4425",
+    "retrievedAt": "2026-09-29T13:07:31.514819+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d1da31683151dd0565312fb24eb7bfd728fb628b-77x92.svg",
+    "status": "archived",
+    "file": "9b6ca4462704d5d881f36460.svg",
+    "bytes": 1764,
+    "sha256": "f85a16d1324f53f5c5a95443d5b66193f4fbe91a682e480b3378d3d9a76fd5b0",
+    "retrievedAt": "2026-09-29T13:07:31.532778+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d514853a44cf69f069306c98b558f214112c4ef3-91x64.svg",
+    "status": "archived",
+    "file": "cd9299ed76b27beb615e4a91.svg",
+    "bytes": 2139,
+    "sha256": "18a48bcc8fd21e34f709edbe38c3f2a998c55712bd0e25f388ae8029fd306949",
+    "retrievedAt": "2026-09-29T13:07:31.505869+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d8f863db0d3fac7838bd2ac4b566bab6ac8fb697-245x83.svg",
+    "status": "archived",
+    "file": "edbfffd9c94cdfe9db9beba0.svg",
+    "bytes": 2701,
+    "sha256": "6f9b9dbebd156635a380f1dfbd0340343f81c3dee7433e4272ce39d5124a7f7f",
+    "retrievedAt": "2026-09-29T13:07:31.559320+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d97a1e1d49be76a2b9cc3df04843793e9a803214-180x64.svg",
+    "status": "archived",
+    "file": "8c424517e233a9ac11302edb.svg",
+    "bytes": 9175,
+    "sha256": "09eaa9456fac0288a129eb45acaa16d69c7b5c17f40c873fa3a3eed9e5025daf",
+    "retrievedAt": "2026-09-29T13:07:31.628166+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/df8f9a1adc619bffa4eaaad2b9128ccb64dfe7c2-206x109.svg",
+    "status": "archived",
+    "file": "a830a1bd425144a90ca67a4b.svg",
+    "bytes": 5071,
+    "sha256": "a2486fa2bdd6e3126f5e1b0461d6706f8f063babee9a8364c65be6b4632b9b30",
+    "retrievedAt": "2026-09-29T13:07:31.630990+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/e0731da5f669896ec6823e665df2c360ea03115d-140x64.svg",
+    "status": "archived",
+    "file": "26e2251535c13f2cccbebff4.svg",
+    "bytes": 3760,
+    "sha256": "ee2b8a6c95904dd2e2ad5de5f360fc5d0dbf0e9b098374151784014a0c59aecb",
+    "retrievedAt": "2026-09-29T13:07:31.619911+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/e360f8a29093a6b4fccdc006315035583e89f9ac-146x64.svg",
+    "status": "archived",
+    "file": "2b8dfb65f1b49bb5d2156842.svg",
+    "bytes": 3872,
+    "sha256": "dfd08119ec9d507f7e6624e05147449f771b0f86a2e1f744524df84ae4e2ab40",
+    "retrievedAt": "2026-09-29T13:07:31.622045+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/e6dc2f563b4af08324bbc6b6f570edb6a3da1ade-364x41.svg",
+    "status": "archived",
+    "file": "883b9586d75fad6046d18ca9.svg",
+    "bytes": 2142,
+    "sha256": "9fc580e93176f5e6e6b5305842cf955097d6bcd9b54509d1d707394b1dac45dd",
+    "retrievedAt": "2026-09-29T13:07:31.619860+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/ec6a42c89c7dc05949f15091fda3c953d5ac7632-118x36.svg",
+    "status": "archived",
+    "file": "4bf31170df731f9cc60842d7.svg",
+    "bytes": 4066,
+    "sha256": "c1d2b37f1fb70d98a1e540162811f614672b1a27e8f3955ff51209e542735a04",
+    "retrievedAt": "2026-09-29T13:07:31.709792+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/efde24e5691e04ed84cb9c3fb91c1033a2e65af0-145x64.svg",
+    "status": "archived",
+    "file": "05ab6c40ec3d4cb6070bcc7e.svg",
+    "bytes": 6327,
+    "sha256": "1fb611aadeaaecb5d1b8f3342101c6f9c046174eccca9b1dd9959987fa8f91e5",
+    "retrievedAt": "2026-09-29T13:07:31.669844+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/efe6b287384573de696a70288b0418b9b4c3eebe-222x64.svg",
+    "status": "archived",
+    "file": "3d253d0f3ff0d9aa4c7e7759.svg",
+    "bytes": 15702,
+    "sha256": "f15870ab2daf6af92ef81bcf9ad7be5826d8b08eb3c8c556051ac1826e4e1668",
+    "retrievedAt": "2026-09-29T13:07:31.671587+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f0719d10f52d94453dfd4c51b4fb26395f277b25-111x64.svg",
+    "status": "archived",
+    "file": "433437e33093394fb12bf7d6.svg",
+    "bytes": 4787,
+    "sha256": "8c55755b0413df1a5374ed9bf3c85159510f51ce5d7e69056dc728e312432472",
+    "retrievedAt": "2026-09-29T13:07:31.784860+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg",
+    "status": "archived",
+    "file": "00a470ab37553ee04785f8bd.svg",
+    "bytes": 3456,
+    "sha256": "0bf7c3e7595275c6ffeed413cadeeb6e3c2e79960f96cae5f40d2b547118bc07",
+    "retrievedAt": "2026-09-29T13:07:31.741330+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f0dacc0d330bc402df7423a025a963b2a5e969d2-191x64.svg",
+    "status": "archived",
+    "file": "5af9d062b4de64c33456b5ee.svg",
+    "bytes": 11337,
+    "sha256": "fb73bbc25e169a02bcb1bd113c73a9befed4fccb001d3e6ff46d85b0e8294733",
+    "retrievedAt": "2026-09-29T13:07:31.741544+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f343481e6a953bc7b5390e6d9f61cf387c2ceb11-103x64.svg",
+    "status": "archived",
+    "file": "d45bd496008ec0b887b109df.svg",
+    "bytes": 5192,
+    "sha256": "af9c4eeec846a5c8a03240f1d1a4e5facb06c5735ad55129b58b3d191d3c8b0d",
+    "retrievedAt": "2026-09-29T13:07:31.767611+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f69ebaa2d39165a909def91e572e7d9ec0088a9a-154x64.svg",
+    "status": "archived",
+    "file": "8032331662b3c6f3c6568426.svg",
+    "bytes": 29553,
+    "sha256": "0b3ae5f287a1feb83073526307d37fd25f73fbad044a650b81a4d7d9ce8af13f",
+    "retrievedAt": "2026-09-29T13:07:31.782229+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f78eb8e663df313f53156d3cea8d7ad2801df313-148x64.svg",
+    "status": "archived",
+    "file": "49aa68720f821f6639c04912.svg",
+    "bytes": 5734,
+    "sha256": "435b6dd94a48daac5230d4f53ba9dd31f0c071be58d052ae74e84aa392103fc2",
+    "retrievedAt": "2026-09-29T13:07:31.793579+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f7d48545ec6df380bb86fa71fb8e23a3fc4f240c-171x64.svg",
+    "status": "archived",
+    "file": "ea8d317fd43be0f09928fad9.svg",
+    "bytes": 9526,
+    "sha256": "2b96f1093c5d4e6cd8d3aa55c39bbaee02bd8521abd261e59959a2950644ea2e",
+    "retrievedAt": "2026-09-29T13:07:31.789535+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/fabc67a6a0069ebc13b12f3174019826a123b184-141x64.svg",
+    "status": "archived",
+    "file": "356731bb92ddb719c9d85946.svg",
+    "bytes": 1281,
+    "sha256": "cc2a0a7553187e974ab7e404f3c64e1327f21f4f6d455141b1ed25a9c0bf156a",
+    "retrievedAt": "2026-09-29T13:07:31.822219+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/fbd45dbecde0ed6e7c3bf8551df0525d87efd4de-127x64.svg",
+    "status": "archived",
+    "file": "e1fb7db6f77d8444600502dc.svg",
+    "bytes": 5701,
+    "sha256": "b19f56b55ffabfda77d485970aef75212b8ea4fa351faae2a876022e75231929",
+    "retrievedAt": "2026-09-29T13:07:31.860954+00:00"
+  },
+  {
+    "sourceUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/fc55f4db8afa5db479127fde5be3e492940f513d-94x64.svg",
+    "status": "archived",
+    "file": "f36bcd3424c79313633fd0c7.svg",
+    "bytes": 2097,
+    "sha256": "c55950370804df3f0850b8ad711390543b82ab8d0ef53d1f72703bea2c887049",
+    "retrievedAt": "2026-09-29T13:07:31.865882+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2F5ac72c2c6509b4b6c41ac8f742636fe123b0ba1a-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "0242996c8d31c29a9e8c5d6b.png",
+    "bytes": 795327,
+    "sha256": "811a59bba0df1be9d194298c1da9616076812d78d78ecaeefa972d03b70495e0",
+    "retrievedAt": "2026-09-29T13:07:32.056075+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2F810008fad362e0ba3c984c3de094f4527541bb89-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "fc0525d406fc772c0345f116.webp",
+    "bytes": 58336,
+    "sha256": "fa31e7782908fd4c41cb71d6f8c3a0c425494a0dfc07dbd17a5d54740653cd49",
+    "retrievedAt": "2026-09-29T13:07:31.943470+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F018d6d882034d50727948b22e3ad3844a43ee09c-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "cb8e92f8b598bbdfde957ce5.png",
+    "bytes": 70466,
+    "sha256": "ba04eabf3b869f3cc708d5f044d049d986f5962171abbe0074d09735f28f8724",
+    "retrievedAt": "2026-09-29T13:07:31.937762+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F036229d8f9be9a5a911dbbd863b3c6cc09a79a70-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "6914eb0ca15c8c298dbb206d.webp",
+    "bytes": 51970,
+    "sha256": "850a437e7548418dd75c92cba3012d132512d5f12e58f89489851d701ffde1cf",
+    "retrievedAt": "2026-09-29T13:07:31.957533+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F04865ae02e70e9d8ca5a79fb49ae9263d58a7022-528x256.png&w=256&q=75",
+    "status": "archived",
+    "file": "414bd8fa8e1f45af6a4ccaa7.webp",
+    "bytes": 8664,
+    "sha256": "563b68fcd012072ca15195e9a1fd4472b3d245919417a43e9717467f23160b26",
+    "retrievedAt": "2026-09-29T13:07:31.924719+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F08499ed7c3c2b6416700fa47c70d36dff5eb8461-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "93016b8e11ec6dfb3af29ac9.webp",
+    "bytes": 95924,
+    "sha256": "16226bd5851b966cdaf712cedbb3d99a0faaf17cdef4c9c88831fd01b8c9d220",
+    "retrievedAt": "2026-09-29T13:07:31.987793+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0eaa0ed2dce9810169112e1c77de2585fcf1f5c2-2880x1620.jpg&w=3840&q=75",
+    "status": "archived",
+    "file": "c99a39a9c14cde2a9bcf98e8.jpg",
+    "bytes": 148337,
+    "sha256": "c9c9c2a1fdaf3aee6f7c55ef36ddd5c31cb9c5d6c9991f61dfabc2f52c229229",
+    "retrievedAt": "2026-09-29T13:07:32.018684+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F10b2602771d21378cd6d76628a081c8a76dcf216-2600x2960.png&w=3840&q=75",
+    "status": "archived",
+    "file": "bad24d1af8e936749b253ef4.webp",
+    "bytes": 190024,
+    "sha256": "b8b25f01572dadcbe50adb79d4f4c17e897b274a6005c95b76e2f3b14d4569ce",
+    "retrievedAt": "2026-09-29T13:07:32.031210+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1206645ef5a618dabce8587b472b21c67a30a0db-3840x1948.png&w=3840&q=75",
+    "status": "archived",
+    "file": "8d307fac05c743f68198543e.webp",
+    "bytes": 82366,
+    "sha256": "ed2c8b71fd1ba7c5f93894f4bc22edc790a8a23c04853a2cdbfbfb75ba7e3598",
+    "retrievedAt": "2026-09-29T13:07:32.092152+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F186551e6352bcfb4f9880b46ab41a9a381c15c4a-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "b6933f45aab9134d26f5dbb1.png",
+    "bytes": 22525,
+    "sha256": "97a447a14f3c830a53e43461117ab61790d1b037978874d2fe8db66b3c7cef08",
+    "retrievedAt": "2026-09-29T13:07:32.086598+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1af9dbd742e3812be4bf66903740188fb8fd2e33-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "8895de5efc0304d354c48fbb.webp",
+    "bytes": 89370,
+    "sha256": "249d9316d5e524aee64d0da746e67d4972fcbe81c6b9c4f0a1bbecc245292f15",
+    "retrievedAt": "2026-09-29T13:07:32.122285+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1e65982497d7d4891219ed0e83141625a291b860-2600x2870.png&w=3840&q=75",
+    "status": "archived",
+    "file": "b8d037ce8f6bffdf0356cabe.webp",
+    "bytes": 174872,
+    "sha256": "5240712d4d393e6e92ea372c629abc6e699b0acde3e7dbc69377aa8bcca9d5d7",
+    "retrievedAt": "2026-09-29T13:07:32.188933+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2039cc549c023bc855671308211d20d3382828a9-2880x1620.jpg&w=3840&q=75",
+    "status": "archived",
+    "file": "18158fa5d411037657a261a5.webp",
+    "bytes": 92582,
+    "sha256": "9da8ca8a670d7f2ac3e820434334801d0e7b04e62f611bdc018790c284834a05",
+    "retrievedAt": "2026-09-29T13:07:32.151151+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F21053b0cbc6e93a7388f173ed8fb3bd4bb2ed85b-1600x1000.png%3Frect%3D0%252C0%252C1600%252C1000&w=3840&q=75",
+    "status": "archived",
+    "file": "c55cecf7eee294fa5ba6f1f4.png",
+    "bytes": 23919,
+    "sha256": "fb982810a11991e87da5d1c87c6d668ea4e5e9e86ef1d0b8a5374023ff51535e",
+    "retrievedAt": "2026-09-29T13:07:32.153331+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2502a0daf85b741641cff36757d7243ef48f8be8-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "a5b6c00788b2b080b1bb5a3c.webp",
+    "bytes": 48038,
+    "sha256": "c64caf53f02b38be18b7b8244e65ff64d55fcbd7e72818f85e555ac036192bbb",
+    "retrievedAt": "2026-09-29T13:07:32.155203+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F337ec3073e807548e9254096b073de0df47ed6dc-250x250.png&w=256&q=75",
+    "status": "archived",
+    "file": "9222b5071de19c7bc430f7f8.webp",
+    "bytes": 43060,
+    "sha256": "77b51020ac732ab6b07634c128811bed8e242a04d3422fe551da7dc4348686b2",
+    "retrievedAt": "2026-09-29T13:07:32.226086+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3437ad5c0853a7bd273ed5e56289a4f38dcd9731-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "14626a07ce6eea1f2335027f.webp",
+    "bytes": 72698,
+    "sha256": "5aadc1045ebd83cb4b4dcb9049d243fc6102d5cdc830a6b4a3d5c2d99029fe6c",
+    "retrievedAt": "2026-09-29T13:07:32.255305+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F34fc5568d8026abba82f18fccfb436f0419d7e40-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "0bbda7fe049d178971fb9b71.webp",
+    "bytes": 25064,
+    "sha256": "a05672000c8424ec205546700df2549f95ad07851ef91976c43dcaeb7f53d074",
+    "retrievedAt": "2026-09-29T13:07:32.260785+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F368a6a6ae23e72deac37566b9d0166d062e7dde1-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "8934ca13c0288ea232f7a14c.webp",
+    "bytes": 98458,
+    "sha256": "a19127a7ba8092a0f99ab4bd70d533ae10f08e47af852379e24c52e82fff670e",
+    "retrievedAt": "2026-09-29T13:07:32.290709+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3a5b5c3eedb539fe20bc8dd1ecfc952c447000b8-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "a421ae2c03b8e99af8b04a8e.png",
+    "bytes": 22803,
+    "sha256": "620e04a9d0fffd67a468f127a36c3110509eb48dc4824cc6d62965eca70a148f",
+    "retrievedAt": "2026-09-29T13:07:32.320179+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3dd626b47b88feb72082646cdea87944d49a3c7f-800x800.png&w=1920&q=75",
+    "status": "archived",
+    "file": "7941eb9924e0033798dba984.webp",
+    "bytes": 8518,
+    "sha256": "8d1f801d021be14bcf088787c7ad89b7256682dd0f0c03b518ffd5e5c668c0e1",
+    "retrievedAt": "2026-09-29T13:07:32.313258+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F40343dc40c700814e02f0ed90a7b513eca85039c-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "2a146b1a33808087caa4e007.webp",
+    "bytes": 42080,
+    "sha256": "ce3ce74a78bbf91190627d590086377f60cc502f8cb9391bb1b3f8f263f0987d",
+    "retrievedAt": "2026-09-29T13:07:32.306666+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F41fa2545bafc63f50148ce0d710dbdadb8c06f87-888x256.png&w=256&q=75",
+    "status": "archived",
+    "file": "b3f79d0748a13a138dc06808.png",
+    "bytes": 1424,
+    "sha256": "5771656ddb73c1a70e4e757ffd1964444cc42fdc0b7061716fcbaa2e611e391e",
+    "retrievedAt": "2026-09-29T13:07:32.324551+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F44fac8bd76238d8c09305ec7fe1511670d45c6d6-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "aa4681cd18d401aa119afb2c.webp",
+    "bytes": 78002,
+    "sha256": "bf3b5cbe8071365bf9fe8cd26bb92b2cae96708de369ffc492c041e3b06f8126",
+    "retrievedAt": "2026-09-29T13:07:32.381090+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4d8f06a743ecfc6ec87ccde0b1964e48175a141e-800x800.png&w=1920&q=75",
+    "status": "archived",
+    "file": "8729d9a4596798dd3656f83b.webp",
+    "bytes": 174292,
+    "sha256": "6e154492e362ae5d403cf4a3173838e8f03cb1efb9f98aa73ad03cc55c4253f8",
+    "retrievedAt": "2026-09-29T13:07:32.428658+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5045594024cd4dcacf604158b5cdbc3fce7a42e1-250x250.png&w=256&q=75",
+    "status": "archived",
+    "file": "987e3b2552da8d34ab03c018.webp",
+    "bytes": 38992,
+    "sha256": "2365a31c8b659e7dd5df41c36a01fd6f80c84f27c1dead5e2183a9e129eb4198",
+    "retrievedAt": "2026-09-29T13:07:32.385970+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F542044519014a793cf042a08a730ebd8977c57b0-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "31a6f1c41b36a145313bfd00.webp",
+    "bytes": 43564,
+    "sha256": "e172d692d715ac875d830c0b15157f14ebccee23809591b8972b076e631adb18",
+    "retrievedAt": "2026-09-29T13:07:32.446150+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png&w=3840&q=75",
+    "status": "archived",
+    "file": "2996edc310736831bc83fdb5.webp",
+    "bytes": 172822,
+    "sha256": "3cb4b46242ad26231c07841aa952297b741195503fcbc8964fb9f35327cc606a",
+    "retrievedAt": "2026-09-29T13:07:32.507112+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F569d748607388e6ed42e3ff0ff245d9b0cde6878-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "63154994e29963586445c212.webp",
+    "bytes": 43770,
+    "sha256": "1db383364532d5f0da7af2eb317744ac4e56eb3099d67d4b3f614e5ad179a77f",
+    "retrievedAt": "2026-09-29T13:07:32.435591+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F653e04afc43612d3a0f8427da86b6549800005f9-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "8a94e46ff654119fd651f008.webp",
+    "bytes": 43600,
+    "sha256": "3537a9b6ce79da754a96f097bffe76c42b125a5f749bc926cc29c8374f494e33",
+    "retrievedAt": "2026-09-29T13:07:32.481275+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F664cea994d186e0d4dbb276bcdb502a49b1e702d-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "8af7263af12ba8b893f01eac.webp",
+    "bytes": 45458,
+    "sha256": "b065ebfb08d621bf71dcb93e311625a76859f52df4f6f9f810fc0a9953add7f6",
+    "retrievedAt": "2026-09-29T13:07:32.466435+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6a97019c4d8ea13fdd7200455f6dd9e8c267ba0b-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "82110330fe3a5c655d12129f.webp",
+    "bytes": 101536,
+    "sha256": "40495f7952264f2b8136a8dedd19a0c3cd50ec990dc63490bd47e3bf161baa3e",
+    "retrievedAt": "2026-09-29T13:07:32.566090+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6bede3f6101d15bd899922917ea6246adda4515b-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "856c78598c335755285c1d99.webp",
+    "bytes": 32720,
+    "sha256": "8c98ae4d660af4075ab7f1fb1696e6833274463e5cc6583cec0ffc35c9a2c073",
+    "retrievedAt": "2026-09-29T13:07:32.526850+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6c1b33e985bcae9163b77bc25620e85abd5d9a7b-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "41c2317933cc5085e235dc56.webp",
+    "bytes": 55228,
+    "sha256": "4711ed8d0e5ebb20d66457cb9cf4a0c7a08f5d50a1015173c1457d5880ebcf65",
+    "retrievedAt": "2026-09-29T13:07:32.577180+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6e29759b50e8b3a8363b38b1f573d854df968671-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "4df5b7b6e75b0435b0f96b13.webp",
+    "bytes": 43088,
+    "sha256": "cc37e78d02ac1f06b08c09a57eb47acc96036713931a722d3dcee81725c8c105",
+    "retrievedAt": "2026-09-29T13:07:32.598127+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F72189ac0907cf1fccf3b11553289490c41891293-250x250.png&w=256&q=75",
+    "status": "archived",
+    "file": "ca7051a33d188edc4464bf54.webp",
+    "bytes": 13620,
+    "sha256": "b7f5143f21e3615f49d4eb0df6b41a1d8dd1e5f7ca57ae2d93c9075d7ed71dbc",
+    "retrievedAt": "2026-09-29T13:07:32.588028+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7530b1086992936d7e9d5796a892d1e8fa063253-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "554d79e08111101341315f18.webp",
+    "bytes": 104890,
+    "sha256": "561be0dee19ab20f0f19a1096a7d9d40d8bf07247530b2a61f1c2e7822e89f5e",
+    "retrievedAt": "2026-09-29T13:07:32.644261+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F76d4af96516ffca2aceb4c1d0b0a83e2720d874b-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "8df30baa4ade07c3797fab68.webp",
+    "bytes": 49032,
+    "sha256": "915c12dfb34be02765526522747a67a8651f55f8f8e6168ac4e7ecd28e74c91d",
+    "retrievedAt": "2026-09-29T13:07:32.644188+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F867075586d7f5ee37ee1c8c7b4bf0dadb34a54e2-666x192.png&w=256&q=75",
+    "status": "archived",
+    "file": "7c316a07c4c62c3d8da7625a.png",
+    "bytes": 1600,
+    "sha256": "7a48c36e973105799ee17ec29a70f9d485ed09a17cf9ae358ccf51919b2fb8bb",
+    "retrievedAt": "2026-09-29T13:07:32.661186+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8a421f45125743fd9e9078aae992c6e5f236a3da-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "1ba59abf1151667d4e89e2ee.webp",
+    "bytes": 50218,
+    "sha256": "71cb3b6149a8d84fbd407b8143dee7df3bf3b487316e442198f587401855c4ba",
+    "retrievedAt": "2026-09-29T13:07:32.666625+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8ac95d8d4d6e68b6f5fdf04a09206defc877513e-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "7a590076fd6aeb32f6e59406.webp",
+    "bytes": 78814,
+    "sha256": "a48a7a5f37d3143753ed061f46bd355c47a5aa64f66cbb17621d1a3ac7394ce8",
+    "retrievedAt": "2026-09-29T13:07:32.728400+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8c0870bfca0dfac1d81a20e0ebac7eb3eff6d554-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "7df9a0337b33c8fe8696b29e.webp",
+    "bytes": 103568,
+    "sha256": "b9c3bc0f7405ad899114214432abd3421c2640e239fc41826e941f17463ed6e9",
+    "retrievedAt": "2026-09-29T13:07:32.750451+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8c2855afe51fc0980596b5369b01b0b87eea7eaf-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "518c29b1e6483da6f5800674.webp",
+    "bytes": 91926,
+    "sha256": "f69899088af129a5c4687782c7771bef789e771e24c763b70ab4c961b66c6f3e",
+    "retrievedAt": "2026-09-29T13:07:32.776990+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F921e6c04971bb083186c710c631b21946f39a96d-1280x275.webp&w=256&q=75",
+    "status": "archived",
+    "file": "13fea06227e843605bfca32f.webp",
+    "bytes": 3294,
+    "sha256": "0d3ddff23cc647abb46335b9d092188c881874f3d73c553ec8276f9b11418be0",
+    "retrievedAt": "2026-09-29T13:07:32.735827+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F925c2e9b8c5b01825b167dd188286e266f3ef2c8-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "048e164ee8da3ef80e1baf72.png",
+    "bytes": 17387,
+    "sha256": "2a362a671783bd2e85978fae5b796520c41908aff31abfd3bf15ae7ecaaa3b1e",
+    "retrievedAt": "2026-09-29T13:07:32.769713+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9299f8b86c69359c31d15dbece4545e628bddc34-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "dec5b8526032982473db9d37.webp",
+    "bytes": 20090,
+    "sha256": "ed490e0f26421ca111b19f75d4aec270664ca50489eaa5b593787983881f78d9",
+    "retrievedAt": "2026-09-29T13:07:32.776884+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F96ea2509a90e527642c822303e56296a07bcfce4-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "9772b687039359b01fd449d9.webp",
+    "bytes": 88588,
+    "sha256": "0897708868e20cc1bc5d238ff2bcc804dc2ed7b130a6ddec0826b6ce11005225",
+    "retrievedAt": "2026-09-29T13:07:32.823402+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9941d610909f28a504e16dd5af823df172ec6035-2600x1234.png&w=3840&q=75",
+    "status": "archived",
+    "file": "32e8aa8068c7726545f891da.png",
+    "bytes": 54132,
+    "sha256": "5a0b47323d9f0417c1aa49c547d20e46de1db3f1d47cb2b952858e11d68bd146",
+    "retrievedAt": "2026-09-29T13:07:32.815224+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9a32a76a983d4c8f709683b38ff3af6664b5128a-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "1c60c73a661e0c6d4b5147db.webp",
+    "bytes": 52796,
+    "sha256": "c4111395df42c645a0ea0be0ba3d84747e156fb5e122d423c147c70e711024eb",
+    "retrievedAt": "2026-09-29T13:07:32.863241+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa8fb4f77a9fe240e6f27f3bdc47a137f3c74a29d-2600x2578.png&w=3840&q=75",
+    "status": "archived",
+    "file": "44e0c935d936c3b2704d9f7f.webp",
+    "bytes": 118286,
+    "sha256": "860447d75672256f3c3f8bec7c5811a6d249aa6bcb0a248b1c10d56c33d16641",
+    "retrievedAt": "2026-09-29T13:07:32.897995+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa9007019094f217e98cb8261a2765d7646c01708-2600x1392.png&w=3840&q=75",
+    "status": "archived",
+    "file": "88be659883172ddda5481134.webp",
+    "bytes": 67108,
+    "sha256": "886e83b52d45418fd7a53eafbc77d49ce42bc817377d0fbbdcfbfb64ce0e4d77",
+    "retrievedAt": "2026-09-29T13:07:32.900022+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fae7ae61aefff3c9b059975957335785f8ebd59d6-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "771c0ae37db8915c7a834285.webp",
+    "bytes": 54200,
+    "sha256": "9dd663e994bf20b06219621700423c2a0aeb4e07f733b1a560358143e334f74d",
+    "retrievedAt": "2026-09-29T13:07:32.912289+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb22d18a4d2003401f96f866effd9a40b5518c4c5-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "9463be8665fb1cf47e445fcf.webp",
+    "bytes": 94366,
+    "sha256": "ae41f61c3e8e47c04bd248b303cc4142527eb3c4ac822275e4d18e4adaa72459",
+    "retrievedAt": "2026-09-29T13:07:32.957733+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb521482c2a09be87ac40f01e8949c216c426eeaa-1600x1000.png%3Frect%3D0%252C0%252C1600%252C1000&w=3840&q=75",
+    "status": "archived",
+    "file": "56e2c3972508ecd1e4d43649.png",
+    "bytes": 27985,
+    "sha256": "27046c6cfde5e8af3f37ce2b066ef2faf771dd700472c7b3046283382d0e0642",
+    "retrievedAt": "2026-09-29T13:07:32.918743+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb5e071ba6a9ce5628b4662f05484d1806a9fdc94-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "372157ec2ca6567a5af970d0.webp",
+    "bytes": 61232,
+    "sha256": "2cae607e4021aaba27e6ee8ad5c54ad7649fac9c45aeb72ec22f32dd7da99047",
+    "retrievedAt": "2026-09-29T13:07:32.952223+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb7055119423427c40a0e4d84054aed17682b50a2-2880x1620.png&w=3840&q=75",
+    "status": "archived",
+    "file": "0045d05ad7f0047f7f8e7235.webp",
+    "bytes": 105120,
+    "sha256": "24c854486dad2227803fd424235497e3f1021eb1698c995bd870fcd61cf6efd1",
+    "retrievedAt": "2026-09-29T13:07:32.972624+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb8cfd7ebd6c82febce5f428f519d68a5dcf5d16f-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "d640ed31cb5be375632a8155.webp",
+    "bytes": 52832,
+    "sha256": "cfe313dfc487a345c3f9c14f938a7c9b54953443f0173224806235146b245975",
+    "retrievedAt": "2026-09-29T13:07:33.007368+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb8d511155f209c57e4d6a92ab115ebfc7c8832ff-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "b2eb1f5bdfa43b6c9a44070d.webp",
+    "bytes": 71702,
+    "sha256": "0da3b3542c4a3d6aea97f38dcb9730fda570fb9efd66b4edae574ed99f6f5efe",
+    "retrievedAt": "2026-09-29T13:07:33.071362+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc3945915dad02168b631b238c900b98b23964539-1600x1000.png%3Frect%3D0%252C0%252C1600%252C1000&w=3840&q=75",
+    "status": "archived",
+    "file": "ed6363a6e32156fc14a8dc9c.png",
+    "bytes": 22229,
+    "sha256": "a59a5a18f0628d71348694aca28a2448dbe8ded8b26e2134c53df309c72a1d04",
+    "retrievedAt": "2026-09-29T13:07:33.025912+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc7c726c5588b69c944dcc205bd1ba7ebdf8c2259-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "1fe5f0bae1de07d3882d9d39.webp",
+    "bytes": 76350,
+    "sha256": "a05037fd90edd0dd933e9117bad2d84a19f12947bc8c5a6b074068bc7d5773b1",
+    "retrievedAt": "2026-09-29T13:07:33.062110+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcd0df787f39b6408dcba539fba93f817f2f3c0b4-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "b0ea744d42cff8e21b847a8e.webp",
+    "bytes": 85480,
+    "sha256": "6df7924180874fea871b852b9ee1a60f0b897300535687ff1fdfa751c8fa2f45",
+    "retrievedAt": "2026-09-29T13:07:33.079422+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcf0eae4b26b6fbe29e370d300ecac766cb94bc2d-1600x1000.png%3Frect%3D0%252C0%252C1600%252C1000&w=3840&q=75",
+    "status": "archived",
+    "file": "3b36592721ef82d4793ae707.png",
+    "bytes": 95940,
+    "sha256": "66e96699f9715e5ba3c3381b0ecfb4343fd32ddefeea6c8d42999d45b9a157c8",
+    "retrievedAt": "2026-09-29T13:07:33.104916+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd018d76aa03c0ef18abc8a68de8f6fcd51c0a574-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "ff78811e20e9dba2e28eafe8.webp",
+    "bytes": 42718,
+    "sha256": "4bb5bd5839870ad96599b6b08641105f645d6b6fcbac8bfa8c88da8118a2d35a",
+    "retrievedAt": "2026-09-29T13:07:33.089984+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd3c3efe0e8ab310856368cee2b2161439db6676a-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "bdf13d9764d80cc284c31181.webp",
+    "bytes": 37158,
+    "sha256": "4afdf5e054a9dfadec4e834aa4d41ca7b805745bd33fcccd662709ecd05ac0e3",
+    "retrievedAt": "2026-09-29T13:07:33.096097+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd434d15757c6abac1122af483617741776d5a114-2600x2638.png&w=3840&q=75",
+    "status": "archived",
+    "file": "20ad17c3b55c05e380f34fcd.webp",
+    "bytes": 135748,
+    "sha256": "0f1a9e025d4afc6b4d48a2b656d90ca6c8f787de2fc9299bf545cc2ad06413a8",
+    "retrievedAt": "2026-09-29T13:07:33.166567+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd5c761e88dc46d7f79990dc2c4ad7a7cbaebdf3b-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "2d6c84aaadb37fcdc54233fc.webp",
+    "bytes": 87366,
+    "sha256": "2e771d0332d5b4ff7934a91e1c50ed4a7b76063ebc7d176ee4e928cde1e64f7d",
+    "retrievedAt": "2026-09-29T13:07:33.200558+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd6b081334e5c673cf0ab1f6e014c55bb46d17db9-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "826b27fb5b2d010fef36cfc5.png",
+    "bytes": 17698,
+    "sha256": "aadb6d9b9dbaa4d2cc84b58e610255f6ca6edff5e81652ebb973ca4e1beb8129",
+    "retrievedAt": "2026-09-29T13:07:33.238582+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd71a0217af7efe761f190d4bceea9a38e9a7dbad-1600x1000.png%3Frect%3D0%252C0%252C1600%252C1000&w=3840&q=75",
+    "status": "archived",
+    "file": "69a6536a1c80c9babb29be4e.png",
+    "bytes": 27146,
+    "sha256": "54dfbfdf537896bd60b0289abad3b48029b767ab7c4d50330db9a79457856a24",
+    "retrievedAt": "2026-09-29T13:07:33.190061+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdac9adf55898f7da5fbd40cfb562784289ab9048-1600x1000.png%3Frect%3D0%252C0%252C1600%252C1000&w=3840&q=75",
+    "status": "archived",
+    "file": "0434db9e367674b35f3d1adb.png",
+    "bytes": 27080,
+    "sha256": "63ff87f2c225f04b5f4cb36aba6803ff7102743b761eedb5440754d825f89924",
+    "retrievedAt": "2026-09-29T13:07:33.227838+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe374c070fc1a84872dcb1343b5bb0ed540ca3770-800x800.png&w=1920&q=75",
+    "status": "archived",
+    "file": "bd776df515ec7fc81fe66558.webp",
+    "bytes": 6680,
+    "sha256": "240d8b058c0862af394d7ceed23b2f3943eae86d738ffc8f2f99585850b75549",
+    "retrievedAt": "2026-09-29T13:07:33.227656+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe97dffe5ee2a8764d5f122578f2ad8cde957070e-1920x1080.png&w=3840&q=75",
+    "status": "archived",
+    "file": "e0fcb1d81fe67b1e206a72dd.webp",
+    "bytes": 26522,
+    "sha256": "2aa942784105d2f54ee95fbd4c2a91e51a81881e604fd19bf7c10face09a5870",
+    "retrievedAt": "2026-09-29T13:07:33.233025+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fee9944c865937053bae293f057fffa478ee0f46b-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "0f91cd1c9102e80e5a7031c8.webp",
+    "bytes": 58358,
+    "sha256": "77de60f1a29a945d2c0d79acdd18a52a11d36589f5ac822de7c7b06a4ca5c605",
+    "retrievedAt": "2026-09-29T13:07:33.272107+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff7dff66d47d54dfaabddc82bf9b96658df00634a-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "b34a8a6374ba34e40486ed91.webp",
+    "bytes": 44972,
+    "sha256": "dee9771b4723e4c164972caea73ac69261d174881fce3564dbbda6d8306f0003",
+    "retrievedAt": "2026-09-29T13:07:33.300856+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff9564dd2f758237bd9dbe775674c4a375aff1e8a-2600x2968.png&w=3840&q=75",
+    "status": "archived",
+    "file": "cca3f3dc86f9331a7bfb5932.webp",
+    "bytes": 169194,
+    "sha256": "fe10454ca59672b348bcb4268c1eb14d02d4286dd66191899de02b9beb8fda80",
+    "retrievedAt": "2026-09-29T13:07:33.368755+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffaf941fe1ebfd09139d39b8e4ad9048121979284-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "6abc485a987b7af0da645d34.webp",
+    "bytes": 81264,
+    "sha256": "df643e986f590ef1e6cb9904266383b7904329c8e2f6368eacea736b8828eb72",
+    "retrievedAt": "2026-09-29T13:07:33.357494+00:00"
+  },
+  {
+    "sourceUrl": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fff97ab0f2a5f3a243da02398f97dec1ac99b526a-3840x2160.png&w=3840&q=75",
+    "status": "archived",
+    "file": "9d184a2b99e35743671f2ad5.webp",
+    "bytes": 84080,
+    "sha256": "bbfeb4b54bceb2b04e8500b8730aa64e06da4105c7514bef82272ed6c9182ab7",
+    "retrievedAt": "2026-09-29T13:07:33.411645+00:00"
+  }
+]

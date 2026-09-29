@@ -1,0 +1,19 @@
+{
+  "id": "google-gemini-3-7-flash-card",
+  "sourceUrl": "https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+  "expectedBytes": 158271,
+  "expectedSha256": "f8db5cd28d122c3662a6045148fc95d8bde245ee3d40d0eb74e50c82ff7d16e6",
+  "expectedPages": null,
+  "kind": "card",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.453797+00:00",
+  "finalUrl": "https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+  "contentType": "text/html",
+  "bytes": 158271,
+  "sha256": "f8db5cd28d122c3662a6045148fc95d8bde245ee3d40d0eb74e50c82ff7d16e6",
+  "localPath": "Data/archive/2026-09-29/raw/google-gemini-3-7-flash-card.html",
+  "textPath": "Data/archive/2026-09-29/text/google-gemini-3-7-flash-card.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/google-gemini-3-7-flash-card.json",
+  "matchesResearchHash": true
+}

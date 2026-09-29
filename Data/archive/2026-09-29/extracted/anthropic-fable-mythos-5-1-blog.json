@@ -1,0 +1,871 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "p",
+      "text": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.",
+      "heading": "",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "p",
+      "text": "Claude Fable 5.1 and Claude Mythos 5.1 are the same model, but with different levels of safeguards. Fable 5.1 is generally available, while Mythos 5.1 is available only through our trusted access programs; its safeguards are specifically designed to support work in cybersecurity and the life sciences.",
+      "heading": "",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "Alongside its increased capabilities, Fable 5.1 takes important steps towards addressing the feedback we’ve received from customers on price, data retention, and safeguards.",
+      "heading": "",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "p",
+      "text": "Price . Fable 5.1 will cost an estimated 25% less than Fable 5 for typical workloads, wherever usage is billed by token. This is because we’re reducing our pricing on cache reads (where the model reads inputs that have already been processed and stored). For highly agentic work, the savings will often be much larger—up to approximately 45%.",
+      "heading": "",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "p",
+      "text": "Data retention . Our new system of Enterprise Frontier Safeguards (EFS) gives customers complete privacy (the same as a zero data retention policy) while still being state-of-the-art at preventing adversarial use. EFS works by storing data in cloud infrastructure controlled entirely by the customer, not Anthropic. It will be made available to enterprise customers in phases, beginning later this fall. Until EFS is available, eligible customers will be able to use Fable 5.1 with zero data retention.",
+      "heading": "",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "p",
+      "text": "Safeguards . We’ve improved our safeguards to reduce false positives (where the system flags benign content). In cybersecurity, our newest safeguards block 60% fewer false positives than before. In part, this is because Fable 5.1 can now be used to discover software vulnerabilities—though not to develop exploits for them. In biology, we’ve established an access program, developed in partnership with the US government, to enable access to Claude Mythos 5.1’s advanced biology capabilities. We expect to open enrollment for scientists soon.",
+      "heading": "",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "h2",
+      "text": "A new performance frontier",
+      "heading": "A new performance frontier",
+      "isFootnote": false
+    },
+    {
+      "index": 8,
+      "tag": "p",
+      "text": "Claude Fable 5.1 sets a new standard for coding, knowledge work, and long-running problem-solving tasks. The charts below show that Fable 5.1 is capable of much higher performance than its predecessor, Fable 5. And when set to Low or Medium effort, Fable 5.1 achieves results similar to or better than Fable 5’s at a much lower cost. (Note that Fable 5.1 defaults to High effort in Claude Code, and to Medium in Claude Cowork and on Claude.ai.)",
+      "heading": "A new performance frontier",
+      "isFootnote": false
+    },
+    {
+      "index": 9,
+      "tag": "figcaption",
+      "text": "Terminal-Bench-Science 0.1 Accuracy vs Cost",
+      "heading": "A new performance frontier",
+      "isFootnote": false
+    },
+    {
+      "index": 10,
+      "tag": "li",
+      "text": "Fable 5.1",
+      "heading": "A new performance frontier",
+      "isFootnote": false
+    },
+    {
+      "index": 11,
+      "tag": "li",
+      "text": "Fable 5",
+      "heading": "A new performance frontier",
+      "isFootnote": false
+    },
+    {
+      "index": 12,
+      "tag": "p",
+      "text": "Terminal-Bench-Science 0.1: The standard error is ±3.5–4.5 pts per model. The public leaderboard (3 trials/task, Claude Code harness) reports Claude Opus 5 at 30.0% and Claude Fable 5 at 21.4%; our setup reproduces them at 29.0% and 24.7%, respectively, both within noise.",
+      "heading": "A new performance frontier",
+      "isFootnote": false
+    },
+    {
+      "index": 13,
+      "tag": "p",
+      "text": "Fable 5.1 avoids shortcuts that result in poorer-quality work, and it’s smart enough to fix the root causes of software issues. For example, in testing by the investment firm Millennium, Fable 5.1 found the cause of a rare crash in its internal systems that none of its engineers (or any other model) had been able to explain after several years of trying.",
+      "heading": "A new performance frontier",
+      "isFootnote": false
+    },
+    {
+      "index": 14,
+      "tag": "p",
+      "text": "Here, you can see how Fable 5.1 compares across various benchmarks:",
+      "heading": "A new performance frontier",
+      "isFootnote": false
+    },
+    {
+      "index": 15,
+      "tag": "tr",
+      "text": "| Fable 5.1 | Fable 5 | Opus 5 | GPT-5.6 Sol",
+      "heading": "A new performance frontier",
+      "isFootnote": false,
+      "cells": [
+        "",
+        "Fable 5.1",
+        "Fable 5",
+        "Opus 5",
+        "GPT-5.6 Sol"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "Fable 5.1",
+          "Fable 5",
+          "Opus 5",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "Agentic scientific research Terminal-Bench-Science 0.1 [1]",
+          "52.6%",
+          "24.7%",
+          "29.0%",
+          "22.4%"
+        ]
+      ]
+    },
+    {
+      "index": 16,
+      "tag": "tr",
+      "text": "Agentic scientific research Terminal-Bench-Science 0.1 [1] | 52.6% | 24.7% | 29.0% | 22.4%",
+      "heading": "A new performance frontier",
+      "isFootnote": false,
+      "cells": [
+        "Agentic scientific research Terminal-Bench-Science 0.1 [1]",
+        "52.6%",
+        "24.7%",
+        "29.0%",
+        "22.4%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "Fable 5.1",
+          "Fable 5",
+          "Opus 5",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "Agentic scientific research Terminal-Bench-Science 0.1 [1]",
+          "52.6%",
+          "24.7%",
+          "29.0%",
+          "22.4%"
+        ]
+      ]
+    },
+    {
+      "index": 17,
+      "tag": "tr",
+      "text": "Agentic coding Terminal-Bench 4.0 | 55.8% 60.9% (Mythos 5.1) | 42.0% | 52.3% | 37.3%",
+      "heading": "A new performance frontier",
+      "isFootnote": false,
+      "cells": [
+        "Agentic coding Terminal-Bench 4.0",
+        "55.8% 60.9% (Mythos 5.1)",
+        "42.0%",
+        "52.3%",
+        "37.3%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "Fable 5.1",
+          "Fable 5",
+          "Opus 5",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "Agentic scientific research Terminal-Bench-Science 0.1 [1]",
+          "52.6%",
+          "24.7%",
+          "29.0%",
+          "22.4%"
+        ]
+      ]
+    },
+    {
+      "index": 18,
+      "tag": "tr",
+      "text": "Knowledge work GDPval-AA v2 | 1853 | 1723 | 1824 | 1711",
+      "heading": "A new performance frontier",
+      "isFootnote": false,
+      "cells": [
+        "Knowledge work GDPval-AA v2",
+        "1853",
+        "1723",
+        "1824",
+        "1711"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "Fable 5.1",
+          "Fable 5",
+          "Opus 5",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "Agentic scientific research Terminal-Bench-Science 0.1 [1]",
+          "52.6%",
+          "24.7%",
+          "29.0%",
+          "22.4%"
+        ]
+      ]
+    },
+    {
+      "index": 19,
+      "tag": "tr",
+      "text": "Computer use OSWorld 2.0 [2] | 77.9% partial | 72.9% partial | 75.4% partial | —",
+      "heading": "A new performance frontier",
+      "isFootnote": false,
+      "cells": [
+        "Computer use OSWorld 2.0 [2]",
+        "77.9% partial",
+        "72.9% partial",
+        "75.4% partial",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "Fable 5.1",
+          "Fable 5",
+          "Opus 5",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "Agentic scientific research Terminal-Bench-Science 0.1 [1]",
+          "52.6%",
+          "24.7%",
+          "29.0%",
+          "22.4%"
+        ]
+      ]
+    },
+    {
+      "index": 20,
+      "tag": "tr",
+      "text": "Computer use OSWorld 2.0 | 41.7% strict | 36.1% strict | 39.6% strict | —",
+      "heading": "A new performance frontier",
+      "isFootnote": false,
+      "cells": [
+        "Computer use OSWorld 2.0",
+        "41.7% strict",
+        "36.1% strict",
+        "39.6% strict",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "Fable 5.1",
+          "Fable 5",
+          "Opus 5",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "Agentic scientific research Terminal-Bench-Science 0.1 [1]",
+          "52.6%",
+          "24.7%",
+          "29.0%",
+          "22.4%"
+        ]
+      ]
+    },
+    {
+      "index": 21,
+      "tag": "tr",
+      "text": "Multidisciplinary reasoning Humanity's Last Exam | 60.9% no tools | 57.8% no tools | 56.6% no tools | —",
+      "heading": "A new performance frontier",
+      "isFootnote": false,
+      "cells": [
+        "Multidisciplinary reasoning Humanity's Last Exam",
+        "60.9% no tools",
+        "57.8% no tools",
+        "56.6% no tools",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "Fable 5.1",
+          "Fable 5",
+          "Opus 5",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "Agentic scientific research Terminal-Bench-Science 0.1 [1]",
+          "52.6%",
+          "24.7%",
+          "29.0%",
+          "22.4%"
+        ]
+      ]
+    },
+    {
+      "index": 22,
+      "tag": "tr",
+      "text": "65.0% with tools | 63.8% with tools | 63.6% with tools | —",
+      "heading": "A new performance frontier",
+      "isFootnote": false,
+      "cells": [
+        "65.0% with tools",
+        "63.8% with tools",
+        "63.6% with tools",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "Fable 5.1",
+          "Fable 5",
+          "Opus 5",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "Agentic scientific research Terminal-Bench-Science 0.1 [1]",
+          "52.6%",
+          "24.7%",
+          "29.0%",
+          "22.4%"
+        ]
+      ]
+    },
+    {
+      "index": 23,
+      "tag": "tr",
+      "text": "Business workflows AutomationBench | 31.4% | 17.1% | 26.9% | 19.6%",
+      "heading": "A new performance frontier",
+      "isFootnote": false,
+      "cells": [
+        "Business workflows AutomationBench",
+        "31.4%",
+        "17.1%",
+        "26.9%",
+        "19.6%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "Fable 5.1",
+          "Fable 5",
+          "Opus 5",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "Agentic scientific research Terminal-Bench-Science 0.1 [1]",
+          "52.6%",
+          "24.7%",
+          "29.0%",
+          "22.4%"
+        ]
+      ]
+    },
+    {
+      "index": 24,
+      "tag": "tr",
+      "text": "Agentic coding CursorBench 3.2.0 | 73.4% | 70.5% | 70.0% | 67.2%",
+      "heading": "A new performance frontier",
+      "isFootnote": false,
+      "cells": [
+        "Agentic coding CursorBench 3.2.0",
+        "73.4%",
+        "70.5%",
+        "70.0%",
+        "67.2%"
+      ],
+      "tableHeaders": [
+        [
+          "",
+          "Fable 5.1",
+          "Fable 5",
+          "Opus 5",
+          "GPT-5.6 Sol"
+        ],
+        [
+          "Agentic scientific research Terminal-Bench-Science 0.1 [1]",
+          "52.6%",
+          "24.7%",
+          "29.0%",
+          "22.4%"
+        ]
+      ]
+    },
+    {
+      "index": 25,
+      "tag": "figcaption",
+      "text": "Fable 5.1 was evaluated with its production safeguards enabled. On tasks where these safeguards intervened, Fable 5.1 and Fable 5 scored a zero on OSWorld 2.0, and Fable 5 scored a zero on AutomationBench. In all other interventions from our safeguards, cybersecurity tasks were completed by Claude Opus 4.8, and biology tasks were completed by Claude Opus 5. This likely reduces the performance of Fable 5.1 and Fable 5 on these benchmarks.",
+      "heading": "A new performance frontier",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "p",
+      "text": "Our early-access partners noticed these performance upgrades, and also picked up on more qualitative improvements in the model’s outputs. Here’s what they told us:",
+      "heading": "A new performance frontier",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "p",
+      "text": "“In internal benchmarks, Claude Fable 5.1 solves more of our coding problems than Fable 5 or Opus 5, and achieves state of the art on trading intuition. While prior models became hard to follow the longer they worked, Fable 5.1 remains readable over long, multi-step tasks.”",
+      "heading": "A new performance frontier",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "h2",
+      "text": "Scientific research",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "p",
+      "text": "We tested the scientific research capabilities of Claude Fable 5.1 and Claude Mythos 5.1 across a wide range of domains. What we found—which includes the early examples we share below—adds to the evidence that AI models will soon make important contributions to scientific discovery.",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "p",
+      "text": "Molecular design . Many modern medicines work by binding to targets within the body to block, activate, or deliver something to them. High-affinity binders are necessary for drugs to work at lower doses; designing one is the first step in the development process for many common drug modalities. To see how well Claude Mythos 5.1 could do at this task, we gave the model access to open-source protein design and folding tools and sent its designs to two external organizations for experimental validation. Mythos 5.1 proved able to design very high-affinity binders. On three targets, [3] its binding affinities were 10 times higher than the best designs submitted to Adaptyv Bio’s protein design competitions . Its hit rate (that is, the number of designs that were viable binders) was the strongest we’ve measured to date: it reached nearly 50% across 12 targets. (Hit rates of 10–15% are typical in protein design today.)",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "figcaption",
+      "text": "Claude-designed protein binders (orange) for each of 12 targets (grey). Every design in the video was confirmed to bind in the lab. Structures shown are ESMFold2 predictions.",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "p",
+      "text": "Computational analysis and modeling . Claude Fable 5.1 trained a neural network to create a new, high-resolution elevation map of a third of the planet Venus. Its work was based on radar images taken by NASA’s Magellan mission more than 30 years ago and a map that already existed for one-fifth of the planet. Claude’s new map now reveals details down to two to three kilometers, rather than 10 to 20, and shows heights up to 25% more accurately than before.",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "p",
+      "text": "We’re releasing this map under a Creative Commons license in advance of upcoming NASA VERITAS and ESA EnVision missions, in hopes that it might help them determine which geologic features to target for future observation.",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 34,
+      "tag": "figcaption",
+      "text": "Magellan radar",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 35,
+      "tag": "figcaption",
+      "text": "Altimetry 10-20km footprint",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 36,
+      "tag": "figcaption",
+      "text": "New DEM (300m) a volcano 15km across",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 37,
+      "tag": "figcaption",
+      "text": "A small shield volcano on Venus",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 38,
+      "tag": "p",
+      "text": "Computational biology . In computational biology, it’s common to run task-specific machine learning models on GPUs. The speed of these models is therefore a bottleneck to research progress. Mythos 5.1 provided one solution to this problem: by writing custom GPU kernels and caching their intermediate results, it sped up seven open-source deep learning models by up to 2.5 times (with identical outputs).",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 39,
+      "tag": "p",
+      "text": "The benefits of such speed-ups accumulate quickly. In any given experiment, biologists might run these models thousands of times (for example, testing every possible mutation near every human gene). On analyses like these, the optimized models cut estimated GPU costs by 30–60%. This kind of optimization would normally take a team of performance engineers weeks, and is often unaffordable for academic labs. Mythos 5.1 was able to do it in just days, using the publicly available source code alone. We plan to open-source these optimizations soon.",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 40,
+      "tag": "figcaption",
+      "text": "Inference speedup",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 41,
+      "tag": "p",
+      "text": "Inference speedup for seven open-source protein and genomics models on an NVIDIA H100",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 42,
+      "tag": "p",
+      "text": "As our models’ scientific capabilities improve, our investment in scientific progress is also growing. Last week, we previewed the Model Hardware Standard , which allows Claude to directly and safely operate laboratory equipment. We’ve also recently expanded our support for scientists through our AI for Science program , which provides free credits to researchers working on high-impact scientific projects, and we are offering steeply discounted usage through our new Claude Team plan for scientists .",
+      "heading": "Scientific research",
+      "isFootnote": false
+    },
+    {
+      "index": 43,
+      "tag": "h2",
+      "text": "Safety, security, and alignment",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 44,
+      "tag": "p",
+      "text": "AI models’ agentic capabilities have become much more powerful over the past two years. But as we’ve documented , greater autonomy comes with new risks. Work on safety, security, and alignment needs to advance at the same pace as AI capabilities. Yesterday, we published a report describing how we are improving our own alignment and security efforts",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 45,
+      "tag": "p",
+      "text": "Prior to releasing Claude Fable 5.1 and Claude Mythos 5.1, we (and, in some cases, external researchers) subjected the models to extensive testing for risks across many areas. We describe these efforts in full in our System Card ; below is a brief summary.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 46,
+      "tag": "p",
+      "text": "Chemical and biological risks . We tested the extent to which Claude Mythos 5.1 could help create chemical or biological weapons. This involved expert red-teaming, automated evaluations, and a tabletop exercise that paired PhD-level biologists with AI experts, testing whether the models could match human specialists’ performance. Mythos 5.1’s capabilities are greater than those of Mythos 5. However, our evaluations indicate that it still falls short of the next risk tier defined in our Responsible Scaling Policy . We are therefore deploying Mythos 5.1 with the same safeguards that we applied to Mythos 5, which restrict access to research biology capabilities.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 47,
+      "tag": "p",
+      "text": "Cyber risks . We ran a suite of evaluations to assess the cyber capabilities of Claude Mythos 5.1 (with cybersecurity safeguards off). Overall, the model demonstrates the strongest cyber capabilities of any model we’ve released, though it still falls within the lower category of risk in our Frontier Compliance Framework . We also performed extensive stress-testing of our cybersecurity safeguards for Fable 5.1: in addition to our own dynamic evaluation of their robustness, we commissioned external testing from two organizations, along with automated testing by Gray Swan . As with Fable 5 and Opus 5, we have not found evidence of a critical-severity jailbreak for these safeguards.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 48,
+      "tag": "p",
+      "text": "Agentic safety . We ran evaluations of how Claude Mythos 5.1 responds to malicious requests and prompt injections (adversarial instructions hidden within content processed by AI models). It refused malicious agentic coding and computer use requests at a comparable rate to Mythos 5, Sonnet 5, and Opus 5, and it is our most robust model to date on an external prompt injection benchmark .",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 49,
+      "tag": "p",
+      "text": "Alignment . We tested the model’s behavior through static and interactive behavioral evaluations, analyses of its internal thinking using natural language autoencoders , misalignment-related capability evaluations, a review of our training data, and analyses of our internal pilot use. We also received reports from external testing.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 50,
+      "tag": "p",
+      "text": "Our automated behavioral audit found that Claude Mythos 5.1 is better aligned across most metrics than its predecessor, Mythos 5. The model is significantly less likely than Mythos 5 to try to access resources outside of its test environment when assigned an otherwise impossible task. It is also less likely than Mythos 5 to use motivated reasoning to justify its actions (for instance, by reasoning that the situation is a simulation or evaluation), and it is less likely to ignore explicit constraints in pursuit of users’ goals. From our review of its training data, Mythos 5.1 both attempts reward hacking (or cheating), and succeeds at it, at a lower overall rate than Mythos 5.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 51,
+      "tag": "p",
+      "text": "Though generally our alignment evaluations showed improvements, our testing found the model can still sometimes bypass approvals and auto-mode classifiers (as we discuss in more detail in our System Card ). There are also limitations to the coverage provided by our alignment assessment. Currently, our automated behavioral audit provides less visibility into very long-context work and multi-agent settings. We also have less coverage of impossible tasks (which can elicit more abnormal and misaligned behavior) than we’d like, although we’ve recently made improvements in this domain and are working hard to continue doing so.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 52,
+      "tag": "p",
+      "text": "We have also improved our safeguards so that they allow our models to be more useful without compromising on safety. We describe these changes below.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 53,
+      "tag": "p",
+      "text": "Automated safeguards for enterprises . Enterprise Frontier Safeguards (EFS) allows us to detect and respond to misuse of our models while still providing our enterprise customers the privacy of a zero data retention agreement. With EFS, customers store their data on their own cloud infrastructure, rather than on Anthropic’s systems; any human review is, by default, done by the customer themselves, rather than Anthropic. We developed EFS in close collaboration with more than 100 customers across industries like financial services, healthcare, manufacturing, telecom, law, retail, and the public sector, and with our cloud partners at Amazon Web Services, Google Cloud, and Microsoft Azure.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 54,
+      "tag": "p",
+      "text": "EFS will be supported on Claude Code, Claude Enterprise, the Claude Platform, Amazon Bedrock, Claude Platform on AWS, Google’s Agent Platform, and Microsoft Foundry. It’s rolling out in phases, starting this fall. As noted above, customers who are eligible for EFS can use Fable 5.1 (and Fable 5) with zero data retention until EFS is ready. You can read more about EFS here ; to request access, please complete this form .",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 55,
+      "tag": "p",
+      "text": "More precise safeguards for biology and cybersecurity . In the past few months, we’ve made progress in making our safeguards for Fable 5.1 more precise: ensuring that they’re less likely to flag benign content (like queries about medical issues or cyberdefenders using the model to make their systems safer), but still ensuring they provide robust protection against genuine threats.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 56,
+      "tag": "p",
+      "text": "As we recently shared , our latest biology safeguards for Fable 5.1 and Fable 5 fire 85% less often for benign requests related to elementary biology and medical questions (relative to those that launched with Fable 5). However, queries related to research and development in the life sciences will still be directed to our Opus models. We’re making the model’s life sciences capabilities available to professionals through an access program for Claude Mythos 5.1 that we’ve developed in partnership with the US government, which we discuss below.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 57,
+      "tag": "p",
+      "text": "With Fable 5.1, we’re updating our cybersecurity safeguards to be more precise. We’re also now allowing Fable 5.1 to be used for identifying software vulnerabilities—that is, to conduct the kind of defensive work that improves software security. As a result of these changes, Claude Code users can expect an average of around 60% fewer interventions per session from our cyber safeguards, relative to the previous safeguards on Fable 5. Our safeguards do, however, still redirect several kinds of dual-use cybersecurity tasks (tasks that might have helpful or harmful applications) to our Opus models. This includes penetration testing, exploit generation, and binary-based vulnerability scanning.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 58,
+      "tag": "p",
+      "text": "Anti-distillation mechanisms . Distillation is a method used to extract the capabilities of advanced models. It is often employed on an industrial scale, using thousands of fake accounts. Distillation is a safety risk, since the distilled capabilities can subsequently be released without adequate safeguards. Fable 5.1 comes with strengthened mechanisms to make distillation attacks harder. For example, it is no longer possible for new API accounts (those created from today onwards) to manually edit Claude’s prior context in a multi-turn conversation while preserving the transcript of Claude’s prior thinking. This closes off a common, publicly documented distillation technique, which allowed distillers to illicitly extract Claude’s thinking. We’re rolling out the change gradually, to minimize disruption: existing accounts are not currently affected by this change, though it will apply to all users with future model releases. A small number of customers’ custom integrations will then be affected. Our Help Center article explains more about this change and the adjustments that developers can make.",
+      "heading": "Safety, security, and alignment",
+      "isFootnote": false
+    },
+    {
+      "index": 59,
+      "tag": "h2",
+      "text": "Trusted access for Claude Mythos 5.1",
+      "heading": "Trusted access for Claude Mythos 5.1",
+      "isFootnote": false
+    },
+    {
+      "index": 60,
+      "tag": "p",
+      "text": "Claude Mythos 5.1 is identical to Fable 5.1, but it offers more permissive safeguards for vetted individuals and organizations whose work is affected by the cybersecurity and life sciences restrictions outlined above. It will be available through two trusted access programs:",
+      "heading": "Trusted access for Claude Mythos 5.1",
+      "isFootnote": false
+    },
+    {
+      "index": 61,
+      "tag": "li",
+      "text": "Cyber Verification Program: The CVP currently provides access to certain Opus- and Sonnet-class models with reduced cyber safeguards for defensive security work. In the near future, this program will also include access to Claude Mythos-class models. Apply to join the CVP here .",
+      "heading": "Trusted access for Claude Mythos 5.1",
+      "isFootnote": false
+    },
+    {
+      "index": 62,
+      "tag": "li",
+      "text": "Life Sciences Verification Program: The LSVP is designed so that life sciences professionals can use Claude Mythos 5.1 with safeguards designed for professional research and development activities (while all other safeguards remain in place). In partnership with the US government, we have enrolled our first participants, and we plan to expand access to this program to the broader life sciences community.",
+      "heading": "Trusted access for Claude Mythos 5.1",
+      "isFootnote": false
+    },
+    {
+      "index": 63,
+      "tag": "p",
+      "text": "In addition to these trusted access programs, Claude Security , our product that scans codebases for vulnerabilities and suggests patches for human review, is now also powered by Claude Mythos 5.1.",
+      "heading": "Trusted access for Claude Mythos 5.1",
+      "isFootnote": false
+    },
+    {
+      "index": 64,
+      "tag": "h2",
+      "text": "Compliance with the EU AI Act",
+      "heading": "Compliance with the EU AI Act",
+      "isFootnote": false
+    },
+    {
+      "index": 65,
+      "tag": "p",
+      "text": "In July 2026, Anthropic (along with 190 other signatories , including several other major AI model providers) signed the EU AI Act’s Code of Practice on Transparency of AI-Generated Content.",
+      "heading": "Compliance with the EU AI Act",
+      "isFootnote": false
+    },
+    {
+      "index": 66,
+      "tag": "p",
+      "text": "This required us to add a watermark—a numerical way of determining the likelihood that Claude was involved in writing a piece of text—to the outputs of models released after August 2, 2026. As we recently explained , this watermark is invisible to anyone who does not have the detection API. It has no practical impact on the quality or content of Claude’s outputs and contains no information about the user, their organization, or their conversations with Claude.",
+      "heading": "Compliance with the EU AI Act",
+      "isFootnote": false
+    },
+    {
+      "index": 67,
+      "tag": "p",
+      "text": "The Act also required us to provide a way for users to tell whether a text likely contains the watermark. We are thus rolling out a detection API in private preview. It is currently available to eligible organizations (such as regulators, law enforcement, media, fact-checkers, independent researchers, educational organizations, and EU civil society groups) as required under EU law. It is also available for enterprises that are similarly obligated to verify watermarking for their own compliance with the Act. We plan to expand access to the detection API over time. You can register interest in access here .",
+      "heading": "Compliance with the EU AI Act",
+      "isFootnote": false
+    },
+    {
+      "index": 68,
+      "tag": "h2",
+      "text": "Cost and availability",
+      "heading": "Cost and availability",
+      "isFootnote": false
+    },
+    {
+      "index": 69,
+      "tag": "p",
+      "text": "Claude Fable 5.1 is available today on all platforms, including Amazon Web Services, Google Cloud, and Microsoft Azure. Developers can get started with claude-fable-5-1 on the Claude API.",
+      "heading": "Cost and availability",
+      "isFootnote": false
+    },
+    {
+      "index": 70,
+      "tag": "p",
+      "text": "As mentioned above, we have reduced the price of Fable 5.1’s cache reads (where the model reuses context it has already processed) wherever usage is billed by token, such as on our API. Cache reads now cost 75% less, or $0.25 per million tokens.",
+      "heading": "Cost and availability",
+      "isFootnote": false
+    },
+    {
+      "index": 71,
+      "tag": "p",
+      "text": "This change leads to a substantial reduction in the overall cost of running the model. For typical workloads, costs are reduced by around 25% relative to Fable 5. For complex coding and highly agentic tasks, the savings could be up to around 45%. The graph below illustrates why this change makes such a big difference:",
+      "heading": "Cost and availability",
+      "isFootnote": false
+    },
+    {
+      "index": 72,
+      "tag": "figcaption",
+      "text": "Indexed cost of Fable usage",
+      "heading": "Cost and availability",
+      "isFootnote": false
+    },
+    {
+      "index": 73,
+      "tag": "li",
+      "text": "Cache reads",
+      "heading": "Cost and availability",
+      "isFootnote": false
+    },
+    {
+      "index": 74,
+      "tag": "li",
+      "text": "All other tokens",
+      "heading": "Cost and availability",
+      "isFootnote": false
+    },
+    {
+      "index": 75,
+      "tag": "p",
+      "text": "Indexed cost of running the same workloads on Fable 5 and Fable 5.1, at usage-based pricing measured at default effort over four weeks of actual usage in August 2026. Typical workload covers Fable usage across Claude Enterprise, Claude Code, and the API. Highly agentic workload covers context-heavy, tool-heavy work, where cache reads make up most of the cost.",
+      "heading": "Cost and availability",
+      "isFootnote": false
+    },
+    {
+      "index": 76,
+      "tag": "p",
+      "text": "Fable 5.1’s pricing is otherwise the same as Fable 5’s: $10 per million input tokens and $50 per million output tokens. In parallel, we’re continuing our work to bring many of the improvements of Fable 5.1 to the rest of our model family.",
+      "heading": "Cost and availability",
+      "isFootnote": false
+    },
+    {
+      "index": 77,
+      "tag": "p",
+      "text": "As discussed above, Claude Mythos 5.1 is available to vetted cyberdefenders and life scientists. Currently, it is only available to a set of US organizations, though we’re coordinating with the US government to expand access to a broader set of domestic and international partners as quickly as possible. To register interest in access to Claude Mythos 5.1 for cyberdefense through the CVP, head here .",
+      "heading": "Cost and availability",
+      "isFootnote": false
+    },
+    {
+      "index": 78,
+      "tag": "h2",
+      "text": "Get started",
+      "heading": "Get started",
+      "isFootnote": false
+    },
+    {
+      "index": 79,
+      "tag": "h2",
+      "text": "Footnotes",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 80,
+      "tag": "p",
+      "text": "1 Terminal-Bench-Science 0.1: The standard error is ±3.5–4.5 pts per model. The public leaderboard (3 trials/task, Claude Code harness) reports Claude Opus 5 at 30.0% and Claude Fable 5 at 21.4%; our setup reproduces them at 29.0% and 24.7%, respectively, both within noise.",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 81,
+      "tag": "p",
+      "text": "2 OSWorld 2.0: Scores are on the benchmark authors’ August 2026 task release; Fable 5 and Opus 5 were re-run under the same conditions. Because the task files differ from earlier releases, these numbers aren't directly comparable to previously published OSWorld 2.0 results, which is why no competitor score is shown",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 82,
+      "tag": "p",
+      "text": "3 These three targets are (EGFR, Nipah G, 15-PGDH) and come from Adaptyv Bio’s protein design competitions . The Nipah G comparison is against de novo designs targeting the receptor-binding site on the G head (best: ~8–12 nM, N1032 ). A de novo entry from Nick Boyd/Escalante Bio that targets a different region (the stalk) reached ~1.4 nM ( design_7 ), comparable to our best binder.",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 83,
+      "tag": "h2",
+      "text": "Further reading",
+      "heading": "Further reading",
+      "isFootnote": false
+    },
+    {
+      "index": 84,
+      "tag": "p",
+      "text": "1 . The Claude Fable 5.1 and Claude Mythos 5.1 system card. View card",
+      "heading": "Further reading",
+      "isFootnote": false
+    },
+    {
+      "index": 85,
+      "tag": "p",
+      "text": "2 . More detail on our Enterprise Frontier Safeguards. Learn more",
+      "heading": "Further reading",
+      "isFootnote": false
+    },
+    {
+      "index": 86,
+      "tag": "p",
+      "text": "3 . Request access to our Enterprise Frontier Safeguards. Open form",
+      "heading": "Further reading",
+      "isFootnote": false
+    },
+    {
+      "index": 87,
+      "tag": "p",
+      "text": "4 . An overview of our improvements to our biology safeguards. Learn more",
+      "heading": "Further reading",
+      "isFootnote": false
+    },
+    {
+      "index": 88,
+      "tag": "p",
+      "text": "5 . Support for scientists. Read more",
+      "heading": "Further reading",
+      "isFootnote": false
+    },
+    {
+      "index": 89,
+      "tag": "p",
+      "text": "6 . Earlier work by Claude in protein design. Read more",
+      "heading": "Further reading",
+      "isFootnote": false
+    },
+    {
+      "index": 90,
+      "tag": "p",
+      "text": "7 . Earlier work by Claude in mathematics. Read more",
+      "heading": "Further reading",
+      "isFootnote": false
+    },
+    {
+      "index": 91,
+      "tag": "p",
+      "text": "8 . More about the Model Hardware Standard. Learn more",
+      "heading": "Further reading",
+      "isFootnote": false
+    }
+  ]
+}

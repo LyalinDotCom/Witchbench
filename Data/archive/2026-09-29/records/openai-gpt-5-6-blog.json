@@ -1,0 +1,19 @@
+{
+  "id": "openai-gpt-5-6-blog",
+  "sourceUrl": "https://openai.com/index/gpt-5-6/",
+  "expectedBytes": 1393551,
+  "expectedSha256": "7a8de073fb0a6d9f8ca0726030d7dbd9f3cebe839108b58b99dbf93a7c690d1a",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.845994+00:00",
+  "finalUrl": "https://openai.com/index/gpt-5-6/",
+  "contentType": "text/html",
+  "bytes": 1393501,
+  "sha256": "50ea5d444a828581679b6546be2ea3e7dd46c245bdf7f3d1ed31e168e2224862",
+  "localPath": "Data/archive/2026-09-29/raw/openai-gpt-5-6-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/openai-gpt-5-6-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/openai-gpt-5-6-blog.json",
+  "matchesResearchHash": false
+}

@@ -1,0 +1,152 @@
+0001 [p] July 9, 2026
+0002 [h1] GPT‑5.6: Frontier intelligence that scales with your ambition
+0003 [p] More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.
+0004 [h2] This post introduced GPT-5.6 in 2026.
+0005 [p] Learn about OpenAI’s latest model:
+0006 [p] Update on August 21, 2026: OpenAI dropped the API and credit pricing of GPT‑5.6 Sol by over 20% for the next 3 months.
+0007 [p] Update on July 30, 2026: OpenAI reduced the price of GPT‑5.6 Luna by 80% and GPT‑5.6 Terra by 20%. Learn more here .
+0008 [p] We’re launching the GPT‑5.6 family of models for general availability following our limited preview ⁠ : our new flagship, Sol , alongside Terra , a balanced model for everyday work, and Luna , our most cost-efficient model.
+0009 [p] GPT‑5.6 Sol sets a new standard for both intelligence and efficiency, achieving state-of-the-art results across coding, knowledge work, cybersecurity, and science while outperforming previous and competing frontier models with fewer tokens and at lower estimated cost. The result is stronger performance per dollar: more successful work for the same spend, or comparable results at a lower total cost. We also introduce a new way to accelerate the most demanding work: ultra is our highest-capability setting, coordinating multiple agents across parallel workstreams to finish complex tasks faster. Stronger computer use and design judgment make GPT‑5.6 Sol our most polished collaborator yet, helping it inspect, refine, and deliver ready-to-use results.
+0010 [p] We trained GPT‑5.6 to get more useful work from every token. On Agents’ Last Exam ⁠ (opens in a new window) , an evaluation of long-running professional workflows across 55 fields, GPT‑5.6 Sol sets a new high of 53.6, eclipsing Claude Fable 5 (adaptive reasoning) by 13.1 points. Even at medium reasoning, it beats Fable 5 by 11.4 points at roughly one-quarter the estimated cost. That efficiency extends to smaller models, which are essential to making intelligence more abundant and affordable: GPT‑5.6 Terra and GPT‑5.6 Luna outperform Fable 5 at around one-sixteenth the cost. On the Artificial Analysis Intelligence Index ⁠ (opens in a new window) , a broad measure of intelligence spanning agentic work, coding, scientific reasoning, and general capabilities, GPT‑5.6 Sol with max reasoning comes within one point of Fable 5 while completing tasks in 61% less time at roughly half the estimated cost.
+0011 [p] GPT‑5.6 launches with our most robust safeguards to date, designed to be resilient against determined and adaptive misuse without broadly limiting legitimate work. Before general availability, we put the models and safeguards through our most extensive evaluation period yet, combining human red teaming with large-scale automated testing. During the preview, we worked closely with expert organizations and with trusted partners to pressure-test defenses and strengthen safeguards before broader launch. The resulting system layers protections trained into the model with real-time checks, monitoring, and access calibrated to trust and risk.
+0012 [h2] Efficient by default, maximum performance on demand
+0013 [p] GPT‑5.6 Sol is our best coding model yet. On the Artificial Analysis Coding Agent Index, GPT‑5.6 Sol with max reasoning sets a new state of the art at 80, 2.8 points above Fable 5, while using less than half the output tokens, taking less than half the time, and costing about one-third less. That advantage extends across the family: Terra performs just above Fable 5, while Luna outperforms Opus 4.8; each does so in roughly one-third of the time, with about half as many output tokens, and at approximately one-quarter the estimated cost. It also sets new state-of-the-art results on Terminal‑Bench 2.1 and DeepSWE, which test complex command-line workflows and long-horizon engineering in real codebases.
+0014 [p] GPT‑5.6 can write and run lightweight programs that coordinate tools, process intermediate results, monitor progress, and choose the next action as work unfolds. This lets tool-heavy tasks advance with fewer tokens, fewer model round trips, and less guidance. Instead of requiring developers to script every step or passing every tool response back through the model, Programmatic Tool Calling ⁠ (opens in a new window) in the Responses API can filter large amounts of intermediate data, retain only what matters, and adapt its workflow along the way.
+0015 [p] For problems that reward a greater investment of time and compute, GPT‑5.6 can push beyond this efficient default. max gives GPT‑5.6 even more time than xhigh to reason and explore alternatives, run checks, and revise its approach. ultra goes further by coordinating four agents in parallel by default, trading higher token use for stronger results and faster time-to-result on demanding tasks. The charts below compare ultra’s default four-agent setup with a one-agent baseline across BrowseComp, SEC-Bench Pro, and Terminal-Bench 2.1; BrowseComp and SEC-Bench Pro also show 16-agent configurations. Across all three evaluations, adding parallel agents shifts the score-latency frontier upward and to the left, reaching stronger results in less time. In the API, developers can build ultra-like experiences using the multi-agent ⁠ (opens in a new window) beta in the Responses API. 4 , 5 , 6
+0016 [figcaption] —Oskar Schulz, President at Cursor
+0017 [li] Cursor
+0018 [li] Qodo
+0019 [li] Notion
+0020 [li] Cognition
+0021 [li] Rogo
+0022 [li] Ramp
+0023 [li] Shopify
+0024 [li] Cisco
+0025 [li] Clio
+0026 [li] Balyasny Asset Management
+0027 [li] Basis
+0028 [h2] A leap forward in design
+0029 [p] GPT‑5.6 delivers a step change in design judgment. With only high-level direction, GPT‑5.6 creates tasteful, ergonomic, and functional interfaces. Its stronger computer-use capabilities let it inspect and refine the rendered result—not just generate the underlying code or content—so it can catch visual and functional issues and apply finishing touches before handing the work back.
+0030 [p] GPT‑5.6’s frontend capabilities also turn natural-language requests into polished, interactive explanations and visualizations within ChatGPT Work.
+0031 [h2] End-to-end knowledge work
+0032 [p] GPT‑5.6 delivers better results for professional tasks. It takes messy context from your documents and everyday workflows like Slack, Notion, Microsoft 365, and Google Drive, and converts it into expert-level, shareable artifacts.
+0033 [p] GPT‑5.6’s strength on knowledge work shows up in evaluations spanning long-horizon professional analysis, browsing, tool use, and computer use. GPT‑5.6 Sol sets new state-of-the-art results on BrowseComp at 92.2% and OSWorld 2.0 at 62.6%; on OSWorld, it surpasses Opus 4.8 while using 85% fewer output tokens. Here, the performance-per-dollar gains extend across the GPT‑5.6 family. Luna nearly matches GPT‑5.5’s peak performance at less than half the estimated cost, while Terra surpasses it at a lower cost.
+0034 [p] GPT‑5.6 Sol improves quality in presentations, documents, and spreadsheets, producing outputs that are more polished and accurate. It can create fully editable presentations from scratch, translating a prompt and source material into a coherent visual narrative with strong layouts, hierarchy, and design.
+0035 [p] The improvement is especially pronounced when following templates and reference decks. GPT‑5.6 can infer a deck’s design system—layouts, typography, spacing, colors, and recurring content patterns, including rules embedded in the Slide Master—and apply those conventions consistently to new material. In this example, when asked to update numbers based on a reference file, the GPT‑5.5 output is missing key components from the master slide, while GPT‑5.6 follows the reference structure more faithfully.
+0036 [h5] Reference file
+0037 [h5] GPT‑5.5 output
+0038 [h5] GPT‑5.6 output
+0039 [p] GPT‑5.6 also creates more visually refined documents and spreadsheets. It follows complex reference formats more faithfully, which is important for repeatable knowledge work activities. It handles equations and financial models with greater precision, and makes better use of typography, spacing, hierarchy, and page or worksheet layout.
+0040 [p] Early customers testing GPT‑5.6 saw improvements to knowledge work outputs across domains.
+0041 [figcaption] —Fabian Hedin, Co-Founder at Lovable
+0042 [li] Lovable
+0043 [li] ModelML
+0044 [li] Triple Whale
+0045 [li] PlayCo
+0046 [li] Canva
+0047 [li] Microsoft
+0048 [li] Base44
+0049 [li] Legora
+0050 [li] Figma
+0051 [h2] Pushing the frontier on cyber and science
+0052 [p] GPT‑5.6 is our strongest cybersecurity model yet, achieving frontier performance with significantly fewer tokens. On ExploitBench 2 , which measures progress from reaching vulnerable code through arbitrary code execution, it scores 73.5% versus GPT‑5.5’s 47.9% at a comparable output-token budget. On ExploitGym 3 , which asks agents to turn real-world vulnerabilities into working exploits, it almost doubles GPT‑5.5’s peak pass rate, from 15.1% to 24.9% under the two-hour cap; with six hours, it reaches 33.7%. On SEC-Bench Pro, which tests proof-of-concept generation on complex software, it scores 71.2% versus GPT‑5.5’s 45.8% at an improved latency. 1
+0053 [p] GPT‑5.6 supports important defensive tasks such as secure code review, patching, threat modeling, and blue teaming. Qualified individuals and organizations in OpenAI Daybreak’s Trusted Access for Cyber ⁠ program can access more of its defensive capability through more precise safeguards for verified work in authorized environments, including vulnerability triage and validation, malware analysis, detection engineering, and patch validation.
+0054 [p] Individuals can verify their identity and request trusted access ⁠ (opens in a new window) , and organizations can apply ⁠ for their teams. Individual members will need to enable Advanced Account Security ⁠ (opens in a new window) with hardware-backed passkeys by September 1 to retain access to our most cyber-capable frontier models; those who do not will return to default access. Users who do not already have hardware-backed passkeys can receive preferred pricing ⁠ (opens in a new window) from our partner, Yubico. We are also taking additional steps to restrict access to high-risk entities and in high-risk jurisdictions.
+0055 [p] GPT‑5.6 Sol also shows broad gains across scientific research . On life sciences evaluations, GPT‑5.6 demonstrates Pareto improvements over GPT‑5.5 on real-world biology, life science research workflows, and chemistry.
+0056 [h2] GPT‑5.6 accelerates OpenAI
+0057 [p] GPT‑5.6 is our strongest model yet for accelerating AI research. Inside OpenAI, researchers use it across the development loop: diagnosing failures, optimizing training systems, running experiments, and interpreting results. We already saw that acceleration and stronger adoption during the internal testing period of GPT‑5.6, as average daily output tokens per active researcher were more than twice the highest level observed for GPT‑5.5.
+0058 [p] This way of working is quickly becoming standard. Over the past six months, the share of research compute devoted to internal coding inference grew 100-fold, while internal agentic token usage increased approximately 22-fold. These adoption metrics do not measure research progress on their own, but they show how rapidly AI assistance is increasing for research and across other teams like sales, marketing, user ops, finance, and more.
+0059 [p] To measure this capability directly, we developed an internal suite of evaluations based on real AI research tasks, including debugging research systems, optimizing kernels and training recipes, running machine-learning experiments, and improving another model.
+0060 [h2] Scaling safety and security with capability
+0061 [p] As model capabilities increase, we strengthen our safety stack so advanced intelligence can remain broadly useful while applying greater scrutiny to the highest-risk uses. For GPT‑5.6, we built our most robust safety system to date, calibrated to each model’s capabilities and powered by more compute than ever before.
+0062 [p] The GPT‑5.6 models are more capable than our earlier models in both biology and cybersecurity but do not cross the Critical threshold in either category. In cybersecurity, our testing suggests GPT‑5.6 is better at finding and fixing vulnerabilities than at reliably carrying out autonomous, end-to-end attacks against hardened targets—giving defenders an opportunity to strengthen systems before weaknesses are exploited. In biology, our testing suggests GPT‑5.6 can support legitimate research but does not provide the end-to-end capability needed to create, engineer, or synthesize a highly dangerous novel threat.
+0063 [p] Both domains are inherently dual-use. In cybersecurity, the same capabilities that could help an attacker exploit a vulnerability can help a defender find it, reproduce it, and build a reliable fix. Overblocking therefore creates a security risk of its own. It can prevent defenders from testing systems and deploying patches while malicious actors continue using other models, including increasingly capable open-source models, as well as established tools. Effective safeguards account for the context and likely consequences of a request, preserving legitimate defensive work while applying stronger controls where the evidence indicates a serious risk of harm.
+0064 [p] GPT‑5.6’s safeguards are layered for greater accuracy and redundancy, and designed to adapt quickly as new attacks emerge. Protections trained into the model work alongside real-time checks, continuous monitoring, and account-level enforcement, to help the system remain safe even when a particular layer does not work as intended. In many systems, classifier flags alone decide what to block, relying on lower intelligence models that are harder to change in order to prevent harm. Our approach adds a reasoning monitor that reviews the conversation to determine if there is a potential for harm. This design is intended to enable defensive work while blocking serious misuse, with the most sensitive capabilities reserved for verified users through Trusted Access. Because some protections use test-time reasoning, we can rapidly update them to close gaps without retraining classifiers from scratch.
+0065 [p] We are taking a more conservative approach as we continue to strengthen the system against adaptive attacks. Compared with previous models, our GPT‑5.6 Sol cyber safeguards block roughly ten times more potentially harmful activity. Because these measures can create friction for benign use, we provide an option in ChatGPT and Codex to easily retry prompts on lower-capability models, and we will continue reducing the impact of our safeguards on benign use while maintaining a high robustness bar. This reflects our iterative deployment approach: starting conservatively and improving based on what we learn from real-world use.
+0066 [p] Before general availability, we ran our most intensive safety evaluations to date, including extensive red teaming, robust capability and safeguard testing with external experts, and approximately 700,000 NVIDIA A100 Tensor Core GPU-equivalent hours of black-box automated red teaming. This enabled us to systematically probe likely weak points, surface jailbreaks, and help us strengthen the system before launch.
+0067 [p] There is no such thing as perfect security, and our work to secure increasingly capable models continues. New weaknesses will be discovered, as will new jailbreaks that circumvent existing safeguards. Each new generation of model will also create new avenues for attack and misuse. We build for that reality through layered safeguards, continuous monitoring, rapid remediation, and collaboration across the defensive community. For GPT‑5.6, we have paired our existing security ⁠ (opens in a new window) and biology bug bounty programs ⁠ with a new rapid-remediation process and our strongest monitoring effort to date. Findings from researchers, monitoring, and real-world misuse will feed into new evaluations and stronger safeguards on an ongoing basis.
+0068 [p] Read more about our safeguards in the updated GPT‑5.6 system card ⁠ (opens in a new window) .
+0069 [h2] Availability and pricing
+0070 [p] GPT‑5.6 spans three model tiers: Sol, our flagship; Terra, a lower-cost model with performance competitive with GPT‑5.5; and Luna, our fastest and most affordable model. The number identifies the generation, while Sol, Terra, and Luna are durable capability tiers that can advance on their own cadence.
+0071 [p] GPT‑5.6 is available starting today across ChatGPT, Codex, and the OpenAI API. The rollout is starting globally now and will continue gradually toward full availability over the next 24 hours.
+0072 [li] Chat: Plus, Pro, Business, and Enterprise users access GPT‑5.6 Sol through medium and higher effort settings. Pro and Enterprise users can also select GPT‑5.6 Sol Pro for the highest-quality results on complex tasks.
+0073 [li] ChatGPT Work and Codex: Free and Go users access GPT‑5.6 Terra. Plus, Pro, Business, and Enterprise users can choose among GPT‑5.6 Sol, Terra, and Luna and set an effort level for each. max is available to all users with access to GPT‑5.6 in ChatGPT Work and Codex and can be toggled on in settings. In ChatGPT Work, ultra is available to Pro and Enterprise users. In Codex, it is available to Plus and higher plans.
+0074 [li] API: Developers can access Sol, Terra, and Luna through the OpenAI API. In the Responses API, Programmatic Tool Calling lets GPT‑5.6 write and run programs in-memory that coordinate tools and process intermediate results, making it Zero Data Retention (ZDR) compatible. Multi-agent, initially available in beta, lets GPT‑5.6 run concurrent subagents and synthesize their work in a single request.
+0075 [p] GPT‑5.6 is priced per 1M tokens across three model sizes: Sol is $5 input / $30 output; Terra is $2.50 input / $15 output; and Luna is $1 input / $6 output. GPT‑5.6 also introduces more predictable prompt caching, including support for explicit cache breakpoints ⁠ (opens in a new window) and a 30-minute minimum cache life. For GPT‑5.6 and later models, cache writes are billed at 1.25x the model’s uncached input rate, while cache reads continue to receive the 90% cached-input discount.
+0076 [p] 7 , 8
+0077 [h3] Professional
+0078 [tr] Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview | Gemini 3.5 Flash
+0079 [tr] Agents' Last Exam | 52.7% | 50.4% | 50.3% | 46.9% | 40.5% | 45.2% | 32.1% | —
+0080 [tr] GDPval-AA v2 | 1,747.8 Elo | 1,593 Elo | 1,591.8 Elo | 1,493.7 Elo | 1,759.6 Elo | 1,600.1 Elo | 962.3 Elo | 1,348.8 Elo
+0081 [tr] Management Consulting Tasks (Internal) | 43.2% | 37.2% | 35.4% | 31.3% | 35.5% | 31.6% | 13.2% | —
+0082 [tr] Big Finance Bench | 53% | 51% | 36% | 49% | — | 44% | — | —
+0083 [tr] Artificial Analysis Intelligence Index v4.1 | 58.9 Index score | 55 Index score | 51.2 Index score | 54.8 Index score | 59.9 Index score | 55.7 Index score | 46.5 Index score | 50.2 Index score
+0084 [h3] Coding
+0085 [tr] Eval | GPT‑5.6 Sol | GPT‑5.6 Sol Ultra | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview
+0086 [tr] Artificial Analysis Coding Agent Index v1.1 | 80 Index score | — | 77.4 Index score | 74.6 Index score | 76.4 Index score | — | — | 77.2 Index score | 72.5 Index score | 42.7 Index score
+0087 [tr] SWE-Bench Pro | 64.6% | — | 63.4% | 62.7% | 59.4% | 80.3% | 77.8% | 80% | 69.2% | 54.2%
+0088 [tr] DeepSWE v1.1 | 72.7% | — | 69.6% | 67.2% | 67% | — | — | 69.7% | 59% | 11.8%
+0089 [tr] Terminal-Bench 2.1 | 88.8% | 91.9% | 87.4% | 84.7% | 85.6% | 88% | — | 83.1% | 78.9% | 70.7%
+0090 [h3] Science and health
+0091 [tr] Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview | Gemini 3.5 Flash
+0092 [tr] GeneBench Pro | 28.7% | 23.3% | 10.8% | 12% | — | 16% | 3.1% | 8.14%
+0093 [tr] LifeSciBench | 59.9% | 56% | 51.2% | 50.4% | — | 53.6% | — | —
+0094 [tr] MedChemBench (Internal) | 48.3% | 35% | 30.4% | 35.5% | — | — | — | —
+0095 [tr] HealthBench Professional⁶ | 60.5% | 57.7% | 55.7% | 49.5% | 60.9% | 53% | — | —
+0096 [h3] Computer use
+0097 [tr] Eval | GPT‑5.6 Sol | GPT‑5.6 Sol Ultra | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Opus 4.8 | Gemini 3.1 Pro Preview
+0098 [tr] OSWorld 2.0 | 62.6% | — | 50.2% | 45.6% | 47.5% | — | — | 54.8% | —
+0099 [tr] BrowseComp | 90.4% | 92.2% | 87.5% | 83.3% | 84.4% | 88% | 87.9% | 84.3% | 85.9%
+0100 [tr] BenchCAD | 70.6% | — | 62.3% | 63.1% | 44.4% | 38.4% | 35.5% | 27.3% | —
+0101 [tr] BenchCAD (python tool) | 83.4% | — | 78.2% | 73.9% | 55.8% | 65% | 61% | 51.8% | —
+0102 [h3] Cybersecurity
+0103 [tr] Eval | GPT‑5.6 Sol | GPT‑5.6 Sol Ultra | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Opus 4.8
+0104 [tr] Capture-the-Flag Challenges | 96.7% | — | 91.8% | 85.2% | 88.1% | — | — | —
+0105 [tr] SEC-Bench Pro | 71.2% | 74.3% | 57.7% | 48.9% | 45.8% | — | — | —
+0106 [tr] ExploitBench | 73.5% | — | 52.9% | 33.2% | 47.9% | 78% | 74.2% | 40%
+0107 [tr] ExploitGym | 33.7% | — | 23.2% | 12.4% | 15.1% | — | — | —
+0108 [h3] Self-improvement
+0109 [tr] Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5
+0110 [tr] Internal Research Debugging Evaluation | 68.3% | 67.8% | 50.8% | 50%
+0111 [tr] KernelGen 1P | 61.1% | 49.2% | 22.4% | 29.3%
+0112 [tr] NanoGPT | 9.69% | 14.5% | 1.66% | 2.65%
+0113 [tr] PostTrainBench Lite | 50.3% | 51.5% | 29.6% | 38.8%
+0114 [tr] RSI Index | 57.9% | 56.3% | 41.9% | 41.7%
+0115 [h3] Multimodal
+0116 [tr] Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview
+0117 [tr] MMMU Pro (no tools) | 83% | 80.7% | 78.4% | 81.2% | — | — | 80.5%
+0118 [tr] MMMU Pro (with tools) | 84.6% | 82% | 79.5% | 83.2% | — | — | —
+0119 [tr] gdp.pdf | 30.7% | 24.7% | 22.7% | 26% | 29.8% | 22.5% | 16.7%
+0120 [h3] Academic
+0121 [tr] Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview
+0122 [tr] GPQA Diamond | 94.6% | 92.9% | 92.3% | 93.6% | 94.1% | 94.6% | 92.6% | 92% | 94.3%
+0123 [tr] FrontierMath Tier 1-3 (v2) | 89% | 84.9% | 78.6% | 85.3% | — | — | 87% | 80% | 59.6%
+0124 [tr] FrontierMath Tier 4 (v2) | 83% | 68.3% | 58.5% | 72.5% | — | — | 87.8% | 56.1% | —
+0125 [h3] Tool use
+0126 [tr] Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview | Gemini 3.5 Flash
+0127 [tr] AutomationBench | 18.1% | 15.2% | 14.9% | 12.9% | — | — | 17.4% | 15.5% | — | 14.5%
+0128 [tr] Toolathlon | 58% | 53.1% | 53.4% | 55.6% | 61.7% | 61.1% | 61.7% | 59.9% | 48.8% | —
+0129 [h3] Long context
+0130 [tr] Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Opus 4.8
+0131 [tr] OpenAI MRCR v2 8-needle 256K-512K | 91.5% | 89.6% | 41.3% | 81.5% | — | — | —
+0132 [tr] OpenAI MRCR v2 8-needle 512K-1M | 73.8% | 72.5% | 41.3% | 74% | — | — | —
+0133 [tr] GraphWalks BFS 256k f1 | 90.7% | 76.9% | 81.3% | 73.7% | 91.1% | 85.7% | 85.9%
+0134 [tr] GraphWalks BFS 1mil f1 | 77.1% | 71.2% | 51.2% | 45.4% | 79.4% | 74.3% | 68.1%
+0135 [h3] Abstract reasoning
+0136 [tr] Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview
+0137 [tr] ARC-AGI-3⁷ | 7.78% | 0.8% | 0.18% | 0.43% | 1.5% | 0.42%
+0138 [li] 2026
+0139 [h2] Author
+0140 [h2] Footnotes
+0141 [li] 1 Cyber capabilities are evaluated with reduced safeguards. Users can join OpenAI Daybreak’s Trusted Access for Cyber program ⁠ for increased access to defensive cyber capabilities.
+0142 [li] 2 All models are evaluated using the ExploitBench API harness with 5 seeds and reasoning continuity.
+0143 [li] 3 We ran ExploitGym on our alpha API, which outputs responses faster than our public API, and then rescaled to match our public API. When rescaling latencies to the speeds expected for our public API, this causes some estimated latencies to exceed the two- and six-hour time limits, despite being correctly obeyed in the evaluation run. To get faster speeds for time-sensitive work, we offer priority processing⁠ in the API and fast mode⁠ in Codex.
+0144 [li] 4 We estimate latency and API cost by looking at the production behavior of our models, and simulating offline. These estimates account for tool call details, sampled tokens, and input tokens. Real-world results may vary substantially, and depend on many factors not captured in our simulation. We simulate latency at fast API speeds, and cost at regular API pricing.
+0145 [li] 5 Models without reported output tokens, latency or cost are plotted as horizontal dotted lines.
+0146 [li] 6 For multi-agent, latency is derived from the root agent, while output token and API-cost totals include all tokens. Ultra is run with 4 agents.
+0147 [li] 7 We compute scores with the official scoring approach described in the HealthBench Professional paper, which is not comparable to results reported in Anthropic system cards.
+0148 [li] 8 ARC-AGI-3 for Opus 4.8 was run on high and not max reasoning effort, as this is the only published ARC-AGI-3 result.
+0149 [h2] Keep reading
+0150 [p] Product Sep 23, 2026
+0151 [p] Product Sep 22, 2026
+0152 [p] Product Sep 22, 2026

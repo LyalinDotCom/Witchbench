@@ -1,0 +1,19 @@
+{
+  "id": "google-gemini-3-8-flash-blog",
+  "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+  "expectedBytes": 407402,
+  "expectedSha256": "91f1ed39d38000b449f3e9d70ff3fba1758b2bb2e9832a64cc4d783540a24374",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.536561+00:00",
+  "finalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+  "contentType": "text/html",
+  "bytes": 407402,
+  "sha256": "91f1ed39d38000b449f3e9d70ff3fba1758b2bb2e9832a64cc4d783540a24374",
+  "localPath": "Data/archive/2026-09-29/raw/google-gemini-3-8-flash-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/google-gemini-3-8-flash-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/google-gemini-3-8-flash-blog.json",
+  "matchesResearchHash": true
+}

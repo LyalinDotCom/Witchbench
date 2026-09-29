@@ -1,0 +1,19 @@
+{
+  "id": "anthropic-sonnet-4-6-blog",
+  "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-4-6",
+  "expectedBytes": 279996,
+  "expectedSha256": "f5ba5874bae734b9890748ad3ab97bd3c126c29803e70b7ab25c43ceb17d65f3",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.196936+00:00",
+  "finalUrl": "https://www.anthropic.com/news/claude-sonnet-4-6",
+  "contentType": "text/html",
+  "bytes": 279996,
+  "sha256": "0eeb9efc2fa08862ac4ac20a9563d280359b83f862432a1300328c5788731bf8",
+  "localPath": "Data/archive/2026-09-29/raw/anthropic-sonnet-4-6-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/anthropic-sonnet-4-6-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/anthropic-sonnet-4-6-blog.json",
+  "matchesResearchHash": false
+}

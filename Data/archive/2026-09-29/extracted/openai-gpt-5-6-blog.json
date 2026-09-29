@@ -1,0 +1,2783 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "p",
+      "text": "July 9, 2026",
+      "heading": "",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "h1",
+      "text": "GPT‑5.6: Frontier intelligence that scales with your ambition",
+      "heading": "GPT‑5.6: Frontier intelligence that scales with your ambition",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "heading": "GPT‑5.6: Frontier intelligence that scales with your ambition",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "h2",
+      "text": "This post introduced GPT-5.6 in 2026.",
+      "heading": "This post introduced GPT-5.6 in 2026.",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "p",
+      "text": "Learn about OpenAI’s latest model:",
+      "heading": "This post introduced GPT-5.6 in 2026.",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "p",
+      "text": "Update on August 21, 2026: OpenAI dropped the API and credit pricing of GPT‑5.6 Sol by over 20% for the next 3 months.",
+      "heading": "This post introduced GPT-5.6 in 2026.",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "p",
+      "text": "Update on July 30, 2026: OpenAI reduced the price of GPT‑5.6 Luna by 80% and GPT‑5.6 Terra by 20%. Learn more here .",
+      "heading": "This post introduced GPT-5.6 in 2026.",
+      "isFootnote": false
+    },
+    {
+      "index": 8,
+      "tag": "p",
+      "text": "We’re launching the GPT‑5.6 family of models for general availability following our limited preview ⁠ : our new flagship, Sol , alongside Terra , a balanced model for everyday work, and Luna , our most cost-efficient model.",
+      "heading": "This post introduced GPT-5.6 in 2026.",
+      "isFootnote": false
+    },
+    {
+      "index": 9,
+      "tag": "p",
+      "text": "GPT‑5.6 Sol sets a new standard for both intelligence and efficiency, achieving state-of-the-art results across coding, knowledge work, cybersecurity, and science while outperforming previous and competing frontier models with fewer tokens and at lower estimated cost. The result is stronger performance per dollar: more successful work for the same spend, or comparable results at a lower total cost. We also introduce a new way to accelerate the most demanding work: ultra is our highest-capability setting, coordinating multiple agents across parallel workstreams to finish complex tasks faster. Stronger computer use and design judgment make GPT‑5.6 Sol our most polished collaborator yet, helping it inspect, refine, and deliver ready-to-use results.",
+      "heading": "This post introduced GPT-5.6 in 2026.",
+      "isFootnote": false
+    },
+    {
+      "index": 10,
+      "tag": "p",
+      "text": "We trained GPT‑5.6 to get more useful work from every token. On Agents’ Last Exam ⁠ (opens in a new window) , an evaluation of long-running professional workflows across 55 fields, GPT‑5.6 Sol sets a new high of 53.6, eclipsing Claude Fable 5 (adaptive reasoning) by 13.1 points. Even at medium reasoning, it beats Fable 5 by 11.4 points at roughly one-quarter the estimated cost. That efficiency extends to smaller models, which are essential to making intelligence more abundant and affordable: GPT‑5.6 Terra and GPT‑5.6 Luna outperform Fable 5 at around one-sixteenth the cost. On the Artificial Analysis Intelligence Index ⁠ (opens in a new window) , a broad measure of intelligence spanning agentic work, coding, scientific reasoning, and general capabilities, GPT‑5.6 Sol with max reasoning comes within one point of Fable 5 while completing tasks in 61% less time at roughly half the estimated cost.",
+      "heading": "This post introduced GPT-5.6 in 2026.",
+      "isFootnote": false
+    },
+    {
+      "index": 11,
+      "tag": "p",
+      "text": "GPT‑5.6 launches with our most robust safeguards to date, designed to be resilient against determined and adaptive misuse without broadly limiting legitimate work. Before general availability, we put the models and safeguards through our most extensive evaluation period yet, combining human red teaming with large-scale automated testing. During the preview, we worked closely with expert organizations and with trusted partners to pressure-test defenses and strengthen safeguards before broader launch. The resulting system layers protections trained into the model with real-time checks, monitoring, and access calibrated to trust and risk.",
+      "heading": "This post introduced GPT-5.6 in 2026.",
+      "isFootnote": false
+    },
+    {
+      "index": 12,
+      "tag": "h2",
+      "text": "Efficient by default, maximum performance on demand",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 13,
+      "tag": "p",
+      "text": "GPT‑5.6 Sol is our best coding model yet. On the Artificial Analysis Coding Agent Index, GPT‑5.6 Sol with max reasoning sets a new state of the art at 80, 2.8 points above Fable 5, while using less than half the output tokens, taking less than half the time, and costing about one-third less. That advantage extends across the family: Terra performs just above Fable 5, while Luna outperforms Opus 4.8; each does so in roughly one-third of the time, with about half as many output tokens, and at approximately one-quarter the estimated cost. It also sets new state-of-the-art results on Terminal‑Bench 2.1 and DeepSWE, which test complex command-line workflows and long-horizon engineering in real codebases.",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 14,
+      "tag": "p",
+      "text": "GPT‑5.6 can write and run lightweight programs that coordinate tools, process intermediate results, monitor progress, and choose the next action as work unfolds. This lets tool-heavy tasks advance with fewer tokens, fewer model round trips, and less guidance. Instead of requiring developers to script every step or passing every tool response back through the model, Programmatic Tool Calling ⁠ (opens in a new window) in the Responses API can filter large amounts of intermediate data, retain only what matters, and adapt its workflow along the way.",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 15,
+      "tag": "p",
+      "text": "For problems that reward a greater investment of time and compute, GPT‑5.6 can push beyond this efficient default. max gives GPT‑5.6 even more time than xhigh to reason and explore alternatives, run checks, and revise its approach. ultra goes further by coordinating four agents in parallel by default, trading higher token use for stronger results and faster time-to-result on demanding tasks. The charts below compare ultra’s default four-agent setup with a one-agent baseline across BrowseComp, SEC-Bench Pro, and Terminal-Bench 2.1; BrowseComp and SEC-Bench Pro also show 16-agent configurations. Across all three evaluations, adding parallel agents shifts the score-latency frontier upward and to the left, reaching stronger results in less time. In the API, developers can build ultra-like experiences using the multi-agent ⁠ (opens in a new window) beta in the Responses API. 4 , 5 , 6",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 16,
+      "tag": "figcaption",
+      "text": "—Oskar Schulz, President at Cursor",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "li",
+      "text": "Cursor",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "li",
+      "text": "Qodo",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "li",
+      "text": "Notion",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 20,
+      "tag": "li",
+      "text": "Cognition",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 21,
+      "tag": "li",
+      "text": "Rogo",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 22,
+      "tag": "li",
+      "text": "Ramp",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "li",
+      "text": "Shopify",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "li",
+      "text": "Cisco",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "li",
+      "text": "Clio",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "li",
+      "text": "Balyasny Asset Management",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "li",
+      "text": "Basis",
+      "heading": "Efficient by default, maximum performance on demand",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "h2",
+      "text": "A leap forward in design",
+      "heading": "A leap forward in design",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "p",
+      "text": "GPT‑5.6 delivers a step change in design judgment. With only high-level direction, GPT‑5.6 creates tasteful, ergonomic, and functional interfaces. Its stronger computer-use capabilities let it inspect and refine the rendered result—not just generate the underlying code or content—so it can catch visual and functional issues and apply finishing touches before handing the work back.",
+      "heading": "A leap forward in design",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "p",
+      "text": "GPT‑5.6’s frontend capabilities also turn natural-language requests into polished, interactive explanations and visualizations within ChatGPT Work.",
+      "heading": "A leap forward in design",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "h2",
+      "text": "End-to-end knowledge work",
+      "heading": "End-to-end knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "p",
+      "text": "GPT‑5.6 delivers better results for professional tasks. It takes messy context from your documents and everyday workflows like Slack, Notion, Microsoft 365, and Google Drive, and converts it into expert-level, shareable artifacts.",
+      "heading": "End-to-end knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "p",
+      "text": "GPT‑5.6’s strength on knowledge work shows up in evaluations spanning long-horizon professional analysis, browsing, tool use, and computer use. GPT‑5.6 Sol sets new state-of-the-art results on BrowseComp at 92.2% and OSWorld 2.0 at 62.6%; on OSWorld, it surpasses Opus 4.8 while using 85% fewer output tokens. Here, the performance-per-dollar gains extend across the GPT‑5.6 family. Luna nearly matches GPT‑5.5’s peak performance at less than half the estimated cost, while Terra surpasses it at a lower cost.",
+      "heading": "End-to-end knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 34,
+      "tag": "p",
+      "text": "GPT‑5.6 Sol improves quality in presentations, documents, and spreadsheets, producing outputs that are more polished and accurate. It can create fully editable presentations from scratch, translating a prompt and source material into a coherent visual narrative with strong layouts, hierarchy, and design.",
+      "heading": "End-to-end knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 35,
+      "tag": "p",
+      "text": "The improvement is especially pronounced when following templates and reference decks. GPT‑5.6 can infer a deck’s design system—layouts, typography, spacing, colors, and recurring content patterns, including rules embedded in the Slide Master—and apply those conventions consistently to new material. In this example, when asked to update numbers based on a reference file, the GPT‑5.5 output is missing key components from the master slide, while GPT‑5.6 follows the reference structure more faithfully.",
+      "heading": "End-to-end knowledge work",
+      "isFootnote": false
+    },
+    {
+      "index": 36,
+      "tag": "h5",
+      "text": "Reference file",
+      "heading": "Reference file",
+      "isFootnote": false
+    },
+    {
+      "index": 37,
+      "tag": "h5",
+      "text": "GPT‑5.5 output",
+      "heading": "GPT‑5.5 output",
+      "isFootnote": false
+    },
+    {
+      "index": 38,
+      "tag": "h5",
+      "text": "GPT‑5.6 output",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 39,
+      "tag": "p",
+      "text": "GPT‑5.6 also creates more visually refined documents and spreadsheets. It follows complex reference formats more faithfully, which is important for repeatable knowledge work activities. It handles equations and financial models with greater precision, and makes better use of typography, spacing, hierarchy, and page or worksheet layout.",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 40,
+      "tag": "p",
+      "text": "Early customers testing GPT‑5.6 saw improvements to knowledge work outputs across domains.",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 41,
+      "tag": "figcaption",
+      "text": "—Fabian Hedin, Co-Founder at Lovable",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 42,
+      "tag": "li",
+      "text": "Lovable",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 43,
+      "tag": "li",
+      "text": "ModelML",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 44,
+      "tag": "li",
+      "text": "Triple Whale",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 45,
+      "tag": "li",
+      "text": "PlayCo",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 46,
+      "tag": "li",
+      "text": "Canva",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 47,
+      "tag": "li",
+      "text": "Microsoft",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 48,
+      "tag": "li",
+      "text": "Base44",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 49,
+      "tag": "li",
+      "text": "Legora",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 50,
+      "tag": "li",
+      "text": "Figma",
+      "heading": "GPT‑5.6 output",
+      "isFootnote": false
+    },
+    {
+      "index": 51,
+      "tag": "h2",
+      "text": "Pushing the frontier on cyber and science",
+      "heading": "Pushing the frontier on cyber and science",
+      "isFootnote": false
+    },
+    {
+      "index": 52,
+      "tag": "p",
+      "text": "GPT‑5.6 is our strongest cybersecurity model yet, achieving frontier performance with significantly fewer tokens. On ExploitBench 2 , which measures progress from reaching vulnerable code through arbitrary code execution, it scores 73.5% versus GPT‑5.5’s 47.9% at a comparable output-token budget. On ExploitGym 3 , which asks agents to turn real-world vulnerabilities into working exploits, it almost doubles GPT‑5.5’s peak pass rate, from 15.1% to 24.9% under the two-hour cap; with six hours, it reaches 33.7%. On SEC-Bench Pro, which tests proof-of-concept generation on complex software, it scores 71.2% versus GPT‑5.5’s 45.8% at an improved latency. 1",
+      "heading": "Pushing the frontier on cyber and science",
+      "isFootnote": false
+    },
+    {
+      "index": 53,
+      "tag": "p",
+      "text": "GPT‑5.6 supports important defensive tasks such as secure code review, patching, threat modeling, and blue teaming. Qualified individuals and organizations in OpenAI Daybreak’s Trusted Access for Cyber ⁠ program can access more of its defensive capability through more precise safeguards for verified work in authorized environments, including vulnerability triage and validation, malware analysis, detection engineering, and patch validation.",
+      "heading": "Pushing the frontier on cyber and science",
+      "isFootnote": false
+    },
+    {
+      "index": 54,
+      "tag": "p",
+      "text": "Individuals can verify their identity and request trusted access ⁠ (opens in a new window) , and organizations can apply ⁠ for their teams. Individual members will need to enable Advanced Account Security ⁠ (opens in a new window) with hardware-backed passkeys by September 1 to retain access to our most cyber-capable frontier models; those who do not will return to default access. Users who do not already have hardware-backed passkeys can receive preferred pricing ⁠ (opens in a new window) from our partner, Yubico. We are also taking additional steps to restrict access to high-risk entities and in high-risk jurisdictions.",
+      "heading": "Pushing the frontier on cyber and science",
+      "isFootnote": false
+    },
+    {
+      "index": 55,
+      "tag": "p",
+      "text": "GPT‑5.6 Sol also shows broad gains across scientific research . On life sciences evaluations, GPT‑5.6 demonstrates Pareto improvements over GPT‑5.5 on real-world biology, life science research workflows, and chemistry.",
+      "heading": "Pushing the frontier on cyber and science",
+      "isFootnote": false
+    },
+    {
+      "index": 56,
+      "tag": "h2",
+      "text": "GPT‑5.6 accelerates OpenAI",
+      "heading": "GPT‑5.6 accelerates OpenAI",
+      "isFootnote": false
+    },
+    {
+      "index": 57,
+      "tag": "p",
+      "text": "GPT‑5.6 is our strongest model yet for accelerating AI research. Inside OpenAI, researchers use it across the development loop: diagnosing failures, optimizing training systems, running experiments, and interpreting results. We already saw that acceleration and stronger adoption during the internal testing period of GPT‑5.6, as average daily output tokens per active researcher were more than twice the highest level observed for GPT‑5.5.",
+      "heading": "GPT‑5.6 accelerates OpenAI",
+      "isFootnote": false
+    },
+    {
+      "index": 58,
+      "tag": "p",
+      "text": "This way of working is quickly becoming standard. Over the past six months, the share of research compute devoted to internal coding inference grew 100-fold, while internal agentic token usage increased approximately 22-fold. These adoption metrics do not measure research progress on their own, but they show how rapidly AI assistance is increasing for research and across other teams like sales, marketing, user ops, finance, and more.",
+      "heading": "GPT‑5.6 accelerates OpenAI",
+      "isFootnote": false
+    },
+    {
+      "index": 59,
+      "tag": "p",
+      "text": "To measure this capability directly, we developed an internal suite of evaluations based on real AI research tasks, including debugging research systems, optimizing kernels and training recipes, running machine-learning experiments, and improving another model.",
+      "heading": "GPT‑5.6 accelerates OpenAI",
+      "isFootnote": false
+    },
+    {
+      "index": 60,
+      "tag": "h2",
+      "text": "Scaling safety and security with capability",
+      "heading": "Scaling safety and security with capability",
+      "isFootnote": false
+    },
+    {
+      "index": 61,
+      "tag": "p",
+      "text": "As model capabilities increase, we strengthen our safety stack so advanced intelligence can remain broadly useful while applying greater scrutiny to the highest-risk uses. For GPT‑5.6, we built our most robust safety system to date, calibrated to each model’s capabilities and powered by more compute than ever before.",
+      "heading": "Scaling safety and security with capability",
+      "isFootnote": false
+    },
+    {
+      "index": 62,
+      "tag": "p",
+      "text": "The GPT‑5.6 models are more capable than our earlier models in both biology and cybersecurity but do not cross the Critical threshold in either category. In cybersecurity, our testing suggests GPT‑5.6 is better at finding and fixing vulnerabilities than at reliably carrying out autonomous, end-to-end attacks against hardened targets—giving defenders an opportunity to strengthen systems before weaknesses are exploited. In biology, our testing suggests GPT‑5.6 can support legitimate research but does not provide the end-to-end capability needed to create, engineer, or synthesize a highly dangerous novel threat.",
+      "heading": "Scaling safety and security with capability",
+      "isFootnote": false
+    },
+    {
+      "index": 63,
+      "tag": "p",
+      "text": "Both domains are inherently dual-use. In cybersecurity, the same capabilities that could help an attacker exploit a vulnerability can help a defender find it, reproduce it, and build a reliable fix. Overblocking therefore creates a security risk of its own. It can prevent defenders from testing systems and deploying patches while malicious actors continue using other models, including increasingly capable open-source models, as well as established tools. Effective safeguards account for the context and likely consequences of a request, preserving legitimate defensive work while applying stronger controls where the evidence indicates a serious risk of harm.",
+      "heading": "Scaling safety and security with capability",
+      "isFootnote": false
+    },
+    {
+      "index": 64,
+      "tag": "p",
+      "text": "GPT‑5.6’s safeguards are layered for greater accuracy and redundancy, and designed to adapt quickly as new attacks emerge. Protections trained into the model work alongside real-time checks, continuous monitoring, and account-level enforcement, to help the system remain safe even when a particular layer does not work as intended. In many systems, classifier flags alone decide what to block, relying on lower intelligence models that are harder to change in order to prevent harm. Our approach adds a reasoning monitor that reviews the conversation to determine if there is a potential for harm. This design is intended to enable defensive work while blocking serious misuse, with the most sensitive capabilities reserved for verified users through Trusted Access. Because some protections use test-time reasoning, we can rapidly update them to close gaps without retraining classifiers from scratch.",
+      "heading": "Scaling safety and security with capability",
+      "isFootnote": false
+    },
+    {
+      "index": 65,
+      "tag": "p",
+      "text": "We are taking a more conservative approach as we continue to strengthen the system against adaptive attacks. Compared with previous models, our GPT‑5.6 Sol cyber safeguards block roughly ten times more potentially harmful activity. Because these measures can create friction for benign use, we provide an option in ChatGPT and Codex to easily retry prompts on lower-capability models, and we will continue reducing the impact of our safeguards on benign use while maintaining a high robustness bar. This reflects our iterative deployment approach: starting conservatively and improving based on what we learn from real-world use.",
+      "heading": "Scaling safety and security with capability",
+      "isFootnote": false
+    },
+    {
+      "index": 66,
+      "tag": "p",
+      "text": "Before general availability, we ran our most intensive safety evaluations to date, including extensive red teaming, robust capability and safeguard testing with external experts, and approximately 700,000 NVIDIA A100 Tensor Core GPU-equivalent hours of black-box automated red teaming. This enabled us to systematically probe likely weak points, surface jailbreaks, and help us strengthen the system before launch.",
+      "heading": "Scaling safety and security with capability",
+      "isFootnote": false
+    },
+    {
+      "index": 67,
+      "tag": "p",
+      "text": "There is no such thing as perfect security, and our work to secure increasingly capable models continues. New weaknesses will be discovered, as will new jailbreaks that circumvent existing safeguards. Each new generation of model will also create new avenues for attack and misuse. We build for that reality through layered safeguards, continuous monitoring, rapid remediation, and collaboration across the defensive community. For GPT‑5.6, we have paired our existing security ⁠ (opens in a new window) and biology bug bounty programs ⁠ with a new rapid-remediation process and our strongest monitoring effort to date. Findings from researchers, monitoring, and real-world misuse will feed into new evaluations and stronger safeguards on an ongoing basis.",
+      "heading": "Scaling safety and security with capability",
+      "isFootnote": false
+    },
+    {
+      "index": 68,
+      "tag": "p",
+      "text": "Read more about our safeguards in the updated GPT‑5.6 system card ⁠ (opens in a new window) .",
+      "heading": "Scaling safety and security with capability",
+      "isFootnote": false
+    },
+    {
+      "index": 69,
+      "tag": "h2",
+      "text": "Availability and pricing",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 70,
+      "tag": "p",
+      "text": "GPT‑5.6 spans three model tiers: Sol, our flagship; Terra, a lower-cost model with performance competitive with GPT‑5.5; and Luna, our fastest and most affordable model. The number identifies the generation, while Sol, Terra, and Luna are durable capability tiers that can advance on their own cadence.",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 71,
+      "tag": "p",
+      "text": "GPT‑5.6 is available starting today across ChatGPT, Codex, and the OpenAI API. The rollout is starting globally now and will continue gradually toward full availability over the next 24 hours.",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 72,
+      "tag": "li",
+      "text": "Chat: Plus, Pro, Business, and Enterprise users access GPT‑5.6 Sol through medium and higher effort settings. Pro and Enterprise users can also select GPT‑5.6 Sol Pro for the highest-quality results on complex tasks.",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 73,
+      "tag": "li",
+      "text": "ChatGPT Work and Codex: Free and Go users access GPT‑5.6 Terra. Plus, Pro, Business, and Enterprise users can choose among GPT‑5.6 Sol, Terra, and Luna and set an effort level for each. max is available to all users with access to GPT‑5.6 in ChatGPT Work and Codex and can be toggled on in settings. In ChatGPT Work, ultra is available to Pro and Enterprise users. In Codex, it is available to Plus and higher plans.",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 74,
+      "tag": "li",
+      "text": "API: Developers can access Sol, Terra, and Luna through the OpenAI API. In the Responses API, Programmatic Tool Calling lets GPT‑5.6 write and run programs in-memory that coordinate tools and process intermediate results, making it Zero Data Retention (ZDR) compatible. Multi-agent, initially available in beta, lets GPT‑5.6 run concurrent subagents and synthesize their work in a single request.",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 75,
+      "tag": "p",
+      "text": "GPT‑5.6 is priced per 1M tokens across three model sizes: Sol is $5 input / $30 output; Terra is $2.50 input / $15 output; and Luna is $1 input / $6 output. GPT‑5.6 also introduces more predictable prompt caching, including support for explicit cache breakpoints ⁠ (opens in a new window) and a 30-minute minimum cache life. For GPT‑5.6 and later models, cache writes are billed at 1.25x the model’s uncached input rate, while cache reads continue to receive the 90% cached-input discount.",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 76,
+      "tag": "p",
+      "text": "7 , 8",
+      "heading": "Availability and pricing",
+      "isFootnote": false
+    },
+    {
+      "index": 77,
+      "tag": "h3",
+      "text": "Professional",
+      "heading": "Professional",
+      "isFootnote": false
+    },
+    {
+      "index": 78,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview | Gemini 3.5 Flash",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.6 Sol",
+        "GPT‑5.6 Terra",
+        "GPT‑5.6 Luna",
+        "GPT‑5.5",
+        "Claude Fable 5",
+        "Claude Opus 4.8",
+        "Gemini 3.1 Pro Preview",
+        "Gemini 3.5 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "Agents' Last Exam",
+          "52.7%",
+          "50.4%",
+          "50.3%",
+          "46.9%",
+          "40.5%",
+          "45.2%",
+          "32.1%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 79,
+      "tag": "tr",
+      "text": "Agents' Last Exam | 52.7% | 50.4% | 50.3% | 46.9% | 40.5% | 45.2% | 32.1% | —",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "Agents' Last Exam",
+        "52.7%",
+        "50.4%",
+        "50.3%",
+        "46.9%",
+        "40.5%",
+        "45.2%",
+        "32.1%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "Agents' Last Exam",
+          "52.7%",
+          "50.4%",
+          "50.3%",
+          "46.9%",
+          "40.5%",
+          "45.2%",
+          "32.1%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 80,
+      "tag": "tr",
+      "text": "GDPval-AA v2 | 1,747.8 Elo | 1,593 Elo | 1,591.8 Elo | 1,493.7 Elo | 1,759.6 Elo | 1,600.1 Elo | 962.3 Elo | 1,348.8 Elo",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "GDPval-AA v2",
+        "1,747.8 Elo",
+        "1,593 Elo",
+        "1,591.8 Elo",
+        "1,493.7 Elo",
+        "1,759.6 Elo",
+        "1,600.1 Elo",
+        "962.3 Elo",
+        "1,348.8 Elo"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "Agents' Last Exam",
+          "52.7%",
+          "50.4%",
+          "50.3%",
+          "46.9%",
+          "40.5%",
+          "45.2%",
+          "32.1%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 81,
+      "tag": "tr",
+      "text": "Management Consulting Tasks (Internal) | 43.2% | 37.2% | 35.4% | 31.3% | 35.5% | 31.6% | 13.2% | —",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "Management Consulting Tasks (Internal)",
+        "43.2%",
+        "37.2%",
+        "35.4%",
+        "31.3%",
+        "35.5%",
+        "31.6%",
+        "13.2%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "Agents' Last Exam",
+          "52.7%",
+          "50.4%",
+          "50.3%",
+          "46.9%",
+          "40.5%",
+          "45.2%",
+          "32.1%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 82,
+      "tag": "tr",
+      "text": "Big Finance Bench | 53% | 51% | 36% | 49% | — | 44% | — | —",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "Big Finance Bench",
+        "53%",
+        "51%",
+        "36%",
+        "49%",
+        "—",
+        "44%",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "Agents' Last Exam",
+          "52.7%",
+          "50.4%",
+          "50.3%",
+          "46.9%",
+          "40.5%",
+          "45.2%",
+          "32.1%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 83,
+      "tag": "tr",
+      "text": "Artificial Analysis Intelligence Index v4.1 | 58.9 Index score | 55 Index score | 51.2 Index score | 54.8 Index score | 59.9 Index score | 55.7 Index score | 46.5 Index score | 50.2 Index score",
+      "heading": "Professional",
+      "isFootnote": false,
+      "cells": [
+        "Artificial Analysis Intelligence Index v4.1",
+        "58.9 Index score",
+        "55 Index score",
+        "51.2 Index score",
+        "54.8 Index score",
+        "59.9 Index score",
+        "55.7 Index score",
+        "46.5 Index score",
+        "50.2 Index score"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "Agents' Last Exam",
+          "52.7%",
+          "50.4%",
+          "50.3%",
+          "46.9%",
+          "40.5%",
+          "45.2%",
+          "32.1%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 84,
+      "tag": "h3",
+      "text": "Coding",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 85,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.6 Sol | GPT‑5.6 Sol Ultra | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.6 Sol",
+        "GPT‑5.6 Sol Ultra",
+        "GPT‑5.6 Terra",
+        "GPT‑5.6 Luna",
+        "GPT‑5.5",
+        "Claude Mythos 5",
+        "Claude Mythos Preview",
+        "Claude Fable 5",
+        "Claude Opus 4.8",
+        "Gemini 3.1 Pro Preview"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "Artificial Analysis Coding Agent Index v1.1",
+          "80 Index score",
+          "—",
+          "77.4 Index score",
+          "74.6 Index score",
+          "76.4 Index score",
+          "—",
+          "—",
+          "77.2 Index score",
+          "72.5 Index score",
+          "42.7 Index score"
+        ]
+      ]
+    },
+    {
+      "index": 86,
+      "tag": "tr",
+      "text": "Artificial Analysis Coding Agent Index v1.1 | 80 Index score | — | 77.4 Index score | 74.6 Index score | 76.4 Index score | — | — | 77.2 Index score | 72.5 Index score | 42.7 Index score",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "Artificial Analysis Coding Agent Index v1.1",
+        "80 Index score",
+        "—",
+        "77.4 Index score",
+        "74.6 Index score",
+        "76.4 Index score",
+        "—",
+        "—",
+        "77.2 Index score",
+        "72.5 Index score",
+        "42.7 Index score"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "Artificial Analysis Coding Agent Index v1.1",
+          "80 Index score",
+          "—",
+          "77.4 Index score",
+          "74.6 Index score",
+          "76.4 Index score",
+          "—",
+          "—",
+          "77.2 Index score",
+          "72.5 Index score",
+          "42.7 Index score"
+        ]
+      ]
+    },
+    {
+      "index": 87,
+      "tag": "tr",
+      "text": "SWE-Bench Pro | 64.6% | — | 63.4% | 62.7% | 59.4% | 80.3% | 77.8% | 80% | 69.2% | 54.2%",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "SWE-Bench Pro",
+        "64.6%",
+        "—",
+        "63.4%",
+        "62.7%",
+        "59.4%",
+        "80.3%",
+        "77.8%",
+        "80%",
+        "69.2%",
+        "54.2%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "Artificial Analysis Coding Agent Index v1.1",
+          "80 Index score",
+          "—",
+          "77.4 Index score",
+          "74.6 Index score",
+          "76.4 Index score",
+          "—",
+          "—",
+          "77.2 Index score",
+          "72.5 Index score",
+          "42.7 Index score"
+        ]
+      ]
+    },
+    {
+      "index": 88,
+      "tag": "tr",
+      "text": "DeepSWE v1.1 | 72.7% | — | 69.6% | 67.2% | 67% | — | — | 69.7% | 59% | 11.8%",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "DeepSWE v1.1",
+        "72.7%",
+        "—",
+        "69.6%",
+        "67.2%",
+        "67%",
+        "—",
+        "—",
+        "69.7%",
+        "59%",
+        "11.8%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "Artificial Analysis Coding Agent Index v1.1",
+          "80 Index score",
+          "—",
+          "77.4 Index score",
+          "74.6 Index score",
+          "76.4 Index score",
+          "—",
+          "—",
+          "77.2 Index score",
+          "72.5 Index score",
+          "42.7 Index score"
+        ]
+      ]
+    },
+    {
+      "index": 89,
+      "tag": "tr",
+      "text": "Terminal-Bench 2.1 | 88.8% | 91.9% | 87.4% | 84.7% | 85.6% | 88% | — | 83.1% | 78.9% | 70.7%",
+      "heading": "Coding",
+      "isFootnote": false,
+      "cells": [
+        "Terminal-Bench 2.1",
+        "88.8%",
+        "91.9%",
+        "87.4%",
+        "84.7%",
+        "85.6%",
+        "88%",
+        "—",
+        "83.1%",
+        "78.9%",
+        "70.7%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "Artificial Analysis Coding Agent Index v1.1",
+          "80 Index score",
+          "—",
+          "77.4 Index score",
+          "74.6 Index score",
+          "76.4 Index score",
+          "—",
+          "—",
+          "77.2 Index score",
+          "72.5 Index score",
+          "42.7 Index score"
+        ]
+      ]
+    },
+    {
+      "index": 90,
+      "tag": "h3",
+      "text": "Science and health",
+      "heading": "Science and health",
+      "isFootnote": false
+    },
+    {
+      "index": 91,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview | Gemini 3.5 Flash",
+      "heading": "Science and health",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.6 Sol",
+        "GPT‑5.6 Terra",
+        "GPT‑5.6 Luna",
+        "GPT‑5.5",
+        "Claude Fable 5",
+        "Claude Opus 4.8",
+        "Gemini 3.1 Pro Preview",
+        "Gemini 3.5 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "GeneBench Pro",
+          "28.7%",
+          "23.3%",
+          "10.8%",
+          "12%",
+          "—",
+          "16%",
+          "3.1%",
+          "8.14%"
+        ]
+      ]
+    },
+    {
+      "index": 92,
+      "tag": "tr",
+      "text": "GeneBench Pro | 28.7% | 23.3% | 10.8% | 12% | — | 16% | 3.1% | 8.14%",
+      "heading": "Science and health",
+      "isFootnote": false,
+      "cells": [
+        "GeneBench Pro",
+        "28.7%",
+        "23.3%",
+        "10.8%",
+        "12%",
+        "—",
+        "16%",
+        "3.1%",
+        "8.14%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "GeneBench Pro",
+          "28.7%",
+          "23.3%",
+          "10.8%",
+          "12%",
+          "—",
+          "16%",
+          "3.1%",
+          "8.14%"
+        ]
+      ]
+    },
+    {
+      "index": 93,
+      "tag": "tr",
+      "text": "LifeSciBench | 59.9% | 56% | 51.2% | 50.4% | — | 53.6% | — | —",
+      "heading": "Science and health",
+      "isFootnote": false,
+      "cells": [
+        "LifeSciBench",
+        "59.9%",
+        "56%",
+        "51.2%",
+        "50.4%",
+        "—",
+        "53.6%",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "GeneBench Pro",
+          "28.7%",
+          "23.3%",
+          "10.8%",
+          "12%",
+          "—",
+          "16%",
+          "3.1%",
+          "8.14%"
+        ]
+      ]
+    },
+    {
+      "index": 94,
+      "tag": "tr",
+      "text": "MedChemBench (Internal) | 48.3% | 35% | 30.4% | 35.5% | — | — | — | —",
+      "heading": "Science and health",
+      "isFootnote": false,
+      "cells": [
+        "MedChemBench (Internal)",
+        "48.3%",
+        "35%",
+        "30.4%",
+        "35.5%",
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "GeneBench Pro",
+          "28.7%",
+          "23.3%",
+          "10.8%",
+          "12%",
+          "—",
+          "16%",
+          "3.1%",
+          "8.14%"
+        ]
+      ]
+    },
+    {
+      "index": 95,
+      "tag": "tr",
+      "text": "HealthBench Professional⁶ | 60.5% | 57.7% | 55.7% | 49.5% | 60.9% | 53% | — | —",
+      "heading": "Science and health",
+      "isFootnote": false,
+      "cells": [
+        "HealthBench Professional⁶",
+        "60.5%",
+        "57.7%",
+        "55.7%",
+        "49.5%",
+        "60.9%",
+        "53%",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "GeneBench Pro",
+          "28.7%",
+          "23.3%",
+          "10.8%",
+          "12%",
+          "—",
+          "16%",
+          "3.1%",
+          "8.14%"
+        ]
+      ]
+    },
+    {
+      "index": 96,
+      "tag": "h3",
+      "text": "Computer use",
+      "heading": "Computer use",
+      "isFootnote": false
+    },
+    {
+      "index": 97,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.6 Sol | GPT‑5.6 Sol Ultra | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Opus 4.8 | Gemini 3.1 Pro Preview",
+      "heading": "Computer use",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.6 Sol",
+        "GPT‑5.6 Sol Ultra",
+        "GPT‑5.6 Terra",
+        "GPT‑5.6 Luna",
+        "GPT‑5.5",
+        "Claude Mythos 5",
+        "Claude Mythos Preview",
+        "Claude Opus 4.8",
+        "Gemini 3.1 Pro Preview"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "OSWorld 2.0",
+          "62.6%",
+          "—",
+          "50.2%",
+          "45.6%",
+          "47.5%",
+          "—",
+          "—",
+          "54.8%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 98,
+      "tag": "tr",
+      "text": "OSWorld 2.0 | 62.6% | — | 50.2% | 45.6% | 47.5% | — | — | 54.8% | —",
+      "heading": "Computer use",
+      "isFootnote": false,
+      "cells": [
+        "OSWorld 2.0",
+        "62.6%",
+        "—",
+        "50.2%",
+        "45.6%",
+        "47.5%",
+        "—",
+        "—",
+        "54.8%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "OSWorld 2.0",
+          "62.6%",
+          "—",
+          "50.2%",
+          "45.6%",
+          "47.5%",
+          "—",
+          "—",
+          "54.8%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 99,
+      "tag": "tr",
+      "text": "BrowseComp | 90.4% | 92.2% | 87.5% | 83.3% | 84.4% | 88% | 87.9% | 84.3% | 85.9%",
+      "heading": "Computer use",
+      "isFootnote": false,
+      "cells": [
+        "BrowseComp",
+        "90.4%",
+        "92.2%",
+        "87.5%",
+        "83.3%",
+        "84.4%",
+        "88%",
+        "87.9%",
+        "84.3%",
+        "85.9%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "OSWorld 2.0",
+          "62.6%",
+          "—",
+          "50.2%",
+          "45.6%",
+          "47.5%",
+          "—",
+          "—",
+          "54.8%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 100,
+      "tag": "tr",
+      "text": "BenchCAD | 70.6% | — | 62.3% | 63.1% | 44.4% | 38.4% | 35.5% | 27.3% | —",
+      "heading": "Computer use",
+      "isFootnote": false,
+      "cells": [
+        "BenchCAD",
+        "70.6%",
+        "—",
+        "62.3%",
+        "63.1%",
+        "44.4%",
+        "38.4%",
+        "35.5%",
+        "27.3%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "OSWorld 2.0",
+          "62.6%",
+          "—",
+          "50.2%",
+          "45.6%",
+          "47.5%",
+          "—",
+          "—",
+          "54.8%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 101,
+      "tag": "tr",
+      "text": "BenchCAD (python tool) | 83.4% | — | 78.2% | 73.9% | 55.8% | 65% | 61% | 51.8% | —",
+      "heading": "Computer use",
+      "isFootnote": false,
+      "cells": [
+        "BenchCAD (python tool)",
+        "83.4%",
+        "—",
+        "78.2%",
+        "73.9%",
+        "55.8%",
+        "65%",
+        "61%",
+        "51.8%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "OSWorld 2.0",
+          "62.6%",
+          "—",
+          "50.2%",
+          "45.6%",
+          "47.5%",
+          "—",
+          "—",
+          "54.8%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 102,
+      "tag": "h3",
+      "text": "Cybersecurity",
+      "heading": "Cybersecurity",
+      "isFootnote": false
+    },
+    {
+      "index": 103,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.6 Sol | GPT‑5.6 Sol Ultra | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Opus 4.8",
+      "heading": "Cybersecurity",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.6 Sol",
+        "GPT‑5.6 Sol Ultra",
+        "GPT‑5.6 Terra",
+        "GPT‑5.6 Luna",
+        "GPT‑5.5",
+        "Claude Mythos 5",
+        "Claude Mythos Preview",
+        "Claude Opus 4.8"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8"
+        ],
+        [
+          "Capture-the-Flag Challenges",
+          "96.7%",
+          "—",
+          "91.8%",
+          "85.2%",
+          "88.1%",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 104,
+      "tag": "tr",
+      "text": "Capture-the-Flag Challenges | 96.7% | — | 91.8% | 85.2% | 88.1% | — | — | —",
+      "heading": "Cybersecurity",
+      "isFootnote": false,
+      "cells": [
+        "Capture-the-Flag Challenges",
+        "96.7%",
+        "—",
+        "91.8%",
+        "85.2%",
+        "88.1%",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8"
+        ],
+        [
+          "Capture-the-Flag Challenges",
+          "96.7%",
+          "—",
+          "91.8%",
+          "85.2%",
+          "88.1%",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 105,
+      "tag": "tr",
+      "text": "SEC-Bench Pro | 71.2% | 74.3% | 57.7% | 48.9% | 45.8% | — | — | —",
+      "heading": "Cybersecurity",
+      "isFootnote": false,
+      "cells": [
+        "SEC-Bench Pro",
+        "71.2%",
+        "74.3%",
+        "57.7%",
+        "48.9%",
+        "45.8%",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8"
+        ],
+        [
+          "Capture-the-Flag Challenges",
+          "96.7%",
+          "—",
+          "91.8%",
+          "85.2%",
+          "88.1%",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 106,
+      "tag": "tr",
+      "text": "ExploitBench | 73.5% | — | 52.9% | 33.2% | 47.9% | 78% | 74.2% | 40%",
+      "heading": "Cybersecurity",
+      "isFootnote": false,
+      "cells": [
+        "ExploitBench",
+        "73.5%",
+        "—",
+        "52.9%",
+        "33.2%",
+        "47.9%",
+        "78%",
+        "74.2%",
+        "40%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8"
+        ],
+        [
+          "Capture-the-Flag Challenges",
+          "96.7%",
+          "—",
+          "91.8%",
+          "85.2%",
+          "88.1%",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 107,
+      "tag": "tr",
+      "text": "ExploitGym | 33.7% | — | 23.2% | 12.4% | 15.1% | — | — | —",
+      "heading": "Cybersecurity",
+      "isFootnote": false,
+      "cells": [
+        "ExploitGym",
+        "33.7%",
+        "—",
+        "23.2%",
+        "12.4%",
+        "15.1%",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Sol Ultra",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8"
+        ],
+        [
+          "Capture-the-Flag Challenges",
+          "96.7%",
+          "—",
+          "91.8%",
+          "85.2%",
+          "88.1%",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 108,
+      "tag": "h3",
+      "text": "Self-improvement",
+      "heading": "Self-improvement",
+      "isFootnote": false
+    },
+    {
+      "index": 109,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5",
+      "heading": "Self-improvement",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.6 Sol",
+        "GPT‑5.6 Terra",
+        "GPT‑5.6 Luna",
+        "GPT‑5.5"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5"
+        ],
+        [
+          "Internal Research Debugging Evaluation",
+          "68.3%",
+          "67.8%",
+          "50.8%",
+          "50%"
+        ]
+      ]
+    },
+    {
+      "index": 110,
+      "tag": "tr",
+      "text": "Internal Research Debugging Evaluation | 68.3% | 67.8% | 50.8% | 50%",
+      "heading": "Self-improvement",
+      "isFootnote": false,
+      "cells": [
+        "Internal Research Debugging Evaluation",
+        "68.3%",
+        "67.8%",
+        "50.8%",
+        "50%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5"
+        ],
+        [
+          "Internal Research Debugging Evaluation",
+          "68.3%",
+          "67.8%",
+          "50.8%",
+          "50%"
+        ]
+      ]
+    },
+    {
+      "index": 111,
+      "tag": "tr",
+      "text": "KernelGen 1P | 61.1% | 49.2% | 22.4% | 29.3%",
+      "heading": "Self-improvement",
+      "isFootnote": false,
+      "cells": [
+        "KernelGen 1P",
+        "61.1%",
+        "49.2%",
+        "22.4%",
+        "29.3%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5"
+        ],
+        [
+          "Internal Research Debugging Evaluation",
+          "68.3%",
+          "67.8%",
+          "50.8%",
+          "50%"
+        ]
+      ]
+    },
+    {
+      "index": 112,
+      "tag": "tr",
+      "text": "NanoGPT | 9.69% | 14.5% | 1.66% | 2.65%",
+      "heading": "Self-improvement",
+      "isFootnote": false,
+      "cells": [
+        "NanoGPT",
+        "9.69%",
+        "14.5%",
+        "1.66%",
+        "2.65%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5"
+        ],
+        [
+          "Internal Research Debugging Evaluation",
+          "68.3%",
+          "67.8%",
+          "50.8%",
+          "50%"
+        ]
+      ]
+    },
+    {
+      "index": 113,
+      "tag": "tr",
+      "text": "PostTrainBench Lite | 50.3% | 51.5% | 29.6% | 38.8%",
+      "heading": "Self-improvement",
+      "isFootnote": false,
+      "cells": [
+        "PostTrainBench Lite",
+        "50.3%",
+        "51.5%",
+        "29.6%",
+        "38.8%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5"
+        ],
+        [
+          "Internal Research Debugging Evaluation",
+          "68.3%",
+          "67.8%",
+          "50.8%",
+          "50%"
+        ]
+      ]
+    },
+    {
+      "index": 114,
+      "tag": "tr",
+      "text": "RSI Index | 57.9% | 56.3% | 41.9% | 41.7%",
+      "heading": "Self-improvement",
+      "isFootnote": false,
+      "cells": [
+        "RSI Index",
+        "57.9%",
+        "56.3%",
+        "41.9%",
+        "41.7%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5"
+        ],
+        [
+          "Internal Research Debugging Evaluation",
+          "68.3%",
+          "67.8%",
+          "50.8%",
+          "50%"
+        ]
+      ]
+    },
+    {
+      "index": 115,
+      "tag": "h3",
+      "text": "Multimodal",
+      "heading": "Multimodal",
+      "isFootnote": false
+    },
+    {
+      "index": 116,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview",
+      "heading": "Multimodal",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.6 Sol",
+        "GPT‑5.6 Terra",
+        "GPT‑5.6 Luna",
+        "GPT‑5.5",
+        "Claude Fable 5",
+        "Claude Opus 4.8",
+        "Gemini 3.1 Pro Preview"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "MMMU Pro (no tools)",
+          "83%",
+          "80.7%",
+          "78.4%",
+          "81.2%",
+          "—",
+          "—",
+          "80.5%"
+        ]
+      ]
+    },
+    {
+      "index": 117,
+      "tag": "tr",
+      "text": "MMMU Pro (no tools) | 83% | 80.7% | 78.4% | 81.2% | — | — | 80.5%",
+      "heading": "Multimodal",
+      "isFootnote": false,
+      "cells": [
+        "MMMU Pro (no tools)",
+        "83%",
+        "80.7%",
+        "78.4%",
+        "81.2%",
+        "—",
+        "—",
+        "80.5%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "MMMU Pro (no tools)",
+          "83%",
+          "80.7%",
+          "78.4%",
+          "81.2%",
+          "—",
+          "—",
+          "80.5%"
+        ]
+      ]
+    },
+    {
+      "index": 118,
+      "tag": "tr",
+      "text": "MMMU Pro (with tools) | 84.6% | 82% | 79.5% | 83.2% | — | — | —",
+      "heading": "Multimodal",
+      "isFootnote": false,
+      "cells": [
+        "MMMU Pro (with tools)",
+        "84.6%",
+        "82%",
+        "79.5%",
+        "83.2%",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "MMMU Pro (no tools)",
+          "83%",
+          "80.7%",
+          "78.4%",
+          "81.2%",
+          "—",
+          "—",
+          "80.5%"
+        ]
+      ]
+    },
+    {
+      "index": 119,
+      "tag": "tr",
+      "text": "gdp.pdf | 30.7% | 24.7% | 22.7% | 26% | 29.8% | 22.5% | 16.7%",
+      "heading": "Multimodal",
+      "isFootnote": false,
+      "cells": [
+        "gdp.pdf",
+        "30.7%",
+        "24.7%",
+        "22.7%",
+        "26%",
+        "29.8%",
+        "22.5%",
+        "16.7%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "MMMU Pro (no tools)",
+          "83%",
+          "80.7%",
+          "78.4%",
+          "81.2%",
+          "—",
+          "—",
+          "80.5%"
+        ]
+      ]
+    },
+    {
+      "index": 120,
+      "tag": "h3",
+      "text": "Academic",
+      "heading": "Academic",
+      "isFootnote": false
+    },
+    {
+      "index": 121,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.6 Sol",
+        "GPT‑5.6 Terra",
+        "GPT‑5.6 Luna",
+        "GPT‑5.5",
+        "Claude Mythos 5",
+        "Claude Mythos Preview",
+        "Claude Fable 5",
+        "Claude Opus 4.8",
+        "Gemini 3.1 Pro Preview"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "GPQA Diamond",
+          "94.6%",
+          "92.9%",
+          "92.3%",
+          "93.6%",
+          "94.1%",
+          "94.6%",
+          "92.6%",
+          "92%",
+          "94.3%"
+        ]
+      ]
+    },
+    {
+      "index": 122,
+      "tag": "tr",
+      "text": "GPQA Diamond | 94.6% | 92.9% | 92.3% | 93.6% | 94.1% | 94.6% | 92.6% | 92% | 94.3%",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "GPQA Diamond",
+        "94.6%",
+        "92.9%",
+        "92.3%",
+        "93.6%",
+        "94.1%",
+        "94.6%",
+        "92.6%",
+        "92%",
+        "94.3%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "GPQA Diamond",
+          "94.6%",
+          "92.9%",
+          "92.3%",
+          "93.6%",
+          "94.1%",
+          "94.6%",
+          "92.6%",
+          "92%",
+          "94.3%"
+        ]
+      ]
+    },
+    {
+      "index": 123,
+      "tag": "tr",
+      "text": "FrontierMath Tier 1-3 (v2) | 89% | 84.9% | 78.6% | 85.3% | — | — | 87% | 80% | 59.6%",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "FrontierMath Tier 1-3 (v2)",
+        "89%",
+        "84.9%",
+        "78.6%",
+        "85.3%",
+        "—",
+        "—",
+        "87%",
+        "80%",
+        "59.6%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "GPQA Diamond",
+          "94.6%",
+          "92.9%",
+          "92.3%",
+          "93.6%",
+          "94.1%",
+          "94.6%",
+          "92.6%",
+          "92%",
+          "94.3%"
+        ]
+      ]
+    },
+    {
+      "index": 124,
+      "tag": "tr",
+      "text": "FrontierMath Tier 4 (v2) | 83% | 68.3% | 58.5% | 72.5% | — | — | 87.8% | 56.1% | —",
+      "heading": "Academic",
+      "isFootnote": false,
+      "cells": [
+        "FrontierMath Tier 4 (v2)",
+        "83%",
+        "68.3%",
+        "58.5%",
+        "72.5%",
+        "—",
+        "—",
+        "87.8%",
+        "56.1%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "GPQA Diamond",
+          "94.6%",
+          "92.9%",
+          "92.3%",
+          "93.6%",
+          "94.1%",
+          "94.6%",
+          "92.6%",
+          "92%",
+          "94.3%"
+        ]
+      ]
+    },
+    {
+      "index": 125,
+      "tag": "h3",
+      "text": "Tool use",
+      "heading": "Tool use",
+      "isFootnote": false
+    },
+    {
+      "index": 126,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Fable 5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview | Gemini 3.5 Flash",
+      "heading": "Tool use",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.6 Sol",
+        "GPT‑5.6 Terra",
+        "GPT‑5.6 Luna",
+        "GPT‑5.5",
+        "Claude Mythos 5",
+        "Claude Mythos Preview",
+        "Claude Fable 5",
+        "Claude Opus 4.8",
+        "Gemini 3.1 Pro Preview",
+        "Gemini 3.5 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "AutomationBench",
+          "18.1%",
+          "15.2%",
+          "14.9%",
+          "12.9%",
+          "—",
+          "—",
+          "17.4%",
+          "15.5%",
+          "—",
+          "14.5%"
+        ]
+      ]
+    },
+    {
+      "index": 127,
+      "tag": "tr",
+      "text": "AutomationBench | 18.1% | 15.2% | 14.9% | 12.9% | — | — | 17.4% | 15.5% | — | 14.5%",
+      "heading": "Tool use",
+      "isFootnote": false,
+      "cells": [
+        "AutomationBench",
+        "18.1%",
+        "15.2%",
+        "14.9%",
+        "12.9%",
+        "—",
+        "—",
+        "17.4%",
+        "15.5%",
+        "—",
+        "14.5%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "AutomationBench",
+          "18.1%",
+          "15.2%",
+          "14.9%",
+          "12.9%",
+          "—",
+          "—",
+          "17.4%",
+          "15.5%",
+          "—",
+          "14.5%"
+        ]
+      ]
+    },
+    {
+      "index": 128,
+      "tag": "tr",
+      "text": "Toolathlon | 58% | 53.1% | 53.4% | 55.6% | 61.7% | 61.1% | 61.7% | 59.9% | 48.8% | —",
+      "heading": "Tool use",
+      "isFootnote": false,
+      "cells": [
+        "Toolathlon",
+        "58%",
+        "53.1%",
+        "53.4%",
+        "55.6%",
+        "61.7%",
+        "61.1%",
+        "61.7%",
+        "59.9%",
+        "48.8%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Fable 5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview",
+          "Gemini 3.5 Flash"
+        ],
+        [
+          "AutomationBench",
+          "18.1%",
+          "15.2%",
+          "14.9%",
+          "12.9%",
+          "—",
+          "—",
+          "17.4%",
+          "15.5%",
+          "—",
+          "14.5%"
+        ]
+      ]
+    },
+    {
+      "index": 129,
+      "tag": "h3",
+      "text": "Long context",
+      "heading": "Long context",
+      "isFootnote": false
+    },
+    {
+      "index": 130,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Mythos 5 | Claude Mythos Preview | Claude Opus 4.8",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.6 Sol",
+        "GPT‑5.6 Terra",
+        "GPT‑5.6 Luna",
+        "GPT‑5.5",
+        "Claude Mythos 5",
+        "Claude Mythos Preview",
+        "Claude Opus 4.8"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 256K-512K",
+          "91.5%",
+          "89.6%",
+          "41.3%",
+          "81.5%",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 131,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 256K-512K | 91.5% | 89.6% | 41.3% | 81.5% | — | — | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 256K-512K",
+        "91.5%",
+        "89.6%",
+        "41.3%",
+        "81.5%",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 256K-512K",
+          "91.5%",
+          "89.6%",
+          "41.3%",
+          "81.5%",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 132,
+      "tag": "tr",
+      "text": "OpenAI MRCR v2 8-needle 512K-1M | 73.8% | 72.5% | 41.3% | 74% | — | — | —",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "OpenAI MRCR v2 8-needle 512K-1M",
+        "73.8%",
+        "72.5%",
+        "41.3%",
+        "74%",
+        "—",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 256K-512K",
+          "91.5%",
+          "89.6%",
+          "41.3%",
+          "81.5%",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 133,
+      "tag": "tr",
+      "text": "GraphWalks BFS 256k f1 | 90.7% | 76.9% | 81.3% | 73.7% | 91.1% | 85.7% | 85.9%",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "GraphWalks BFS 256k f1",
+        "90.7%",
+        "76.9%",
+        "81.3%",
+        "73.7%",
+        "91.1%",
+        "85.7%",
+        "85.9%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 256K-512K",
+          "91.5%",
+          "89.6%",
+          "41.3%",
+          "81.5%",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 134,
+      "tag": "tr",
+      "text": "GraphWalks BFS 1mil f1 | 77.1% | 71.2% | 51.2% | 45.4% | 79.4% | 74.3% | 68.1%",
+      "heading": "Long context",
+      "isFootnote": false,
+      "cells": [
+        "GraphWalks BFS 1mil f1",
+        "77.1%",
+        "71.2%",
+        "51.2%",
+        "45.4%",
+        "79.4%",
+        "74.3%",
+        "68.1%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Mythos 5",
+          "Claude Mythos Preview",
+          "Claude Opus 4.8"
+        ],
+        [
+          "OpenAI MRCR v2 8-needle 256K-512K",
+          "91.5%",
+          "89.6%",
+          "41.3%",
+          "81.5%",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 135,
+      "tag": "h3",
+      "text": "Abstract reasoning",
+      "heading": "Abstract reasoning",
+      "isFootnote": false
+    },
+    {
+      "index": 136,
+      "tag": "tr",
+      "text": "Eval | GPT‑5.6 Sol | GPT‑5.6 Terra | GPT‑5.6 Luna | GPT‑5.5 | Claude Opus 4.8 | Gemini 3.1 Pro Preview",
+      "heading": "Abstract reasoning",
+      "isFootnote": false,
+      "cells": [
+        "Eval",
+        "GPT‑5.6 Sol",
+        "GPT‑5.6 Terra",
+        "GPT‑5.6 Luna",
+        "GPT‑5.5",
+        "Claude Opus 4.8",
+        "Gemini 3.1 Pro Preview"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "ARC-AGI-3⁷",
+          "7.78%",
+          "0.8%",
+          "0.18%",
+          "0.43%",
+          "1.5%",
+          "0.42%"
+        ]
+      ]
+    },
+    {
+      "index": 137,
+      "tag": "tr",
+      "text": "ARC-AGI-3⁷ | 7.78% | 0.8% | 0.18% | 0.43% | 1.5% | 0.42%",
+      "heading": "Abstract reasoning",
+      "isFootnote": false,
+      "cells": [
+        "ARC-AGI-3⁷",
+        "7.78%",
+        "0.8%",
+        "0.18%",
+        "0.43%",
+        "1.5%",
+        "0.42%"
+      ],
+      "tableHeaders": [
+        [
+          "Eval",
+          "GPT‑5.6 Sol",
+          "GPT‑5.6 Terra",
+          "GPT‑5.6 Luna",
+          "GPT‑5.5",
+          "Claude Opus 4.8",
+          "Gemini 3.1 Pro Preview"
+        ],
+        [
+          "ARC-AGI-3⁷",
+          "7.78%",
+          "0.8%",
+          "0.18%",
+          "0.43%",
+          "1.5%",
+          "0.42%"
+        ]
+      ]
+    },
+    {
+      "index": 138,
+      "tag": "li",
+      "text": "2026",
+      "heading": "Abstract reasoning",
+      "isFootnote": true
+    },
+    {
+      "index": 139,
+      "tag": "h2",
+      "text": "Author",
+      "heading": "Author",
+      "isFootnote": true
+    },
+    {
+      "index": 140,
+      "tag": "h2",
+      "text": "Footnotes",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 141,
+      "tag": "li",
+      "text": "1 Cyber capabilities are evaluated with reduced safeguards. Users can join OpenAI Daybreak’s Trusted Access for Cyber program ⁠ for increased access to defensive cyber capabilities.",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 142,
+      "tag": "li",
+      "text": "2 All models are evaluated using the ExploitBench API harness with 5 seeds and reasoning continuity.",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 143,
+      "tag": "li",
+      "text": "3 We ran ExploitGym on our alpha API, which outputs responses faster than our public API, and then rescaled to match our public API. When rescaling latencies to the speeds expected for our public API, this causes some estimated latencies to exceed the two- and six-hour time limits, despite being correctly obeyed in the evaluation run. To get faster speeds for time-sensitive work, we offer priority processing⁠ in the API and fast mode⁠ in Codex.",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 144,
+      "tag": "li",
+      "text": "4 We estimate latency and API cost by looking at the production behavior of our models, and simulating offline. These estimates account for tool call details, sampled tokens, and input tokens. Real-world results may vary substantially, and depend on many factors not captured in our simulation. We simulate latency at fast API speeds, and cost at regular API pricing.",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 145,
+      "tag": "li",
+      "text": "5 Models without reported output tokens, latency or cost are plotted as horizontal dotted lines.",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 146,
+      "tag": "li",
+      "text": "6 For multi-agent, latency is derived from the root agent, while output token and API-cost totals include all tokens. Ultra is run with 4 agents.",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 147,
+      "tag": "li",
+      "text": "7 We compute scores with the official scoring approach described in the HealthBench Professional paper, which is not comparable to results reported in Anthropic system cards.",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 148,
+      "tag": "li",
+      "text": "8 ARC-AGI-3 for Opus 4.8 was run on high and not max reasoning effort, as this is the only published ARC-AGI-3 result.",
+      "heading": "Footnotes",
+      "isFootnote": true
+    },
+    {
+      "index": 149,
+      "tag": "h2",
+      "text": "Keep reading",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 150,
+      "tag": "p",
+      "text": "Product Sep 23, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 151,
+      "tag": "p",
+      "text": "Product Sep 22, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 152,
+      "tag": "p",
+      "text": "Product Sep 22, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    }
+  ]
+}

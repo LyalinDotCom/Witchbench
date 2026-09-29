@@ -1,0 +1,222 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "p",
+      "text": "February 12, 2026",
+      "heading": "",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "h1",
+      "text": "Introducing GPT‑5.3‑Codex‑Spark",
+      "heading": "Introducing GPT‑5.3‑Codex‑Spark",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "An ultra-fast model for real-time coding in Codex.",
+      "heading": "Introducing GPT‑5.3‑Codex‑Spark",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "p",
+      "text": "Today, we’re releasing a research preview of GPT‑5.3‑Codex‑Spark, a smaller version of GPT‑5.3‑Codex, and our first model designed for real-time coding. Codex-Spark marks the first milestone in our partnership with Cerebras, which we announced in January ⁠ . Codex-Spark is optimized to feel near-instant when served on ultra-low latency hardware—delivering more than 1000 tokens per second while remaining highly capable for real-world coding tasks.",
+      "heading": "Introducing GPT‑5.3‑Codex‑Spark",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "p",
+      "text": "We’re sharing Codex-Spark on Cerebras as a research preview to ChatGPT Pro users so that developers can start experimenting early while we work with Cerebras to ramp up datacenter capacity, harden the end-to-end user experience, and deploy our larger frontier models.",
+      "heading": "Introducing GPT‑5.3‑Codex‑Spark",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "p",
+      "text": "Our latest frontier models have shown particular strengths in their ability to do long-running tasks, working autonomously for hours, days or weeks without intervention. Codex-Spark is our first model designed specifically for working with Codex in real-time—making targeted edits, reshaping logic, or refining interfaces and seeing results immediately. With Codex-Spark, Codex now supports both long-running, ambitious tasks and getting work done in the moment. We hope to learn from how developers use it and incorporate feedback as we continue to expand access.",
+      "heading": "Introducing GPT‑5.3‑Codex‑Spark",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "p",
+      "text": "At launch, Codex-Spark has a 128k context window and is text-only. During the research preview, Codex-Spark will have its own rate limits and usage will not count towards standard rate limits. However, when demand is high, you may see limited access or temporary queuing as we balance reliability across users.",
+      "heading": "Introducing GPT‑5.3‑Codex‑Spark",
+      "isFootnote": false
+    },
+    {
+      "index": 8,
+      "tag": "h2",
+      "text": "Speed and intelligence",
+      "heading": "Speed and intelligence",
+      "isFootnote": false
+    },
+    {
+      "index": 9,
+      "tag": "p",
+      "text": "Codex-Spark is optimized for interactive work where latency matters as much as intelligence. You can collaborate with the model in real time, interrupting or redirecting it as it works, and rapidly iterate with near-instant responses. Because it’s tuned for speed, Codex-Spark keeps its default working style lightweight: it makes minimal, targeted edits and doesn’t automatically run tests unless you ask it to.",
+      "heading": "Speed and intelligence",
+      "isFootnote": false
+    },
+    {
+      "index": 10,
+      "tag": "h2",
+      "text": "Coding",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 11,
+      "tag": "p",
+      "text": "Codex-Spark is a highly capable small model optimized for fast inference. On SWE-Bench Pro and Terminal-Bench 2.0, two benchmarks evaluating agentic software engineering capability, GPT‑5.3‑Codex‑Spark demonstrates strong performance while accomplishing the tasks in a fraction of the time compared to GPT‑5.3‑Codex.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 12,
+      "tag": "figcaption",
+      "text": "Duration is estimated as the sum of (1) output generation time (output tokens ÷ sampling speed), (2) prefill time (prefill tokens ÷ prefill speed), (3) total tool execution time, and (4) total network overhead.",
+      "heading": "Coding",
+      "isFootnote": false
+    },
+    {
+      "index": 13,
+      "tag": "h2",
+      "text": "Latency improvements for all models",
+      "heading": "Latency improvements for all models",
+      "isFootnote": false
+    },
+    {
+      "index": 14,
+      "tag": "p",
+      "text": "As we trained Codex-Spark, it became apparent that model speed was just part of the equation for real-time collaboration—we also needed to reduce latency across the full request-response pipeline. We implemented end-to-end latency improvements in our harness that will benefit all models. Under the hood, we streamlined how responses stream from client to server and back, rewrote key pieces of our inference stack, and reworked how sessions are initialized so that the first visible token appears sooner and Codex stays responsive as you iterate. Through the introduction of a persistent WebSocket connection and targeted optimizations inside of Responses API, we reduced overhead per client/server roundtrip by 80%, per-token overhead by 30%, and time-to-first-token by 50%. The WebSocket path is enabled for Codex-Spark by default and will become the default for all models soon.",
+      "heading": "Latency improvements for all models",
+      "isFootnote": false
+    },
+    {
+      "index": 15,
+      "tag": "h2",
+      "text": "Powered by Cerebras",
+      "heading": "Powered by Cerebras",
+      "isFootnote": false
+    },
+    {
+      "index": 16,
+      "tag": "p",
+      "text": "Codex-Spark runs on Cerebras’ Wafer Scale Engine 3 ⁠ (opens in a new window) —a purpose-built AI accelerator for high-speed inference giving Codex a latency-first serving tier. We partnered with Cerebras to add this low-latency path to the same production serving stack as the rest of our fleet, so it works seamlessly across Codex and sets us up to support future models.",
+      "heading": "Powered by Cerebras",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "p",
+      "text": "GPUs remain foundational across our training and inference pipelines and deliver the most cost effective tokens for broad usage. Cerebras complements that foundation by excelling at workflows that demand extremely low latency, tightening the end-to-end loop so Codex feels more responsive as you iterate. GPUs and Cerebras can be combined for single workloads to reach the best performance.",
+      "heading": "Powered by Cerebras",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "h2",
+      "text": "Availability & details",
+      "heading": "Availability & details",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "p",
+      "text": "Codex-Spark is rolling out today as a research preview for ChatGPT Pro users in the latest versions of the Codex app, CLI, and VS Code extension. Because it runs on specialized low-latency hardware, usage is governed by a separate rate limit that may adjust based on demand during the research preview. In addition, we are making Codex-Spark available in the API for a small set of design partners to understand how developers want to integrate Codex-Spark into their products. We’ll expand access over the coming weeks as we continue tuning our integration under real workloads.",
+      "heading": "Availability & details",
+      "isFootnote": false
+    },
+    {
+      "index": 20,
+      "tag": "p",
+      "text": "Codex-Spark is currently text-only at a 128k context window and is the first in a family of ultra-fast models. As we learn more with the developer community about where fast models shine for coding, we’ll introduce even more capabilities–including larger models, longer context lengths, and multimodal input.",
+      "heading": "Availability & details",
+      "isFootnote": false
+    },
+    {
+      "index": 21,
+      "tag": "p",
+      "text": "Codex-Spark includes the same safety training as our mainline models, including cyber-relevant training. We evaluated Codex-Spark as part of our standard deployment process, which includes baseline evaluations for cyber and other capabilities, and determined that it does not have a plausible chance of reaching our Preparedness Framework threshold for high capability in cybersecurity or biology.",
+      "heading": "Availability & details",
+      "isFootnote": false
+    },
+    {
+      "index": 22,
+      "tag": "h2",
+      "text": "What’s next",
+      "heading": "What’s next",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "p",
+      "text": "Codex-Spark is the first step toward a Codex with two complementary modes: longer-horizon reasoning and execution, and real-time collaboration for rapid iteration. Over time, the modes will blend—Codex can keep you in a tight interactive loop while delegating longer-running work to sub-agents in the background, or fanning out tasks to many models in parallel when you want breadth and speed, so you don’t have to choose a single mode up front.",
+      "heading": "What’s next",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "p",
+      "text": "As models become more capable, interaction speed becomes a clear bottleneck. Ultra-fast inference tightens that loop, making Codex feel more natural to use and expanding what’s possible for anyone turning an idea into working software.",
+      "heading": "What’s next",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "li",
+      "text": "2026",
+      "heading": "What’s next",
+      "isFootnote": true
+    },
+    {
+      "index": 26,
+      "tag": "li",
+      "text": "Codex",
+      "heading": "What’s next",
+      "isFootnote": true
+    },
+    {
+      "index": 27,
+      "tag": "h2",
+      "text": "Author",
+      "heading": "Author",
+      "isFootnote": true
+    },
+    {
+      "index": 28,
+      "tag": "h2",
+      "text": "Keep reading",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "p",
+      "text": "Product Feb 2, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "p",
+      "text": "Product Feb 5, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "p",
+      "text": "Publication Feb 5, 2026",
+      "heading": "Keep reading",
+      "isFootnote": false
+    }
+  ]
+}

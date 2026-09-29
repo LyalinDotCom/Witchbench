@@ -1,0 +1,1733 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "h1",
+      "text": "Gemini 3.7 Flash",
+      "heading": "Gemini 3.7 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "p",
+      "text": "Model Cards are intended to provide essential information on Gemini models, including known limitations, mitigation approaches, and safety performance. Model cards may be updated from time to time; for example, to include updated evaluations as the model is improved or revised. See the Google DeepMind site for a comprehensive list of model cards.",
+      "heading": "Gemini 3.7 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "Published: August 2026",
+      "heading": "Gemini 3.7 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "li",
+      "text": "Model Information",
+      "heading": "Gemini 3.7 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "li",
+      "text": "Model Data",
+      "heading": "Gemini 3.7 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "li",
+      "text": "Implementation and Sustainability",
+      "heading": "Gemini 3.7 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "li",
+      "text": "Distribution",
+      "heading": "Gemini 3.7 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 8,
+      "tag": "li",
+      "text": "Evaluation",
+      "heading": "Gemini 3.7 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 9,
+      "tag": "li",
+      "text": "Intended Usage and Limitations",
+      "heading": "Gemini 3.7 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 10,
+      "tag": "li",
+      "text": "Ethics and Content Safety",
+      "heading": "Gemini 3.7 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 11,
+      "tag": "h2",
+      "text": "Model Information",
+      "heading": "Model Information",
+      "isFootnote": false
+    },
+    {
+      "index": 12,
+      "tag": "h3",
+      "text": "Description",
+      "heading": "Description",
+      "isFootnote": false
+    },
+    {
+      "index": 13,
+      "tag": "p",
+      "text": "Gemini 3.7 Flash is the next iteration in the Gemini 3 model family, featuring algorithmic improvements to its core reasoning foundation and support for agentic video understanding. It supports customizable thinking configurations to control the mix of quality, cost and latency.",
+      "heading": "Description",
+      "isFootnote": false
+    },
+    {
+      "index": 14,
+      "tag": "h3",
+      "text": "Model dependencies",
+      "heading": "Model dependencies",
+      "isFootnote": false
+    },
+    {
+      "index": 15,
+      "tag": "p",
+      "text": "Gemini 3.7 Flash is based on Gemini 3.6 Flash.",
+      "heading": "Model dependencies",
+      "isFootnote": false
+    },
+    {
+      "index": 16,
+      "tag": "h3",
+      "text": "Inputs",
+      "heading": "Inputs",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "p",
+      "text": "Text strings (e.g., a question, a prompt, document(s) to be summarized), images, audio, and video files, with a token context window of up to 1M.",
+      "heading": "Inputs",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "h3",
+      "text": "Outputs",
+      "heading": "Outputs",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "p",
+      "text": "Text, with a 64K token output.",
+      "heading": "Outputs",
+      "isFootnote": false
+    },
+    {
+      "index": 20,
+      "tag": "h3",
+      "text": "Architecture",
+      "heading": "Architecture",
+      "isFootnote": false
+    },
+    {
+      "index": 21,
+      "tag": "p",
+      "text": "Gemini 3.7 Flash is based on Gemini 3.6 Flash. For more information about the model architecture for Gemini 3.7 Flash, see the Gemini 3.6 Flash model card .",
+      "heading": "Architecture",
+      "isFootnote": false
+    },
+    {
+      "index": 22,
+      "tag": "h2",
+      "text": "Model Data",
+      "heading": "Model Data",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "h3",
+      "text": "Training Dataset",
+      "heading": "Training Dataset",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "p",
+      "text": "Gemini 3.7 Flash is based on Gemini 3.6 Flash. For more information about the training dataset for Gemini 3.7 Flash, see the Gemini 3.6 Flash model card .",
+      "heading": "Training Dataset",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "h3",
+      "text": "Training Data Processing",
+      "heading": "Training Data Processing",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "p",
+      "text": "For more information about the training data processing for Gemini 3.7 Flash, see the Gemini 3.6 Flash model card .",
+      "heading": "Training Data Processing",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "h2",
+      "text": "Implementation and Sustainability",
+      "heading": "Implementation and Sustainability",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "h3",
+      "text": "Hardware",
+      "heading": "Hardware",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "p",
+      "text": "Gemini 3.7 Flash is based on Gemini 3.6 Flash. For more information about the hardware for Gemini 3.7 Flash and our continued commitment to operate sustainably , see the Gemini 3.6 Flash model card .",
+      "heading": "Hardware",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "h3",
+      "text": "Software",
+      "heading": "Software",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "p",
+      "text": "Gemini 3.7 Flash is based on Gemini 3.6 Flash. For more information about the software for Gemini 3.7 Flash, see the Gemini 3.6 Flash model card .",
+      "heading": "Software",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "h2",
+      "text": "Distribution",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "p",
+      "text": "Gemini 3.7 Flash is distributed in the following channels; respective documentation shared in line:",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 34,
+      "tag": "li",
+      "text": "Gemini App - Spark",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 35,
+      "tag": "li",
+      "text": "Gemini Enterprise App",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 36,
+      "tag": "li",
+      "text": "Gemini Enterprise Agent Platform",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 37,
+      "tag": "li",
+      "text": "Google AI Studio",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 38,
+      "tag": "li",
+      "text": "Gemini API",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 39,
+      "tag": "li",
+      "text": "Google Antigravity",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 40,
+      "tag": "p",
+      "text": "Our models are available to downstream providers via an application program interface (API) and subject to relevant terms of use. There is no required hardware or software to use the model. For AI Studio and Gemini API, see the Gemini API Additional Terms of Service ; for Gemini Enterprise Agent Platform, see Google Cloud Platform Terms of Service . For more information, see Gemini Model API instructions and Gemini API quickstart .",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 41,
+      "tag": "h2",
+      "text": "Evaluation",
+      "heading": "Evaluation",
+      "isFootnote": false
+    },
+    {
+      "index": 42,
+      "tag": "h3",
+      "text": "Approach",
+      "heading": "Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 43,
+      "tag": "p",
+      "text": "Gemini 3.7 Flash was evaluated across a range of benchmarks, including reasoning, coding, agentic tool use, multimodal capabilities, multi-lingual performance, and long-context. Additional benchmarks and details on approach, results and their methodologies can be found at: deepmind.com/models/evals-methodology/gemini-3-7-flash .",
+      "heading": "Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 44,
+      "tag": "h3",
+      "text": "Results",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 45,
+      "tag": "p",
+      "text": "Results as of August 2026 are listed below:",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 46,
+      "tag": "tr",
+      "text": "Benchmark | Notes | Gemini 3.7 Flash | Gemini 3.6 Flash | Claude Sonnet 5 | GPT-5.6 Terra | Muse Spark 1.2",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Benchmark",
+        "Notes",
+        "Gemini 3.7 Flash",
+        "Gemini 3.6 Flash",
+        "Claude Sonnet 5",
+        "GPT-5.6 Terra",
+        "Muse Spark 1.2"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 47,
+      "tag": "tr",
+      "text": "Input price $/1M tokens | | $0.75* | $0.75* | $2.00 | $2.00 | $1.25",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Input price $/1M tokens",
+        "",
+        "$0.75*",
+        "$0.75*",
+        "$2.00",
+        "$2.00",
+        "$1.25"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 48,
+      "tag": "tr",
+      "text": "Output price $/1M tokens | | $3.75* | $3.75* | $10.00 | $12.00 | $4.25",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Output price $/1M tokens",
+        "",
+        "$3.75*",
+        "$3.75*",
+        "$10.00",
+        "$12.00",
+        "$4.25"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 49,
+      "tag": "tr",
+      "text": "Artificial Analysis Intelligence Index Composite model intelligence | | 56 | 52 | 55 | 57 | 57",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Artificial Analysis Intelligence Index Composite model intelligence",
+        "",
+        "56",
+        "52",
+        "55",
+        "57",
+        "57"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 50,
+      "tag": "tr",
+      "text": "FrontierCode 1.1 Main Production code quality | Score | 43.6% | 34.4% | 42.7% | 41.3% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "FrontierCode 1.1 Main Production code quality",
+        "Score",
+        "43.6%",
+        "34.4%",
+        "42.7%",
+        "41.3%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 51,
+      "tag": "tr",
+      "text": "DeepSWE v1.1 Long-horizon software engineering | | 65.3% | 48.6% | 53.8% | 69.6% | 54.9%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "DeepSWE v1.1 Long-horizon software engineering",
+        "",
+        "65.3%",
+        "48.6%",
+        "53.8%",
+        "69.6%",
+        "54.9%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 52,
+      "tag": "tr",
+      "text": "Code Arena Web development | Elo | 1588 | 1538 | 1541 | 1523 | 1535",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Code Arena Web development",
+        "Elo",
+        "1588",
+        "1538",
+        "1541",
+        "1523",
+        "1535"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 53,
+      "tag": "tr",
+      "text": "Terminal-bench 2.1 Agentic terminal coding | | 85.8% | 78.0% | 80.4% | 87.4% | 82.9%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Terminal-bench 2.1 Agentic terminal coding",
+        "",
+        "85.8%",
+        "78.0%",
+        "80.4%",
+        "87.4%",
+        "82.9%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 54,
+      "tag": "tr",
+      "text": "Terminal-bench 3.0 General agent capabilities | | 14.9% | 5.4% | 14.6% | 20.8% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Terminal-bench 3.0 General agent capabilities",
+        "",
+        "14.9%",
+        "5.4%",
+        "14.6%",
+        "20.8%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 55,
+      "tag": "tr",
+      "text": "AutomationBench Enterprise workflow automation | Private set | 30.4% | 17.0% | 10.7% | 23.6% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "AutomationBench Enterprise workflow automation",
+        "Private set",
+        "30.4%",
+        "17.0%",
+        "10.7%",
+        "23.6%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 56,
+      "tag": "tr",
+      "text": "GDPVal-AA v2 Knowledge work | Elo | 1525 | 1422 | 1598 | 1578 | 1628",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "GDPVal-AA v2 Knowledge work",
+        "Elo",
+        "1525",
+        "1422",
+        "1598",
+        "1578",
+        "1628"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 57,
+      "tag": "tr",
+      "text": "Harvey LAB-AA Complex legal workflows | | 90.7% | 85.1% | 90.1% | 85.2% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Harvey LAB-AA Complex legal workflows",
+        "",
+        "90.7%",
+        "85.1%",
+        "90.1%",
+        "85.2%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 58,
+      "tag": "tr",
+      "text": "GDP.pdf Expert PDF document comprehension | | 34.0% | 22.0% | 28.0% | 24.7% | 16.0%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "GDP.pdf Expert PDF document comprehension",
+        "",
+        "34.0%",
+        "22.0%",
+        "28.0%",
+        "24.7%",
+        "16.0%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 59,
+      "tag": "tr",
+      "text": "CharXiv Reasoning Information synthesis from complex charts | No tools | 84.5% | 85.2% | 77.0% | 85.9% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "CharXiv Reasoning Information synthesis from complex charts",
+        "No tools",
+        "84.5%",
+        "85.2%",
+        "77.0%",
+        "85.9%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 60,
+      "tag": "tr",
+      "text": "With tools | 88.7% | 89.4% | 88.3% | — | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "With tools",
+        "88.7%",
+        "89.4%",
+        "88.3%",
+        "—",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 61,
+      "tag": "tr",
+      "text": "LVBench Long video understanding | | 85.4% | 84.2% | 68.5% | 78.9% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "LVBench Long video understanding",
+        "",
+        "85.4%",
+        "84.2%",
+        "68.5%",
+        "78.9%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 62,
+      "tag": "tr",
+      "text": "GDM-MRCR v2 (8-needle) Long context performance | 128k (average) | 97.0% | 91.8% | 81.5% | 93.5% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "GDM-MRCR v2 (8-needle) Long context performance",
+        "128k (average)",
+        "97.0%",
+        "91.8%",
+        "81.5%",
+        "93.5%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 63,
+      "tag": "tr",
+      "text": "OSWorld-2.0 Agentic computer use | | 47.9% | 33.8% | — | 50.2% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "OSWorld-2.0 Agentic computer use",
+        "",
+        "47.9%",
+        "33.8%",
+        "—",
+        "50.2%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 64,
+      "tag": "tr",
+      "text": "Agent's Last Exam Multimodal desktop and OS agent tasks | Pass rate | 26.3% | 24.2% | 33.3% | 28.0% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Agent's Last Exam Multimodal desktop and OS agent tasks",
+        "Pass rate",
+        "26.3%",
+        "24.2%",
+        "33.3%",
+        "28.0%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 65,
+      "tag": "tr",
+      "text": "HLE-Verified Multidisciplinary expert reasoning | | 53.6% | 51.2% | 31.0% | 51.1% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "HLE-Verified Multidisciplinary expert reasoning",
+        "",
+        "53.6%",
+        "51.2%",
+        "31.0%",
+        "51.1%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 66,
+      "tag": "tr",
+      "text": "BioMysteryBench Bioinformatics research reasoning | Human solvable | 87.1% | 80.6% | 87.5% | 83.8% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "BioMysteryBench Bioinformatics research reasoning",
+        "Human solvable",
+        "87.1%",
+        "80.6%",
+        "87.5%",
+        "83.8%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 67,
+      "tag": "tr",
+      "text": "Human difficult | 43.5% | 41.2% | 34.1% | 49.4% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Human difficult",
+        "43.5%",
+        "41.2%",
+        "34.1%",
+        "49.4%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 68,
+      "tag": "tr",
+      "text": "LABBench2 Biology real-world research tasks | | 82.1% | 76.1% | 80.1% | 81.2% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "LABBench2 Biology real-world research tasks",
+        "",
+        "82.1%",
+        "76.1%",
+        "80.1%",
+        "81.2%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.7 Flash",
+          "Gemini 3.6 Flash",
+          "Claude Sonnet 5",
+          "GPT-5.6 Terra",
+          "Muse Spark 1.2"
+        ],
+        [
+          "Input price $/1M tokens",
+          "",
+          "$0.75*",
+          "$0.75*",
+          "$2.00",
+          "$2.00",
+          "$1.25"
+        ]
+      ]
+    },
+    {
+      "index": 69,
+      "tag": "p",
+      "text": "Methodology: deepmind.com/models/evals-methodology/gemini-3-7-flash",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 70,
+      "tag": "p",
+      "text": "* For 3.6 and 3.7 Flash, introductory price expires on December 31, 2026. Starting January 1, 2027, $1.50/1M input tokens and $7.50/1M output tokens will apply.",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 71,
+      "tag": "h2",
+      "text": "Intended Usage and Limitations",
+      "heading": "Intended Usage and Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 72,
+      "tag": "h3",
+      "text": "Benefit and Intended Usage",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 73,
+      "tag": "p",
+      "text": "Gemini 3.7 Flash is well-suited for users, developers, and enterprises. Some use cases include: agentic workflows, complex video reasoning, coding tasks, and enterprise workflows",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 74,
+      "tag": "h3",
+      "text": "Known Limitations",
+      "heading": "Known Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 75,
+      "tag": "p",
+      "text": "Gemini 3.7 Flash may exhibit some of the general limitations of foundation models, such as hallucinations. In addition to this, we are continually working to improve jailbreak resistance and have recently strengthened the mitigations across Frontier Safety. There may also be occasional slowness or timeout issues. The knowledge cutoff date for Gemini 3.7 Flash is March 2026 – users can expect updated information for some domains while in others they may experience the model’s knowledge is limited to January 2025 (in line with the Gemini 3 Model Family). For more information about known limitations, see the Gemini 3.6 Flash model card .",
+      "heading": "Known Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 76,
+      "tag": "h3",
+      "text": "Acceptable Usage",
+      "heading": "Acceptable Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 77,
+      "tag": "p",
+      "text": "For more information about the acceptable usage for Gemini 3.7 Flash, see the Gemini 3.6 Flash model card .",
+      "heading": "Acceptable Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 78,
+      "tag": "h2",
+      "text": "Ethics and Content Safety",
+      "heading": "Ethics and Content Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 79,
+      "tag": "h3",
+      "text": "Evaluation Approach",
+      "heading": "Evaluation Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 80,
+      "tag": "p",
+      "text": "For more information about the evaluation approach for Gemini 3.7 Flash, see the Gemini 3.6 Flash model card .",
+      "heading": "Evaluation Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 81,
+      "tag": "h3",
+      "text": "Safety Policies",
+      "heading": "Safety Policies",
+      "isFootnote": false
+    },
+    {
+      "index": 82,
+      "tag": "p",
+      "text": "For more information about the safety policies for Gemini 3.7 Flash, see the Gemini 3.6 Flash model card .",
+      "heading": "Safety Policies",
+      "isFootnote": false
+    },
+    {
+      "index": 83,
+      "tag": "h3",
+      "text": "Training and Development Evaluation Results",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 84,
+      "tag": "p",
+      "text": "Results for some of the internal safety evaluations conducted during the development phase are listed below. The evaluation results are for automated evaluations and not human evaluation or red teaming. Scores are provided as an absolute percentage increase or decrease in performance compared to the indicated model, as described below.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 85,
+      "tag": "p",
+      "text": "Overall, Gemini 3.7 Flash performs similarly to Gemini 3.6 Flash across both safety and tone, with low unjustified refusals.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 86,
+      "tag": "tr",
+      "text": "Evaluation | Description | Gemini 3.7 Flash vs. Gemini 3.6 Flash",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Evaluation",
+        "Description",
+        "Gemini 3.7 Flash vs. Gemini 3.6 Flash"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.7 Flash vs. Gemini 3.6 Flash"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+1.17pp Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 87,
+      "tag": "tr",
+      "text": "Text to Text Safety | Automated content safety evaluation measuring safety policies | +1.17pp Lower is better",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Text to Text Safety",
+        "Automated content safety evaluation measuring safety policies",
+        "+1.17pp Lower is better"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.7 Flash vs. Gemini 3.6 Flash"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+1.17pp Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 88,
+      "tag": "tr",
+      "text": "Multilingual Safety | Automated safety policy evaluation across multiple languages | -0.48pp Lower is better",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Multilingual Safety",
+        "Automated safety policy evaluation across multiple languages",
+        "-0.48pp Lower is better"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.7 Flash vs. Gemini 3.6 Flash"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+1.17pp Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 89,
+      "tag": "tr",
+      "text": "Image to Text Safety | Automated content safety evaluation measuring safety policies | No change Lower is better",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Image to Text Safety",
+        "Automated content safety evaluation measuring safety policies",
+        "No change Lower is better"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.7 Flash vs. Gemini 3.6 Flash"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+1.17pp Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 90,
+      "tag": "tr",
+      "text": "Tone 1 | Automated evaluation measuring objective tone of model refusal | -0.47pp Higher is better",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Tone 1",
+        "Automated evaluation measuring objective tone of model refusal",
+        "-0.47pp Higher is better"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.7 Flash vs. Gemini 3.6 Flash"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+1.17pp Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 91,
+      "tag": "tr",
+      "text": "Unjustified-refusals | Automated evaluation measuring model’s ability to respond to borderline prompts while remaining safe | +0.84pp Lower is better",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Unjustified-refusals",
+        "Automated evaluation measuring model’s ability to respond to borderline prompts while remaining safe",
+        "+0.84pp Lower is better"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation",
+          "Description",
+          "Gemini 3.7 Flash vs. Gemini 3.6 Flash"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+1.17pp Lower is better"
+        ]
+      ]
+    },
+    {
+      "index": 92,
+      "tag": "p",
+      "text": "1 For tone and instruction following, a positive percentage increase represents an improvement in the tone of the model on sensitive topics and the model’s ability to follow instructions while remaining safe compared to Gemini 3 Flash. We mark improvements in green and regressions in red.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 93,
+      "tag": "p",
+      "text": "We continue to improve our internal evaluations, including refining automated evaluations to reduce false positives and negatives, as well as update query sets to ensure balance and maintain a high standard of results. The performance results reported below are computed with improved evaluations and thus are not directly comparable with performance results found in previous Gemini model cards.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 94,
+      "tag": "p",
+      "text": "We expect variation in our automated safety evaluations results, which is why we review flagged content to check for egregious or dangerous material. Our manual review confirmed losses were overwhelmingly either a) false positives or b) not egregious.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 95,
+      "tag": "h3",
+      "text": "Human Red Teaming Results",
+      "heading": "Human Red Teaming Results",
+      "isFootnote": false
+    },
+    {
+      "index": 96,
+      "tag": "p",
+      "text": "We conduct manual red teaming by specialist teams who sit outside of the model development team. High-level findings are fed back to the model team. For child safety evaluations, Gemini 3.7 Flash satisfied required launch thresholds, which were developed by expert teams to protect children online and meet Google’s commitments to child safety across our models and Google products. For content safety policies generally, including child safety, we saw similar or improved safety performance compared to Gemini 3.6 Flash. Additionally, the scope of red teaming covered potential issues outside of our strict policies, compared performance to Gemini 3.1 Pro, and found no egregious concerns.",
+      "heading": "Human Red Teaming Results",
+      "isFootnote": false
+    },
+    {
+      "index": 97,
+      "tag": "h3",
+      "text": "Frontier Safety Assessment",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false
+    },
+    {
+      "index": 98,
+      "tag": "p",
+      "text": "We evaluated Gemini 3.7 Flash as outlined in our latest Frontier Safety Framework (April-2026), and found that it did not reach any tracked or critical capability levels as outlined in the table below:",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false
+    },
+    {
+      "index": 99,
+      "tag": "tr",
+      "text": "Domain | Key Results for Gemini 3.7 Flash | T/CCL | T/CCL reached?",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false,
+      "cells": [
+        "Domain",
+        "Key Results for Gemini 3.7 Flash",
+        "T/CCL",
+        "T/CCL reached?"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.7 Flash",
+          "T/CCL",
+          "T/CCL reached?"
+        ],
+        [
+          "CBRN",
+          "We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing. While Gemini 3.7 Flash demonstrates high capability in certain theoretical areas, it lacks nuanced expert knowledge and actionable depth necessary to complete priority harm journeys. We continue to deploy mitigations.",
+          "Uplift TCL",
+          "TCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 100,
+      "tag": "tr",
+      "text": "CBRN | We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing. While Gemini 3.7 Flash demonstrates high capability in certain theoretical areas, it lacks nuanced expert knowledge and actionable depth necessary to complete priority harm journeys. We continue to deploy mitigations. | Uplift TCL | TCL not reached",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false,
+      "cells": [
+        "CBRN",
+        "We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing. While Gemini 3.7 Flash demonstrates high capability in certain theoretical areas, it lacks nuanced expert knowledge and actionable depth necessary to complete priority harm journeys. We continue to deploy mitigations.",
+        "Uplift TCL",
+        "TCL not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.7 Flash",
+          "T/CCL",
+          "T/CCL reached?"
+        ],
+        [
+          "CBRN",
+          "We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing. While Gemini 3.7 Flash demonstrates high capability in certain theoretical areas, it lacks nuanced expert knowledge and actionable depth necessary to complete priority harm journeys. We continue to deploy mitigations.",
+          "Uplift TCL",
+          "TCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 101,
+      "tag": "tr",
+      "text": "We can rule out the CCL for the CBRN domain with reasonable confidence based on the results from our testing. Expert red teaming demonstrated a modest capability uplift over web baselines and a subset of experts were able to elicit accurate and actionable information across the full harm journey for both tested scenarios, prompting us to assess that the model has reached the alert threshold for this CCL. However, due to modest average red-teaming scores, and a requirement for explicit expert steering to elicit certain details, we have assessed that Gemini 3.7 Flash falls below the CCL threshold. We continue to deploy mitigations. | Uplift Level 1 CCL | CCL not reached",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false,
+      "cells": [
+        "We can rule out the CCL for the CBRN domain with reasonable confidence based on the results from our testing. Expert red teaming demonstrated a modest capability uplift over web baselines and a subset of experts were able to elicit accurate and actionable information across the full harm journey for both tested scenarios, prompting us to assess that the model has reached the alert threshold for this CCL. However, due to modest average red-teaming scores, and a requirement for explicit expert steering to elicit certain details, we have assessed that Gemini 3.7 Flash falls below the CCL threshold. We continue to deploy mitigations.",
+        "Uplift Level 1 CCL",
+        "CCL not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.7 Flash",
+          "T/CCL",
+          "T/CCL reached?"
+        ],
+        [
+          "CBRN",
+          "We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing. While Gemini 3.7 Flash demonstrates high capability in certain theoretical areas, it lacks nuanced expert knowledge and actionable depth necessary to complete priority harm journeys. We continue to deploy mitigations.",
+          "Uplift TCL",
+          "TCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 102,
+      "tag": "tr",
+      "text": "Cybersecurity | Gemini 3.7 Flash reaches the alert threshold for this CCL, but not the CCL. We continue to deploy mitigations. | Uplift Level 1 CCL | CCL not reached",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false,
+      "cells": [
+        "Cybersecurity",
+        "Gemini 3.7 Flash reaches the alert threshold for this CCL, but not the CCL. We continue to deploy mitigations.",
+        "Uplift Level 1 CCL",
+        "CCL not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.7 Flash",
+          "T/CCL",
+          "T/CCL reached?"
+        ],
+        [
+          "CBRN",
+          "We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing. While Gemini 3.7 Flash demonstrates high capability in certain theoretical areas, it lacks nuanced expert knowledge and actionable depth necessary to complete priority harm journeys. We continue to deploy mitigations.",
+          "Uplift TCL",
+          "TCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 103,
+      "tag": "tr",
+      "text": "Harmful Manipulation | Gemini 3.7 Flash demonstrates some ability to influence user beliefs and behaviors during one-on-one direct conversations in human behavioural studies. However, its overall efficacy falls beneath the CCL alert threshold. Recognizing that testing environments may under-elicit capabilities and threat actors could scale misuse absent mitigations, we continue to develop and evolve our safeguards. | Level 1 CCL | CCL not reached",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false,
+      "cells": [
+        "Harmful Manipulation",
+        "Gemini 3.7 Flash demonstrates some ability to influence user beliefs and behaviors during one-on-one direct conversations in human behavioural studies. However, its overall efficacy falls beneath the CCL alert threshold. Recognizing that testing environments may under-elicit capabilities and threat actors could scale misuse absent mitigations, we continue to develop and evolve our safeguards.",
+        "Level 1 CCL",
+        "CCL not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.7 Flash",
+          "T/CCL",
+          "T/CCL reached?"
+        ],
+        [
+          "CBRN",
+          "We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing. While Gemini 3.7 Flash demonstrates high capability in certain theoretical areas, it lacks nuanced expert knowledge and actionable depth necessary to complete priority harm journeys. We continue to deploy mitigations.",
+          "Uplift TCL",
+          "TCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 104,
+      "tag": "tr",
+      "text": "ML R&D and Misalignment | On stealth evaluations, Gemini 3.7 Flash performs similarly to Gemini 3.1 Pro; on situational awareness, the model is stronger than Gemini 3.1 Pro. Gemini 3.7 Flash is observant enough to correctly assess when it is in a testing environment, but it cannot successfully bypass testing restrictions. The model does not reach the TCL. | Stealth and Situational Awareness TCL | TCL not reached",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false,
+      "cells": [
+        "ML R&D and Misalignment",
+        "On stealth evaluations, Gemini 3.7 Flash performs similarly to Gemini 3.1 Pro; on situational awareness, the model is stronger than Gemini 3.1 Pro. Gemini 3.7 Flash is observant enough to correctly assess when it is in a testing environment, but it cannot successfully bypass testing restrictions. The model does not reach the TCL.",
+        "Stealth and Situational Awareness TCL",
+        "TCL not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.7 Flash",
+          "T/CCL",
+          "T/CCL reached?"
+        ],
+        [
+          "CBRN",
+          "We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing. While Gemini 3.7 Flash demonstrates high capability in certain theoretical areas, it lacks nuanced expert knowledge and actionable depth necessary to complete priority harm journeys. We continue to deploy mitigations.",
+          "Uplift TCL",
+          "TCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 105,
+      "tag": "tr",
+      "text": "Gemini 3.7 Flash can complete individual coding tasks but lacks the independence to chain them into an end-to-end research workflow without human intervention. The model does not reach the CCL alert threshold. | Acceleration Level 1 CCL | CCL not reached",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false,
+      "cells": [
+        "Gemini 3.7 Flash can complete individual coding tasks but lacks the independence to chain them into an end-to-end research workflow without human intervention. The model does not reach the CCL alert threshold.",
+        "Acceleration Level 1 CCL",
+        "CCL not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.7 Flash",
+          "T/CCL",
+          "T/CCL reached?"
+        ],
+        [
+          "CBRN",
+          "We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing. While Gemini 3.7 Flash demonstrates high capability in certain theoretical areas, it lacks nuanced expert knowledge and actionable depth necessary to complete priority harm journeys. We continue to deploy mitigations.",
+          "Uplift TCL",
+          "TCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 106,
+      "tag": "tr",
+      "text": "Automation Level 1 CCL | CCL not reached",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false,
+      "cells": [
+        "Automation Level 1 CCL",
+        "CCL not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.7 Flash",
+          "T/CCL",
+          "T/CCL reached?"
+        ],
+        [
+          "CBRN",
+          "We can rule out the TCL for the CBRN domain with reasonable confidence based on the results from our testing. While Gemini 3.7 Flash demonstrates high capability in certain theoretical areas, it lacks nuanced expert knowledge and actionable depth necessary to complete priority harm journeys. We continue to deploy mitigations.",
+          "Uplift TCL",
+          "TCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 107,
+      "tag": "p",
+      "text": "We continually work to improve the coverage and robustness of Frontier Safety safeguards. Gemini 3.7 Flash is shipping with updated safeguards to prevent misuse in the domains of Chemical, Biological, Radiological, and Nuclear (CBRN) and cyber offense.",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false
+    },
+    {
+      "index": 108,
+      "tag": "p",
+      "text": "The Gemini 3.7 Frontier Safety Framework Report is available here .",
+      "heading": "Frontier Safety Assessment",
+      "isFootnote": false
+    },
+    {
+      "index": 109,
+      "tag": "h2",
+      "text": "Latest model cards",
+      "heading": "Latest model cards",
+      "isFootnote": false
+    },
+    {
+      "index": 110,
+      "tag": "h3",
+      "text": "Gemini 3.8 Flash",
+      "heading": "Gemini 3.8 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 111,
+      "tag": "h3",
+      "text": "Gemini Robotics On-Device 2",
+      "heading": "Gemini Robotics On-Device 2",
+      "isFootnote": false
+    },
+    {
+      "index": 112,
+      "tag": "h3",
+      "text": "Gemini Robotics ER 2",
+      "heading": "Gemini Robotics ER 2",
+      "isFootnote": false
+    },
+    {
+      "index": 113,
+      "tag": "h3",
+      "text": "Lyria 3.5",
+      "heading": "Lyria 3.5",
+      "isFootnote": false
+    },
+    {
+      "index": 114,
+      "tag": "h3",
+      "text": "Gemini 3.6 Flash",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 115,
+      "tag": "h3",
+      "text": "Gemini 3.5 Flash-Lite",
+      "heading": "Gemini 3.5 Flash-Lite",
+      "isFootnote": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "witchbench",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A static source-linked index of benchmark usage in coding-model releases",
+  "scripts": {
+    "dev": "python3 -m http.server 4320 --bind 127.0.0.1 --directory site/dist",
+    "check:js": "node --check site/dist/app.js && node --check site/dist/archive.js && node --check site/dist/cookie-notice.js"
+  }
+}

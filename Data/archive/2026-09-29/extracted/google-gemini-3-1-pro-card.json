@@ -1,0 +1,1728 @@
+{
+  "pages": [],
+  "blocks": [
+    {
+      "index": 1,
+      "tag": "h1",
+      "text": "Gemini 3.1 Pro",
+      "heading": "Gemini 3.1 Pro",
+      "isFootnote": false
+    },
+    {
+      "index": 2,
+      "tag": "p",
+      "text": "Model Cards are intended to provide essential information on Gemini models, including known limitations, mitigation approaches, and safety performance. Model cards may be updated from time-to-time; for example, to include updated evaluations as the model is improved or revised.",
+      "heading": "Gemini 3.1 Pro",
+      "isFootnote": false
+    },
+    {
+      "index": 3,
+      "tag": "p",
+      "text": "Published: February 2026",
+      "heading": "Gemini 3.1 Pro",
+      "isFootnote": false
+    },
+    {
+      "index": 4,
+      "tag": "li",
+      "text": "Model Information",
+      "heading": "Gemini 3.1 Pro",
+      "isFootnote": false
+    },
+    {
+      "index": 5,
+      "tag": "li",
+      "text": "Model Data",
+      "heading": "Gemini 3.1 Pro",
+      "isFootnote": false
+    },
+    {
+      "index": 6,
+      "tag": "li",
+      "text": "Implementation and Sustainability",
+      "heading": "Gemini 3.1 Pro",
+      "isFootnote": false
+    },
+    {
+      "index": 7,
+      "tag": "li",
+      "text": "Distribution",
+      "heading": "Gemini 3.1 Pro",
+      "isFootnote": false
+    },
+    {
+      "index": 8,
+      "tag": "li",
+      "text": "Evaluation",
+      "heading": "Gemini 3.1 Pro",
+      "isFootnote": false
+    },
+    {
+      "index": 9,
+      "tag": "li",
+      "text": "Intended Usage and Limitations",
+      "heading": "Gemini 3.1 Pro",
+      "isFootnote": false
+    },
+    {
+      "index": 10,
+      "tag": "li",
+      "text": "Ethics and Content Safety",
+      "heading": "Gemini 3.1 Pro",
+      "isFootnote": false
+    },
+    {
+      "index": 11,
+      "tag": "li",
+      "text": "Frontier Safety",
+      "heading": "Gemini 3.1 Pro",
+      "isFootnote": false
+    },
+    {
+      "index": 12,
+      "tag": "h2",
+      "text": "Model Information",
+      "heading": "Model Information",
+      "isFootnote": false
+    },
+    {
+      "index": 13,
+      "tag": "h3",
+      "text": "Description",
+      "heading": "Description",
+      "isFootnote": false
+    },
+    {
+      "index": 14,
+      "tag": "p",
+      "text": "Gemini 3.1 Pro is the next iteration in the Gemini 3 series of models, a suite of highly capable, natively multimodal reasoning models. As of this model card’s date of publication, Gemini 3.1 Pro is Google’s most advanced model for complex tasks. Gemini 3.1 Pro can comprehend vast datasets and challenging problems from massively multimodal information sources, including text, audio, images, video, and entire code repositories.",
+      "heading": "Description",
+      "isFootnote": false
+    },
+    {
+      "index": 15,
+      "tag": "h3",
+      "text": "Model dependencies",
+      "heading": "Model dependencies",
+      "isFootnote": false
+    },
+    {
+      "index": 16,
+      "tag": "p",
+      "text": "Gemini 3.1 Pro is based on Gemini 3 Pro.",
+      "heading": "Model dependencies",
+      "isFootnote": false
+    },
+    {
+      "index": 17,
+      "tag": "h3",
+      "text": "Inputs",
+      "heading": "Inputs",
+      "isFootnote": false
+    },
+    {
+      "index": 18,
+      "tag": "p",
+      "text": "Text strings (e.g., a question, a prompt, document(s) to be summarized), images, audio, and video files, with a token context window of up to 1M.",
+      "heading": "Inputs",
+      "isFootnote": false
+    },
+    {
+      "index": 19,
+      "tag": "h3",
+      "text": "Outputs",
+      "heading": "Outputs",
+      "isFootnote": false
+    },
+    {
+      "index": 20,
+      "tag": "p",
+      "text": "Text, with a 64K token output.",
+      "heading": "Outputs",
+      "isFootnote": false
+    },
+    {
+      "index": 21,
+      "tag": "h3",
+      "text": "Architecture",
+      "heading": "Architecture",
+      "isFootnote": false
+    },
+    {
+      "index": 22,
+      "tag": "p",
+      "text": "Gemini 3.1 Pro is based on Gemini 3 Pro. For more information about the model architecture for Gemini 3.1 Pro, see the Gemini 3 Pro model card .",
+      "heading": "Architecture",
+      "isFootnote": false
+    },
+    {
+      "index": 23,
+      "tag": "h2",
+      "text": "Model Data",
+      "heading": "Model Data",
+      "isFootnote": false
+    },
+    {
+      "index": 24,
+      "tag": "h3",
+      "text": "Training Dataset",
+      "heading": "Training Dataset",
+      "isFootnote": false
+    },
+    {
+      "index": 25,
+      "tag": "p",
+      "text": "Gemini 3.1 Pro is based on Gemini 3 Pro. For more information about the training dataset for Gemini 3.1 Pro, see the Gemini 3 Pro model card .",
+      "heading": "Training Dataset",
+      "isFootnote": false
+    },
+    {
+      "index": 26,
+      "tag": "h3",
+      "text": "Training Data Processing",
+      "heading": "Training Data Processing",
+      "isFootnote": false
+    },
+    {
+      "index": 27,
+      "tag": "p",
+      "text": "For more information about the training data processing for Gemini 3.1 Pro, see the Gemini 3 Pro model card .",
+      "heading": "Training Data Processing",
+      "isFootnote": false
+    },
+    {
+      "index": 28,
+      "tag": "h2",
+      "text": "Implementation and Sustainability",
+      "heading": "Implementation and Sustainability",
+      "isFootnote": false
+    },
+    {
+      "index": 29,
+      "tag": "h3",
+      "text": "Hardware",
+      "heading": "Hardware",
+      "isFootnote": false
+    },
+    {
+      "index": 30,
+      "tag": "p",
+      "text": "Gemini 3.1 Pro is based on Gemini 3 Pro. For more information about the hardware for Gemini 3.1 Pro and our continued commitment to operate sustainably , see the Gemini 3 Pro model card .",
+      "heading": "Hardware",
+      "isFootnote": false
+    },
+    {
+      "index": 31,
+      "tag": "h3",
+      "text": "Software",
+      "heading": "Software",
+      "isFootnote": false
+    },
+    {
+      "index": 32,
+      "tag": "p",
+      "text": "Gemini 3.1 Pro is based on Gemini 3 Pro. For more information about the software for Gemini 3.1 Pro, see the Gemini 3 Pro model card .",
+      "heading": "Software",
+      "isFootnote": false
+    },
+    {
+      "index": 33,
+      "tag": "h2",
+      "text": "Distribution",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 34,
+      "tag": "p",
+      "text": "Gemini 3.1 Pro is distributed in the following channels; respective documentation shared in line:",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 35,
+      "tag": "li",
+      "text": "Gemini App",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 36,
+      "tag": "li",
+      "text": "Google Cloud / Vertex AI",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 37,
+      "tag": "li",
+      "text": "Google AI Studio",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 38,
+      "tag": "li",
+      "text": "Gemini API",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 39,
+      "tag": "li",
+      "text": "Google Antigravity",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 40,
+      "tag": "li",
+      "text": "Gemini Enterprise",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 41,
+      "tag": "li",
+      "text": "NotebookLM",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 42,
+      "tag": "p",
+      "text": "Our models are available to downstream providers via an application program interface (API) and subject to relevant terms of use. There is no required hardware or software to use the model. For AI Studio and Gemini API, see the Gemini API Additional Terms of Service ; for Vertex AI, see Google Cloud Platform Terms of Service . For more information, see Gemini Model API instructions and Gemini API in Vertex AI quickstart .",
+      "heading": "Distribution",
+      "isFootnote": false
+    },
+    {
+      "index": 43,
+      "tag": "h2",
+      "text": "Evaluation",
+      "heading": "Evaluation",
+      "isFootnote": false
+    },
+    {
+      "index": 44,
+      "tag": "h3",
+      "text": "Approach",
+      "heading": "Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 45,
+      "tag": "p",
+      "text": "Gemini 3.1 Pro was evaluated across a range of benchmarks, including reasoning, multimodal capabilities, agentic tool use, multi-lingual performance, and long-context. Additional benchmarks and details on approach, results and their methodologies can be found at: deepmind.google/models/evals-methodology/gemini-3-1-pro .",
+      "heading": "Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 46,
+      "tag": "h3",
+      "text": "Results",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 47,
+      "tag": "p",
+      "text": "Gemini 3.1 Pro significantly outperforms Gemini 3 Pro across a range of benchmarks requiring enhanced reasoning and multimodal capabilities. Results as of February 2026 are listed below:",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 48,
+      "tag": "tr",
+      "text": "Benchmark | Notes | Gemini 3.1 Pro Thinking (High) | Gemini 3 Pro Thinking (High) | Sonnet 4.6 Thinking (Max) | Opus 4.6 Thinking (Max) | GPT-5.2 Thinking (xhigh) | GPT-5.3-Codex Thinking (xhigh)",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Benchmark",
+        "Notes",
+        "Gemini 3.1 Pro Thinking (High)",
+        "Gemini 3 Pro Thinking (High)",
+        "Sonnet 4.6 Thinking (Max)",
+        "Opus 4.6 Thinking (Max)",
+        "GPT-5.2 Thinking (xhigh)",
+        "GPT-5.3-Codex Thinking (xhigh)"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 49,
+      "tag": "tr",
+      "text": "Humanity's Last Exam Academic reasoning (full set, text + MM) | No tools | 44.4% | 37.5% | 33.2% | 40.0% | 34.5% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+        "No tools",
+        "44.4%",
+        "37.5%",
+        "33.2%",
+        "40.0%",
+        "34.5%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 50,
+      "tag": "tr",
+      "text": "Search (blocklist) + Code | 51.4% | 45.8% | 49.0% | 53.1% | 45.5% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Search (blocklist) + Code",
+        "51.4%",
+        "45.8%",
+        "49.0%",
+        "53.1%",
+        "45.5%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 51,
+      "tag": "tr",
+      "text": "ARC-AGI-2 Abstract reasoning puzzles | ARC Prize Verified | 77.1% | 31.1% | 58.3% | 68.8% | 52.9% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "ARC-AGI-2 Abstract reasoning puzzles",
+        "ARC Prize Verified",
+        "77.1%",
+        "31.1%",
+        "58.3%",
+        "68.8%",
+        "52.9%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 52,
+      "tag": "tr",
+      "text": "GPQA Diamond Scientific knowledge | No tools | 94.3% | 91.9% | 89.9% | 91.3% | 92.4% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "GPQA Diamond Scientific knowledge",
+        "No tools",
+        "94.3%",
+        "91.9%",
+        "89.9%",
+        "91.3%",
+        "92.4%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 53,
+      "tag": "tr",
+      "text": "Terminal-Bench 2.0 Agentic terminal coding | Terminus-2 harness | 68.5% | 56.9% | 59.1% | 65.4% | 54.0% | 64.7%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Terminal-Bench 2.0 Agentic terminal coding",
+        "Terminus-2 harness",
+        "68.5%",
+        "56.9%",
+        "59.1%",
+        "65.4%",
+        "54.0%",
+        "64.7%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 54,
+      "tag": "tr",
+      "text": "Other best self-reported harness | — | — | — | — | 62.2% (Codex) | 77.3% (Codex)",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Other best self-reported harness",
+        "—",
+        "—",
+        "—",
+        "—",
+        "62.2% (Codex)",
+        "77.3% (Codex)"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 55,
+      "tag": "tr",
+      "text": "SWE-Bench Verified Agentic coding | Single attempt | 80.6% | 76.2% | 79.6% | 80.8% | 80.0% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "SWE-Bench Verified Agentic coding",
+        "Single attempt",
+        "80.6%",
+        "76.2%",
+        "79.6%",
+        "80.8%",
+        "80.0%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 56,
+      "tag": "tr",
+      "text": "SWE-Bench Pro (Public) Diverse agentic coding tasks | Single attempt | 54.2% | 43.3% | — | — | 55.6% | 56.8%",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "SWE-Bench Pro (Public) Diverse agentic coding tasks",
+        "Single attempt",
+        "54.2%",
+        "43.3%",
+        "—",
+        "—",
+        "55.6%",
+        "56.8%"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 57,
+      "tag": "tr",
+      "text": "LiveCodeBench Pro Competitive coding problems from Codeforces, ICPC, and IOI | Elo | 2887 | 2439 | — | — | 2393 | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "LiveCodeBench Pro Competitive coding problems from Codeforces, ICPC, and IOI",
+        "Elo",
+        "2887",
+        "2439",
+        "—",
+        "—",
+        "2393",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 58,
+      "tag": "tr",
+      "text": "SciCode Scientific research coding | | 59% | 56% | 47% | 52% | 52% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "SciCode Scientific research coding",
+        "",
+        "59%",
+        "56%",
+        "47%",
+        "52%",
+        "52%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 59,
+      "tag": "tr",
+      "text": "APEX-Agents Long horizon professional tasks | | 33.5% | 18.4% | — | 29.8% | 23.0% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "APEX-Agents Long horizon professional tasks",
+        "",
+        "33.5%",
+        "18.4%",
+        "—",
+        "29.8%",
+        "23.0%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 60,
+      "tag": "tr",
+      "text": "GDPval-AA Elo Expert tasks | | 1317 | 1195 | 1633 | 1606 | 1462 | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "GDPval-AA Elo Expert tasks",
+        "",
+        "1317",
+        "1195",
+        "1633",
+        "1606",
+        "1462",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 61,
+      "tag": "tr",
+      "text": "τ2-bench Agentic and tool use | Retail | 90.8% | 85.3% | 91.7% | 91.9% | 82.0% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "τ2-bench Agentic and tool use",
+        "Retail",
+        "90.8%",
+        "85.3%",
+        "91.7%",
+        "91.9%",
+        "82.0%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 62,
+      "tag": "tr",
+      "text": "Telecom | 99.3% | 98.0% | 97.9% | 99.3% | 98.7% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "Telecom",
+        "99.3%",
+        "98.0%",
+        "97.9%",
+        "99.3%",
+        "98.7%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 63,
+      "tag": "tr",
+      "text": "MCP Atlas Multi-step workflows using MCP | | 69.2% | 54.1% | 61.3% | 59.5% | 60.6% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "MCP Atlas Multi-step workflows using MCP",
+        "",
+        "69.2%",
+        "54.1%",
+        "61.3%",
+        "59.5%",
+        "60.6%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 64,
+      "tag": "tr",
+      "text": "BrowseComp Agentic search | Search + Python + Browse | 85.9% | 59.2% | 74.7% | 84.0% | 65.8% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "BrowseComp Agentic search",
+        "Search + Python + Browse",
+        "85.9%",
+        "59.2%",
+        "74.7%",
+        "84.0%",
+        "65.8%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 65,
+      "tag": "tr",
+      "text": "MMMU-Pro Multimodal understanding and reasoning | No tools | 80.5% | 81.0% | 74.5% | 73.9% | 79.5% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "MMMU-Pro Multimodal understanding and reasoning",
+        "No tools",
+        "80.5%",
+        "81.0%",
+        "74.5%",
+        "73.9%",
+        "79.5%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 66,
+      "tag": "tr",
+      "text": "MMMLU Multilingual Q&A | | 92.6% | 91.8% | 89.3% | 91.1% | 89.6% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "MMMLU Multilingual Q&A",
+        "",
+        "92.6%",
+        "91.8%",
+        "89.3%",
+        "91.1%",
+        "89.6%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 67,
+      "tag": "tr",
+      "text": "MRCR v2 (8-needle) Long context performance | 128k (average) | 84.9% | 77.0% | 84.9% | 84.0% | 83.8% | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "MRCR v2 (8-needle) Long context performance",
+        "128k (average)",
+        "84.9%",
+        "77.0%",
+        "84.9%",
+        "84.0%",
+        "83.8%",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 68,
+      "tag": "tr",
+      "text": "1M (pointwise) | 26.3% | 26.3% | Not supported | Not supported | Not supported | —",
+      "heading": "Results",
+      "isFootnote": false,
+      "cells": [
+        "1M (pointwise)",
+        "26.3%",
+        "26.3%",
+        "Not supported",
+        "Not supported",
+        "Not supported",
+        "—"
+      ],
+      "tableHeaders": [
+        [
+          "Benchmark",
+          "Notes",
+          "Gemini 3.1 Pro Thinking (High)",
+          "Gemini 3 Pro Thinking (High)",
+          "Sonnet 4.6 Thinking (Max)",
+          "Opus 4.6 Thinking (Max)",
+          "GPT-5.2 Thinking (xhigh)",
+          "GPT-5.3-Codex Thinking (xhigh)"
+        ],
+        [
+          "Humanity's Last Exam Academic reasoning (full set, text + MM)",
+          "No tools",
+          "44.4%",
+          "37.5%",
+          "33.2%",
+          "40.0%",
+          "34.5%",
+          "—"
+        ]
+      ]
+    },
+    {
+      "index": 69,
+      "tag": "p",
+      "text": "Methodology: deepmind.google/models/evals-methodology/gemini-3-1-pro",
+      "heading": "Results",
+      "isFootnote": false
+    },
+    {
+      "index": 70,
+      "tag": "h2",
+      "text": "Intended Usage and Limitations",
+      "heading": "Intended Usage and Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 71,
+      "tag": "h3",
+      "text": "Benefit and Intended Usage",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 72,
+      "tag": "p",
+      "text": "Gemini 3.1 Pro is the next iteration in the Gemini 3 series of models, a suite of highly intelligent and adaptive models, capable of helping with real-world complexity, solving problems that require enhanced reasoning and intelligence, creativity, strategic planning and making improvements step-by-step. It is particularly well-suited for applications that require:",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 73,
+      "tag": "li",
+      "text": "agentic performance",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 74,
+      "tag": "li",
+      "text": "advanced coding",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 75,
+      "tag": "li",
+      "text": "long context and/or multimodal understanding",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 76,
+      "tag": "li",
+      "text": "algorithmic development",
+      "heading": "Benefit and Intended Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 77,
+      "tag": "h3",
+      "text": "Known Limitations",
+      "heading": "Known Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 78,
+      "tag": "p",
+      "text": "For more information about the known limitations for Gemini 3.1 Pro, see the Gemini 3 Pro model card .",
+      "heading": "Known Limitations",
+      "isFootnote": false
+    },
+    {
+      "index": 79,
+      "tag": "h3",
+      "text": "Acceptable Usage",
+      "heading": "Acceptable Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 80,
+      "tag": "p",
+      "text": "For more information about the acceptable usage for Gemini 3.1 Pro, see the Gemini 3 Pro model card .",
+      "heading": "Acceptable Usage",
+      "isFootnote": false
+    },
+    {
+      "index": 81,
+      "tag": "h2",
+      "text": "Ethics and Content Safety",
+      "heading": "Ethics and Content Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 82,
+      "tag": "h3",
+      "text": "Evaluation Approach",
+      "heading": "Evaluation Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 83,
+      "tag": "p",
+      "text": "For more information about the evaluation approach for Gemini 3.1 Pro, see the Gemini 3 Pro model card .",
+      "heading": "Evaluation Approach",
+      "isFootnote": false
+    },
+    {
+      "index": 84,
+      "tag": "h3",
+      "text": "Safety Policies",
+      "heading": "Safety Policies",
+      "isFootnote": false
+    },
+    {
+      "index": 85,
+      "tag": "p",
+      "text": "For more information about the safety policies for Gemini 3.1 Pro, see the Gemini 3 Pro model card .",
+      "heading": "Safety Policies",
+      "isFootnote": false
+    },
+    {
+      "index": 86,
+      "tag": "h3",
+      "text": "Training and Development Evaluation Results",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 87,
+      "tag": "p",
+      "text": "Results for some of the internal safety evaluations conducted during the development phase are listed below. The evaluation results are for automated evaluations and not human evaluation or red teaming. Scores are provided as an absolute percentage increase or decrease in performance compared to the indicated model, as described below. Overall, Gemini 3.1 Pro outperforms Gemini 3 Pro across both safety and tone, while keeping unjustified refusals low. We mark improvements in green and regressions in red. Safety evaluations of Gemini 3.1 Pro produced results consistent with the original Gemini 3 Pro safety assessment.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 88,
+      "tag": "tr",
+      "text": "Evaluation 1 | Description | Gemini 3.1 Pro vs. Gemini 3 Pro",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Evaluation 1",
+        "Description",
+        "Gemini 3.1 Pro vs. Gemini 3 Pro"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Pro vs. Gemini 3 Pro"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+0.10% (non-egregious)"
+        ]
+      ]
+    },
+    {
+      "index": 89,
+      "tag": "tr",
+      "text": "Text to Text Safety | Automated content safety evaluation measuring safety policies | +0.10% (non-egregious)",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Text to Text Safety",
+        "Automated content safety evaluation measuring safety policies",
+        "+0.10% (non-egregious)"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Pro vs. Gemini 3 Pro"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+0.10% (non-egregious)"
+        ]
+      ]
+    },
+    {
+      "index": 90,
+      "tag": "tr",
+      "text": "Multilingual Safety | Automated safety policy evaluation across multiple languages | +0.11% (non-egregious)",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Multilingual Safety",
+        "Automated safety policy evaluation across multiple languages",
+        "+0.11% (non-egregious)"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Pro vs. Gemini 3 Pro"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+0.10% (non-egregious)"
+        ]
+      ]
+    },
+    {
+      "index": 91,
+      "tag": "tr",
+      "text": "Image to Text Safety | Automated content safety evaluation measuring safety policies | -0.33%",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Image to Text Safety",
+        "Automated content safety evaluation measuring safety policies",
+        "-0.33%"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Pro vs. Gemini 3 Pro"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+0.10% (non-egregious)"
+        ]
+      ]
+    },
+    {
+      "index": 92,
+      "tag": "tr",
+      "text": "Tone 2 | Automated evaluation measuring objective tone of model refusal | +0.02%",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Tone 2",
+        "Automated evaluation measuring objective tone of model refusal",
+        "+0.02%"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Pro vs. Gemini 3 Pro"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+0.10% (non-egregious)"
+        ]
+      ]
+    },
+    {
+      "index": 93,
+      "tag": "tr",
+      "text": "Unjustified-refusals | Automated evaluation measuring model’s ability to respond to borderline prompts while remaining safe | -0.08%",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false,
+      "cells": [
+        "Unjustified-refusals",
+        "Automated evaluation measuring model’s ability to respond to borderline prompts while remaining safe",
+        "-0.08%"
+      ],
+      "tableHeaders": [
+        [
+          "Evaluation 1",
+          "Description",
+          "Gemini 3.1 Pro vs. Gemini 3 Pro"
+        ],
+        [
+          "Text to Text Safety",
+          "Automated content safety evaluation measuring safety policies",
+          "+0.10% (non-egregious)"
+        ]
+      ]
+    },
+    {
+      "index": 94,
+      "tag": "p",
+      "text": "1 The ordering of evaluations in this table has changed from previous iterations of the 2.5 Flash-Lite model card in order to list safety evaluations together and improve readability. The type of evaluations listed have remained the same.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 95,
+      "tag": "p",
+      "text": "2 For tone and instruction following, a positive percentage increase represents an improvement in the tone of the model on sensitive topics and the model’s ability to follow instructions while remaining safe compared to Gemini 2.5 Pro. We mark improvements in green and regressions in red.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 96,
+      "tag": "p",
+      "text": "We continue to improve our internal evaluations, including refining automated evaluations to reduce false positives and negatives, as well as update query sets to ensure balance and maintain a high standard of results. The performance results reported below are computed with improved evaluations and thus are not directly comparable with performance results found in previous Gemini model cards.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 97,
+      "tag": "p",
+      "text": "We expect variation in our automated safety evaluations results, which is why we review flagged content to check for egregious or dangerous material. Our manual review confirmed losses were overwhelmingly either a) false positives or b) not egregious.",
+      "heading": "Training and Development Evaluation Results",
+      "isFootnote": false
+    },
+    {
+      "index": 98,
+      "tag": "h3",
+      "text": "Human Red Teaming Results",
+      "heading": "Human Red Teaming Results",
+      "isFootnote": false
+    },
+    {
+      "index": 99,
+      "tag": "p",
+      "text": "We conduct manual red teaming by specialist teams who sit outside of the model development team. High-level findings are fed back to the model team. For child safety evaluations, Gemini 3.1 Pro satisfied required launch thresholds, which were developed by expert teams to protect children online and meet Google’s commitments to child safety across our models and Google products. For content safety policies generally, including child safety, we saw similar safety performance compared to Gemini 3 Pro.",
+      "heading": "Human Red Teaming Results",
+      "isFootnote": false
+    },
+    {
+      "index": 100,
+      "tag": "h3",
+      "text": "Risks and Mitigations",
+      "heading": "Risks and Mitigations",
+      "isFootnote": false
+    },
+    {
+      "index": 101,
+      "tag": "p",
+      "text": "For more information about the risks and mitigations for Gemini 3.1 Pro, see the Gemini 3 Pro model card .",
+      "heading": "Risks and Mitigations",
+      "isFootnote": false
+    },
+    {
+      "index": 102,
+      "tag": "h2",
+      "text": "Frontier Safety",
+      "heading": "Frontier Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 103,
+      "tag": "p",
+      "text": "Our Frontier Safety Framework includes rigorous evaluations that address risks of severe harm from frontier models, covering five risk domains: CBRN (chemical, biological, radiological and nuclear information risks), cyber, harmful manipulation, machine learning R&D and misalignment.",
+      "heading": "Frontier Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 104,
+      "tag": "p",
+      "text": "Our frontier safety strategy is based on a “safety buffer” to prevent models from reaching critical capability levels (CCLs), i.e. if a frontier model does not reach the alert threshold for a CCL, we can assume models developed before the next regular testing interval will not reach that CCL. We conduct continuous testing, evaluating models at a fixed cadence and when a significant capability jump is detected. (Read more about this in our approach to technical AGI safety. )",
+      "heading": "Frontier Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 105,
+      "tag": "p",
+      "text": "Following FSF protocols, we conducted a full evaluation of Gemini 3.1 Pro (focusing on Deep Think mode). We found that the model remains below alert thresholds for the CBRN, harmful manipulation, machine learning R&D, and misalignment CCLs. As previous models passed the alert threshold for cyber, we performed more additional testing in this domain on Gemini 3.1 Pro with and without Deep Think mode, and found that the model remains below the cyber CCL.",
+      "heading": "Frontier Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 106,
+      "tag": "p",
+      "text": "More details on our evaluations and the mitigations we deploy can be found in the Gemini 3 Pro Frontier Safety Framework Report .",
+      "heading": "Frontier Safety",
+      "isFootnote": false
+    },
+    {
+      "index": 107,
+      "tag": "tr",
+      "text": "Domain | Key Results for Gemini 3.1 Pro | CCL | CCL reached?",
+      "heading": "Frontier Safety",
+      "isFootnote": false,
+      "cells": [
+        "Domain",
+        "Key Results for Gemini 3.1 Pro",
+        "CCL",
+        "CCL reached?"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.1 Pro",
+          "CCL",
+          "CCL reached?"
+        ],
+        [
+          "CBRN",
+          "(Deep Think mode) The model can provide highly accurate and actionable information but still fails to offer novel or sufficiently complete and detailed instructions for critical stages, to significantly enhance the capabilities of low to medium resourced threat actors required for the CCL. We continue to deploy mitigations in this domain.",
+          "Uplift Level 1",
+          "CCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 108,
+      "tag": "tr",
+      "text": "CBRN | (Deep Think mode) The model can provide highly accurate and actionable information but still fails to offer novel or sufficiently complete and detailed instructions for critical stages, to significantly enhance the capabilities of low to medium resourced threat actors required for the CCL. We continue to deploy mitigations in this domain. | Uplift Level 1 | CCL not reached",
+      "heading": "Frontier Safety",
+      "isFootnote": false,
+      "cells": [
+        "CBRN",
+        "(Deep Think mode) The model can provide highly accurate and actionable information but still fails to offer novel or sufficiently complete and detailed instructions for critical stages, to significantly enhance the capabilities of low to medium resourced threat actors required for the CCL. We continue to deploy mitigations in this domain.",
+        "Uplift Level 1",
+        "CCL not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.1 Pro",
+          "CCL",
+          "CCL reached?"
+        ],
+        [
+          "CBRN",
+          "(Deep Think mode) The model can provide highly accurate and actionable information but still fails to offer novel or sufficiently complete and detailed instructions for critical stages, to significantly enhance the capabilities of low to medium resourced threat actors required for the CCL. We continue to deploy mitigations in this domain.",
+          "Uplift Level 1",
+          "CCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 109,
+      "tag": "tr",
+      "text": "Cyber | (3.1 Pro) We conducted additional testing on the model in this domain as Gemini 3 Pro had previously reached the alert threshold. The model shows an increase in cyber capabilities compared to Gemini 3 Pro. As with Gemini 3 Pro, the model has reached the alert threshold, but still does not reach the levels of uplift required for the CCL. (Deep Think mode) Accounting for inference costs, the model with Deep Think mode performs considerably worse than without Deep Think mode. Even at high levels of inference, results for the model with Deep Think mode do not suggest higher capability than without Deep Think mode. We continue to deploy mitigations in this domain. | Uplift Level 1 | CCL not reached",
+      "heading": "Frontier Safety",
+      "isFootnote": false,
+      "cells": [
+        "Cyber",
+        "(3.1 Pro) We conducted additional testing on the model in this domain as Gemini 3 Pro had previously reached the alert threshold. The model shows an increase in cyber capabilities compared to Gemini 3 Pro. As with Gemini 3 Pro, the model has reached the alert threshold, but still does not reach the levels of uplift required for the CCL. (Deep Think mode) Accounting for inference costs, the model with Deep Think mode performs considerably worse than without Deep Think mode. Even at high levels of inference, results for the model with Deep Think mode do not suggest higher capability than without Deep Think mode. We continue to deploy mitigations in this domain.",
+        "Uplift Level 1",
+        "CCL not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.1 Pro",
+          "CCL",
+          "CCL reached?"
+        ],
+        [
+          "CBRN",
+          "(Deep Think mode) The model can provide highly accurate and actionable information but still fails to offer novel or sufficiently complete and detailed instructions for critical stages, to significantly enhance the capabilities of low to medium resourced threat actors required for the CCL. We continue to deploy mitigations in this domain.",
+          "Uplift Level 1",
+          "CCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 110,
+      "tag": "tr",
+      "text": "Harmful Manipulation | (Deep Think mode) Evaluations indicated that the model showed higher manipulative efficacy for belief change metrics compared to a non-AI baseline, with the maximum odds ratio of 3.6x, which is the same as Gemini 3 Pro, and did not reach the alert threshold. | Level 1 (exploratory) | CCL not reached",
+      "heading": "Frontier Safety",
+      "isFootnote": false,
+      "cells": [
+        "Harmful Manipulation",
+        "(Deep Think mode) Evaluations indicated that the model showed higher manipulative efficacy for belief change metrics compared to a non-AI baseline, with the maximum odds ratio of 3.6x, which is the same as Gemini 3 Pro, and did not reach the alert threshold.",
+        "Level 1 (exploratory)",
+        "CCL not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.1 Pro",
+          "CCL",
+          "CCL reached?"
+        ],
+        [
+          "CBRN",
+          "(Deep Think mode) The model can provide highly accurate and actionable information but still fails to offer novel or sufficiently complete and detailed instructions for critical stages, to significantly enhance the capabilities of low to medium resourced threat actors required for the CCL. We continue to deploy mitigations in this domain.",
+          "Uplift Level 1",
+          "CCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 111,
+      "tag": "tr",
+      "text": "Machine Learning R&D | (Deep Think mode) The model shows gains on RE-Bench compared to Gemini 3 Pro, with a human-normalised average score of 1.27 compared to Gemini 3 Pro's score of 1.04. On one particular challenge, Optimise LLM Foundry, it scores double the human-normalised baseline score (reducing the runtime of a fine-tuning script from 300 seconds to 47 seconds, compared to the human reference solution of 94 seconds). However, the model’s average performance across all challenges remains beneath the alert threshold for the CCLs. | Acceleration level 1 Automation level 1 | CCLs not reached",
+      "heading": "Frontier Safety",
+      "isFootnote": false,
+      "cells": [
+        "Machine Learning R&D",
+        "(Deep Think mode) The model shows gains on RE-Bench compared to Gemini 3 Pro, with a human-normalised average score of 1.27 compared to Gemini 3 Pro's score of 1.04. On one particular challenge, Optimise LLM Foundry, it scores double the human-normalised baseline score (reducing the runtime of a fine-tuning script from 300 seconds to 47 seconds, compared to the human reference solution of 94 seconds). However, the model’s average performance across all challenges remains beneath the alert threshold for the CCLs.",
+        "Acceleration level 1 Automation level 1",
+        "CCLs not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.1 Pro",
+          "CCL",
+          "CCL reached?"
+        ],
+        [
+          "CBRN",
+          "(Deep Think mode) The model can provide highly accurate and actionable information but still fails to offer novel or sufficiently complete and detailed instructions for critical stages, to significantly enhance the capabilities of low to medium resourced threat actors required for the CCL. We continue to deploy mitigations in this domain.",
+          "Uplift Level 1",
+          "CCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 112,
+      "tag": "tr",
+      "text": "Misalignment (Exploratory) | (Deep Think mode) On stealth evaluations, the model performs similarly to Gemini 3 Pro. On situational awareness, the model is stronger than Gemini 3 Pro: on three challenges which no other model has been able to consistently solve, max tokens, context size mod, and oversight frequency, the model achieves a success rate of almost 100%. However, its performance on other challenges is inconsistent, and thus the model does not reach the alert threshold. | Instrumental Reasoning Levels 1 + 2 (exploratory) | CCLs not reached",
+      "heading": "Frontier Safety",
+      "isFootnote": false,
+      "cells": [
+        "Misalignment (Exploratory)",
+        "(Deep Think mode) On stealth evaluations, the model performs similarly to Gemini 3 Pro. On situational awareness, the model is stronger than Gemini 3 Pro: on three challenges which no other model has been able to consistently solve, max tokens, context size mod, and oversight frequency, the model achieves a success rate of almost 100%. However, its performance on other challenges is inconsistent, and thus the model does not reach the alert threshold.",
+        "Instrumental Reasoning Levels 1 + 2 (exploratory)",
+        "CCLs not reached"
+      ],
+      "tableHeaders": [
+        [
+          "Domain",
+          "Key Results for Gemini 3.1 Pro",
+          "CCL",
+          "CCL reached?"
+        ],
+        [
+          "CBRN",
+          "(Deep Think mode) The model can provide highly accurate and actionable information but still fails to offer novel or sufficiently complete and detailed instructions for critical stages, to significantly enhance the capabilities of low to medium resourced threat actors required for the CCL. We continue to deploy mitigations in this domain.",
+          "Uplift Level 1",
+          "CCL not reached"
+        ]
+      ]
+    },
+    {
+      "index": 113,
+      "tag": "h2",
+      "text": "Latest model cards",
+      "heading": "Latest model cards",
+      "isFootnote": false
+    },
+    {
+      "index": 114,
+      "tag": "h3",
+      "text": "Gemini 3.8 Flash",
+      "heading": "Gemini 3.8 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 115,
+      "tag": "h3",
+      "text": "Gemini Robotics On-Device 2",
+      "heading": "Gemini Robotics On-Device 2",
+      "isFootnote": false
+    },
+    {
+      "index": 116,
+      "tag": "h3",
+      "text": "Gemini Robotics ER 2",
+      "heading": "Gemini Robotics ER 2",
+      "isFootnote": false
+    },
+    {
+      "index": 117,
+      "tag": "h3",
+      "text": "Lyria 3.5",
+      "heading": "Lyria 3.5",
+      "isFootnote": false
+    },
+    {
+      "index": 118,
+      "tag": "h3",
+      "text": "Gemini 3.6 Flash",
+      "heading": "Gemini 3.6 Flash",
+      "isFootnote": false
+    },
+    {
+      "index": 119,
+      "tag": "h3",
+      "text": "Gemini 3.5 Flash-Lite",
+      "heading": "Gemini 3.5 Flash-Lite",
+      "isFootnote": false
+    }
+  ]
+}

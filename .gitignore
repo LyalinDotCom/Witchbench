@@ -1,0 +1,8 @@
+.venv/
+.work/
+.DS_Store
+.firebase/
+node_modules/
+*.log
+__pycache__/
+*.pyc

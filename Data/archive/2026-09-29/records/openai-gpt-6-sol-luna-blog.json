@@ -1,0 +1,19 @@
+{
+  "id": "openai-gpt-6-sol-luna-blog",
+  "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "expectedBytes": 847094,
+  "expectedSha256": "6c94d926ef6f62c8e3d7908f11e955446bb8e4183c336cc6d8812598cf864b59",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:44.100568+00:00",
+  "finalUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "contentType": "text/html",
+  "bytes": 847098,
+  "sha256": "1437b4567c1a581508dbc09181ccc0bd529c00a2ce467f6d4f6c3791e924f99b",
+  "localPath": "Data/archive/2026-09-29/raw/openai-gpt-6-sol-luna-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/openai-gpt-6-sol-luna-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/openai-gpt-6-sol-luna-blog.json",
+  "matchesResearchHash": false
+}

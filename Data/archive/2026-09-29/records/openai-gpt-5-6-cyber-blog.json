@@ -1,0 +1,19 @@
+{
+  "id": "openai-gpt-5-6-cyber-blog",
+  "sourceUrl": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+  "expectedBytes": 555886,
+  "expectedSha256": "29b95e95c3eaf1e1d3e014c32d9c66af73a4f760fa88b3235f928d4225d6e485",
+  "expectedPages": null,
+  "kind": "blog",
+  "pages": null,
+  "status": "archived",
+  "retrievedAt": "2026-09-29T12:52:43.856648+00:00",
+  "finalUrl": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+  "contentType": "text/html",
+  "bytes": 555882,
+  "sha256": "22bbf9408b544dd0d9a49df58a0767fbbafdde6d93078396518c4a0881f63b48",
+  "localPath": "Data/archive/2026-09-29/raw/openai-gpt-5-6-cyber-blog.html",
+  "textPath": "Data/archive/2026-09-29/text/openai-gpt-5-6-cyber-blog.txt",
+  "extractedPath": "Data/archive/2026-09-29/extracted/openai-gpt-5-6-cyber-blog.json",
+  "matchesResearchHash": false
+}

@@ -1,0 +1,6 @@
+# Preserve captured source bytes and keep generated archive diffs compact.
+Data/archive/** -text -diff
+site/dist/archive/** -text -diff
+Data/*.md -text -diff
+Data/classification-review.json -diff
+*.csv whitespace=cr-at-eol
