@@ -4,9 +4,7 @@
   'use strict';
 
   const DATASET_URL = 'data/dataset.json';
-  const TOP_N = 5;
   const SVG_NS = 'http://www.w3.org/2000/svg';
-  const SERIES_COLORS = ['#a85a2b', '#24292e', '#2f6f8f', '#6b7d3a', '#7a4f8c', '#b5843b', '#3c8a7a', '#8c4a4a'];
 
   const el = {
     brandMeta: document.getElementById('brand-meta'),
@@ -31,11 +29,19 @@
     compareEmpty: document.getElementById('compare-empty'),
     compareFilters: [document.getElementById('compare-all'), document.getElementById('compare-shared'), document.getElementById('compare-exclusive')],
     trends: document.getElementById('trends'),
-    chart: document.getElementById('chart'),
-    readout: document.getElementById('readout'),
-    chartSummary: document.getElementById('chart-summary'),
-    picker: document.getElementById('picker'),
-    clearTrends: document.getElementById('clear-trends'),
+    trendModes: [...document.querySelectorAll('[data-trend-mode]')],
+    trendTier: document.getElementById('trend-tier'),
+    trendSearch: document.getElementById('trend-search'),
+    trendContext: document.getElementById('trend-context'),
+    trendScale: document.getElementById('trend-scale'),
+    trendSwipe: document.getElementById('trend-swipe'),
+    trendData: document.getElementById('trend-data'),
+    history: document.getElementById('history'),
+    historyTitle: document.getElementById('history-title'),
+    historyMeta: document.getElementById('history-meta'),
+    historyAll: document.getElementById('history-all'),
+    historyClose: document.getElementById('history-close'),
+    historyBody: document.getElementById('history-body'),
     state: document.getElementById('state'),
     repoLink: document.getElementById('repo-link'),
     feedbackLink: document.getElementById('feedback-link'),
@@ -63,8 +69,12 @@
     year: 2026,
     snapshotMonth: 11,   // months after this index are "after snapshot"
     view: 'matrix',
-    selected: new Set(), // trend selection, ephemeral
-    cursor: null,        // month index under the pointer or keyboard
+    snapshotDate: null,
+    trendMode: 'heatmap',
+    trendTier: 'all',
+    historyBenchmark: null,
+    historyMonth: null,
+    historyTrigger: null,
     lastTrigger: null,
     activeReleaseId: null,
     comparison: [null, null],
@@ -192,6 +202,7 @@
     state.benchmarkById = new Map(benchmarks.map((b) => [b.id, b]));
     state.artifacts = new Map(asArray(raw.artifacts).filter((a) => a && isString(a.id)).map((a) => [a.id, a]));
 
+    state.snapshotDate = raw.snapshot;
     const snapshot = parseDate(raw.snapshot);
     state.year = Number.isInteger(raw.year) ? raw.year : (snapshot ? snapshot.getUTCFullYear() : 2026);
     state.snapshotMonth = snapshot && snapshot.getUTCFullYear() === state.year ? snapshot.getUTCMonth() : 11;
@@ -214,8 +225,6 @@
     state.benchmarks = [...benchmarks].sort((a, b) =>
       state.usage.get(b.id) - state.usage.get(a.id) || a.name.localeCompare(b.name, 'en', { numeric: true, sensitivity: 'base' }));
 
-    state.selected = new Set(state.benchmarks.slice(0, TOP_N).map((b) => b.id));
-    state.cursor = null;
     state.activeReleaseId = state.releases.at(-1).id;
     const newest = state.releases.at(-1);
     const other = [...state.releases].reverse().find((r) => r.lab !== newest.lab) || state.releases.at(-2);
@@ -602,221 +611,222 @@
 
   // ---------- trends ----------
 
-  function monthBuckets() {
-    const buckets = Array.from({ length: 12 }, () => []);
-    for (const r of state.visible) {
+  // Trends use the model-name cohort, never the Releases view's benchmark filter.
+  function trendReleases() {
+    const terms = parseQuery(el.search.value);
+    return state.releases.filter((r) => !terms.length || terms.some((t) => r.name.toLowerCase().includes(t)));
+  }
+
+  function trendUsed(releaseId, benchmarkId) {
+    return findingsFor(releaseId, benchmarkId).some((f) => f.status === 'verified'
+      && (state.trendTier === 'all' ? f.tier === 'blog' || f.tier === 'card' : f.tier === state.trendTier));
+  }
+
+  function trendTierLabel() {
+    return { all: 'All usage', blog: 'Blog highlights', card: 'Model cards' }[state.trendTier];
+  }
+
+  function monthBuckets(releases) {
+    const buckets = Array.from({ length: state.snapshotMonth + 1 }, () => []);
+    for (const r of releases) {
       const d = parseDate(r.date);
-      if (d && d.getUTCFullYear() === state.year) buckets[d.getUTCMonth()].push(r);
+      if (d && d.getUTCFullYear() === state.year && d.getUTCMonth() <= state.snapshotMonth) buckets[d.getUTCMonth()].push(r);
     }
     return buckets;
   }
 
-  function seriesFor(benchmarkId, buckets) {
-    return buckets.map((releases) => {
-      const denom = releases.length;
-      const count = releases.filter((r) => isUsed(r.id, benchmarkId)).length;
-      return { count, denom, share: denom ? count / denom : null };
-    });
+  function trendPoint(benchmarkId, releases) {
+    const count = releases.filter((r) => trendUsed(r.id, benchmarkId)).length;
+    return { count, denom: releases.length, share: releases.length ? count / releases.length : null };
   }
 
-  function buildPicker() {
-    const items = state.benchmarks.map((b) => {
-      const id = `pick-${b.id}`;
-      const input = h('input', { type: 'checkbox', id, value: b.id });
-      input.checked = state.selected.has(b.id);
-      const label = h('label', { for: id },
-        input,
-        h('span', { className: 'name', text: b.name }),
-        h('span', { className: 'usage', text: String(state.usage.get(b.id) || 0), title: 'Distinct releases with a blog highlight or card evaluation' }),
-        h('span', { className: 'swatch', 'aria-hidden': 'true' }));
-      return h('li', null, label);
-    });
-    el.picker.replaceChildren(...items);
+  function snapshotIsPartial() {
+    const snapshot = parseDate(state.snapshotDate);
+    return snapshot && snapshot.getUTCDate() < new Date(Date.UTC(state.year, state.snapshotMonth + 1, 0)).getUTCDate();
   }
 
-  function syncPickerColors(series) {
-    const colorById = new Map(series.map((sr) => [sr.benchmark.id, sr.color]));
-    for (const label of el.picker.querySelectorAll('label')) {
-      const input = label.querySelector('input');
-      const color = colorById.get(input.value);
-      const swatch = label.querySelector('.swatch');
-      if (color) {
-        label.dataset.color = color;
-        swatch.style.background = color;
-      } else {
-        delete label.dataset.color;
-        swatch.style.background = '';
-      }
+  function trendRows(releases, buckets) {
+    const query = el.trendSearch.value.trim().toLowerCase();
+    return state.benchmarks.filter((b) => !query || b.name.toLowerCase().includes(query))
+      .map((benchmark) => ({ benchmark, total: trendPoint(benchmark.id, releases).count,
+        points: buckets.map((rs) => trendPoint(benchmark.id, rs)) }))
+      .filter((row) => row.total > 0)
+      .sort((a, b) => b.total - a.total || a.benchmark.name.localeCompare(b.benchmark.name));
+  }
+
+  function trendName(row) {
+    return h('button', { type: 'button', className: 'trend-name', dataset: { historyBenchmark: row.benchmark.id },
+      'aria-label': `${row.benchmark.name}, used by ${plural(row.total, 'release')}. View benchmark history.` },
+      h('span', { text: row.benchmark.name }), h('span', { className: 'trend-total', text: String(row.total), 'aria-hidden': 'true' }));
+  }
+
+  function renderHeatmap(rows, buckets) {
+    const frame = h('div', { className: 'heatmap-scroll', tabindex: '0', role: 'region',
+      'aria-label': 'Monthly benchmark adoption. Scroll horizontally for earlier months.' });
+    const table = h('table', { className: 'heatmap-table' });
+    table.style.setProperty('--trend-month-count', String(buckets.length));
+    const head = h('tr', null, h('th', { scope: 'col', className: 'heatmap-corner', text: 'Benchmark' }));
+    buckets.forEach((rs, m) => {
+      const partial = m === state.snapshotMonth && snapshotIsPartial();
+      head.append(h('th', { scope: 'col', dataset: { month: m },
+        'aria-label': `${monthLong(m)} ${state.year}, ${plural(rs.length, 'release')}${partial ? ', partial month' : ''}` },
+        h('span', { className: 'heatmap-month', text: monthShort(m) }),
+        h('span', { className: 'heatmap-sample', text: `${rs.length}${partial ? ' · partial' : ''}` })));
+    });
+    table.append(h('thead', null, head));
+    const body = h('tbody');
+    for (const row of rows) {
+      const tr = h('tr', null, h('th', { scope: 'row' }, trendName(row)));
+      row.points.forEach((p, m) => {
+        const td = h('td');
+        if (p.share === null) {
+          td.append(h('span', { className: 'heatmap-none', text: '—', title: 'No matching releases this month',
+            'aria-label': `${monthLong(m)}: no matching releases` }));
+        } else {
+          const label = `${row.benchmark.name}, ${monthLong(m)}: ${p.count} of ${plural(p.denom, 'release')} (${Math.round(p.share * 100)}%). View releases.`;
+          const cell = h('button', { type: 'button', className: `heatmap-cell${p.share === 1 ? ' heatmap-dark' : ''}`, title: label,
+            'aria-label': label, dataset: { historyBenchmark: row.benchmark.id, historyMonth: m, count: p.count, denom: p.denom },
+            text: `${Math.round(p.share * 100)}%` });
+          cell.style.setProperty('--heat-alpha', p.share ? (0.1 + p.share * 0.82).toFixed(3) : '0');
+          td.append(cell);
+        }
+        tr.append(td);
+      });
+      body.append(tr);
     }
+    table.append(body);
+    frame.append(table);
+    return frame;
   }
 
-  let chartModel = null; // { series, buckets, geometry }
+  function adoptionSparkline(row) {
+    const W = 100, H = 28, step = (W - 8) / Math.max(1, row.points.length - 1);
+    const svg = s('svg', { class: 'adoption-sparkline', viewBox: `0 0 ${W} ${H}`, role: 'img',
+      'aria-label': `${row.benchmark.name}, monthly adoption: ${row.points.map((p, m) => `${monthShort(m)} ${p.denom ? `${p.count} of ${p.denom}` : 'no releases'}`).join(', ')}` });
+    let path = '', pen = false;
+    row.points.forEach((p, m) => {
+      if (p.share === null) { pen = false; return; }
+      const x = 4 + m * step, y = H - 4 - p.share * (H - 8);
+      path += `${pen ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)} `;
+      pen = true;
+      svg.append(s('circle', { cx: x, cy: y, r: 2 }));
+    });
+    svg.append(s('path', { d: path }));
+    return svg;
+  }
+
+  function renderMomentum(rows, releases) {
+    const size = Math.min(10, Math.floor(releases.length / 2));
+    if (!size) return h('p', { className: 'trend-empty', text: 'At least two matching releases are needed to compare adoption.' });
+    const recent = releases.slice(-size), previous = releases.slice(-size * 2, -size);
+    const changes = rows.map((row) => ({ ...row,
+      recent: trendPoint(row.benchmark.id, recent), previous: trendPoint(row.benchmark.id, previous) }))
+      .map((row) => ({ ...row, delta: (row.recent.count - row.previous.count) / size * 100 }))
+      .filter((row) => row.delta !== 0)
+      .sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta) || b.delta - a.delta || a.benchmark.name.localeCompare(b.benchmark.name));
+    const panel = h('div', { className: 'momentum-panel' });
+    const periods = h('div', { className: 'momentum-periods' },
+      h('span', null, h('strong', { text: `Previous ${size}` }), ` · ${formatRange(previous[0].date, previous.at(-1).date)}`),
+      h('span', null, h('strong', { text: `Latest ${size}` }), ` · ${formatRange(recent[0].date, recent.at(-1).date)}`));
+    panel.append(periods);
+    if (!changes.length) {
+      panel.append(h('p', { className: 'trend-empty', text: 'No adoption changes between these two groups of releases.' }));
+      return panel;
+    }
+    const table = h('table', { className: 'momentum-table' });
+    table.append(h('thead', null, h('tr', null,
+      h('th', { scope: 'col', text: 'Benchmark' }), h('th', { scope: 'col', className: 'sparkline-col', text: 'Monthly' }),
+      h('th', { scope: 'col', text: 'Previous' }), h('th', { scope: 'col', text: 'Latest' }),
+      h('th', { scope: 'col', text: 'Change', title: 'Change in adoption, in percentage points. Largest changes first.' }))));
+    const body = h('tbody');
+    for (const row of changes) {
+      const sign = row.delta > 0 ? '+' : '−';
+      body.append(h('tr', { dataset: { momentumBenchmark: row.benchmark.id } }, h('th', { scope: 'row' }, trendName(row)),
+        h('td', { className: 'sparkline-col' }, adoptionSparkline(row)),
+        h('td', { className: 'momentum-count', dataset: { period: 'previous' }, text: `${row.previous.count} / ${size}`,
+          'aria-label': `Previous group: ${row.previous.count} of ${plural(size, 'release')}` }),
+        h('td', { className: 'momentum-count', dataset: { period: 'recent' }, text: `${row.recent.count} / ${size}`,
+          'aria-label': `Latest group: ${row.recent.count} of ${plural(size, 'release')}` }),
+        h('td', { className: `momentum-change ${row.delta > 0 ? 'rising' : 'fading'}`, dataset: { delta: row.delta },
+          'aria-label': `${row.delta > 0 ? 'Rising' : 'Fading'} by ${Math.abs(Math.round(row.delta))} percentage points` },
+          h('span', { text: `${sign}${Math.abs(Math.round(row.delta))}` }), h('span', { className: 'change-unit', text: ' pp' }))));
+    }
+    table.append(body);
+    panel.append(table);
+    return panel;
+  }
 
   function renderTrends() {
-    const buckets = monthBuckets();
-    const selected = state.benchmarks.filter((b) => state.selected.has(b.id));
-    const series = selected.map((b, i) => ({
-      benchmark: b,
-      color: SERIES_COLORS[i % SERIES_COLORS.length],
-      points: seriesFor(b.id, buckets),
-    }));
-    syncPickerColors(series);
-    el.clearTrends.disabled = series.length === 0;
-
-    const W = Math.max(260, el.chart.clientWidth - 18 || 760);
-    const H = W < 500 ? 290 : 340, L = 56, R = 20, T = 20, B = 46;
-    const plotW = W - L - R;
-    const plotH = H - T - B;
-    const step = plotW / 12;
-    const x = (m) => L + (m + 0.5) * step;
-    const y = (share) => T + plotH * (1 - share);
-    chartModel = { series, buckets, geometry: { W, L, step } };
-
-    const svg = s('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-labelledby': 'chart-title-svg', 'aria-describedby': 'chart-summary' });
-    svg.append(s('title', { id: 'chart-title-svg', text: 'Share of releases discussing each selected benchmark, by month' }));
-
-    // Months after the snapshot are future: shaded, no data by design.
-    if (state.snapshotMonth < 11) {
-      const fx = L + (state.snapshotMonth + 1) * step;
-      svg.append(s('rect', { class: 'future', x: fx, y: T, width: L + plotW - fx, height: plotH }));
-      svg.append(s('text', { class: 'future-label', x: fx + 8, y: T + 16, text: W < 500 ? 'Future' : 'After snapshot' }));
-    }
-
-    for (const pct of [0, 25, 50, 75, 100]) {
-      const gy = y(pct / 100);
-      svg.append(s('line', { class: pct === 0 ? 'axis' : 'grid', x1: L, x2: L + plotW, y1: gy, y2: gy }));
-      svg.append(s('text', { class: 'axis-text', x: L - 8, y: gy + 5, 'text-anchor': 'end', text: `${pct}%` }));
-    }
-    svg.append(s('text', { class: 'axis-title', transform: `translate(14 ${T + plotH / 2}) rotate(-90)`, 'text-anchor': 'middle', text: 'Share of releases' }));
-
-    for (let m = 0; m < 12; m += 1) {
-      if (W < 420 && m % 2 === 1) continue;
-      const muted = buckets[m].length === 0;
-      svg.append(s('text', {
-        class: muted ? 'axis-text month-label muted' : 'axis-text month-label',
-        x: x(m), y: H - B + 20, 'text-anchor': 'middle', text: monthShort(m),
-      }));
-    }
-
-    for (const sr of series) {
-      let d = '';
-      let pen = false;
-      sr.points.forEach((p, m) => {
-        if (p.share === null) { pen = false; return; }
-        d += `${pen ? 'L' : 'M'}${x(m).toFixed(1)} ${y(p.share).toFixed(1)} `;
-        pen = true;
-      });
-      if (d) svg.append(s('path', { class: 'series-line', d: d.trim(), stroke: sr.color }));
-      sr.points.forEach((p, m) => {
-        if (p.share === null) return;
-        const circle = s('circle', { class: 'series-point', cx: x(m), cy: y(p.share), r: 4, fill: sr.color });
-        circle.append(s('title', { text: `${sr.benchmark.name}, ${monthLong(m)}: ${p.count} of ${plural(p.denom, 'release')}` }));
-        svg.append(circle);
-      });
-    }
-
-    if (!series.length) {
-      svg.append(s('text', { class: 'chart-empty', x: L + plotW / 2, y: T + plotH / 2, 'text-anchor': 'middle', text: 'Select a benchmark to plot its usage' }));
-    }
-
-    const cursor = s('line', { class: 'cursor', id: 'chart-cursor', x1: 0, x2: 0, y1: T, y2: T + plotH, visibility: 'hidden' });
-    svg.append(cursor);
-    svg.append(s('rect', { class: 'hit', x: L, y: T, width: plotW, height: plotH }));
-    el.chart.replaceChildren(svg);
-
-    renderSummary();
-    if (state.cursor !== null) setCursor(state.cursor); else renderReadout(null);
-  }
-
-  function renderSummary() {
-    if (!chartModel) return;
-    const { series, buckets } = chartModel;
-    const parts = [];
-    const empty = [];
-    for (let m = 0; m <= state.snapshotMonth; m += 1) if (!buckets[m].length) empty.push(monthShort(m));
-    parts.push(`${plural(state.visible.length, 'release')} in ${state.year} through ${monthLong(state.snapshotMonth)}.`);
-    if (empty.length) parts.push(`No releases in ${empty.join(', ')}.`);
-    if (state.snapshotMonth < 11) parts.push(`${monthShort(state.snapshotMonth + 1)} to Dec are after the snapshot.`);
-    for (const sr of series) {
-      const months = sr.points
-        .map((p, m) => (p.share === null ? null : `${monthShort(m)} ${p.count} of ${p.denom}`))
-        .filter(Boolean);
-      parts.push(`${sr.benchmark.name}: ${months.join(', ') || 'no data'}.`);
-    }
-    el.chartSummary.textContent = parts.join(' ');
-  }
-
-  function renderReadout(m) {
-    if (!chartModel) return;
-    const { series, buckets } = chartModel;
-    if (m === null) {
-      el.readout.replaceChildren(h('p', { text: series.length ? 'Point at a month, or focus the chart and use the arrow keys.' : '' }));
+    const releases = trendReleases(), buckets = monthBuckets(releases), rows = trendRows(releases, buckets);
+    for (const button of el.trendModes) button.setAttribute('aria-pressed', String(button.dataset.trendMode === state.trendMode));
+    el.trendTier.value = state.trendTier;
+    el.trendScale.hidden = state.trendMode !== 'heatmap';
+    el.trendSwipe.hidden = state.trendMode !== 'heatmap';
+    el.trendContext.textContent = state.trendMode === 'heatmap'
+      ? `Share of releases · ${plural(releases.length, 'release')} · through ${formatShort(state.snapshotDate)}`
+      : 'Adoption change · equally sized release groups · largest changes first';
+    const oldFrame = el.trendData.querySelector('.heatmap-scroll');
+    const oldScroll = oldFrame?.scrollLeft;
+    if (!rows.length) {
+      el.trendData.replaceChildren(h('p', { className: 'trend-empty', text: el.trendSearch.value.trim()
+        ? 'No used benchmarks match this name.' : 'No qualifying benchmark usage in these releases.' }));
       return;
     }
-    const denom = buckets[m].length;
-    const head = h('p');
-    head.append(h('span', { className: 'readout-month', text: `${monthLong(m)} ${state.year}` }));
-    if (m > state.snapshotMonth) head.append(': after the snapshot, no data yet');
-    else if (!denom) head.append(': no matching releases');
-    else head.append(`: ${plural(denom, 'release')}`);
-    const nodes = [head];
-    if (denom && series.length) {
-      const list = h('ul');
-      for (const sr of series) {
-        const p = sr.points[m];
-        const swatch = h('span', { className: 'swatch', 'aria-hidden': 'true' });
-        swatch.style.background = sr.color;
-        list.append(h('li', null, swatch, `${sr.benchmark.name}: ${p.count} of ${denom} (${Math.round(p.share * 100)}%)`));
+    el.trendData.replaceChildren(state.trendMode === 'heatmap' ? renderHeatmap(rows, buckets) : renderMomentum(rows, releases));
+    const frame = el.trendData.querySelector('.heatmap-scroll');
+    if (frame) frame.scrollLeft = oldScroll ?? frame.scrollWidth;
+  }
+
+  function renderHistory() {
+    const benchmark = state.benchmarkById.get(state.historyBenchmark);
+    if (!benchmark) return;
+    const all = trendReleases();
+    const releases = state.historyMonth === null ? all : monthBuckets(all)[state.historyMonth] || [];
+    const used = releases.filter((r) => trendUsed(r.id, benchmark.id));
+    el.historyTitle.textContent = benchmark.name;
+    el.historyMeta.textContent = `${trendTierLabel()} · ${state.historyMonth === null ? state.year : `${monthLong(state.historyMonth)} ${state.year}`} · ${used.length} of ${plural(releases.length, 'release')}`;
+    el.historyAll.hidden = state.historyMonth === null;
+    const content = [];
+    // A month cell lists the releases behind its numerator; full history also shows gaps.
+    const shown = state.historyMonth === null ? releases : used;
+    for (const lab of ['OpenAI', 'Anthropic', 'Google']) {
+      const labReleases = shown.filter((r) => r.lab === lab);
+      if (!labReleases.length) continue;
+      const labCount = used.filter((r) => r.lab === lab).length;
+      const section = h('section', { className: 'history-lab' }, h('h3', null,
+        h('span', { text: lab }), h('span', { text: `${labCount} / ${releases.filter((r) => r.lab === lab).length}`, className: 'history-lab-count' })));
+      const list = h('ol', { className: 'history-list' });
+      for (const release of labReleases) {
+        const qualifies = trendUsed(release.id, benchmark.id), summary = cellSummary(release.id, benchmark.id);
+        const row = h(qualifies ? 'button' : 'div', { className: `history-release${qualifies ? ' has-usage' : ''}`,
+          type: qualifies ? 'button' : null, dataset: { historyRelease: release.id },
+          'aria-label': qualifies ? describeCell(summary, release, benchmark) : null },
+          h('time', { datetime: release.date, text: formatShort(release.date) }), h('span', { className: 'history-model', text: release.name }));
+        const marks = h('span', { className: 'history-marks', 'aria-hidden': 'true' });
+        if (qualifies) {
+          if (summary.blog && state.trendTier !== 'card') marks.append(tick('blog'));
+          if (summary.card && state.trendTier !== 'blog') marks.append(tick('card'));
+        } else marks.append(h('span', { className: 'history-absent', text: 'Not recorded' }));
+        row.append(marks);
+        list.append(h('li', null, row));
       }
-      nodes.push(list);
+      section.append(list);
+      content.push(section);
     }
-    el.readout.replaceChildren(...nodes);
+    if (!shown.length) content.push(h('p', { className: 'trend-empty', text: 'No qualifying usage recorded in this month.' }));
+    content.push(h('p', { className: 'history-note', text: 'B: blog highlight · C: model-card evaluation. “Not recorded” means no qualifying evidence in this snapshot.' }));
+    el.historyBody.replaceChildren(...content);
   }
 
-  function setCursor(m) {
-    if (!chartModel) return;
-    const clamped = Math.min(11, Math.max(0, m));
-    state.cursor = clamped;
-    const { L, step } = chartModel.geometry;
-    const cursor = el.chart.querySelector('#chart-cursor');
-    if (cursor) {
-      const cx = L + (clamped + 0.5) * step;
-      cursor.setAttribute('x1', cx);
-      cursor.setAttribute('x2', cx);
-      cursor.setAttribute('visibility', 'visible');
-    }
-    renderReadout(clamped);
-  }
-
-  function clearCursor() {
-    state.cursor = null;
-    const cursor = el.chart.querySelector('#chart-cursor');
-    if (cursor) cursor.setAttribute('visibility', 'hidden');
-    renderReadout(null);
-  }
-
-  function onChartPointer(event) {
-    const svg = el.chart.querySelector('svg');
-    if (!svg || !chartModel) return;
-    const rect = svg.getBoundingClientRect();
-    if (!rect.width) return;
-    const { W, L, step } = chartModel.geometry;
-    const vx = ((event.clientX - rect.left) / rect.width) * W;
-    setCursor(Math.floor((vx - L) / step));
-  }
-
-  function onChartKey(event) {
-    if (event.altKey || event.ctrlKey || event.metaKey) return;
-    const current = state.cursor === null ? state.snapshotMonth : state.cursor;
-    switch (event.key) {
-      case 'ArrowLeft': setCursor(current - 1); break;
-      case 'ArrowRight': setCursor(state.cursor === null ? current : current + 1); break;
-      case 'Home': setCursor(0); break;
-      case 'End': setCursor(11); break;
-      case 'Escape': clearCursor(); break;
-      default: return;
-    }
-    event.preventDefault();
+  function openHistory(benchmarkId, month, trigger) {
+    if (!state.benchmarkById.has(benchmarkId)) return;
+    state.historyBenchmark = benchmarkId;
+    state.historyMonth = month;
+    state.historyTrigger = trigger;
+    renderHistory();
+    el.history.showModal();
+    el.history.querySelector('.details-inner').scrollTop = 0;
+    el.historyClose.focus();
   }
 
   // ---------- views ----------
@@ -825,11 +835,14 @@
     if (!['matrix', 'compare', 'trends'].includes(view)) return;
     state.view = view;
     el.toolbar.dataset.view = view;
-    el.benchmarkFilter.hidden = !state.benchmarkFilter || view === 'compare';
+    el.benchmarkFilter.hidden = !state.benchmarkFilter || view !== 'matrix';
     el.viewMatrix.setAttribute('aria-pressed', String(view === 'matrix'));
     el.viewCompare.setAttribute('aria-pressed', String(view === 'compare'));
     el.viewTrends.setAttribute('aria-pressed', String(view === 'trends'));
-    const hasMatches = state.visible.length > 0;
+    const cohort = view === 'trends' ? trendReleases() : state.visible;
+    const hasMatches = cohort.length > 0;
+    const filtered = el.search.value.trim() || (view === 'matrix' && state.benchmarkFilter);
+    el.count.textContent = filtered ? `${cohort.length} of ${state.releases.length}` : `${state.releases.length} releases`;
     el.matrix.hidden = view !== 'matrix' || !hasMatches;
     el.releaseBrowser.hidden = el.matrix.hidden;
     el.trends.hidden = view !== 'trends' || !hasMatches;
@@ -858,7 +871,6 @@
 
   function applySearch() {
     const terms = parseQuery(el.search.value);
-    const total = state.releases.length;
     state.visible = state.releases.filter((r) =>
       (!terms.length || terms.some((t) => r.name.toLowerCase().includes(t)))
       && (!state.benchmarkFilter || isUsed(r.id, state.benchmarkFilter)));
@@ -866,24 +878,17 @@
     el.benchmarkFilterName.textContent = benchmark?.name || '';
     el.benchmarkFilter.setAttribute('aria-label', `Clear benchmark filter${benchmark ? `: ${benchmark.name}` : ''}`);
 
-    if (state.visible.length === 0) {
-      el.count.textContent = `0 of ${total}`;
-      el.matrix.replaceChildren();
-      setView(state.view);
-      return;
-    }
-
-    el.count.textContent = terms.length || state.benchmarkFilter ? `${state.visible.length} of ${total}` : `${total} releases`;
-    state.activeReleaseId = state.visible.at(-1).id;
-    renderMatrix();
+    state.activeReleaseId = state.visible.at(-1)?.id || null;
+    if (state.visible.length) renderMatrix();
+    else el.matrix.replaceChildren();
     setView(state.view);
     if (state.view === 'matrix') scrollToNewest();
   }
 
   function showNoMatches() {
     showState([
-      h('p', { className: 'error-title', text: state.benchmarkFilter ? 'No releases match these filters.' : 'No releases match that name.' }),
-      h('p', { text: state.benchmarkFilter ? 'Clear the benchmark filter or try another model name.' : 'Try Sonnet, GPT or Gemini, or separate several names with commas.' }),
+      h('p', { className: 'error-title', text: state.benchmarkFilter && state.view === 'matrix' ? 'No releases match these filters.' : 'No releases match that name.' }),
+      h('p', { text: state.benchmarkFilter && state.view === 'matrix' ? 'Clear the benchmark filter or try another model name.' : 'Try Sonnet, GPT or Gemini, or separate several names with commas.' }),
       h('p', null, h('button', { className: 'button', type: 'button', id: 'clear-search', text: 'Clear filters' })),
     ]);
     el.span.textContent = 'Nothing to show';
@@ -1101,7 +1106,6 @@
       return;
     }
     renderChrome(raw);
-    buildPicker();
     buildComparisonPickers();
     el.search.disabled = false;
     applySearch();
@@ -1179,22 +1183,36 @@
     });
   });
 
-  el.picker.addEventListener('change', (event) => {
-    const input = event.target;
-    if (!(input instanceof HTMLInputElement) || input.type !== 'checkbox') return;
-    if (input.checked) state.selected.add(input.value); else state.selected.delete(input.value);
+  el.trendModes.forEach((button) => button.addEventListener('click', () => {
+    state.trendMode = button.dataset.trendMode;
+    renderTrends();
+  }));
+  el.trendTier.addEventListener('change', () => {
+    state.trendTier = el.trendTier.value;
     renderTrends();
   });
-  el.clearTrends.addEventListener('click', () => {
-    state.selected.clear();
-    for (const input of el.picker.querySelectorAll('input')) input.checked = false;
-    renderTrends();
+  el.trendSearch.addEventListener('input', renderTrends);
+  el.trendData.addEventListener('click', (event) => {
+    const button = event.target.closest('button[data-history-benchmark]');
+    if (!button) return;
+    openHistory(button.dataset.historyBenchmark, button.dataset.historyMonth === undefined ? null : Number(button.dataset.historyMonth), button);
   });
-  el.chart.addEventListener('pointermove', onChartPointer);
-  el.chart.addEventListener('pointerdown', onChartPointer);
-  el.chart.addEventListener('pointerleave', () => { if (document.activeElement !== el.chart) clearCursor(); });
-  el.chart.addEventListener('keydown', onChartKey);
-  el.chart.addEventListener('blur', clearCursor);
+  el.historyAll.addEventListener('click', () => {
+    state.historyMonth = null;
+    renderHistory();
+    el.historyClose.focus();
+  });
+  el.historyClose.addEventListener('click', () => el.history.close());
+  el.history.addEventListener('click', (event) => {
+    if (event.target === el.history) el.history.close();
+    const button = event.target.closest('button[data-history-release]');
+    if (button) openDetails(button.dataset.historyRelease, state.historyBenchmark, button);
+  });
+  el.history.addEventListener('close', () => {
+    if (state.historyTrigger?.isConnected) state.historyTrigger.focus({ preventScroll: true });
+    else el.viewTrends.focus({ preventScroll: true });
+    state.historyTrigger = null;
+  });
 
   el.state.addEventListener('click', (event) => {
     const target = event.target.closest('button');

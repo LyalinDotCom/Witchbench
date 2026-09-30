@@ -2,7 +2,7 @@
 
 Which benchmarks are in fashion? A static, source-linked view of benchmark usage in 2026 coding-capable model announcements from OpenAI, Anthropic, and Google.
 
-The interface contains coverage checks, never model benchmark scores. Desktop opens a matrix with the newest release on the right. Phones show one release’s benchmarks as a readable list, with a release selector and previous/next controls. Both support comma-separated model search and a monthly usage chart. Compare lets you select two releases and shows only benchmarks used by at least one of them, with Shared and Only one filters. Evidence remains a tap away. CSV export always includes the entire annual snapshot.
+The interface contains coverage checks, never model benchmark scores. Desktop opens a matrix with the newest release on the right. Phones show one release’s benchmarks as a readable list, with a release selector and previous/next controls. Both support comma-separated model search. Trends opens a monthly adoption heatmap, with blog/card source filters and benchmark search. Rising / fading compares the latest 10 releases with the previous 10 (equally sized smaller groups when fewer than 20 match), ranked by absolute percentage-point change. Month cells reveal the releases counted; benchmark names open a history by lab. Trends uses the model-name search cohort independently of the Releases benchmark filter. Compare lets you select two releases and shows only benchmarks used by at least one of them, with Shared and Only one filters. Evidence remains a tap away. CSV export always includes the entire annual snapshot.
 
 ## Run locally
 

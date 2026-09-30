@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#ffffff">
   <meta name="color-scheme" content="light">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260929.6">
+  <link rel="stylesheet" href="styles.css?v=20260930.1">
   <link rel="stylesheet" href="vendor/cookieconsent.css">
   <link rel="stylesheet" href="cookie-theme.css?v=20260929.5">
 </head>
@@ -92,19 +92,26 @@
       </section>
 
       <section class="trends" id="trends" aria-label="Benchmark usage trends" hidden>
-        <div class="chart-panel">
-          <div class="chart" id="chart" tabindex="0" role="group" aria-label="Share of releases that discussed each selected benchmark, by month. Use left and right arrow keys to read months." aria-describedby="chart-summary"></div>
-          <p class="chart-caption">Monthly benchmark usage among matching releases.</p>
-          <div class="readout" id="readout" aria-live="polite"></div>
-          <p class="visually-hidden" id="chart-summary"></p>
-        </div>
-        <div class="picker">
-          <div class="picker-head">
-            <span class="picker-title" id="picker-title">Benchmarks</span>
-            <button class="button" type="button" id="clear-trends">Clear</button>
+        <div class="trend-controls">
+          <div class="segmented" role="group" aria-label="Trend view">
+            <button class="segment" type="button" data-trend-mode="heatmap" aria-pressed="true">Adoption</button>
+            <button class="segment" type="button" data-trend-mode="momentum" aria-pressed="false">Rising / fading</button>
           </div>
-          <ul class="picker-list" id="picker" aria-labelledby="picker-title"></ul>
+          <label class="visually-hidden" for="trend-tier">Benchmark usage source</label>
+          <select id="trend-tier" class="trend-tier">
+            <option value="all">All usage</option>
+            <option value="blog">Blog highlights</option>
+            <option value="card">Model cards</option>
+          </select>
+          <label class="visually-hidden" for="trend-search">Find benchmarks in trends</label>
+          <input id="trend-search" class="trend-search" type="search" placeholder="Find a benchmark" autocomplete="off" spellcheck="false">
         </div>
+        <div class="trend-caption">
+          <p id="trend-context" aria-live="polite"></p>
+          <span class="trend-scale" id="trend-scale" aria-label="Cell shading from 0 to 100 percent adoption">0% <span aria-hidden="true"></span> 100%</span>
+        </div>
+        <p class="trend-swipe" id="trend-swipe">Swipe months · tap a cell for releases</p>
+        <div id="trend-data"></div>
       </section>
 
       <div class="state" id="state" role="status">
@@ -124,6 +131,21 @@
     </nav>
     <p class="copyright">© 2026 Dmitry Lyalin / Witchbench. All rights reserved.</p>
   </footer>
+
+  <dialog class="details benchmark-history" id="history" aria-labelledby="history-title" aria-describedby="history-meta">
+    <div class="details-inner">
+      <div class="details-head">
+        <div>
+          <p class="details-kicker">Benchmark history</p>
+          <h2 class="details-title" id="history-title"></h2>
+          <p class="details-meta" id="history-meta"></p>
+        </div>
+        <button class="icon-button" id="history-close" type="button" aria-label="Close benchmark history">×</button>
+      </div>
+      <button class="button history-all" id="history-all" type="button" hidden>All months</button>
+      <div id="history-body"></div>
+    </div>
+  </dialog>
 
   <dialog class="details" id="details" aria-labelledby="details-title">
     <div class="details-inner">
@@ -146,7 +168,7 @@
     </div>
   </dialog>
 
-  <script src="app.js?v=20260929.6" defer></script>
+  <script src="app.js?v=20260930.1" defer></script>
   <script src="vendor/cookieconsent.umd.js" defer></script>
   <script src="cookie-notice.js" defer></script>
 </body>
